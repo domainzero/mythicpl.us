@@ -105,7 +105,6 @@ p {
 	font-size: 3.25em!important;
 	text-transform: uppercase;
 	font-family: 'Roboto', sans-serif;
-	color: #fff;
 	text-align: center;
 	font-weight: 900;
 }
@@ -115,3 +114,17 @@ p {
 	margin-bottom: 1em;
 	margin-top: 10em;
 }
+
+h1 {
+    text-align: center;
+    font-size: 3.25em!important;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: -5px;
+}
+
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-s6z2{text-align:center}
+.tg .tg-baqh{text-align:center;vertical-align:top}
