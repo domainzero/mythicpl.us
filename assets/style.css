@@ -101,7 +101,6 @@ p {
 }
 
 .affixes {
-	margin-bottom: 12em;
 	font-size: 3.25em!important;
 	text-transform: uppercase;
 	font-family: 'Roboto', sans-serif;
@@ -112,7 +111,11 @@ p {
 .title {
 	text-align: center;
 	margin-bottom: 1em;
-	margin-top: 9em;
+	margin-top: 25vh;
+}
+
+.atf {
+    height: 95vh;
 }
 
 h1 {
