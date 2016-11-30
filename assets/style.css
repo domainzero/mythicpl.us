@@ -106,6 +106,7 @@ p {
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	font-weight: 900;
+    text-decoration: none!important;
 }
 
 .title {
