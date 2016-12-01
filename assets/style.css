@@ -42,8 +42,7 @@ pre code {
 a {
     cursor: pointer;
     color: #3f89ff;
-    text-decoration: none;
-    border-bottom: 1px solid #3f89ff
+    text-decoration: none!important;
 }
 
 a:hover {
