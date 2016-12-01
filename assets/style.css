@@ -127,6 +127,23 @@ h1 {
     margin-bottom: -5px;
 }
 
+i {
+    color:#CFD8DC;
+}
+
+.easy {
+    color:#4CAF50;
+    font-weight: bold;
+}
+.med {
+    color:#FF9800;
+    font-weight: bold;
+}
+.hard {
+    color:#D50000;
+    font-weight: bold;
+}
+
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-style:solid;border-width:1px;padding: 5px;overflow:hidden;word-break:normal;}
 .tg th{padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
