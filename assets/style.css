@@ -149,3 +149,9 @@ i {
 .tg th{padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
 .tg .tg-s6z2{text-align:center}
 .tg .tg-baqh{text-align:center;vertical-align:top}
+
+footer {
+    font-size: .8em;
+    font-weight: 100;
+    font-family: 'Roboto Condensed', sans-serif;
+}
