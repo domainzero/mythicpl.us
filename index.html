@@ -6,255 +6,110 @@
 		<title>what m+ garbage do i have to deal with this week?</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto" rel="stylesheet">
-		<link rel="stylesheet" href="./assets/style.css">
+		<link rel="stylesheet" href="assets/style.css">
 	</head>
-
 	<body class="hack">
 		<div class="main container">
 			<div class="atf">
-			<p class="title">what m+ trash do i have to deal with this week?</p>
-			<div class="affixes">
-				<p>us: teeming, skittish, fortified</p>
-				<p>eu: bolstering, overflowing, tyrannical</p>
-				<p>↓</p>
+				<p class="title">what m+ trash do i have to deal with this week?</p>
+				<div class="affixes">
+					<p>us: teeming, skittish, fortified</p>
+					<p>eu: bolstering, overflowing, tyrannical</p>
+					<p>↓</p>
+				</div>
 			</div>
-			</div>
-			<div>
+			<div class="btf">
 			Next week:
-			<p>us: raging, necrotic, fortified</p>
-			<p>eu: sanguine, volcanic, fortified</p>
-			<h1><a href="https://mythicpl.us/routes">ROUTES</a> (WIP)</p>
-			<h1>Affix effects</h1>
-			<center>Legend: <span class="easy">easy difficulty</span> | <span class="med">medium difficulty</span> | <span class="hard">hard difficulty</span></center>
-			<h3>Level 4 affixes (these occur at +4 keystones)</h3>
-			<ul>
-					<li><p><span class="med">Bolstering</span> - Non-boss enemies will buff nearby allies' health and damage when defeated.</p> <p><i>Note: it's important to kill all the trash in a pull as closely together as possible with this affix, as mobs effectively heal as they gain max health (percent translation). If you're not careful on large trash pulls you can create an unkillable mob by bolstering it a lot (SUPER CRAB). Adds spawned from a trash mob or boss ability do not trigger bolster.</i></p></li>
-
-					<li><p><span class="med">Raging</span> - Non-boss enemies will enrage at low health, dealing double damage until killed.</p> <p><i>Note: mobs with high damage targeted abilities or high damage AoE abilities become deadly with this affix. Be sure to focus fire mobs down so you do not have multiple enraged mobs at once.</i></p></li>
-
-					<li><p><span class="easy">Sanguine</span> - Shortly after death, non-boss enemies will leave a pool of blood on the ground, which grows to a 5yd radius over 2 seconds. This pool heals enemies and damages players for a % of their maximum health.</p> <p><i>Note: ez pz affix, don't stand in pools and make sure mobs don't stand in them either.</i></p></li>
-
-					<li><p><span class="med">Teeming</span> - Additional non-boss enemies are present throughout the dungeon; kill count requirement increased.</p> <p><i>Note: many mobs, handle it. not much different from usual unless paired with a bad later affix. Most notable change with this affix is that the Enemy Forces Defeated kill requirement is increased. Certain trash pulls can be really nasty with this affix depending on the dungeon.</i></p></li>
-
-				</ul>
-				<h3>Level 7 affixes (these occur at +7 keystones)</h3>
-				<ul>
-					<li><p><span class="easy">Overflowing</span> - Overhealing causes the target to gain a healing absorption shield for three times the amount overhealed.</p><p><i>Note: only people specced as healer will trigger this effect. Self-heals do not count toward the healing absorption shield. The shield is also not additive. If you keep healing you're just going to dispel the shield and then make a new one, not add to the existing one. Druids crush this affix.</i></p></li>
-					<li><p><span class="hard">Necrotic</span> - Enemy melee attacks apply a stacking debuff that deals damage and reduces healing received.</p><p><i>Note: Strong AoE CC or slows are great for this affix as you can let your tank's Necrotic stacks drop off periodically during tricky pulls. Having a tank with high mobility will benefit you greatly here since they can kite easily. If necrotic isn't managed correctly it's a quick ticket to wipe town.</i></p></li>
-					<li><p><span class="med">Skittish</span> - Tanks generate much less threat and periodically lose threat.</p><p><i>Note: Misdirection and Tricks of the Trade mostly trivialize this affix if you use them on cooldown. Strong AoE CC is beneficial here as well in case mobs get loose.</i></p></li>
-					<li><p><span class="easy">Volcanic</span> - Enemies cause eruptions of flame beneath the feet of distant players. If there are no distant players, volcanoes will spawn under anyone randomly.</p><p><i>Note: ez pz tier two affix. This affix is an awareness test.</i></p></li>
-				</ul>
-				<h3>Level 10 affixes (these occur at +10 keystones)</h3>
-				<ul>
-					<li><p><span class="hard">Fortified</span> - Non-bosses have more health and deal more damage.</p>
-					<p><i>Note: interrupting and dodging any/all trash mob abilities becomes an absolute priority with this affix (you should be doing this anyway :^) ). Do not hold your cooldowns for boss fights, you should be using them on most trash pulls. You can indefinitely Potion of Prolonged Power by constantly pre-potting.</i></p></li>
-					<li><p><span class="hard">Tyrannical</span> - Bosses have more health and deal more damage.</p>
-					<p><i>Note: Boss abilities are no longer trivial. You will die if you do not do mechanics properly. Fights become endurance tests because they last so long. Bosses that are real assholes with Tyrannical: Advisor Melandrus, Shade of Xavius, Archdruid Glaidalis, etc</i></p></li>
-				</ul>
-			</ul>
-		<center>
-		<h2>Current list of possible affix combinations</h2>
+				<p>us: raging, necrotic, fortified</p>
+				<p>eu: sanguine, volcanic, fortified</p>
+				<h1><a href="https://mythicpl.us/routes">ROUTES</a> (wip)</h1>
+				<div id="affixes-div">
+					<h1>Affix effects</h1>
+					<center>Legend: <span class="easy">easy difficulty</span> | <span class="med">medium difficulty</span> | <span class="hard">hard difficulty</span></center>
+					<h3>Level 4 affixes (these occur at +4 keystones)</h3>
+					<ul>
+						<li><p><span class="med">Bolstering</span> - Non-boss enemies will buff nearby allies' health and damage when defeated.</p> <p><i>Note: it's important to kill all the trash in a pull as closely together as possible with this affix, as mobs effectively heal as they gain max health (percent translation). If you're not careful on large trash pulls you can create an unkillable mob by bolstering it a lot (SUPER CRAB). Adds spawned from a trash mob or boss ability do not trigger bolster.</i></p></li>
+						<li><p><span class="med">Raging</span> - Non-boss enemies will enrage at low health, dealing double damage until killed.</p> <p><i>Note: mobs with high damage targeted abilities or high damage AoE abilities become deadly with this affix. Be sure to focus fire mobs down so you do not have multiple enraged mobs at once.</i></p></li>
+						<li><p><span class="easy">Sanguine</span> - Shortly after death, non-boss enemies will leave a pool of blood on the ground, which grows to a 5yd radius over 2 seconds. This pool heals enemies and damages players for a % of their maximum health.</p> <p><i>Note: ez pz affix, don't stand in pools and make sure mobs don't stand in them either.</i></p></li>
+						<li><p><span class="med">Teeming</span> - Additional non-boss enemies are present throughout the dungeon; kill count requirement increased.</p> <p><i>Note: many mobs, handle it. not much different from usual unless paired with a bad later affix. Most notable change with this affix is that the Enemy Forces Defeated kill requirement is increased. Certain trash pulls can be really nasty with this affix depending on the dungeon.</i></p></li>
+					</ul>
+					<h3>Level 7 affixes (these occur at +7 keystones)</h3>
+					<ul>
+						<li><p><span class="easy">Overflowing</span> - Overhealing causes the target to gain a healing absorption shield for three times the amount overhealed.</p><p><i>Note: only people specced as healer will trigger this effect. Self-heals do not count toward the healing absorption shield. The shield is also not additive. If you keep healing you're just going to dispel the shield and then make a new one, not add to the existing one. Druids crush this affix.</i></p></li>
+						<li><p><span class="hard">Necrotic</span> - Enemy melee attacks apply a stacking debuff that deals damage and reduces healing received.</p><p><i>Note: Strong AoE CC or slows are great for this affix as you can let your tank's Necrotic stacks drop off periodically during tricky pulls. Having a tank with high mobility will benefit you greatly here since they can kite easily. If necrotic isn't managed correctly it's a quick ticket to wipe town.</i></p></li>
+						<li><p><span class="med">Skittish</span> - Tanks generate much less threat and periodically lose threat.</p><p><i>Note: Misdirection and Tricks of the Trade mostly trivialize this affix if you use them on cooldown. Strong AoE CC is beneficial here as well in case mobs get loose.</i></p></li>
+						<li><p><span class="easy">Volcanic</span> - Enemies cause eruptions of flame beneath the feet of distant players. If there are no distant players, volcanoes will spawn under anyone randomly.</p><p><i>Note: ez pz tier two affix. This affix is an awareness test.</i></p></li>
+					</ul>
+					<h3>Level 10 affixes (these occur at +10 keystones)</h3>
+					<ul>
+						<li><p><span class="hard">Fortified</span> - Non-bosses have more health and deal more damage.</p>
+						<p><i>Note: interrupting and dodging any/all trash mob abilities becomes an absolute priority with this affix (you should be doing this anyway :^) ). Do not hold your cooldowns for boss fights, you should be using them on most trash pulls. You can indefinitely Potion of Prolonged Power by constantly pre-potting.</i></p></li>
+						<li><p><span class="hard">Tyrannical</span> - Bosses have more health and deal more damage.</p>
+						<p><i>Note: Boss abilities are no longer trivial. You will die if you do not do mechanics properly. Fights become endurance tests because they last so long. Bosses that are real assholes with Tyrannical: Advisor Melandrus, Shade of Xavius, Archdruid Glaidalis, etc</i></p></li>
+					</ul>
+					<center>
+					<h2>Current list of possible affix combinations</h2>
+					<table class="tg">
+						<tr><th class="tg-031e">1 (+4)</th><th class="tg-yw4l">2 (+7)</th><th class="tg-yw4l">3 (+10)</th></tr>
+						<tr><td class="tg-b7b8">Raging</td><td class="tg-b7b8">Necrotic</td><td class="tg-b7b8">Fortified</td></tr>
+						<tr><td class="tg-yw4l">Bolstering</td><td class="tg-yw4l">Overflowing</td><td class="tg-yw4l">Tyrannical</td></tr>
+						<tr><td class="tg-b7b8">Sanguine</td><td class="tg-b7b8">Volcanic</td><td class="tg-b7b8">Fortified</td></tr>
+						<tr><td class="tg-yw4l">Teeming</td><td class="tg-yw4l">Necrotic</td><td class="tg-yw4l">Tyrannical</td></tr>
+						<tr><td class="tg-b7b8">Raging</td><td class="tg-b7b8">Volcanic</td><td class="tg-b7b8">Tyrannical</td></tr>
+						<tr><td class="tg-yw4l">Bolstering</td><td class="tg-yw4l">Skittish</td><td class="tg-yw4l">Fortified</td></tr>
+						<tr><td class="tg-b7b8">Sanguine</td><td class="tg-b7b8">Overflowing</td><td class="tg-b7b8">Tyrannical</td></tr>
+						<tr><td class="tg-yw4l">Teeming</td><td class="tg-yw4l">Skittish</td><td class="tg-yw4l">Fortified</td></tr>
+					</table>
+					</center>
+			</div>
+			<div id="keystone-upgrade">
+    			<h1>Upgrading your keystone</h1>
+    				<p>Complete a Mythic Keystone run within the timer and upgrade your keystone.</p>
+    				<p>Complete it with 40% of the timer remaining and upgrade it 3 times in one go, rewarding 3 chests of loot at the end. One for the difficulty level you completed it at, one for the next level up and one for the level after that. Example: You complete a +4 keystone with 40% of the timer remaining. It upgrades to a +7 keystone and you are awarded 3 chests at the end of the run, one containing +4 difficulty loot, one containing +5 level loot and one containing +6 level loot (all the levels you "successfully completed").</p>
+    				<p>Complete a run with 20% of the timer remaining and upgrade it 2 times in one go, rewarding 2 chests of loot at the end. Like the example above, but take away the last chest and difficulty level.</p>
+				<center>
 				<table class="tg">
-				  <tr>
-				    <th class="tg-031e">1 (+4)</th>
-				    <th class="tg-yw4l">2 (+7)</th>
-				    <th class="tg-yw4l">3 (+10)</th>
-				  </tr>
-				  <tr>
-				    <td class="tg-b7b8">Raging</td>
-				    <td class="tg-b7b8">Necrotic</td>
-				    <td class="tg-b7b8">Fortified</td>
-				  </tr>
-				  <tr>
-				    <td class="tg-yw4l">Bolstering</td>
-				    <td class="tg-yw4l">Overflowing</td>
-				    <td class="tg-yw4l">Tyrannical</td>
-				  </tr>
-				  <tr>
-				    <td class="tg-b7b8">Sanguine</td>
-				    <td class="tg-b7b8">Volcanic</td>
-				    <td class="tg-b7b8">Fortified</td>
-				  </tr>
-				  <tr>
-				    <td class="tg-yw4l">Teeming</td>
-				    <td class="tg-yw4l">Necrotic</td>
-				    <td class="tg-yw4l">Tyrannical</td>
-				  </tr>
-				  <tr>
-				    <td class="tg-b7b8">Raging</td>
-				    <td class="tg-b7b8">Volcanic</td>
-				    <td class="tg-b7b8">Tyrannical</td>
-				  </tr>
-				  <tr>
-				    <td class="tg-yw4l">Bolstering</td>
-				    <td class="tg-yw4l">Skittish</td>
-				    <td class="tg-yw4l">Fortified</td>
-				  </tr>
-				  <tr>
-				    <td class="tg-b7b8">Sanguine</td>
-				    <td class="tg-b7b8">Overflowing</td>
-				    <td class="tg-b7b8">Tyrannical</td>
-				  </tr>
-				  <tr>
-				    <td class="tg-yw4l">Teeming</td>
-				    <td class="tg-yw4l">Skittish</td>
-				    <td class="tg-yw4l">Fortified</td>
-				  </tr>
+      				<h2>Instance Timer and Requirements for "Level Jumps"</h2>
+					<tr><td class="tg-031e">Instance Base Timer (+1 chest)</td><td class="tg-031e">(+2 chests)</td><td class="tg-031e">(+3 chests)</td></tr>
+					<tr><td class="tg-031e">Black Rook Hold: 38:00</td><td class="tg-031e">30:24 (7:36 left on the timer)</td><td class="tg-031e">22:48 (15:12 left on the timer)</td></tr>
+					<tr><td class="tg-yw4l">Court of Stars: 30:00</td><td class="tg-yw4l">24:00 (6:00 left on the timer)</td><td class="tg-yw4l">18:00 (12:00 left on the timer)</td></tr>
+					<tr><td class="tg-yw4l">Darkheart Thicket: 30:00</td><td class="tg-yw4l">24:00 (6:00 left on the timer)</td><td class="tg-yw4l">18:00 (12:00 left on the timer)</td></tr>
+					<tr><td class="tg-yw4l">Eye of Azshara: 35:00</td><td class="tg-yw4l">27:48 (7:12 left on the timer)</td><td class="tg-yw4l">20:36 (14:24 left on the timer)</td></tr>
+					<tr><td class="tg-yw4l">Halls of Valor: 45:00</td><td class="tg-yw4l">36:00 (9:00 left on the timer)</td><td class="tg-yw4l">27:00 (18:00 left on the timer)</td></tr>
+					<tr><td class="tg-yw4l">Maw of Souls: 24:00</td><td class="tg-yw4l">19:12 (4:48 left on the timer)</td><td class="tg-yw4l">14:24 (9:36 left on the timer)</td></tr>
+					<tr><td class="tg-yw4l">Neltharion's Lair: 33:00</td><td class="tg-yw4l">27:24 (6:36 left on the timer)</td><td class="tg-yw4l">19:48 (13:12 left on the timer)</td></tr>
+					<tr><td class="tg-yw4l">The Arcway: 45:00</td><td class="tg-yw4l">36:00 (9:00 left on the timer)</td><td class="tg-yw4l">27:00 (18:00 left on the timer)</td></tr>
+					<tr><td class="tg-yw4l">Vault of the Wardens: 33:00</td><td class="tg-yw4l">26:24 (6:36 left on the timer)</td><td class="tg-yw4l">19:48 (13:12 left on the timer)</td></tr>
 				</table>
 				</center>
 			</div>
-    	<div>
-    	<h1>Upgrading your keystone</h1>
-    	<p>Complete a Mythic Keystone run within the timer and upgrade your keystone.</p>
-    	<p>Complete it with 40% of the timer remaining and upgrade it 3 times in one go, rewarding 3 chests of loot at the end. One for the difficulty level you completed it at, one for the next level up and one for the level after that. Example: You complete a +4 keystone with 40% of the timer remaining. It upgrades to a +7 keystone and you are awarded 3 chests at the end of the run, one containing +4 difficulty loot, one containing +5 level loot and one containing +6 level loot (all the levels you "successfully completed").</p>
-    	<p>Complete a run with 20% of the timer remaining and upgrade it 2 times in one go, rewarding 2 chests of loot at the end. Like the example above, but take away the last chest and difficulty level.</p>
-      <center>
-      <table class="tg">
-<h2>Instance Timer and Requirements for "Level Jumps"</h2>
-		<tr>
-		  <td class="tg-031e">Instance Base Timer (+1 chest)</td>
-		  <td class="tg-031e">(+2 chests)</td>
-		  <td class="tg-031e">(+3 chests)</td>
-		</tr>
-		<tr>
-		  <td class="tg-031e">Black Rook Hold: 38:00</td>
-		  <td class="tg-031e">30:24 (7:36 left on the timer)</td>
-		  <td class="tg-031e">22:48 (15:12 left on the timer)</td>
-		</tr>
-		<tr>
-		  <td class="tg-yw4l">Court of Stars: 30:00</td>
-		  <td class="tg-yw4l">24:00 (6:00 left on the timer)</td>
-		  <td class="tg-yw4l">18:00 (12:00 left on the timer)</td>
-		</tr>
-		<tr>
-		  <td class="tg-yw4l">Darkheart Thicket: 30:00</td>
-		  <td class="tg-yw4l">24:00 (6:00 left on the timer)</td>
-		  <td class="tg-yw4l">18:00 (12:00 left on the timer)</td>
-		</tr>
-		<tr>
-		  <td class="tg-yw4l">Eye of Azshara: 35:00</td>
-		  <td class="tg-yw4l">27:48 (7:12 left on the timer)</td>
-		  <td class="tg-yw4l">20:36 (14:24 left on the timer)</td>
-		</tr>
-		<tr>
-		  <td class="tg-yw4l">Halls of Valor: 45:00</td>
-		  <td class="tg-yw4l">36:00 (9:00 left on the timer)</td>
-		  <td class="tg-yw4l">27:00 (18:00 left on the timer)</td>
-		</tr>
-		<tr>
-		  <td class="tg-yw4l">Maw of Souls: 24:00</td>
-		  <td class="tg-yw4l">19:12 (4:48 left on the timer)</td>
-		  <td class="tg-yw4l">14:24 (9:36 left on the timer)</td>
-		</tr>
-		<tr>
-		  <td class="tg-yw4l">Neltharion's Lair: 33:00</td>
-		  <td class="tg-yw4l">27:24 (6:36 left on the timer)</td>
-		  <td class="tg-yw4l">19:48 (13:12 left on the timer)</td>
-		</tr>
-		<tr>
-		  <td class="tg-yw4l">The Arcway: 45:00</td>
-		  <td class="tg-yw4l">36:00 (9:00 left on the timer)</td>
-		  <td class="tg-yw4l">27:00 (18:00 left on the timer)</td>
-		</tr>
-		<tr>
-		  <td class="tg-yw4l">Vault of the Wardens: 33:00</td>
-		  <td class="tg-yw4l">26:24 (6:36 left on the timer)</td>
-		  <td class="tg-yw4l">19:48 (13:12 left on the timer)</td>
-		</tr>
-</table>
-</div>
-</center>
-<h1>weekly loot</h1>
-<p>At the start of a week (after raid/mythic reset) you'll get a chest in your order hall giving you loot based on the highest level keystone dungeon you <strong>COMPLETED</strong>, within the timer or not. It is most beneficial to complete a +12 weekly to get the highest item level gear every reset, but if you can't do it because you're undergeared just go for the next highest you can complete. Again, you don't need to finish in the timer to get the weekly chest.</p>
-<center>
-	<h2>Weekly chest loot ilvl based on highest <strong>completed</strong> keystone</h2>
-	<div>
-			<table class="tg">
-		<tr>
-		  <th class="tg-031e">Level</th>
-		  <th class="tg-031e">Loot at the end</th>
-		  <th class="tg-031e">Weekly Chest</th>
-		</tr>
-		<tr>
-		  <td class="tg-031e">-</td>
-		  <td class="tg-031e">840</td>
-		  <td class="tg-031e">N/A</td>
-		</tr>
-		<tr>
-		  <td class="tg-031e">2</td>
-		  <td class="tg-031e">845</td>
-		  <td class="tg-031e">850</td>
-		</tr>
-		<tr>
-		  <td class="tg-031e">3</td>
-		  <td class="tg-031e">845</td>
-		  <td class="tg-031e">855</td>
-		</tr>
-		<tr>
-		  <td class="tg-031e">4</td>
-		  <td class="tg-031e">850</td>
-		  <td class="tg-031e">860</td>
-		</tr>
-		<tr>
-		  <td class="tg-031e">5</td>
-		  <td class="tg-031e">850</td>
-		  <td class="tg-031e">865</td>
-		</tr>
-		<tr>
-		  <td class="tg-031e">6</td>
-		  <td class="tg-031e">855</td>
-		  <td class="tg-031e">865</td>
-		</tr>
-		<tr>
-		  <td class="tg-031e">7</td>
-		  <td class="tg-031e">855</td>
-		  <td class="tg-031e">870</td>
-		</tr>
-		<tr>
-		  <td class="tg-031e">8</td>
-		  <td class="tg-031e">860</td>
-		  <td class="tg-031e">870</td>
-		</tr>
-		<tr>
-		  <td class="tg-yw4l">9</td>
-		  <td class="tg-yw4l">860</td>
-		  <td class="tg-yw4l">875</td>
-		</tr>
-		<tr>
-		  <td class="tg-yw4l">10</td>
-		  <td class="tg-yw4l">865</td>
-		  <td class="tg-yw4l">880</td>
-		</tr>
-		<tr>
-		  <td class="tg-yw4l">11</td>
-		  <td class="tg-yw4l">870</td>
-		  <td class="tg-yw4l">880</td>
-		</tr>
-		<tr>
-		  <td class="tg-yw4l">12</td>
-		  <td class="tg-yw4l">870</td>
-		  <td class="tg-yw4l">885</td>
-		</tr>
-		<tr>
-		  <td class="tg-yw4l">13</td>
-		  <td class="tg-yw4l">870<br></td>
-		  <td class="tg-yw4l">885</td>
-		</tr>
-		<tr>
-		  <td class="tg-yw4l">14</td>
-		  <td class="tg-yw4l">870</td>
-		  <td class="tg-yw4l">885</td>
-		</tr>
-		<tr>
-		  <td class="tg-yw4l">15</td>
-		  <td class="tg-yw4l">870</td>
-		  <td class="tg-yw4l">885<br></td>
-		</tr>
-</table>
-			</div>
+			<div id="loot-stuff">
+				<h1>weekly loot</h1>
+				<p>At the start of a week (after raid/mythic reset) you'll get a chest in your order hall giving you loot based on the highest level keystone dungeon you <strong>COMPLETED</strong>, within the timer or not. It is most beneficial to complete a +12 weekly to get the highest item level gear every reset, but if you can't do it because you're undergeared just go for the next highest you can complete. Again, you don't need to finish in the timer to get the weekly chest.</p>
+				<center>
+				<h2>Weekly chest loot ilvl based on highest <strong>completed</strong> keystone</h2>
+				<table class="tg">
+					<tr><th class="tg-031e">Level</th><th class="tg-031e">Loot at the end</th><th class="tg-031e">Weekly Chest</th></tr>
+					<tr><td class="tg-031e">-</td><td class="tg-031e">840</td><td class="tg-031e">N/A</td></tr>
+					<tr><td class="tg-031e">2</td><td class="tg-031e">845</td><td class="tg-031e">850</td></tr>
+					<tr><td class="tg-031e">3</td><td class="tg-031e">845</td><td class="tg-031e">855</td></tr>
+					<tr><td class="tg-031e">4</td><td class="tg-031e">850</td><td class="tg-031e">860</td></tr>
+					<tr><td class="tg-031e">5</td><td class="tg-031e">850</td><td class="tg-031e">865</td></tr>
+					<tr><td class="tg-031e">6</td><td class="tg-031e">855</td><td class="tg-031e">865</td></tr>
+					<tr><td class="tg-031e">7</td><td class="tg-031e">855</td><td class="tg-031e">870</td></tr>
+					<tr><td class="tg-031e">8</td><td class="tg-031e">860</td><td class="tg-031e">870</td></tr>
+					<tr><td class="tg-yw4l">9</td><td class="tg-yw4l">860</td><td class="tg-yw4l">875</td></tr>
+					<tr><td class="tg-yw4l">10</td><td class="tg-yw4l">865</td><td class="tg-yw4l">880</td></tr>
+					<tr><td class="tg-yw4l">11</td><td class="tg-yw4l">870</td><td class="tg-yw4l">880</td></tr>
+					<tr><td class="tg-yw4l">12</td><td class="tg-yw4l">870</td><td class="tg-yw4l">885</td></tr>
+					<tr><td class="tg-yw4l">13</td><td class="tg-yw4l">870<br></td><td class="tg-yw4l">885</td></tr>
+					<tr><td class="tg-yw4l">14</td><td class="tg-yw4l">870</td><td class="tg-yw4l">885</td></tr>
+					<tr><td class="tg-yw4l">15</td><td class="tg-yw4l">870</td><td class="tg-yw4l">885<br></td></tr>
+				</table>
 			</center>
-			<div>
-			<h1>Useful stuff</h1>
+			</div>
+			<div id="useful-stuff">
+				<h1>Useful stuff</h1>
 				<ul>
 					<h2>Addons</h2>
 					<li><a href="https://mods.curse.com/addons/wow/gottagofast">GottaGoFast</a> - All-in-one mythic+ timer. Shows % value of mobs on tooltip, timers required for +2/+3 chest and times that objectives are completed.</li>
@@ -273,14 +128,12 @@
 				</ul>
 				<ul>
 					<h2>Other stuff</h2>
-					<li><a href="https://discord.gg/4JgsMQs">Mythic+ Friends Discord</a> - Find a group of people to run M+ with if group finder isn't good enough for you.
-					<li><a href="https://docs.google.com/spreadsheets/d/18MxPYBQ2XDjeXbOemRHCnAzHsQXqyF1kXtPHtOJ6rMg/edit#gid=0">Consolidated M+ info spreadsheet</a> - for all the nitty gritty
+					<li><a href="https://discord.gg/4JgsMQs">Mythic+ Friends Discord</a> - Find a group of people to run M+ with if group finder isn't good enough for you.</li>
+					<li><a href="https://docs.google.com/spreadsheets/d/18MxPYBQ2XDjeXbOemRHCnAzHsQXqyF1kXtPHtOJ6rMg/edit#gid=0">Consolidated M+ info spreadsheet</a> - for all the nitty gritty</li>
 					<li><a href="https://www.warcraftlogs.com/rankings/9">Warcraft logs</a> - top keystone rankings for laffs</li>
 				</ul>
+			</div>
 		</div>
-		<div>
-
-</div>
 <hr>
 		<footer>
 		<p>the goal here is to have a centralized, lightweight reference guide since mythic plus information is scattered everywhere</p>
