@@ -119,11 +119,10 @@ p {
 }
 
 h1 {
-    text-align: center;
     font-size: 3.25em!important;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
-    margin-bottom: -5px;
+    margin: 1em 0 .25em 0;
 }
 
 i {
@@ -141,6 +140,11 @@ i {
 .hard {
     color:#D50000;
     font-weight: bold;
+}
+
+.next {
+    font-size: 1em;
+    text-align: center;
 }
 
 .tg  {border-collapse:collapse;border-spacing:0;}
