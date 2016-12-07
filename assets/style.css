@@ -43,14 +43,13 @@ li::before {
 }
 
 body {
-	font-size: 1rem;
   margin: 0;
   background: #373c44;
   font-family: 'Roboto Condensed';
   color: #fff;
   font-weight: 300;
   font-size: 16px;
-	padding: 0 20px;
+  padding: 0 20px;
 }
 
 .main {
@@ -252,9 +251,9 @@ ul + .title--medium {
 }
 
 .affixes-list__note {
-	color: rgba(255,255,255,0.7);
+	color: rgba(255,255,255,0.5);
 	font-style: italic;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 .table {
