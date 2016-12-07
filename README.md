@@ -1,6 +1,10 @@
 # mythicpl.us
 m+ lame-o site
 
+:eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: 
+
+
+
 check the issues page for a to-do list of sorts.
 
 Shoutouts to these folks for providing initial feedback:
