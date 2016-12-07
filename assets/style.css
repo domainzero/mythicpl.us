@@ -243,6 +243,10 @@ ul + .title--medium {
 	padding: 15px;
 }
 
+.affixes-list__item::before {
+	display: none;
+}
+
 .affixes-list__item:nth-child(odd) {
 	background: rgba(255,255,255,0.05);
 }
