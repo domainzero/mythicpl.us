@@ -252,7 +252,7 @@ ul + .title--medium {
 }
 
 .affixes-list__note {
-	color: rgba(255,255,255,0.5);
+	color: rgba(255,255,255,0.7);
 	font-style: italic;
 	font-size: 14px;
 }
@@ -306,4 +306,10 @@ ul + .title--medium {
 .footer {
 	max-width: 960px;
 	margin: 15px auto;
+}
+.title--routes {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	line-height: 1.25em;
 }
