@@ -88,7 +88,7 @@ li::before {
     position: absolute;
     left: -15px;
     top: 0;
-    font-weight: 300;
+    font-weight: 400;
     color: rgba(255, 255, 255, 0.5)
 }
 
@@ -97,7 +97,7 @@ body {
     background: #373c44;
     font-family: 'Lato';
     color: #fff;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 16px;
     padding: 0 20px;
     text-rendering: optimizeLegibility;
@@ -125,9 +125,9 @@ body {
     z-index: 999;
     left: 50%;
     margin-left: -37.5vw;
-    padding: 1vw;
+    padding: .3vw;
     background: rgba(63, 69, 77, 1);
-    font-weight: 800;
+    font-weight: 900;
     font-size: calc(1vw + 1vmin);
     text-transform: uppercase;
 }
@@ -187,7 +187,7 @@ body {
 }
 
 .title--small {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 18px
 }
 
@@ -317,7 +317,7 @@ ul + .title--medium {
 }
 
 .link {
-    font-weight: 800;
+    font-weight: 900;
     display: inline;
     text-align: center
 }
@@ -332,7 +332,7 @@ ul + .title--medium {
 }
 
 .easy, .med, .hard {
-    font-weight: 800;
+    font-weight: 900;
     text-shadow: 0.075em 0.075em rgba(0, 0, 0, 0.5);
 }
 
@@ -415,6 +415,7 @@ ul + .title--medium {
 
 .affixes-list__note {
     color: rgba(255, 255, 255, 0.5);
+    font-weight:400;
     font-style: italic;
     font-size: 16px
 }
@@ -481,4 +482,8 @@ ul + .title--medium {
     padding: 0;
     text-transform: uppercase;
     line-height: 1.25em
+}
+
+footer {
+    font-size: 10px;
 }
