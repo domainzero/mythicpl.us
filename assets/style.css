@@ -487,3 +487,9 @@ ul + .title--medium {
 footer {
     font-size: 10px;
 }
+
+.svg {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
