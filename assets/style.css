@@ -126,9 +126,9 @@ body {
     left: 50%;
     margin-left: -37.5vw;
     padding: .3vw;
-    background: rgba(63, 69, 77, 1);
+    background: rgba(55, 60, 68, 1);
     font-weight: 900;
-    font-size: calc(1vw + 1vmin);
+    font-size: calc(.5vw + .5vmin);
     text-transform: uppercase;
 }
 
