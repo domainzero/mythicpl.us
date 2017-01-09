@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- PARDON MY SPAGHETTI -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,900" rel="stylesheet">
+		<link rel="stylesheet" href="assets/style.css">
+		<script type="text/javascript" src="./assets/classie.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="mythic+,mythic_plus,mythic_+,world of warcraft, mythic dungeons,warcraft,mythic plus">
+	</head>
+	<body>
+		<main class="main" id="this_week">
+			<section class="content atf content-block">
+					<form>
+					<span class="input input--yoshiko">
+					<input class="input__field input__field--yoshiko" type="number" id="currentlvl" />
+					<label class="input__label input__label--yoshiko" for="input-10">
+						<span class="input__label-content input__label-content--yoshiko" data-content="Current Artifact Level">Current Artifact Level</span>
+					</label>
+				</span>
+				<span class="input input--yoshiko">
+					<input class="input__field input__field--yoshiko" type="number" id="currentap" />
+					<label class="input__label input__label--yoshiko" for="input-11">
+						<span class="input__label-content input__label-content--yoshiko" data-content="Current AP In Level">Current AP In Level</span>
+					</label>
+				</span>
+				<span class="input input--yoshiko">
+					<input class="input__field input__field--yoshiko" type="number" id="input-12" />
+					<label class="input__label input__label--yoshiko" for="input-12">
+						<span class="input__label-content input__label-content--yoshiko" data-content="Artifact Knowledge">Artifact Knowledge</span>
+					</label>
+				</span>
+				</form>
+				<input type="button" value="CALCULATE" onclick="submitForms()"/>
+			</section>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<p>&copy;dsus. suggestions welcome, hit me on discord: domain#2722 or open an issue on <a href="https://github.com/domainzero/mythicpl.us/issues">GitHub</a> (preferred)</p>
+			<p>I sometimes stream <a href="https://twitch.tv/doublejungle">on Twitch.</a> You can also verify all my identities <a href="https://keybase.io/domain">here.</a></p>
+		</footer>
+				<script>
+			(function() {
+				// trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
+				if (!String.prototype.trim) {
+					(function() {
+						// Make sure we trim BOM and NBSP
+						var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
+						String.prototype.trim = function() {
+							return this.replace(rtrim, '');
+						};
+					})();
+				}
+
+				[].slice.call( document.querySelectorAll( 'input.input__field' ) ).forEach( function( inputEl ) {
+					// in case the input is already filled..
+					if( inputEl.value.trim() !== '' ) {
+						classie.add( inputEl.parentNode, 'input--filled' );
+					}
+
+					// events:
+					inputEl.addEventListener( 'focus', onInputFocus );
+					inputEl.addEventListener( 'blur', onInputBlur );
+				} );
+
+				function onInputFocus( ev ) {
+					classie.add( ev.target.parentNode, 'input--filled' );
+				}
+
+				function onInputBlur( ev ) {
+					if( ev.target.value.trim() === '' ) {
+						classie.remove( ev.target.parentNode, 'input--filled' );
+					}
+				}
+			})();
+		</script>
+	</body>
+<script>
+!function(a,b,c,d,e,f,g){a.GoogleAnalyticsObject=e,a[e]=a[e]||function(){(a[e].q=a[e].q||[]).push(arguments)},a[e].l=1*new Date,f=b.createElement(c),g=b.getElementsByTagName(c)[0],f.async=1,f.src=d,g.parentNode.insertBefore(f,g)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-88138745-1","auto"),ga("send","pageview");
+</script>
+</html>
