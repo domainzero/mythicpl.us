@@ -475,7 +475,8 @@ ul + .title--medium {
 
 .footer {
 	max-width: 960px;
-	margin: 15px auto
+	margin: 15px auto;
+	display: inline-block;
 }
 
 .title--routes {
@@ -677,11 +678,11 @@ footer {
 
 input[type=button] {
 	border: 2px solid transparent;
-	color: #a3d39c;
-	border-color: #a3d39c;
+	color: #8B8C8B;
+	border-color: #8B8C8B;
 	font-family: "Lato", Arial;
 	font-weight: 800;
-	background-color: #373c44;
+	background: #373c44;
 	padding: 5px;
 }
 input[type=button]:hover {
@@ -690,7 +691,6 @@ input[type=button]:hover {
 	border-color: #a3d39c;
 	font-family: "Lato", Arial;
 	font-weight: 800;
-	background-color: #f0f0f0;
 	padding: 5px;
 	-webkit-transition: background-color 0.25s, border-color 0.25s;
 	transition: background-color 0.25s, border-color 0.25s;
@@ -700,4 +700,18 @@ input[type=button]:hover {
 form {
 	text-align: center;
 	width: 100%;
+}
+
+#calcs {
+	float: left;
+	width: 50%;
+	display: inline-block;
+	position: relative;
+}
+
+#reqmplus {
+	float: right;
+	width: 50%;
+	display: inline-block;
+	position: relative;
 }
