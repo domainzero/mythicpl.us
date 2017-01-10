@@ -124,24 +124,29 @@ var mplusT4toMax = 0;
 //
 //////////
 function CalculateAPTotal () {
-	currentTotalAP = artifactLevelCost[currentArtifactLevel][1] + currentAPinLevel;
+	currentTotalAP = Number(artifactLevelCost[currentArtifactLevel][1]) + Number(currentAPinLevel);
+	document.getElementById("totalap").innerText= currentTotalAP
 }
 
 function CalculateAPtoLevel () {
 	if (currentArtifactLevel < MAX_ARTIFACT_LEVEL) {
-		apToLevel = artifactLevelCost[currentArtifactLevel + 1][0] - currentAPinLevel;
+		apToLevel = Number(artifactLevelCost[Number(currentArtifactLevel) + 1][0]) - Number(currentAPinLevel);
+		document.getElementById("tolevel").innerText= apToLevel
 	}
 	else {
 		apToLevel = 0; // should already be 0, but what the hell
+		document.getElementById("tolevel").innerText= apToLevel;
 	}
 }
 
 function CalculateAPtoMax () {
 	if (currentArtifactLevel < MAX_ARTIFACT_LEVEL) {
-		apToMax = maxLevelAP - currentTotalAP;
+		apToMax = Number(maxLevelAP) - Number(currentTotalAP);
+		document.getElementById("tomax").innerText= apToMax;
 	}
 	else {
 		apToMax = 0; // again, should be 0, but just to be sure.
+		document.getElementById("tomax").innerText= apToMax;
 	}
 }
 
@@ -154,7 +159,6 @@ function CalculateRuns () {
 	var t2ScaledRewards = apRewards["T2"] * akMultiplier;
 	var t3ScaledRewards = apRewards["T3"] * akMultiplier;
 	var t4ScaledRewards = apRewards["T4"] * akMultiplier;
-
 
 	mplusT1toLevel = Math.round((apToLevel / t1ScaledRewards) + .5);
 	mplusT2toLevel = Math.round((apToLevel / t2ScaledRewards) + .5);
@@ -191,4 +195,17 @@ function OnClickCalculate () {
 	CalculateRuns();
 
 	// shove the results back into the page for the user to see.
+
+	//mplusT1toLevel
+	//mplusT2toLevel
+	//mplusT3toLevel
+	//mplusT4toLevel
+
+	//mplusT1toMax
+	//mplusT2toMax
+	//mplusT3toMax
+	//mplusT4toMax
+
+	//apToLevel
+	//apToMax
 }
