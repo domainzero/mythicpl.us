@@ -203,7 +203,7 @@ function OnClickCalculate () {
 	CalculateAPtoMax();
 	GetAKMultiplier();
 	CalculateRuns();
-	document.getElementById("maincalcs").style.display = "";
+	document.getElementById("maincalcs").style.display = "flex";
 	// shove the results back into the page for the user to see.
 
 	//mplusT1toLevel

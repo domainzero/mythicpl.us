@@ -478,6 +478,8 @@ ul + .title--medium {
 	max-width: 960px;
 	margin: 15px auto;
 	display: inline-block;
+	position: absolute;
+
 }
 
 .title--routes {
@@ -696,15 +698,6 @@ input[type=button]:hover {
 
 }
 
-#calcs {
-	float: left;
-	display: inline-block;
-}
-
-#reqmplus {
-	float: right;
-	display: inline-block;
-}
 
 select.min {
   background-position: 0px;
@@ -723,4 +716,8 @@ input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button { 
   -webkit-appearance: none; 
   margin: 0; 
+}
+
+#maincalcs{
+	display: none;
 }
