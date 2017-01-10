@@ -704,14 +704,10 @@ form {
 
 #calcs {
 	float: left;
-	width: 50%;
 	display: inline-block;
-	position: relative;
 }
 
 #reqmplus {
 	float: right;
-	width: 50%;
 	display: inline-block;
-	position: relative;
 }

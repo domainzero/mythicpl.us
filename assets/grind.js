@@ -123,30 +123,34 @@ var mplusT4toMax = 0;
 // HELPER FUNCTIONS
 //
 //////////
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(?:\d{3})+(?!\d))/g, ",");
+}
+
 function CalculateAPTotal () {
 	currentTotalAP = Number(artifactLevelCost[currentArtifactLevel][1]) + Number(currentAPinLevel);
-	document.getElementById("totalap").innerText= currentTotalAP
+	document.getElementById("totalap").innerText= numberWithCommas(currentTotalAP);
 }
 
 function CalculateAPtoLevel () {
 	if (currentArtifactLevel < MAX_ARTIFACT_LEVEL) {
 		apToLevel = Number(artifactLevelCost[Number(currentArtifactLevel) + 1][0]) - Number(currentAPinLevel);
-		document.getElementById("tolevel").innerText= apToLevel
+		document.getElementById("tolevel").innerText= numberWithCommas(apToLevel);
 	}
 	else {
 		apToLevel = 0; // should already be 0, but what the hell
-		document.getElementById("tolevel").innerText= apToLevel;
+		document.getElementById("tolevel").innerText= numberWithCommas(apToLevel);
 	}
 }
 
 function CalculateAPtoMax () {
 	if (currentArtifactLevel < MAX_ARTIFACT_LEVEL) {
 		apToMax = Number(maxLevelAP) - Number(currentTotalAP);
-		document.getElementById("tomax").innerText= apToMax;
+		document.getElementById("tomax").innerText= numberWithCommas(apToMax);
 	}
 	else {
 		apToMax = 0; // again, should be 0, but just to be sure.
-		document.getElementById("tomax").innerText= apToMax;
+		document.getElementById("tomax").innerText= numberWithCommas(apToMax);
 	}
 }
 
@@ -164,11 +168,20 @@ function CalculateRuns () {
 	mplusT2toLevel = Math.round((apToLevel / t2ScaledRewards) + .5);
 	mplusT3toLevel = Math.round((apToLevel / t3ScaledRewards) + .5);
 	mplusT4toLevel = Math.round((apToLevel / t4ScaledRewards) + .5);
+	document.getElementById("m23lvl").innerText= mplusT1toLevel;
+	document.getElementById("m46lvl").innerText= mplusT2toLevel;
+	document.getElementById("m79lvl").innerText= mplusT3toLevel;
+	document.getElementById("m10lvl").innerText= mplusT4toLevel;
 
 	mplusT1toMax = Math.round((apToMax / t1ScaledRewards) + .5);
 	mplusT2toMax = Math.round((apToMax / t2ScaledRewards) + .5);
 	mplusT3toMax = Math.round((apToMax / t3ScaledRewards) + .5);
 	mplusT4toMax = Math.round((apToMax / t4ScaledRewards) + .5);
+	document.getElementById("m23max").innerText= numberWithCommas(mplusT1toMax);
+	document.getElementById("m46max").innerText= numberWithCommas(mplusT2toMax);
+	document.getElementById("m79max").innerText= numberWithCommas(mplusT3toMax);
+	document.getElementById("m10max").innerText= numberWithCommas(mplusT4toMax);
+
 }
 
 function GetUserInput () {
@@ -184,16 +197,13 @@ function GetUserInput () {
 //////////
 
 function OnClickCalculate () {
-	GetUserInput();
-
+	GetUserInput();	
 	CalculateAPTotal();
 	CalculateAPtoLevel();
 	CalculateAPtoMax();
-
 	GetAKMultiplier();
-
 	CalculateRuns();
-
+	document.getElementById("maincalcs").style.display = "";
 	// shove the results back into the page for the user to see.
 
 	//mplusT1toLevel
