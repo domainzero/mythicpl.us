@@ -651,7 +651,7 @@ footer {
 	left: 0;
 	height: 100%;
 	width: 100%;
-	color: #a3d39c;
+	color: #e6cc80;
 	padding: 0.25em 0;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -673,7 +673,7 @@ footer {
 .input__field--yoshiko:focus + .input__field--yoshiko,
 .input--filled .input__field--yoshiko {
 	background-color: transparent;
-	border-color: #a3d39c;
+	border-color: #e6cc80;
 }
 
 input[type=button] {
@@ -687,8 +687,8 @@ input[type=button] {
 }
 input[type=button]:hover {
 	border: 2px solid transparent;
-	color: #a3d39c;
-	border-color: #a3d39c;
+	color: #e6cc80;
+	border-color: #e6cc80;
 	font-family: "Lato", Arial;
 	font-weight: 800;
 	padding: 5px;
