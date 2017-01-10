@@ -711,3 +711,22 @@ form {
 	float: right;
 	display: inline-block;
 }
+
+select.min {
+  background-position: 0px;
+  background-size: 0px;
+  background-repeat: no-repeat;
+}
+select.min:focus {
+  background-position: 0px;
+  background-size: 0px;
+  background-repeat: no-repeat;
+  border-color: green;
+  outline: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
