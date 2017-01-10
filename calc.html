@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- PARDON MY SPAGHETTI -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,900" rel="stylesheet">
+		<link rel="stylesheet" href="assets/style.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+		<script type="text/javascript" src="./assets/grind.js"></script>
+		<script type="text/javascript" src="./assets/classie.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="mythic+,mythic_plus,mythic_+,world of warcraft, mythic dungeons,warcraft,mythic plus">
+	</head>
+	<body>
+		<main class="main" id="this_week">
+			<section class="content atf content-block">
+					<form>
+					<span class="input input--yoshiko input--filled">
+					<select class="input__field input__field--yoshiko" id="currentlvl" /><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option><option value="32">32</option><option value="33">33</option><option value="34">34</option><option value="35">35</option><option value="36">36</option><option value="37">37</option><option value="38">38</option><option value="39">39</option><option value="40">40</option><option value="41">41</option><option value="42">42</option><option value="43">43</option><option value="44">44</option><option value="45">45</option><option value="46">46</option><option value="47">47</option><option value="48">48</option><option value="49">49</option><option value="50">50</option><option value="51">51</option><option value="52">52</option><option value="53">53</option><option value="54">54</option>
+						</select>
+					<label class="input__label input__label--yoshiko" for="input-10">
+						<span class="input__label-content input__label-content--yoshiko" data-content="Current Artifact Level">Current Artifact Level</span>
+					</label>
+				</span>
+				<span class="input input--yoshiko">
+					<input class="input__field input__field--yoshiko" type="number" id="currentap" />
+					<label class="input__label input__label--yoshiko" for="input-11">
+						<span class="input__label-content input__label-content--yoshiko" data-content="Current AP In Level">Current AP In Level</span>
+					</label>
+				</span>
+				<span class="input input--yoshiko input--filled">
+						<select class="input__field input__field--yoshiko" id="currentak" />
+						<option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25" selected>25</option>
+						</select>
+					<label class="input__label input__label--yoshiko" for="input-12">
+						<span class="input__label-content input__label-content--yoshiko" data-content="Artifact Knowledge">Artifact Knowledge</span>
+					</label>
+				</span>
+				</form>
+				<input type="button" value="CALCULATE" onclick="OnClickCalculate()"/>
+			</section>
+			<section>
+			<div id="calcs">
+			<h2>Current total AP: <span id="totalap"></span></h2>
+			<h2>AP to level: <span id="tolevel"></span></h2>
+			<h2>AP to max: <span id="tomax"></span></h2>
+			</div>
+			<div id="reqmplus">
+			<h2>
+			</div>
+			</section>
+		</main>
+		<script>
+!function(){function t(t){classie.add(t.target.parentNode,"input--filled")}function e(t){""===t.target.value.trim()&&classie.remove(t.target.parentNode,"input--filled")}String.prototype.trim||!function(){var t=/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;String.prototype.trim=function(){return this.replace(t,"")}}(),[].slice.call(document.querySelectorAll("input.input__field")).forEach(function(i){""!==i.value.trim()&&classie.add(i.parentNode,"input--filled"),i.addEventListener("focus",t),i.addEventListener("blur",e)})}();
+		</script>
+	</body>
+<script>
+!function(a,b,c,d,e,f,g){a.GoogleAnalyticsObject=e,a[e]=a[e]||function(){(a[e].q=a[e].q||[]).push(arguments)},a[e].l=1*new Date,f=b.createElement(c),g=b.getElementsByTagName(c)[0],f.async=1,f.src=d,g.parentNode.insertBefore(f,g)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-88138745-1","auto"),ga("send","pageview");
+</script>
+</html>
