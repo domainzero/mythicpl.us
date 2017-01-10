@@ -554,10 +554,8 @@ footer {
 	position: relative;
 	z-index: 1;
 	display: inline-block;
-	margin: 2em;
-	max-width: 350px;
-	width: calc(25% - 2em);
-	vertical-align: top;
+	margin: 1em;
+	width: calc(100% - 2em);
 }
 
 .input__field {
@@ -695,11 +693,6 @@ input[type=button]:hover {
 	-webkit-transition: background-color 0.25s, border-color 0.25s;
 	transition: background-color 0.25s, border-color 0.25s;
 
-}
-
-form {
-	text-align: center;
-	width: 100%;
 }
 
 #calcs {
