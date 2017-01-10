@@ -589,7 +589,7 @@ footer {
 	font-weight: bold;
 	font-size: 70.25%;
 	-webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+	-moz-osx-font-smoothing: grayscale;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -697,7 +697,9 @@ input[type=button]:hover {
 	transition: background-color 0.25s, border-color 0.25s;
 
 }
-
+select::-ms-expand {
+    display: none;
+}
 
 select.min {
   background-position: 0px;
@@ -712,11 +714,12 @@ select.min:focus {
   outline: 0;
 }
 
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
-}
+input[type='number'] {
+	  -moz-appearance:textfield;
+	}     
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	}
 
 #maincalcs{
 	display: none;
