@@ -125,7 +125,7 @@ body {
 	position: fixed;
 	z-index: 999;
 	left: 50%;
-	margin-left: -37.5vw;
+	margin-left: -27.5vw;
 	padding: .3vw;
 	background: rgba(55, 60, 68, 1);
 	font-weight: 900;
@@ -141,12 +141,13 @@ body {
 
 .nav > ul > a {
 	color: #fff;
-	width: calc(100% / 6);
+	width: calc(100% / 10);
 	float: left;
 	padding: 0.5vw;
 	cursor: pointer;
 	margin: 0;
 	transition: all 0.5s ease;
+
 }
 
 .nav > ul > a:nth-child(even) {
