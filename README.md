@@ -3,21 +3,11 @@ m+ lame-o site
 
 check the issues page for a to-do list of sorts.
 
-:eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: 
+Huge thank yous to everyone that provided feedback.
+Special thanks to: 
+  Mitcheljager for initial restyle
+  Heliades for assisting with further restyle
+  Auhsoj\#7928 for helping to write the calc page.
 
-Shoutouts to these folks for providing initial feedback:
 
-```
-/u/octnoir
-/u/ilikeraisinsama
-/u/shakeandbake13
-/u/opticsoldier
-/u/acidrift
-/u/technicality
-/u/sykoh963
-/u/zurishmi
-/u/bob4ever
-/u/icantsurvive
-```
-
-Shoutouts to everyone else still posting in that thread.
+:eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops: :eggplant: :sweat_drops:
