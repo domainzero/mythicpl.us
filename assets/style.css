@@ -724,3 +724,48 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 #maincalcs{
 	display: none;
 }
+
+.back {
+	font-weight: 400;
+	width: 3em;
+	float: left;
+	display: flex;
+	position: fixed;
+	margin-left: -2vw;
+	z-index: 999;
+	left: 50%;
+	font-weight: 900;
+	font-size: calc(1vw + 1vmin);
+	text-transform: uppercase;
+}
+
+.back > ul > a {
+	color: #fff;
+	width: 100%;
+	float: left;
+	cursor: pointer;
+}
+
+.back > ul > a:nth-child(even) {
+	background: rgba(255, 255, 255, 0.05);
+}
+
+.back > ul > a:hover,
+.back > ul > a:active {
+	background: rgba(255, 255, 255, 0.075);
+	text-decoration: none;
+}
+
+.back > ul > a > li::before {
+	content: none;
+}
+@media only screen
+	and (max-width: 480px) {
+		.back {
+			display: none;
+		}
+		.back:before { 
+			color: #fff;
+			content:'&#x2261;'; 
+		} 
+}
