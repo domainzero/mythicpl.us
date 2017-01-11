@@ -759,13 +759,3 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 .back > ul > a > li::before {
 	content: none;
 }
-@media only screen
-	and (max-width: 480px) {
-		.back {
-			display: none;
-		}
-		.back:before { 
-			color: #fff;
-			content:'&#x2261;'; 
-		} 
-}
