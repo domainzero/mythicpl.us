@@ -1,5 +1,5 @@
 var artifactLevelCost = {
-	1:  [ 100, 100 ], 
+	1:  [ 100, 100 ],
 	2:  [ 300, 400 ],
 	3:  [ 325, 725 ],
 	4:  [ 350, 1075 ],
@@ -161,7 +161,7 @@ function CalculateAPtoMax () {
 /////////////////////////////
 function CalculateAPto35 () {
 	if (currentArtifactLevel < ARTIFACT_LEVEL_35) {
-		apTo35 = Number(artifactLevelCost[Number(ARTIFACT_LEVEL_35)][0]) - Number(currentTotalAP);
+		apTo35 = Number(artifactLevelCost[Number(ARTIFACT_LEVEL_35)][1]) - Number(currentTotalAP);
 		show35Info = 1;
 	}
 	else {
