@@ -723,6 +723,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 
 #maincalcs{
 	display: none;
+	text-align: center;
 }
 
 .back {
@@ -758,4 +759,8 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 
 .back > ul > a > li::before {
 	content: none;
+}
+
+#mto35, #m23to35, #m46to35, #m79to35, #m10to35 {
+	visibility: collapse;
 }

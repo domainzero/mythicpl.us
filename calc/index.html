@@ -44,7 +44,7 @@
 					</label>
 					</span>
 				</div>
-				<input type="button" value="CALCULATE" onclick="OnClickCalculate();"/>
+				<input type="button" value="CALCULATE" onClick="OnClickCalculate();"/>
 			<div id="maincalcs" class="content-block">
 			<div id="calcs">
 				<h2>Current AP totals and AP to level</h2>
@@ -71,28 +71,34 @@
 					<thead class="table__head">
 						<tr class="table__row table__row--head">
 							<td class="table__cell"></td>
+							<td class="table__cell" id="mto35">M+ to 35</td>
 							<td class="table__cell">M+ to next level</td>
 							<td class="table__cell">M+ to 54</td>
+
 						</tr>
 					</thead>
 					<tbody>
 						<tr class="table__row">
 							<td class="table__cell"><strong>Mythic +2-3</strong></td>
+							<td class="table__cell"><span class="table__note" id="m23to35"></span></td>
 							<td class="table__cell"><span class="table__note" id="m23lvl"></span></td>
 							<td class="table__cell"><span class="table__note" id="m23max"></span></td>
 						</tr>
 						<tr class="table__row">
 							<td class="table__cell"><strong>Mythic +4-6</strong></td>
+							<td class="table__cell"><span class="table__note" id="m46to35"></span></td>
 							<td class="table__cell"><span class="table__note" id="m46lvl"></span></td>
 							<td class="table__cell"><span class="table__note" id="m46max"></span></td>
 						</tr>
 						<tr class="table__row">
 							<td class="table__cell"><strong>Mythic +7-9</strong></td>
+							<td class="table__cell"><span class="table__note" id="m79to35"></span></td>
 							<td class="table__cell"><span class="table__note" id="m79lvl"></span></td>
 							<td class="table__cell"><span class="table__note" id="m79max"></span></td>
 						</tr>
 						<tr class="table__row">
 							<td class="table__cell"><strong>Mythic 10+</strong></td>
+							<td class="table__cell"><span class="table__note" id="m10to35"></span></td>
 							<td class="table__cell"><span class="table__note" id="m10lvl"></span></td>
 							<td class="table__cell"><span class="table__note" id="m10max"></span></td>
 						</tr>

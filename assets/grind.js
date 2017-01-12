@@ -91,6 +91,7 @@ var apRewards = {
 	T4: 1200,
 }
 
+var ARTIFACT_LEVEL_35 = 35;
 var MAX_ARTIFACT_LEVEL = 54;
 var MAX_ARTIFACT_KNOWLEDGE = 25;
 
@@ -103,12 +104,20 @@ var maxLevelAP = artifactLevelCost[MAX_ARTIFACT_LEVEL][1];
 
 var apToLevel = 0;
 var apToMax = 0;
+var apTo35 = 0;
 var akMultiplier = 0;
+
+var show35Info = 0;
 
 var mplusT1toLevel = 0;
 var mplusT2toLevel = 0;
 var mplusT3toLevel = 0;
 var mplusT4toLevel = 0;
+
+var mplusT1to35 = 0;
+var mplusT2to35 = 0;
+var mplusT3to35 = 0;
+var mplusT4to35 = 0;
 
 var mplusT1toMax = 0;
 var mplusT2toMax = 0;
@@ -150,6 +159,17 @@ function CalculateAPtoMax () {
 }
 
 /////////////////////////////
+function CalculateAPto35 () {
+	if (currentArtifactLevel < ARTIFACT_LEVEL_35) {
+		apTo35 = Number(artifactLevelCost[Number(ARTIFACT_LEVEL_35)][0]) - Number(currentTotalAP);
+		show35Info = 1;
+	}
+	else {
+		apTo35 = 0; // again, should be 0, but just to be sure.
+	}
+}
+
+/////////////////////////////
 function GetAKMultiplier () {
 	akMultiplier = artifactKnowledge[currentArtifactKnowledge];
 }
@@ -165,6 +185,11 @@ function CalculateRuns () {
 	mplusT2toLevel = Math.round((apToLevel / t2ScaledRewards) + .5);
 	mplusT3toLevel = Math.round((apToLevel / t3ScaledRewards) + .5);
 	mplusT4toLevel = Math.round((apToLevel / t4ScaledRewards) + .5);
+
+	mplusT1to35 = Math.round((apTo35 / t1ScaledRewards) + .5);
+	mplusT2to35 = Math.round((apTo35 / t2ScaledRewards) + .5);
+	mplusT3to35 = Math.round((apTo35 / t3ScaledRewards) + .5);
+	mplusT4to35 = Math.round((apTo35 / t4ScaledRewards) + .5);
 
 	mplusT1toMax = Math.round((apToMax / t1ScaledRewards) + .5);
 	mplusT2toMax = Math.round((apToMax / t2ScaledRewards) + .5);
@@ -186,6 +211,11 @@ function UpdateResultsToPage () {
 	document.getElementById("tolevel").innerText= numberWithCommas(apToLevel);
 	document.getElementById("tomax").innerText= numberWithCommas(apToMax);
 
+	document.getElementById("m23to35").innerText= mplusT1to35;
+	document.getElementById("m46to35").innerText= mplusT2to35;
+	document.getElementById("m79to35").innerText= mplusT3to35;
+	document.getElementById("m10to35").innerText= mplusT4to35;
+
 	document.getElementById("m23lvl").innerText= mplusT1toLevel;
 	document.getElementById("m46lvl").innerText= mplusT2toLevel;
 	document.getElementById("m79lvl").innerText= mplusT3toLevel;
@@ -197,19 +227,35 @@ function UpdateResultsToPage () {
 	document.getElementById("m10max").innerText= numberWithCommas(mplusT4toMax);
 }
 
-
+function At35OrNot () {
+	if (show35Info == 1) {
+		document.getElementById("mto35").style.visibility = "visible";
+		document.getElementById("m23to35").style.visibility = "visible";
+		document.getElementById("m46to35").style.visibility = "visible";
+		document.getElementById("m79to35").style.visibility = "visible";
+		document.getElementById("m10to35").style.visibility = "visible";
+	// unhide the 35th trait info here and bind the stuff to show
+}
+	else if (currentArtifactLevel > ARTIFACT_LEVEL_35) {
+		document.getElementById("mto35").style.visibility = "collapse";
+		document.getElementById("m23to35").style.visibility = "collapse";
+		document.getElementById("m46to35").style.visibility = "collapse";
+		document.getElementById("m79to35").style.visibility = "collapse";
+		document.getElementById("m10to35").style.visibility = "collapse";
+	}
+}
 /////////////////////////////
 // MAIN
 /////////////////////////////
 function OnClickCalculate () {
 	GetUserInputFromPage();	
-
 	CalculateAPTotal();
+	CalculateAPto35();
 	CalculateAPtoLevel();
 	CalculateAPtoMax();
 	GetAKMultiplier();
 	CalculateRuns();
-
 	UpdateResultsToPage();
 	document.getElementById("maincalcs").style.display = "flex";
+	At35OrNot();
 }
