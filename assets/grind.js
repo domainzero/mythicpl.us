@@ -228,7 +228,7 @@ function UpdateResultsToPage () {
 }
 
 function At35OrNot () {
-	if (show35Info == 1) {
+	if (apTo35 >= 1) {
 		document.getElementById("mto35").style.visibility = "visible";
 		document.getElementById("m23to35").style.visibility = "visible";
 		document.getElementById("m46to35").style.visibility = "visible";
@@ -236,7 +236,7 @@ function At35OrNot () {
 		document.getElementById("m10to35").style.visibility = "visible";
 	// unhide the 35th trait info here and bind the stuff to show
 }
-	else if (currentArtifactLevel > ARTIFACT_LEVEL_35) {
+	else if (apTo35 <= 1) {
 		document.getElementById("mto35").style.visibility = "collapse";
 		document.getElementById("m23to35").style.visibility = "collapse";
 		document.getElementById("m46to35").style.visibility = "collapse";
