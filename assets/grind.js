@@ -236,7 +236,7 @@ function At35OrNot () {
 		document.getElementById("m10to35").style.visibility = "visible";
 	// unhide the 35th trait info here and bind the stuff to show
 }
-	else if (apTo35 <= 1) {
+	else if (apTo35 <= 0) {
 		document.getElementById("mto35").style.visibility = "collapse";
 		document.getElementById("m23to35").style.visibility = "collapse";
 		document.getElementById("m46to35").style.visibility = "collapse";
