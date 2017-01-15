@@ -83,14 +83,12 @@ var artifactKnowledge = {
 	24: 224,
 	25: 250
 };
-
 var apRewards = {
 	T1: 500,
 	T2: 800,
 	T3: 1000, 
 	T4: 1200,
 }
-
 var ARTIFACT_LEVEL_35 = 35;
 var MAX_ARTIFACT_LEVEL = 54;
 var MAX_ARTIFACT_KNOWLEDGE = 25;
@@ -124,21 +122,13 @@ var mplusT2toMax = 0;
 var mplusT3toMax = 0;
 var mplusT4toMax = 0;
 
-
-//////////
-// HELPER FUNCTIONS
-//
-//////////
+//helper functions
 function numberWithCommas(x) {
     return x.toString().replace(/\B(?=(?:\d{3})+(?!\d))/g, ",");
 }
-
-/////////////////////////////
 function CalculateAPTotal () {
 	currentTotalAP = Number(artifactLevelCost[currentArtifactLevel][1]) + Number(currentAPinLevel);
 }
-
-/////////////////////////////
 function CalculateAPtoLevel () {
 	if (currentArtifactLevel < MAX_ARTIFACT_LEVEL) {
 		apToLevel = Number(artifactLevelCost[Number(currentArtifactLevel) + 1][0]) - Number(currentAPinLevel);
@@ -147,8 +137,6 @@ function CalculateAPtoLevel () {
 		apToLevel = 0; // should already be 0, but what the hell
 	}
 }
-
-/////////////////////////////
 function CalculateAPtoMax () {
 	if (currentArtifactLevel < MAX_ARTIFACT_LEVEL) {
 		apToMax = Number(maxLevelAP) - Number(currentTotalAP);	
@@ -157,8 +145,6 @@ function CalculateAPtoMax () {
 		apToMax = 0; // again, should be 0, but just to be sure.
 	}
 }
-
-/////////////////////////////
 function CalculateAPto35 () {
 	if (currentArtifactLevel < ARTIFACT_LEVEL_35) {
 		apTo35 = Number(artifactLevelCost[Number(ARTIFACT_LEVEL_35)][1]) - Number(currentTotalAP);
@@ -168,13 +154,10 @@ function CalculateAPto35 () {
 		apTo35 = 0; // again, should be 0, but just to be sure.
 	}
 }
-
-/////////////////////////////
 function GetAKMultiplier () {
 	akMultiplier = artifactKnowledge[currentArtifactKnowledge];
 }
-
-/////////////////////////////
+//DO THE MATH
 function CalculateRuns () {
 	var t1ScaledRewards = apRewards["T1"] * akMultiplier;
 	var t2ScaledRewards = apRewards["T2"] * akMultiplier;
@@ -196,37 +179,32 @@ function CalculateRuns () {
 	mplusT3toMax = Math.round((apToMax / t3ScaledRewards) + .5);
 	mplusT4toMax = Math.round((apToMax / t4ScaledRewards) + .5);
 }
-
-/////////////////////////////
 function GetUserInputFromPage () {
 	currentArtifactLevel = document.getElementById("currentlvl").value;
 	currentArtifactKnowledge = document.getElementById("currentak").value;
 	currentAPinLevel = document.getElementById("currentap").value;
 }
-
-/////////////////////////////
 function UpdateResultsToPage () {
-
+	// totals
 	document.getElementById("totalap").innerText= numberWithCommas(currentTotalAP);
 	document.getElementById("tolevel").innerText= numberWithCommas(apToLevel);
 	document.getElementById("tomax").innerText= numberWithCommas(apToMax);
-
+	// to 35
 	document.getElementById("m23to35").innerText= mplusT1to35;
 	document.getElementById("m46to35").innerText= mplusT2to35;
 	document.getElementById("m79to35").innerText= mplusT3to35;
 	document.getElementById("m10to35").innerText= mplusT4to35;
-
+	// to level
 	document.getElementById("m23lvl").innerText= mplusT1toLevel;
 	document.getElementById("m46lvl").innerText= mplusT2toLevel;
 	document.getElementById("m79lvl").innerText= mplusT3toLevel;
 	document.getElementById("m10lvl").innerText= mplusT4toLevel;
-
+	// to max
 	document.getElementById("m23max").innerText= numberWithCommas(mplusT1toMax);
 	document.getElementById("m46max").innerText= numberWithCommas(mplusT2toMax);
 	document.getElementById("m79max").innerText= numberWithCommas(mplusT3toMax);
 	document.getElementById("m10max").innerText= numberWithCommas(mplusT4toMax);
 }
-
 function At35OrNot () {
 	if (apTo35 >= 1) {
 		document.getElementById("mto35").style.visibility = "visible";
@@ -234,9 +212,8 @@ function At35OrNot () {
 		document.getElementById("m46to35").style.visibility = "visible";
 		document.getElementById("m79to35").style.visibility = "visible";
 		document.getElementById("m10to35").style.visibility = "visible";
-	// unhide the 35th trait info here and bind the stuff to show
 }
-	else if (apTo35 <= 0) {
+	else if (apTo35 < 1) {
 		document.getElementById("mto35").style.visibility = "collapse";
 		document.getElementById("m23to35").style.visibility = "collapse";
 		document.getElementById("m46to35").style.visibility = "collapse";
@@ -244,9 +221,7 @@ function At35OrNot () {
 		document.getElementById("m10to35").style.visibility = "collapse";
 	}
 }
-/////////////////////////////
-// MAIN
-/////////////////////////////
+// call all the functions
 function OnClickCalculate () {
 	GetUserInputFromPage();	
 	CalculateAPTotal();
