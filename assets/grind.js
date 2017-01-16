@@ -190,15 +190,15 @@ function UpdateResultsToPage () {
 	document.getElementById("tolevel").innerText= numberWithCommas(apToLevel);
 	document.getElementById("tomax").innerText= numberWithCommas(apToMax);
 	// to 35
-	document.getElementById("m23to35").innerText= mplusT1to35;
-	document.getElementById("m46to35").innerText= mplusT2to35;
-	document.getElementById("m79to35").innerText= mplusT3to35;
-	document.getElementById("m10to35").innerText= mplusT4to35;
+	document.getElementById("m23to35").innerText= numberWithCommas(mplusT1to35);
+	document.getElementById("m46to35").innerText= numberWithCommas(mplusT2to35);
+	document.getElementById("m79to35").innerText= numberWithCommas(mplusT3to35);
+	document.getElementById("m10to35").innerText= numberWithCommas(mplusT4to35);
 	// to level
-	document.getElementById("m23lvl").innerText= mplusT1toLevel;
-	document.getElementById("m46lvl").innerText= mplusT2toLevel;
-	document.getElementById("m79lvl").innerText= mplusT3toLevel;
-	document.getElementById("m10lvl").innerText= mplusT4toLevel;
+	document.getElementById("m23lvl").innerText= numberWithCommas(mplusT1toLevel);
+	document.getElementById("m46lvl").innerText= numberWithCommas(mplusT2toLevel);
+	document.getElementById("m79lvl").innerText= numberWithCommas(mplusT3toLevel);
+	document.getElementById("m10lvl").innerText= numberWithCommas(mplusT4toLevel);
 	// to max
 	document.getElementById("m23max").innerText= numberWithCommas(mplusT1toMax);
 	document.getElementById("m46max").innerText= numberWithCommas(mplusT2toMax);
@@ -212,6 +212,10 @@ function At35OrNot () {
 		document.getElementById("m46to35").style.visibility = "visible";
 		document.getElementById("m79to35").style.visibility = "visible";
 		document.getElementById("m10to35").style.visibility = "visible";
+		document.getElementById("mto35").style.display = "table-cell";
+		for (i=0; i < 5; i++){
+		document.getElementById("hideme" + i).style.display= "table-cell";
+	}
 }
 	else if (apTo35 < 1) {
 		document.getElementById("mto35").style.visibility = "collapse";
@@ -219,6 +223,10 @@ function At35OrNot () {
 		document.getElementById("m46to35").style.visibility = "collapse";
 		document.getElementById("m79to35").style.visibility = "collapse";
 		document.getElementById("m10to35").style.visibility = "collapse";
+		document.getElementById("mto35").style.display = "none";
+		for (i=0; i < 5; i++){
+		document.getElementById("hideme" + i).style.display= "none";	
+		}
 	}
 }
 // call all the functions
