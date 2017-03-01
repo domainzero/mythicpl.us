@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>three months later</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i" rel="stylesheet">
+		<link rel="stylesheet" href="../assets/style.css">
+	</head>
+	<body>
+	   <div class="main container">
+	   <section class="atf content-block">
+			<div>
+				<h1 class="title title--large">mythicpl.us: three months later</h1>
+				<p>It feels like it's been longer, but the site has been up for three months. I figured now would be a good time to share some fun technical stats with you about webservers, analytics, and whatever other stuff I feel like talking about. Thanks for all your support so far.</p>
+			</div>
+			</section>
+		<section class="content-block">
+			<h1 class="title title--large">Analytics</h1>
+			<p>I brought the site up on November 28, 2016 after buying the mythicpl.us domain name for 88 cents during a Black Friday sale on Namecheap. My intent was to have a site where mythic plus information could be aggregated and edited based on player feedback. Speaking of which:</p>
+			<div class="affixes-block">
+					<ul class="affixes-list">
+						<li class="stats-list__item"><h1 class="title title--large--stats"><span class="stat-color">191</span></h1><p class="affixes-list__note">Total number of Github commits as of March 1, 2017. That's 191 total edits to the page or around 2 edits a day for 93 days (November 28 to Februrary 1, the time of writing).</p></li>
+						<li class="stats-list__item"><h1 class="title title--large--stats">21</h1><p class="affixes-list__note">Number of issues filed on Github to address incorrect data or issues with the site. 19 of those issues have been closed.</p></li>
+						<li class="stats-list__item"><h1 class="title title--large--stats">7</h1><p class="affixes-list__note">Pull requests submitted. 3 of those are from Gnarfoz fixing table information. 2 of those were site restylings.</p></li>
+						<li class="stats-list__item"><h1 class="title title--large--stats">4</h1><p class="affixes-list__note">Number of credited contributers.</p></li>
+					</ul>
+			</div>
+<p>User input is really important in a game where strategies or ways to do things change every week. The goal with having everything visible on Github was to allow players to drop in their thoughts, ideas, or corrections easily while having a visible record of things to do and enforcing accountability.</p>
+
+			<div class="affixes-block">
+					<ul class="affixes-list">
+						<li class="stats-list__item"><h1 class="title title--large--stats">370,671</h1><p class="affixes-list__note">Total pageviews since online. Repeated views of a single page are counted.</p></li>
+						<li class="stats-list__item"><h1 class="title title--large--stats">282,800</h1><p class="affixes-list__note">Total sessions counted. A session is a time where someone is engaged with a site (e.g. clicks a link, etc). Of those sessions <strong>54.5%</strong> were return users!</p></li>
+						<li class="stats-list__item"><h1 class="title title--large--stats">128,685</h1><p class="affixes-list__note">Unique users as counted by Google.</p></li>
+						<li class="stats-list__item"><h1 class="title title--large--stats">51 seconds</h1><p class="affixes-list__note">Average time spent on a page. Either it's quick to find the information you want, or the page is garbage and you want to leave! (I hope it's the former though)</p></li>
+					</ul>
+					<div>
+					<canvas id="sessions-chart"></canvas>
+					<p>Of note: the majority of sessions in November came from launch day (day one had over 5,000 concurrent sessions!). There was a considerable jump in traffic in January and Februrary that I attribute to end of holidays and rising in the Google search results.</p>
+					</div>
+					<div>
+					<p>Here's a breakdown of those sessions by country</p>
+					<div class="chart">
+					<canvas id="users-chart"></canvas></div>
+
+				</div>
+		</section>
+		
+		<section class="content-block">
+			<h1 class="title title--large">Technical stuff</h1>
+			<h3 class="title">the server</h3>
+		</section>
+			</body>
+	<!-- 
+			<footer>
+			<p>&copy;dsus. suggestions welcome, hit me on discord: domain#2722, email me admin at mythicpl.us, or open an issue on <a href="https://github.com/domainzero/mythicpl.us/issues">GitHub</a> (preferred)</p>
+			<p>Thanks to everyone who provided me additional information or made me aware of skips I hadn't done. Special shoutouts to Anchises for writing nice, short guides. disclaimer: I am not a writer by trade. Please forgive my shitty writing. I will endlessly revise this trash.</p>
+		</footer>
+	-->
+<script>
+Chart.defaults.global.defaultFontFamily = 'Roboto Condensed';
+Chart.defaults.global.defaultFontColor = '#fff';
+var ctx = document.getElementById('sessions-chart').getContext('2d');
+var myChart = new Chart(ctx, {
+type: 'bar',
+data: {
+	labels: ['November', 'December', 'January', 'Februrary'],
+	datasets: [{
+		label: 'Sessions/month',
+		data: [52334,52294, 88619, 89553],
+		backgroundColor: "rgba(26,65,96,0.6)",
+		borderWidth: "1",
+		borderColor: "#fff",
+	}]
+}
+});
+var ctx = document.getElementById("users-chart").getContext('2d');
+var myChart = new Chart(ctx, {
+  type: 'doughnut',
+  data: {
+    labels: ["US", "Germany", "UK", "Canada", "Sweden", "Everyone Else"],
+    datasets: [{
+      backgroundColor: [
+        "#29B6F6",
+        "#03A9F4",
+        "#039BE5",
+        "#0288D1",
+        "#0277BD",
+        "#01579B"
+      ],
+      data: [109883, 28779, 18801, 16589, 14640, 94108]
+    }]
+  }
+});
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-88138745-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</html>
