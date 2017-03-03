@@ -7,6 +7,7 @@
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i" rel="stylesheet">
 		<link rel="stylesheet" href="../assets/style.css">
+		<link rel="stylesheet" href="../assets/stats.css">
 	</head>
 	<body>
 	   <div class="main container">
@@ -21,20 +22,20 @@
 			<p>I brought the site up on November 28, 2016 after buying the mythicpl.us domain name for 88 cents during a Black Friday. My intent was to have a site where mythic plus information could be aggregated and edited based on player feedback. Speaking of which...</p>
 			<div class="affixes-block">
 					<ul class="affixes-list">
-						<li class="stats-list__item"><h1 class="title title--large--stats"><span class="stat-color">191</span></h1><p class="affixes-list__note">Total number of Github commits as of March 1, 2017. That's 191 total edits to the page or around 2 edits a day for 93 days (November 28 to Februrary 1, the time of writing).</p></li>
-						<li class="stats-list__item"><h1 class="title title--large--stats">21</h1><p class="affixes-list__note">Number of issues filed on Github to address incorrect data or issues with the site. 19 of those issues have been closed.</p></li>
-						<li class="stats-list__item"><h1 class="title title--large--stats">7</h1><p class="affixes-list__note">Pull requests submitted. 3 of those are from Gnarfoz fixing table information. 2 of those were site restylings.</p></li>
-						<li class="stats-list__item"><h1 class="title title--large--stats">4</h1><p class="affixes-list__note">Number of credited contributers.</p></li>
+						<li class="stats-list__item"><span class="stat-color"><h1 class="title title--large--stats">191</h1></span><p class="affixes-list__note">Total number of Github commits as of March 1, 2017. That's 191 total edits to the page or around 2 edits a day for 93 days (November 28 to Februrary 1, the time of writing).</p></li>
+						<li class="stats-list__item"><span class="stat-color"><h1 class="title title--large--stats">21</h1></span><p class="affixes-list__note">Number of issues filed on Github to address incorrect data or issues with the site. 19 of those issues have been closed.</p></li>
+						<li class="stats-list__item"><span class="stat-color"><h1 class="title title--large--stats">7</h1></span><p class="affixes-list__note">Pull requests submitted. 3 of those are from Gnarfoz fixing table information. 2 of those were site restylings.</p></li>
+						<li class="stats-list__item"><span class="stat-color"><h1 class="title title--large--stats">4</h1></span><p class="affixes-list__note">Number of credited contributers.</p></li>
 					</ul>
 			</div>
 <p>User input is really important in a game where strategies or ways to do things change every week. The goal with having everything visible on Github was to allow players to drop in their thoughts, ideas, or corrections easily while having a visible record of things to do and enforcing accountability.</p>
 
 			<div class="affixes-block">
 					<ul class="affixes-list">
-						<li class="stats-list__item"><h1 class="title title--large--stats">370,671</h1><p class="affixes-list__note">Total pageviews since online. Repeated views of a single page are counted.</p></li>
-						<li class="stats-list__item"><h1 class="title title--large--stats">282,800</h1><p class="affixes-list__note">Total sessions counted. A session is a time where someone is engaged with a site (e.g. clicks a link, etc). Of those sessions <strong>54.5%</strong> were return users!</p></li>
-						<li class="stats-list__item"><h1 class="title title--large--stats">128,685</h1><p class="affixes-list__note">Unique users as counted by Google.</p></li>
-						<li class="stats-list__item"><h1 class="title title--large--stats">51 seconds</h1><p class="affixes-list__note">Average time spent on a page. Either it's quick to find the information you want, or the page is garbage and you want to leave! (I hope it's the former though)</p></li>
+						<li class="stats-list__item"><span class="stat-color"><h1 class="title title--large--stats">370,671</h1></span><p class="affixes-list__note">Total pageviews since online. Repeated views of a single page are counted.</p></li>
+						<li class="stats-list__item"><span class="stat-color"><h1 class="title title--large--stats">282,800</h1></span><p class="affixes-list__note">Total sessions counted. A session is a time where someone is engaged with a site (e.g. clicks a link, etc). Of those sessions <strong><span class="stat-color">54.5%</span></strong> were return users!</p></li>
+						<li class="stats-list__item"><span class="stat-color"><h1 class="title title--large--stats">128,685</h1></span><p class="affixes-list__note">Unique users as counted by Google.</p></li>
+						<li class="stats-list__item"><span class="stat-color"><h1 class="title title--large--stats">51 seconds</h1></span><p class="affixes-list__note">Average time spent on a page. Either it's quick to find the information you want, or the page is garbage and you want to leave! (I hope it's the former though)</p></li>
 					</ul>
 					<div>
 					<canvas id="sessions-chart"></canvas>
@@ -42,7 +43,7 @@
 					</div>
 					<br>
 					<div>
-					<p>Here's a breakdown of those sessions by country:</p>
+					<p>Here's a breakdown of those sessions by country for the curious:</p>
 					<div class="chart">
 					<canvas id="users-chart"></canvas></div>
 
@@ -52,50 +53,21 @@
 		<section class="content-block">
 			<h1 class="title title--large">Technical stuff</h1>
 			<h3 class="title">the server</h3>
+			<p>The web server is a tiny ass Linux box running Fedora 24. It has 512MB of RAM (2GB in SWAP) and 1 CPU core. I'm basically using Github as a CRM for the web site. I write changes to the site, push them to Github and then have a cronjob set up to pull down the site changes from Github. I'm pretty lazy like that (i say as i haven't written a script to just automate everything).</p>
+			<div class="affixes-block">
+			<ul class="affixes-list">
+						<li class="stats-list__item"><span class="stat-color"><h1 class="title title--large--stats">370,671</h1></span><p class="affixes-list__note">Total pageviews since online. Repeated views of a single page are counted.</p></li>
+						<li class="stats-list__item"><span class="stat-color"><h1 class="title title--large--stats">282,800</h1></span><p class="affixes-list__note">Total sessions counted. A session is a time where someone is engaged with a site (e.g. clicks a link, etc). Of those sessions <strong><span class="stat-color">54.5%</span></strong> were return users!</p></li>
+						<li class="stats-list__item"><span class="stat-color"><h1 class="title title--large--stats">128,685</h1></span><p class="affixes-list__note">Unique users as counted by Google.</p></li>
+						<li class="stats-list__item"><span class="stat-color"><h1 class="title title--large--stats">51 seconds</h1></span><p class="affixes-list__note">Average time spent on a page. Either it's quick to find the information you want, or the page is garbage and you want to leave! (I hope it's the former though)</p></li>
+					</ul>
+			</div>
 		</section>
-			</body>
-	<!-- 
-			<footer>
-			<p>&copy;dsus. suggestions welcome, hit me on discord: domain#2722, email me admin at mythicpl.us, or open an issue on <a href="https://github.com/domainzero/mythicpl.us/issues">GitHub</a> (preferred)</p>
-			<p>Thanks to everyone who provided me additional information or made me aware of skips I hadn't done. Special shoutouts to Anchises for writing nice, short guides. disclaimer: I am not a writer by trade. Please forgive my shitty writing. I will endlessly revise this trash.</p>
-		</footer>
-	-->
-<script>
-Chart.defaults.global.defaultFontFamily = 'Roboto Condensed';
-Chart.defaults.global.defaultFontColor = '#fff';
-var ctx = document.getElementById('sessions-chart').getContext('2d');
-var myChart = new Chart(ctx, {
-type: 'bar',
-data: {
-	labels: ['November', 'December', 'January', 'Februrary'],
-	datasets: [{
-		label: 'Sessions/month',
-		data: [52334,52294,88619,89553],
-		backgroundColor: "rgba(26,65,96,0.6)",
-		borderWidth: "1",
-		borderColor: "#fff",
-	}]
-}
-});
-var ctx = document.getElementById("users-chart").getContext('2d');
-var myChart = new Chart(ctx, {
-  type: 'doughnut',
-  data: {
-    labels: ["US", "Germany", "UK", "Canada", "Sweden", "Everyone Else"],
-    datasets: [{
-      backgroundColor: [
-        "#29B6F6",
-        "#03A9F4",
-        "#039BE5",
-        "#0288D1",
-        "#0277BD",
-        "#01579B"
-      ],
-      data: [109883, 28779, 18801, 16589, 14640, 94108]
-    }]
-  }
-});
-</script>
+		<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+	</body>
+<!-- clean up these inline scripts -->
+
+<script src="../assets/cruft.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
