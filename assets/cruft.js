@@ -66,7 +66,7 @@ var myChart = new Chart(ctx, {
     }]
   }
 });
-//var ctx = document.getElementById("datachart").getContext('2d');
+/* var ctx = document.getElementById("datachart").getContext('2d');
 //var myChart = new Chart(ctx, {
 //  type: 'pie',
 //  data: {
@@ -82,9 +82,6 @@ var myChart = new Chart(ctx, {
 //  }
 //});
 // uptimeish script
-/*
-* Basic Count Up from Date and Time
-* Author: @mrwigster / trulycode.com
 */
 window.onload=function() {
   upTime('feb,14,2017,17:49:00');
