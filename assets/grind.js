@@ -172,6 +172,7 @@ var apRewards = {
 	T4: 1200,
 }
 var ARTIFACT_LEVEL_35 = 35;
+var ARTIFACT_LEVEL_54 = 54;
 var MAX_ARTIFACT_LEVEL = 111;
 var MAX_ARTIFACT_KNOWLEDGE = 50;
 
@@ -188,6 +189,7 @@ var apTo35 = 0;
 var akMultiplier = 0;
 
 var show35Info = 0;
+var show54Info = 1;
 
 var mplusT1toLevel = 0;
 var mplusT2toLevel = 0;
@@ -236,6 +238,15 @@ function CalculateAPto35 () {
 		apTo35 = 0; // again, should be 0, but just to be sure.
 	}
 }
+function CalculateAPto54 () {
+	if (currentArtifactLevel < ARTIFACT_LEVEL_54) {
+		apTo35 = Number(artifactLevelCost[Number(ARTIFACT_LEVEL_54)][1]) - Number(currentTotalAP);
+		show54Info = 1;
+	}
+	else {
+		apTo54 = 0; // again, should be 0, but just to be sure.
+	}
+}
 function GetAKMultiplier () {
 	akMultiplier = artifactKnowledge[currentArtifactKnowledge];
 }
@@ -245,7 +256,7 @@ function CalculateRuns () {
 	var t2ScaledRewards = apRewards["T2"] * akMultiplier;
 	var t3ScaledRewards = apRewards["T3"] * akMultiplier;
 	var t4ScaledRewards = apRewards["T4"] * akMultiplier;
-
+	
 	mplusT1toLevel = Math.round((apToLevel / t1ScaledRewards) + .5);
 	mplusT2toLevel = Math.round((apToLevel / t2ScaledRewards) + .5);
 	mplusT3toLevel = Math.round((apToLevel / t3ScaledRewards) + .5);
@@ -255,6 +266,11 @@ function CalculateRuns () {
 	mplusT2to35 = Math.round((apTo35 / t2ScaledRewards) + .5);
 	mplusT3to35 = Math.round((apTo35 / t3ScaledRewards) + .5);
 	mplusT4to35 = Math.round((apTo35 / t4ScaledRewards) + .5);
+	
+	mplusT1to35 = Math.round((apTo54 / t1ScaledRewards) + .5);
+	mplusT2to35 = Math.round((apTo54 / t2ScaledRewards) + .5);
+	mplusT3to35 = Math.round((apTo54 / t3ScaledRewards) + .5);
+	mplusT4to35 = Math.round((apTo54 / t4ScaledRewards) + .5);
 
 	mplusT1toMax = Math.round((apToMax / t1ScaledRewards) + .5);
 	mplusT2toMax = Math.round((apToMax / t2ScaledRewards) + .5);
@@ -315,6 +331,7 @@ function At35OrNot () {
 function OnClickCalculate () {
 	GetUserInputFromPage();	
 	CalculateAPTotal();
+	CalculateAPto35();
 	CalculateAPto35();
 	CalculateAPtoLevel();
 	CalculateAPtoMax();
