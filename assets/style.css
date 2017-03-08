@@ -486,3 +486,6 @@ ul + .title--medium {
 footer {
 	font-size: 10px;
 }
+#downgrades {
+	text-align: center;
+}
