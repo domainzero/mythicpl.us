@@ -131,6 +131,8 @@ body {
 	font-weight: 700;
 	font-size: calc(.5vw + .5vmin);
 	text-transform: uppercase;
+	will-change: transform;
+    transition: transform 200ms linear;
 }
 
 .nav > ul {
@@ -247,7 +249,7 @@ ul + .title--medium {
 		display: inline;
 		margin-right: 10px;
 		padding-right: 10px;
-		border-right: 1px solid rgba(255, 255, 255, 0.1)
+		border-right: 1px solid rgba(154, 157, 161, 1)
 	}
 }
 
@@ -486,6 +488,13 @@ ul + .title--medium {
 footer {
 	font-size: 10px;
 }
-#downgrades {
+#lootcenter {
 	text-align: center;
+}
+
+.headroom--pinned {
+    transform: translateY(0%);
+}
+.headroom--unpinned {
+    transform: translateY(-100%);
 }
