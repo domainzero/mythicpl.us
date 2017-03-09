@@ -212,6 +212,32 @@ var mplusT3toMax = 0;
 var mplusT4toMax = 0;
 
 //helper functions
+function resetValues(){
+	apToLevel = 0;
+	apToMax = 0;
+	apTo35 = 0;
+	apTo54 = 0;
+	akMultiplier = 0;
+	show35Info = 0;
+	show54Info = 0;
+	mplusT1toLevel = 0;
+	mplusT2toLevel = 0;
+	mplusT3toLevel = 0;
+	mplusT4toLevel = 0;
+	mplusT1to35 = 0;
+	mplusT2to35 = 0;
+	mplusT3to35 = 0;
+	mplusT4to35 = 0;
+	mplusT1to54 = 0;
+	mplusT2to54 = 0;
+	mplusT3to54 = 0;
+	mplusT4to54 = 0;
+	mplusT1toMax = 0;
+	mplusT2toMax = 0;
+	mplusT3toMax = 0;
+	mplusT4toMax = 0;
+}
+
 function numberWithCommas(x) {
     return x.toString().replace(/\B(?=(?:\d{3})+(?!\d))/g, ",");
 }
@@ -244,7 +270,7 @@ function CalculateAPtoMax () {
 function CalculateAPto35 () {
 	if (currentArtifactLevel < ARTIFACT_LEVEL_35) {
 		apTo35 = Number(artifactLevelCost[Number(ARTIFACT_LEVEL_35)][1]) - Number(currentTotalAP);
-		show35Info = 1;
+		;
 	}
 	else {
 		apTo35 = 0; // again, should be 0, but just to be sure.
@@ -382,6 +408,7 @@ function At54OrNot () {
 */
 // call all the functions
 function OnClickCalculate () {
+	resetValues();
 	GetUserInputFromPage();	
 	CalculateAPTotal();
 	CalculateAPto35();
