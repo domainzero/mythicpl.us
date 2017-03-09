@@ -414,9 +414,12 @@
 					<p>I sometimes stream <a href="https://twitch.tv/doublejungle">on Twitch.</a> You can also verify all my identities <a href="https://keybase.io/domain">here.</a></p>
 				</footer>
 		</main>
+		<script src="assets/headroom.min.js"></script>
 		<script>
 		// grab an element
+		var hideTheNav = document.querySelector(".nav");
 		// construct an instance of Headroom, passing the element
+			var headroom = new Headroom(hideTheNav, {
 			  "offset": 200,
 			  "tolerance": 1,
 			  "classes": {
