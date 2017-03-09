@@ -205,7 +205,7 @@ input::-webkit-outer-spin-button {
 .back>ul>a>li::before {
     content: none
 }
-
+/*
 #m10to35,
 #m23to35,
 #m46to35,
@@ -220,3 +220,4 @@ input::-webkit-outer-spin-button {
 #mto54 {
     visibility: collapse
 }
+*/

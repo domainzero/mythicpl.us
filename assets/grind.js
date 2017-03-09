@@ -223,15 +223,18 @@ function CalculateAPTotal () {
 function CalculateAPtoLevel () {
 	if (currentArtifactLevel < MAX_ARTIFACT_LEVEL) {
 		apToLevel = Number(artifactLevelCost[Number(currentArtifactLevel) + 1][0]) - Number(currentAPinLevel);
+	if (apToLevel < 0){
+		apToLevel = 0;
+		}
 	}
 	else {
-		apToLevel = 0; // should already be 0, but what the hell
+		apToLevel <= 0; // should already be 0, but what the hell
 	}
 }
 //calculate AP to max level. 111 on PTR/7.2
 function CalculateAPtoMax () {
-	if (currentArtifactLevel < MAX_ARTIFACT_LEVEL) {
-		apToMax = Number(maxLevelAP) - Number(currentTotalAP);	
+	if (currentArtifactLevel < MAX_ARTIFACT_LEVEL && currentTotalAP < maxLevelAP) {
+		apToMax = Number(maxLevelAP) - Number(currentTotalAP);	 
 	}
 	else {
 		apToMax = 0; // again, should be 0, but just to be sure.
@@ -268,25 +271,33 @@ function CalculateRuns () {
 	var t3ScaledRewards = apRewards["T3"] * akMultiplier;
 	var t4ScaledRewards = apRewards["T4"] * akMultiplier;
 	// Calculate M+ runs to level
-	mplusT1toLevel = Math.round((apToLevel / t1ScaledRewards) + .5);
-	mplusT2toLevel = Math.round((apToLevel / t2ScaledRewards) + .5);
-	mplusT3toLevel = Math.round((apToLevel / t3ScaledRewards) + .5);
-	mplusT4toLevel = Math.round((apToLevel / t4ScaledRewards) + .5);
+		if (apToLevel > 0 ){
+			mplusT1toLevel = Math.round((apToLevel / t1ScaledRewards) + .5);
+			mplusT2toLevel = Math.round((apToLevel / t2ScaledRewards) + .5);
+			mplusT3toLevel = Math.round((apToLevel / t3ScaledRewards) + .5);
+			mplusT4toLevel = Math.round((apToLevel / t4ScaledRewards) + .5);
+		}	
 	// Calculate M+ runs to 35
-	mplusT1to35 = Math.round((apTo35 / t1ScaledRewards) + .5);
-	mplusT2to35 = Math.round((apTo35 / t2ScaledRewards) + .5);
-	mplusT3to35 = Math.round((apTo35 / t3ScaledRewards) + .5);
-	mplusT4to35 = Math.round((apTo35 / t4ScaledRewards) + .5);
+		if (apTo35 > 0){
+			mplusT1to35 = Math.round((apTo35 / t1ScaledRewards) + .5);
+			mplusT2to35 = Math.round((apTo35 / t2ScaledRewards) + .5);
+			mplusT3to35 = Math.round((apTo35 / t3ScaledRewards) + .5);
+			mplusT4to35 = Math.round((apTo35 / t4ScaledRewards) + .5);
+		}
 	// Calculate M+ runs to 54
-	mplusT1to54 = Math.round((apTo54 / t1ScaledRewards) + .5);
-	mplusT2to54 = Math.round((apTo54 / t2ScaledRewards) + .5);
-	mplusT3to54 = Math.round((apTo54 / t3ScaledRewards) + .5);
-	mplusT4to54 = Math.round((apTo54 / t4ScaledRewards) + .5);
+		if (apTo54 > 0){
+			mplusT1to54 = Math.round((apTo54 / t1ScaledRewards) + .5);
+			mplusT2to54 = Math.round((apTo54 / t2ScaledRewards) + .5);
+			mplusT3to54 = Math.round((apTo54 / t3ScaledRewards) + .5);
+			mplusT4to54 = Math.round((apTo54 / t4ScaledRewards) + .5);
+		}	
 	// Calculate M+ runs to max
-	mplusT1toMax = Math.round((apToMax / t1ScaledRewards) + .5);
-	mplusT2toMax = Math.round((apToMax / t2ScaledRewards) + .5);
-	mplusT3toMax = Math.round((apToMax / t3ScaledRewards) + .5);
-	mplusT4toMax = Math.round((apToMax / t4ScaledRewards) + .5);
+		if (apToMax > 0){
+			mplusT1toMax = Math.round((apToMax / t1ScaledRewards) + .5);
+			mplusT2toMax = Math.round((apToMax / t2ScaledRewards) + .5);
+			mplusT3toMax = Math.round((apToMax / t3ScaledRewards) + .5);
+			mplusT4toMax = Math.round((apToMax / t4ScaledRewards) + .5);
+	}
 }
 function GetUserInputFromPage () {
 	currentArtifactLevel = document.getElementById("currentlvl").value;
@@ -299,10 +310,10 @@ function UpdateResultsToPage () {
 	document.getElementById("tolevel").innerText= numberWithCommas(apToLevel);
 	document.getElementById("tomax").innerText= numberWithCommas(apToMax);
 	// to 35
-	document.getElementById("m23to35").innerText= numberWithCommas(mplusT1to35);
-	document.getElementById("m46to35").innerText= numberWithCommas(mplusT2to35);
-	document.getElementById("m79to35").innerText= numberWithCommas(mplusT3to35);
-	document.getElementById("m10to35").innerText= numberWithCommas(mplusT4to35);
+	document.getElementById("m23to35").innerText= mplusT1to35;
+	document.getElementById("m46to35").innerText= mplusT2to35;
+	document.getElementById("m79to35").innerText= mplusT3to35;
+	document.getElementById("m10to35").innerText= mplusT4to35;
 	// to 54
 	document.getElementById("m23to54").innerText= numberWithCommas(mplusT1to54);
 	document.getElementById("m46to54").innerText= numberWithCommas(mplusT2to54);
@@ -319,6 +330,7 @@ function UpdateResultsToPage () {
 	document.getElementById("m79max").innerText= numberWithCommas(mplusT3toMax);
 	document.getElementById("m10max").innerText= numberWithCommas(mplusT4toMax);
 }
+/*
 function At35OrNot () {
 	if (apTo35 >= 1) {
 		document.getElementById("mto35").style.visibility = "visible";
@@ -330,7 +342,7 @@ function At35OrNot () {
 		for (i=0; i < 5; i++){
 		document.getElementById("hideme" + i).style.display= "table-cell";
 	}
-}
+	}
 	else if (apTo35 < 1) {
 		document.getElementById("mto35").style.visibility = "collapse";
 		document.getElementById("m23to35").style.visibility = "collapse";
@@ -338,7 +350,7 @@ function At35OrNot () {
 		document.getElementById("m79to35").style.visibility = "collapse";
 		document.getElementById("m10to35").style.visibility = "collapse";
 		document.getElementById("mto35").style.display = "none";
-		for (i=0; i < 5; i++){
+		/*for (i=0; i < 5; i++){
 		document.getElementById("hideme" + i).style.display= "none";	
 		}
 	}
@@ -351,7 +363,7 @@ function At54OrNot () {
 		document.getElementById("m79to54").style.visibility = "visible";
 		document.getElementById("m10to54").style.visibility = "visible";
 		document.getElementById("mto54").style.display = "table-cell";
-		for (i=0; i < 5; i++){
+		/*for (i=0; i < 5; i++){
 		document.getElementById("hidemeb" + i).style.display= "table-cell";
 	}
 }
@@ -362,11 +374,12 @@ function At54OrNot () {
 		document.getElementById("m79to54").style.visibility = "collapse";
 		document.getElementById("m10to54").style.visibility = "collapse";
 		document.getElementById("mto54").style.display = "none";
-		for (i=0; i < 5; i++){
+		/* for (i=0; i < 5; i++){
 		document.getElementById("hidemeb" + i).style.display= "none";	
 		}
 	}
 }
+*/
 // call all the functions
 function OnClickCalculate () {
 	GetUserInputFromPage();	
@@ -379,10 +392,5 @@ function OnClickCalculate () {
 	CalculateRuns();
 	UpdateResultsToPage();
 	document.getElementById("maincalcs").style.display = "flex";
-	if (show35Info = 1){
-		At35OrNot();
-	}
-	else if (show35Info = 0){
-		At54OrNot();
-	}
 }
+
