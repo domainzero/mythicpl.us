@@ -111,7 +111,6 @@ var artifactLevelCost = {
 	110:[ 6000000, 399166330 ],
 	111:[ 6000000, 405166330 ],
 }; 
-
 var artifactKnowledge = {
 	0:  1,
 	1:  1.25,
@@ -172,6 +171,7 @@ var apRewards = {
 	T4: 1200,
 }
 var ARTIFACT_LEVEL_35 = 35;
+var ARTIFACT_LEVEL_54 = 54;
 var MAX_ARTIFACT_LEVEL = 111;
 var MAX_ARTIFACT_KNOWLEDGE = 50;
 
@@ -185,9 +185,11 @@ var maxLevelAP = artifactLevelCost[MAX_ARTIFACT_LEVEL][1];
 var apToLevel = 0;
 var apToMax = 0;
 var apTo35 = 0;
+var apTo54 = 0;
 var akMultiplier = 0;
 
 var show35Info = 0;
+var show54Info = 0;
 
 var mplusT1toLevel = 0;
 var mplusT2toLevel = 0;
@@ -199,6 +201,11 @@ var mplusT2to35 = 0;
 var mplusT3to35 = 0;
 var mplusT4to35 = 0;
 
+var mplusT1to54 = 0;
+var mplusT2to54 = 0;
+var mplusT3to54 = 0;
+var mplusT4to54 = 0;
+
 var mplusT1toMax = 0;
 var mplusT2toMax = 0;
 var mplusT3toMax = 0;
@@ -208,9 +215,11 @@ var mplusT4toMax = 0;
 function numberWithCommas(x) {
     return x.toString().replace(/\B(?=(?:\d{3})+(?!\d))/g, ",");
 }
+// calculate current total AP in weapon
 function CalculateAPTotal () {
 	currentTotalAP = Number(artifactLevelCost[currentArtifactLevel][1]) + Number(currentAPinLevel);
 }
+//calculate AP to next level up
 function CalculateAPtoLevel () {
 	if (currentArtifactLevel < MAX_ARTIFACT_LEVEL) {
 		apToLevel = Number(artifactLevelCost[Number(currentArtifactLevel) + 1][0]) - Number(currentAPinLevel);
@@ -219,6 +228,7 @@ function CalculateAPtoLevel () {
 		apToLevel = 0; // should already be 0, but what the hell
 	}
 }
+//calculate AP to max level. 111 on PTR/7.2
 function CalculateAPtoMax () {
 	if (currentArtifactLevel < MAX_ARTIFACT_LEVEL) {
 		apToMax = Number(maxLevelAP) - Number(currentTotalAP);	
@@ -227,6 +237,7 @@ function CalculateAPtoMax () {
 		apToMax = 0; // again, should be 0, but just to be sure.
 	}
 }
+// Calculate AP to artifact level 35
 function CalculateAPto35 () {
 	if (currentArtifactLevel < ARTIFACT_LEVEL_35) {
 		apTo35 = Number(artifactLevelCost[Number(ARTIFACT_LEVEL_35)][1]) - Number(currentTotalAP);
@@ -236,6 +247,17 @@ function CalculateAPto35 () {
 		apTo35 = 0; // again, should be 0, but just to be sure.
 	}
 }
+// Calculate AP to current artifact max, 54
+function CalculateAPto54 () {
+	if (currentArtifactLevel < ARTIFACT_LEVEL_54) {
+		apTo54 = Number(artifactLevelCost[Number(ARTIFACT_LEVEL_54)][1]) - Number(currentTotalAP);
+		show54Info = 1;
+	}
+	else {
+		apTo54 = 0; // again, should be 0, but just to be sure.
+	}
+}
+//Get the AK multiplier
 function GetAKMultiplier () {
 	akMultiplier = artifactKnowledge[currentArtifactKnowledge];
 }
@@ -245,17 +267,22 @@ function CalculateRuns () {
 	var t2ScaledRewards = apRewards["T2"] * akMultiplier;
 	var t3ScaledRewards = apRewards["T3"] * akMultiplier;
 	var t4ScaledRewards = apRewards["T4"] * akMultiplier;
-
+	// Calculate M+ runs to level
 	mplusT1toLevel = Math.round((apToLevel / t1ScaledRewards) + .5);
 	mplusT2toLevel = Math.round((apToLevel / t2ScaledRewards) + .5);
 	mplusT3toLevel = Math.round((apToLevel / t3ScaledRewards) + .5);
 	mplusT4toLevel = Math.round((apToLevel / t4ScaledRewards) + .5);
-
+	// Calculate M+ runs to 35
 	mplusT1to35 = Math.round((apTo35 / t1ScaledRewards) + .5);
 	mplusT2to35 = Math.round((apTo35 / t2ScaledRewards) + .5);
 	mplusT3to35 = Math.round((apTo35 / t3ScaledRewards) + .5);
 	mplusT4to35 = Math.round((apTo35 / t4ScaledRewards) + .5);
-
+	// Calculate M+ runs to 54
+	mplusT1to54 = Math.round((apTo54 / t1ScaledRewards) + .5);
+	mplusT2to54 = Math.round((apTo54 / t2ScaledRewards) + .5);
+	mplusT3to54 = Math.round((apTo54 / t3ScaledRewards) + .5);
+	mplusT4to54 = Math.round((apTo54 / t4ScaledRewards) + .5);
+	// Calculate M+ runs to max
 	mplusT1toMax = Math.round((apToMax / t1ScaledRewards) + .5);
 	mplusT2toMax = Math.round((apToMax / t2ScaledRewards) + .5);
 	mplusT3toMax = Math.round((apToMax / t3ScaledRewards) + .5);
@@ -276,6 +303,11 @@ function UpdateResultsToPage () {
 	document.getElementById("m46to35").innerText= numberWithCommas(mplusT2to35);
 	document.getElementById("m79to35").innerText= numberWithCommas(mplusT3to35);
 	document.getElementById("m10to35").innerText= numberWithCommas(mplusT4to35);
+	// to 54
+	document.getElementById("m23to54").innerText= numberWithCommas(mplusT1to54);
+	document.getElementById("m46to54").innerText= numberWithCommas(mplusT2to54);
+	document.getElementById("m79to54").innerText= numberWithCommas(mplusT3to54);
+	document.getElementById("m10to54").innerText= numberWithCommas(mplusT4to54);
 	// to level
 	document.getElementById("m23lvl").innerText= numberWithCommas(mplusT1toLevel);
 	document.getElementById("m46lvl").innerText= numberWithCommas(mplusT2toLevel);
@@ -311,16 +343,46 @@ function At35OrNot () {
 		}
 	}
 }
+function At54OrNot () {
+	if (apTo54 >= 1) {
+		document.getElementById("mto54").style.visibility = "visible";
+		document.getElementById("m23to54").style.visibility = "visible";
+		document.getElementById("m46to54").style.visibility = "visible";
+		document.getElementById("m79to54").style.visibility = "visible";
+		document.getElementById("m10to54").style.visibility = "visible";
+		document.getElementById("mto54").style.display = "table-cell";
+		for (i=0; i < 5; i++){
+		document.getElementById("hidemeb" + i).style.display= "table-cell";
+	}
+}
+	else if (apTo54 < 1) {
+		document.getElementById("mto54").style.visibility = "collapse";
+		document.getElementById("m23to54").style.visibility = "collapse";
+		document.getElementById("m46to54").style.visibility = "collapse";
+		document.getElementById("m79to54").style.visibility = "collapse";
+		document.getElementById("m10to54").style.visibility = "collapse";
+		document.getElementById("mto54").style.display = "none";
+		for (i=0; i < 5; i++){
+		document.getElementById("hidemeb" + i).style.display= "none";	
+		}
+	}
+}
 // call all the functions
 function OnClickCalculate () {
 	GetUserInputFromPage();	
 	CalculateAPTotal();
 	CalculateAPto35();
+	CalculateAPto54();
 	CalculateAPtoLevel();
 	CalculateAPtoMax();
 	GetAKMultiplier();
 	CalculateRuns();
 	UpdateResultsToPage();
 	document.getElementById("maincalcs").style.display = "flex";
-	At35OrNot();
+	if (show35Info = 1){
+		At35OrNot();
+	}
+	else if (show35Info = 0){
+		At54OrNot();
+	}
 }
