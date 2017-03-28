@@ -1,9 +1,9 @@
 				(function() {
 				  var COLORS, Confetti, NUM_CONFETTI, PI_2, canvas, confetti, context, drawCircle, i, range, resizeWindow, xpos;
 
-				  NUM_CONFETTI = 150;
+				  NUM_CONFETTI = 75;
 
-				  COLORS = [[85, 71, 106], [174, 61, 99], [219, 56, 83], [244, 92, 68], [248, 182, 70]];
+				  COLORS = [[213, 0, 0], [76, 175, 80], [255, 152, 0], [244, 92, 68], [248, 182, 70]];
 
 				  PI_2 = 2 * Math.PI;
 
