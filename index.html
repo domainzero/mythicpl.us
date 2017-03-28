@@ -10,6 +10,7 @@
 		<meta name="keywords" content="mythic+,mythic_plus,mythic_+,world of warcraft, mythic dungeons,warcraft,mythic plus, legion, warlords, keystone, keystone affixes, affixes, keystones">
 	</head>
 	<body>
+	<canvas id="confetti"></canvas>
 		<main class="main" id="this_week">
 			<section class="nav">
 				<ul>
@@ -22,11 +23,16 @@
 					<a href="#useful-stuff"><li>Resources</li></a>
 				</ul>
 			</section>
+			
 			<section class="atf content-block">
-				<h4 class="title title--small tagline">what m+ garbage do i have to deal with this week? (now with ptr notes!)</h4>
+				<h4 class="title title--small tagline">what m+ garbage do i have to deal with this week?</h4>
 				<article class="affixes">
-					<h1 id="thisweek" class="title title--large"><span class="title__intro">US</span></h1>
-					<h1 id="thisweekeu" class="title title--large"><span class="title__intro">EU</span></h1><br>
+					<h1 id="thisweek" class="title title--large"><span class="title__intro">US</span>7.2 WOOOOOOOOO!</h1>
+					<h1 id="thisweekeu" class="title title--large"><span class="title__intro">EU</span>???, ???, ???</h1><br>
+					<center>
+					<h1>Accepting any and all information over at the <a href="https://github.com/domainzero/mythicpl.us/issues">github</a> or via discord, domain#2722 <br>
+					7.2 notes are live! the calculator is boned while I figure out new AP values</h1>
+					</center>
 					<div class="arrow">
 					↓
 					</div>
@@ -35,13 +41,13 @@
 			<section class="next content-block content-block--small">
 				<h4 class="title title--small tagline">Next week</h4>
 				<article>
-					<h4 id="nextweek" class="title title--small"><span class="title__intro">us</span></h4>
-					<h4 id="nextweekeu" class="title title--small"><span class="title__intro">eu</span></h4>
+					<h4 id="nextweek" class="title title--small"><span class="title__intro">us</span>???</h4>
+					<h4 id="nextweekeu" class="title title--small"><span class="title__intro">eu</span>???</h4>
 				</article>
 				<h4 class="next title--small tagline">Week after next</h4>
 				<article>
-					<h4 id="weekafternext" class="title title--small"><span class="title__intro">us</span></h4>
-					<h4 id="weekafternexteu" class="title title--small"><span class="title__intro">eu</span></h4>
+					<h4 id="weekafternext" class="title title--small"><span class="title__intro">us</span>???</h4>
+					<h4 id="weekafternexteu" class="title title--small"><span class="title__intro">eu</span>???</h4>
 			</article> 
 			</section>
 
@@ -65,44 +71,36 @@
 				<div class="affixes-block">
 					<h3 class="title title--medium affixes-block__title">Level 4 affixes <div class="title__subtitle">(these occur at +4 keystones)</div></h3>
 					<ul class="affixes-list">
-						<li class="affixes-list__item-4-7"><p><span class="med">Bolstering</span>Non-boss enemies will buff nearby allies' health and damage when defeated.</p> <p class="affixes-list__note">Note: it's important to kill all the trash in a pull as closely together as possible with this affix as mobs effectively heal as they gain max health (percent translation). If not careful on large trash pulls it's possible to create an unkillable mob by bolstering it a lot (SUPER CRAB). Adds spawned from a trash mob or boss ability do not trigger bolster. It's possible to reset bolster on mobs by resetting them via wiping or exiting combat.</p></li>
+						<li class="affixes-list__item-4-7"><p><span class="med">Bolstering</span>Non-boss enemies will buff nearby allies' health and damage when defeated with a 30yd effective range.</p> <p class="affixes-list__note">Note: it's important to kill all the trash in a pull as closely together as possible with this affix as mobs effectively heal as they gain max health (percent translation). If not careful on large trash pulls it's possible to create an unkillable mob by bolstering it a lot (SUPER CRAB). Adds spawned from a trash mob or boss ability do not trigger bolster. It's possible to reset bolster on mobs by resetting them via wiping or exiting combat.</p></li>
 						<li class="affixes-list__item-4-7"><p><span class="med">Raging</span>Non-boss enemies will enrage at low health, dealing double damage until killed.</p> <p class="affixes-list__note">Note: mobs with high damage targeted abilities or high damage AoE abilities become deadly with this affix. Be sure to focus fire mobs down so there aren't multiple enraged mobs at once.</p></li>
-						<li class="affixes-list__item-4-7"><p><span class="easy">Sanguine</span>Shortly after death, non-boss enemies will leave a pool of blood on the ground, which grows to a 5yd radius over 2 seconds. This pool heals enemies and damages players for a % of their maximum health.</p> <p class="affixes-list__note">Note: ez pz affix, don't stand in pools and make sure mobs don't stand in them either.</p></li>
+						<li class="affixes-list__item-4-7"><p><span class="easy">Sanguine</span>Shortly after death, non-boss enemies will leave a pool of blood on the ground, which grows to a 5yd radius over 2 seconds. This pool heals enemies and damages players for a % of their maximum health. The pool's radius is 8 yds.</p> <p class="affixes-list__note">Note: ez pz affix, don't stand in pools and make sure mobs don't stand in them either.</p></li>
 						<li class="affixes-list__item-4-7"><p><span class="med">Teeming</span>Additional non-boss enemies are present throughout the dungeon; kill count requirement increased.</p> <p class="affixes-list__note">Note: many mobs, handle it. not much different from usual unless paired with a bad later affix. Most notable change with this affix is that the Enemy Forces Defeated kill requirement is increased. Certain trash pulls can be really nasty with this affix depending on the dungeon.</p></li>
+						<li class="affixes-list__item-4-7"><p><span class="idk">Bursting</span>When slain, non-boss enemies explode, causing all players to suffer 10% of their maximum health in damage over 4 seconds. This effect stacks.<p class="affixes-list__note">Note: Spread out and stay away from mobs as they're dying.</p></li>
 					</ul>
 				</div>
 
 				<div class="affixes-block">
 					<h3 class="title title--medium affixes-block__title">Level 7 affixes <div class="title__subtitle">(these occur at +7 keystones)</div></h3>
 					<ul class="affixes-list">
-						<li class="affixes-list__item-4-7"><p><span class="easy">Overflowing</span>Overhealing causes the target to gain a healing absorption shield for three times the amount overhealed.</p><p class="affixes-list__note">Note: only people specced as healer will trigger this effect. Self-heals do not count toward the healing absorption shield. The shield is not additive. <strong>This affix is going away in 7.2</strong></p></li>
-						<li class="affixes-list__item-4-7"><p><span class="hard">Necrotic</span>Enemy melee attacks apply a stacking debuff that deals damage and reduces healing received. This debuff now drops on exiting combat as of 2/21 hotfix. <a href="https://twitter.com/WarcraftDevs/status/836292591121387520">Official Tweet here.</a></p><p class="affixes-list__note">Note: Strong AoE CC or slows are great for this affix to allow for kiting mobs while the tank's Necrotic stacks fall off.</p></li>
-						<li class="affixes-list__item-4-7"><p><span class="hard">Skittish</span>Tanks generate 80% less threat.</p><p class="affixes-list__note">Note: This affix is a lot easier if Tricks of the Trade or Misdirection are used on cooldown. Strong AoE CC is beneficial here as well in case mobs get loose.</p></li>
+						<li class="affixes-list__item-4-7"><p><span class="hard">Necrotic</span>Enemy melee attacks apply a stacking debuff that deals damage and reduces healing received. Debuff lasts 9 seconds. This debuff now drops on exiting combat as of 2/21 hotfix. <a href="https://twitter.com/WarcraftDevs/status/836292591121387520">Official Tweet here.</a></p><p class="affixes-list__note">Note: Strong AoE CC or slows are great for this affix to allow for kiting mobs while the tank's Necrotic stacks fall off.</p></li>
+						<li class="affixes-list__item-4-7"><p><span class="hard">Skittish</span>Tanks generate 75% less threat.</p><p class="affixes-list__note">Note: This affix is a lot easier if Tricks of the Trade or Misdirection are used on cooldown. Strong AoE CC is beneficial here as well in case mobs get loose.</p></li>
 						<li class="affixes-list__item-4-7"><p><span class="easy">Volcanic</span>Enemies cause eruptions of flame beneath the feet of distant players. If there are no distant players, volcanoes will spawn under anyone randomly.</p><p class="affixes-list__note">Note: ez pz tier two affix. Volcanic may actually worked based on your distance from enemies vs. just checking if people are in range or not. Regardless, keep an eye out for the volcano animation under your feet.</p></li>
+						<li class="affixes-list__item-4-7"><p><span class="idk">Fel Explosives</span>Creatures have a chance to summon an Explosive Orb at a nearby location that will explode, inflicting damage 50% of the player’s maximum health as damage.<p class="affixes-list__note">Note: Similar to Volcanic. Make sure you keep an eye out for Orbs.</p></li>
+						<li class="affixes-list__item-4-7"><p><span class="idk">Quaking</span>Players will periodically Quake, inflicting 20% of the player’s maximum health as damage and interrupting spell casts of themselves and nearby allies.</p><p class="affixes-list__note">No notes on this yet.</p></li>
+						<li class="affixes-list__item-4-7"><p><span class="idk">Grievous</span>Note: While below 90% health, players are afflicted with Grievous Wound.
+						<p class="affixes-list__note">Note: You bleed until you are healed above 90%.</p></li>
 					</ul>
 				</div>
 
 				<div class="affixes-block">
 					<h3 class="title title--medium affixes-block__title">Level 10 affixes <div class="title__subtitle">(these occur at +10 keystones)</div></h3>
 					<ul class="affixes-list">
-						<li class="affixes-list__item-10"><p><span class="hard">Fortified</span>Non-bosses have more health and deal more damage.</p>
+						<li class="affixes-list__item-10"><p><span class="hard">Fortified</span>Non-bosses have more health and deal 30% more damage.</p>
 						<p class="affixes-list__note">Note: interrupting and dodging any/all trash mob abilities becomes an absolute priority with this affix (do this anyway :^) ). Most of the time spent in the dungeon will be fighting beefy trash so use DPS cooldowns on big trash pulls to speed things up.</p></li>
-						<li class="affixes-list__item-10"><p><span class="hard">Tyrannical</span>Bosses have more health and deal more damage.</p>
+						<li class="affixes-list__item-10"><p><span class="hard">Tyrannical</span>Bosses have more health and deal 15% more damage.</p>
 						<p class="affixes-list__note">Note: Boss abilities are no longer trivial. Boss mechanics need to be done or people will die. Some fights become endurance tests because they last so long. Bosses that are real assholes with Tyrannical: Advisor Melandrus, Shade of Xavius, Archdruid Glaidalis, etc</p></li>
 					</ul>
 				</div>
-				<div class="affixes-block">
-					<h3 class="title title--medium affixes-block__title">7.2 PTR affixes<div class="title__subtitle"> (these aren't live yet and are subject to change)</div></h3>
-					<ul class="affixes-list">
-						<li class="affixes-list__item-10"><p><span class="easy">Bursting</span>(Level 4) When slain, non-boss enemies explode, causing all players to suffer 10% of their maximum health in damage over 4 seconds. This effect stacks.</p></li>
-						<li class="affixes-list__item-10"><p><span class="easy">Explosive</span>(Level 7) Creatures have a chance to summon an Explosive Orb at a nearby location that will explode, inflicting damage of 50% of the player’s maximum health.</p></li>
-						<li class="affixes-list__item-10"><p><span class="easy">Quaking</span>(Level 7) Players will periodically Quake, inflicting 20% of the player’s maximum health as damage and interrupting spell casts of themselves and nearby allies.</p></li>
-						<li class="affixes-list__item-10"><p><span class="easy">Grievous</span>(Level 7) While below 90% health, players are afflicted with Grievous Wound.
-						<p class="affixes-list__note">Note: I'm assuming this is like the Grevious Wound you get from the cats in Darkheart Thicket where you bleed until you are healed above 90%. This is probably to make a more interesting affix than Overflowing, as that is being removed.</p></p></li>
-					</ul>
-					<div><center>Other current PTR notes <a href="https://mythicpl.us/ptr.txt">here</a>. (Straight from Wowhead.)</center></div>
-				</div>
-
 				<h4 class="title title--small">Weekly schedule for affixes</h4>
 				<table id= "sched" class="table">
 					<thead class="table__head">
@@ -114,43 +112,43 @@
 					</thead>
 					<tbody>
 						<tr class="table__row">
-							<td class="table__cell"><span class="med">Raging</span></td>
-							<td class="table__cell"><span class="hard">Necrotic</span></td>
-							<td class="table__cell"><span class="hard">Fortified</span></td>
+							<td class="table__cell"><span class="med">???</span></td>
+							<td class="table__cell"><span class="hard">???</span></td>
+							<td class="table__cell"><span class="hard">???</span></td>
 						<tr class="table__row">
-							<td class="table__cell"><span class="med">Bolstering</span></td>
-							<td class="table__cell"><span class="easy">Overflowing</span></td>
-							<td class="table__cell"><span class="hard">Tyrannical</span></td>
+							<td class="table__cell"><span class="med">???</span></td>
+							<td class="table__cell"><span class="easy">???</span></td>
+							<td class="table__cell"><span class="hard">???</span></td>
 						</tr>
 						<tr class="table__row">
-							<td class="table__cell"><span class="easy">Sanguine</span></td>
-							<td class="table__cell"><span class="easy">Volcanic</span></td>
-							<td class="table__cell"><span class="hard">Fortified</span></td>
+							<td class="table__cell"><span class="easy">???</span></td>
+							<td class="table__cell"><span class="easy">???</span></td>
+							<td class="table__cell"><span class="hard">???</span></td>
 						</tr>
 						<tr class="table__row">
-							<td class="table__cell"><span class="med">Teeming</span></td>
-							<td class="table__cell"><span class="hard">Necrotic</span></td>
-							<td class="table__cell"><span class="hard">Tyrannical</span></td>
+							<td class="table__cell"><span class="med">???</span></td>
+							<td class="table__cell"><span class="hard">???</span></td>
+							<td class="table__cell"><span class="hard">???</span></td>
 						</tr>
 						<tr class="table__row">
-							<td class="table__cell"><span class="med">Raging</span></td>
-							<td class="table__cell"><span class="easy">Volcanic</span></td>
-							<td class="table__cell"><span class="hard">Tyrannical</span></td>
+							<td class="table__cell"><span class="med">???</span></td>
+							<td class="table__cell"><span class="easy">???</span></td>
+							<td class="table__cell"><span class="hard">???</span></td>
 						</tr>
 						<tr class="table__row">
-							<td class="table__cell"><span class="med">Bolstering</span></td>
-							<td class="table__cell"><span class="hard">Skittish</span></td>
-							<td class="table__cell"><span class="hard">Fortified</span></td>
+							<td class="table__cell"><span class="med">???</span></td>
+							<td class="table__cell"><span class="hard">???</span></td>
+							<td class="table__cell"><span class="hard">???</span></td>
 						</tr>
 						<tr class="table__row">
-							<td class="table__cell"><span class="easy">Sanguine</span></td>
-							<td class="table__cell"><span class="easy">Overflowing</span></td>
-							<td class="table__cell"><span class="hard">Tyrannical</span></td>
+							<td class="table__cell"><span class="easy">???</span></td>
+							<td class="table__cell"><span class="easy">???</span></td>
+							<td class="table__cell"><span class="hard">???</span></td>
 						</tr>
 						<tr class="table__row">
-							<td class="table__cell"><span class="med">Teeming</span></td>
-							<td class="table__cell"><span class="hard">Skittish</span></td>
-							<td class="table__cell"><span class="hard">Fortified</span></td>
+							<td class="table__cell"><span class="med">???</span></td>
+							<td class="table__cell"><span class="hard">???</span></td>
+							<td class="table__cell"><span class="hard">???</span></td>
 						</tr>
 					</tbody>
 				</table>
@@ -217,6 +215,21 @@
 							<td class="table__cell">Vault of the Wardens: <strong>33:00</strong></td>
 							<td class="table__cell">26:24 <span class="table__note">(6:36 left on the timer)</span></td>
 							<td class="table__cell">19:48 <span class="table__note">(13:12 left on the timer)</span></td>
+						</tr>
+						<tr class="table__row">
+							<td class="table__cell">Lower Karazhan: <strong>??:??</strong></td>
+							<td class="table__cell">??:?? <span class="table__note">(??:?? left on the timer)</span></td>
+							<td class="table__cell">??:?? <span class="table__note">(??:?? left on the timer)</span></td>
+						</tr>
+						<tr class="table__row">
+							<td class="table__cell">Upper Karazhan: <strong>??:??</strong></td>
+							<td class="table__cell">??:?? <span class="table__note">(??:?? left on the timer)</span></td>
+							<td class="table__cell">??:?? <span class="table__note">(??:?? left on the timer)</span></td>
+						</tr>
+						<tr class="table__row">
+							<td class="table__cell">Cathedral of Eternal Night: <strong>??:??</strong></td>
+							<td class="table__cell">??:?? <span class="table__note">(??:?? left on the timer)</span></td>
+							<td class="table__cell">??:?? <span class="table__note">(??:?? left on the timer)</span></td>
 						</tr>
 					</tbody>
 				</table>
@@ -343,6 +356,7 @@
 					<p>&copy;dsus. suggestions welcome, hit me on discord: domain#2722, email me admin at mythicpl.us, or open an issue by posting one on <a href="https://github.com/domainzero/mythicpl.us/issues">GitHub</a> or emailing issues at mythicpl.us with your issue (does not require an account!)</p>
 					<p>I sometimes stream <a href="https://twitch.tv/doublejungle">on Twitch.</a> You can also verify all my identities <a href="https://keybase.io/domain">here.</a></p>
 				</footer>
+
 		</main>
 		<script src="assets/headroom.min.js"></script>
 		<script>
@@ -362,11 +376,11 @@
 			headroom.destroy();
 		</script>
 	</body>
-
+<script type="text/javascript" src="assets/confetti.js"></script>
 <script>
 !function(a,b,c,d,e,f,g){a.GoogleAnalyticsObject=e,a[e]=a[e]||function(){(a[e].q=a[e].q||[]).push(arguments)},a[e].l=1*new Date,f=b.createElement(c),g=b.getElementsByTagName(c)[0],f.async=1,f.src=d,g.parentNode.insertBefore(f,g)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-88138745-1","auto"),ga("send","pageview");
 </script>
-<script type="text/javascript" src="assets/us.js"></script>
+<!-- <script type="text/javascript" src="assets/us.js"></script> -->
 <Script type="text/javascript" src="assets/eu.js"></script>
 
 </html>

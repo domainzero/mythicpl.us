@@ -333,7 +333,7 @@ ul + .title--medium {
 	font-size: 5vw
 }
 
-.easy, .med, .hard {
+.easy, .med, .hard, .idk {
 	font-weight: 700;
 }
 
@@ -350,6 +350,9 @@ ul + .title--medium {
 	text-shadow: 1px 0 rgba(0, 0, 0, 0.5);
 }
 
+.idk{
+	color: #ffffff;
+}
 .legend {
 	margin-top: 30px;
 	text-shadow: 0 0 rgba(0, 0, 0, 0.5);
@@ -411,7 +414,9 @@ ul + .title--medium {
 .affixes-list__item-4-7:nth-child(1),
 .affixes-list__item-10:nth-child(1),
 .affixes-list__item-4-7:nth-child(4),
-.affixes-list__item-10:nth-child(4) {
+.affixes-list__item-10:nth-child(4),
+.affixes-list__item-4-7:nth-child(5)
+ {
 	background: rgba(255, 255, 255, 0.05);
 }
 
@@ -497,4 +502,11 @@ footer {
 }
 .headroom--unpinned {
     transform: translateY(-100%);
+}
+
+#confetti{
+	position: fixed;
+	top:0;
+	right:0;
+	pointer-events: none;
 }
