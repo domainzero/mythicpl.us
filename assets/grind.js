@@ -161,7 +161,7 @@ var apRewards = {
 	T4: 1200,
 }
 var ARTIFACT_LEVEL_35 = 35;
-var ARTIFACT_LEVEL_54 = 54;
+var ARTIFACT_LEVEL_52 = 52;
 var MAX_ARTIFACT_LEVEL = 101;
 var MAX_ARTIFACT_KNOWLEDGE = 50;
 
@@ -175,11 +175,11 @@ var maxLevelAP = artifactLevelCost[MAX_ARTIFACT_LEVEL][1];
 var apToLevel = 0;
 var apToMax = 0;
 var apTo35 = 0;
-var apTo54 = 0;
+var apTo52 = 0;
 var akMultiplier = 0;
 
 var show35Info = 0;
-var show54Info = 0;
+var show52Info = 0;
 
 var mplusT1toLevel = 0;
 var mplusT2toLevel = 0;
@@ -191,10 +191,10 @@ var mplusT2to35 = 0;
 var mplusT3to35 = 0;
 var mplusT4to35 = 0;
 
-var mplusT1to54 = 0;
-var mplusT2to54 = 0;
-var mplusT3to54 = 0;
-var mplusT4to54 = 0;
+var mplusT1to52 = 0;
+var mplusT2to52 = 0;
+var mplusT3to52 = 0;
+var mplusT4to52 = 0;
 
 var mplusT1toMax = 0;
 var mplusT2toMax = 0;
@@ -206,10 +206,10 @@ function resetValues(){
 	apToLevel = 0;
 	apToMax = 0;
 	apTo35 = 0;
-	apTo54 = 0;
+	apTo52 = 0;
 	akMultiplier = 0;
 	show35Info = 0;
-	show54Info = 0;
+	show52Info = 0;
 	mplusT1toLevel = 0;
 	mplusT2toLevel = 0;
 	mplusT3toLevel = 0;
@@ -218,10 +218,10 @@ function resetValues(){
 	mplusT2to35 = 0;
 	mplusT3to35 = 0;
 	mplusT4to35 = 0;
-	mplusT1to54 = 0;
-	mplusT2to54 = 0;
-	mplusT3to54 = 0;
-	mplusT4to54 = 0;
+	mplusT1to52 = 0;
+	mplusT2to52 = 0;
+	mplusT3to52 = 0;
+	mplusT4to52 = 0;
 	mplusT1toMax = 0;
 	mplusT2toMax = 0;
 	mplusT3toMax = 0;
@@ -266,14 +266,14 @@ function CalculateAPto35 () {
 		apTo35 = 0; // again, should be 0, but just to be sure.
 	}
 }
-// Calculate AP to current artifact max, 54
-function CalculateAPto54 () {
-	if (currentArtifactLevel < ARTIFACT_LEVEL_54) {
-		apTo54 = Number(artifactLevelCost[Number(ARTIFACT_LEVEL_54)][1]) - Number(currentTotalAP);
-		show54Info = 1;
+// Calculate AP to first concordance point, 52
+function CalculateAPto52 () {
+	if (currentArtifactLevel < ARTIFACT_LEVEL_52) {
+		apTo52 = Number(artifactLevelCost[Number(ARTIFACT_LEVEL_52)][1]) - Number(currentTotalAP);
+		show52Info = 1;
 	}
 	else {
-		apTo54 = 0; // again, should be 0, but just to be sure.
+		apTo52 = 0; // again, should be 0, but just to be sure.
 	}
 }
 //Get the AK multiplier
@@ -300,12 +300,12 @@ function CalculateRuns () {
 			mplusT3to35 = Math.round((apTo35 / t3ScaledRewards) + .5);
 			mplusT4to35 = Math.round((apTo35 / t4ScaledRewards) + .5);
 		}
-	// Calculate M+ runs to 54
-		if (apTo54 > 0){
-			mplusT1to54 = Math.round((apTo54 / t1ScaledRewards) + .5);
-			mplusT2to54 = Math.round((apTo54 / t2ScaledRewards) + .5);
-			mplusT3to54 = Math.round((apTo54 / t3ScaledRewards) + .5);
-			mplusT4to54 = Math.round((apTo54 / t4ScaledRewards) + .5);
+	// Calculate M+ runs to 52
+		if (apTo52 > 0){
+			mplusT1to52 = Math.round((apTo52 / t1ScaledRewards) + .5);
+			mplusT2to52 = Math.round((apTo52 / t2ScaledRewards) + .5);
+			mplusT3to52 = Math.round((apTo52 / t3ScaledRewards) + .5);
+			mplusT4to52 = Math.round((apTo52 / t4ScaledRewards) + .5);
 		}	
 	// Calculate M+ runs to max
 		if (apToMax > 0){
@@ -330,11 +330,11 @@ function UpdateResultsToPage () {
 	document.getElementById("m46to35").innerText= mplusT2to35;
 	document.getElementById("m79to35").innerText= mplusT3to35;
 	document.getElementById("m10to35").innerText= mplusT4to35;
-	// to 54
-	document.getElementById("m23to54").innerText= numberWithCommas(mplusT1to54);
-	document.getElementById("m46to54").innerText= numberWithCommas(mplusT2to54);
-	document.getElementById("m79to54").innerText= numberWithCommas(mplusT3to54);
-	document.getElementById("m10to54").innerText= numberWithCommas(mplusT4to54);
+	// to 52
+	document.getElementById("m23to52").innerText= numberWithCommas(mplusT1to52);
+	document.getElementById("m46to52").innerText= numberWithCommas(mplusT2to52);
+	document.getElementById("m79to52").innerText= numberWithCommas(mplusT3to52);
+	document.getElementById("m10to52").innerText= numberWithCommas(mplusT4to52);
 	// to level
 	document.getElementById("m23lvl").innerText= numberWithCommas(mplusT1toLevel);
 	document.getElementById("m46lvl").innerText= numberWithCommas(mplusT2toLevel);
@@ -402,7 +402,7 @@ function OnClickCalculate () {
 	GetUserInputFromPage();	
 	CalculateAPTotal();
 	CalculateAPto35();
-	CalculateAPto54();
+	CalculateAPto52();
 	CalculateAPtoLevel();
 	CalculateAPtoMax();
 	GetAKMultiplier();
