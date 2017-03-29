@@ -21,6 +21,7 @@
 					<a href="#keystone-upgrade"><li>Timers</li></a>
 					<a href="#loot-stuff"><li>Loot</li></a>
 					<a href="#useful-stuff"><li>Resources</li></a>
+					<a id="button"><li>show/hide confetti</li></a>
 				</ul>
 			</section>
 			
@@ -32,6 +33,7 @@
 					<center>
 					<blockquote>🎉 7.2 WOOOOOOOOO! 🎉 <br>
 					Accepting any and all information over at the <a href="https://github.com/domainzero/mythicpl.us/issues">github</a> or via discord, domain#2722 <br>
+					<br>
 					</blockquote>
 					</center>
 					<div class="arrow">
@@ -359,6 +361,19 @@
 
 		</main>
 		<script src="assets/headroom.min.js"></script>
+		<script>
+		var button = document.getElementById('button');
+
+		button.onclick = function() {
+		    var div = document.getElementById('confetti');
+		    if (div.style.display !== 'none') {
+		        div.style.display = 'none';
+		    }
+		    else {
+		        div.style.display = 'block';
+		    }
+		};
+		</script>
 		<script>
 		// grab an element
 		var hideTheNav = document.querySelector(".nav");
