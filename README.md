@@ -1,9 +1,8 @@
 # mythicpl.us
 m+ lame-o site
 
-check the issues page for a to-do list of sorts.
-
-Huge thank yous to everyone that provided feedback.
+Huge thank yous to everyone that provided feedback via reddit, github, discord, whatever. 
+You are appreciated.
  
 ## Wall of Fame
 
