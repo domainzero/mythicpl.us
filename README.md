@@ -5,33 +5,31 @@ check the issues page for a to-do list of sorts.
 
 Huge thank yous to everyone that provided feedback.
  
-#### Wall of Fame
+## Wall of Fame
 
-	**Mitcheljager for initial restyle.**
-	**Heliades for assisting with further restyle and for making the sweet EoA map.**
-	**Auhsoj for writing most of the script that powers the calc page.**
-	**Gnarfoz and chuDr3t4 for doing keystone research.**
-	**Shoutouts to my boy Luke for making the auto-rotate script.**
+**Mitcheljager for initial restyle.**<br>
+**Heliades for assisting with further restyle and for making the sweet EoA map.**<br>
+**Auhsoj for writing most of the script that powers the calc page.**<br>
+**Gnarfoz and chuDr3t4 for doing keystone research.**<br>
+**Shoutouts to my boy Luke for making the auto-rotate script.**<br>
 
-	Auchindoun 
-	JanoschVG
-	Bettybae
-	xepheris
-	stefan0uh
-	zzzoma
-	JosKrause
-	narabug
-	Felix1216
-	Gooberish
-	Wotuu
-	omega
-	Kanegasi
-	iamaquestionmark
-	Twodeegee
-	Spasky
-	Dreadnip
-	Ben
-	lopo
-	Elemfao
-
-```
+Auchindoun  <br>
+JanoschVG <br>
+Bettybae <br>
+xepheris <br>
+stefan0uh <br>
+zzzoma <br>
+JosKrause <br>
+narabug <br>
+Felix1216 <br>
+Gooberish <br>
+Wotuu <br>
+omega <br>
+Kanegasi <br>
+iamaquestionmark <br>
+Twodeegee <br>
+Spasky <br>
+Dreadnip <br>
+Ben <br>
+lopo <br>
+Elemfao <br>
