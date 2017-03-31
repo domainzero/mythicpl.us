@@ -11,6 +11,7 @@ You are appreciated.
 **Auhsoj for writing most of the script that powers the calc page.**<br>
 **Gnarfoz and chuDr3t4 for doing keystone research.**<br>
 **Shoutouts to my boy Luke for making the auto-rotate script.**<br>
+**Kyatastrophe for shilling my site on the WoW discord.**<br>
 
 Auchindoun  <br>
 JanoschVG <br>
