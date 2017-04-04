@@ -119,13 +119,12 @@ body {
 
 .nav {
 	font-weight: 400;
-	width: inherit;
+	width: 100%;
 	float: left;
 	display: flex;
 	position: fixed;
 	z-index: 999;
-	left: 50%;
-	margin-left: -27.5vw;
+	left: 0;
 	padding: .3vw;
 	background: rgba(55, 60, 68, 1);
 	font-weight: 700;
@@ -139,6 +138,7 @@ body {
 	width: 75vw;
 	display: block;
 	text-align: center;
+	margin-left: 24vw;
 }
 
 .nav > ul > a {
@@ -502,11 +502,4 @@ footer {
 }
 .headroom--unpinned {
     transform: translateY(-100%);
-}
-
-#confetti{
-	position: fixed;
-	top:0;
-	right:0;
-	pointer-events: none;
 }
