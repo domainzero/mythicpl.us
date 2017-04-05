@@ -13,6 +13,7 @@ You are appreciated.
 **Shoutouts to my boy Luke for making the auto-rotate script.**<br>
 **Kyatastrophe for shilling my site on the WoW discord.**<br>
 
+Nery, lord and savior of week 2<br>
 Auchindoun  <br>
 JanoschVG <br>
 Bettybae <br>
