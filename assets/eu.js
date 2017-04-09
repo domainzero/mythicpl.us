@@ -1,7 +1,7 @@
 var d = new Date();
 
 var oneday = 24*60*60*1000;
-var firstDate = new Date(Date.UTC(2017, 2, 26, 7, 0, 0));
+var firstDate = new Date(Date.UTC(2017, 2, 29, 7, 0, 0));
 var secondDate = d;
 
 var diffDays = Math.round(Math.abs((firstDate.getTime() - secondDate.getTime())/(oneday)));
