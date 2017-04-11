@@ -36,4 +36,4 @@ Dreadnip <br>
 Ben <br>
 lopo <br>
 Elemfao <br>
-sexybertha<br>
+sexybertha, week 3 confirmation!<br>
