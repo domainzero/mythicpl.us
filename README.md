@@ -41,7 +41,7 @@ lopo <br>
 Elemfao <br>
 sexybertha, week 3 confirmation!<br>
 Asteryx, week 4 confirmation!<br>
-@driaidn, week 6 confirmation <br>
+Driaidn, week 6 confirmation <br>
 Adiuva, week 6 confirmation<br>
 
 
