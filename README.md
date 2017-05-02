@@ -14,7 +14,8 @@ Shoutouts to my boy Luke for making the auto-rotate script.<br>
 Kyatastrophe for shilling my site on the WoW discord.**<br>
 
 **Nery, lord and savior of week 2<br>
-Vauira, lord and savior of week 3<br>**
+Vauira, lord and savior of week 3<br>
+Beardofedu, week 4 master<br>**
 
 Auchindoun  <br>
 JanoschVG <br>
@@ -37,3 +38,4 @@ Ben <br>
 lopo <br>
 Elemfao <br>
 sexybertha, week 3 confirmation!<br>
+Asteryx, week 4 confirmation!<br>
