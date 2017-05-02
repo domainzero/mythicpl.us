@@ -17,7 +17,7 @@ MattZeeX, for confirming all the time <br>**
 **Nery, lord and savior of week 2<br>
 Vauira, lord and savior of week 3<br>
 Beardofedu, week 4 and 5 master<br>
-Variance, week 6 master<br>
+Variance, week 6 master<br>**
 
 Auchindoun  <br>
 JanoschVG <br>
@@ -41,7 +41,7 @@ lopo <br>
 Elemfao <br>
 sexybertha, week 3 confirmation!<br>
 Asteryx, week 4 confirmation!<br>
-@Driaidn, week 6 confirmation <br>
+@driaidn, week 6 confirmation <br>
 Adiuva, week 6 confirmation<br>
 
 
