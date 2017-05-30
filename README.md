@@ -11,11 +11,13 @@ Heliades for assisting with further restyle and for making the sweet EoA map.<br
 Auhsoj for writing most of the script that powers the calc page.<br>
 Gnarfoz and chuDr3t4 for doing keystone research.<br>
 Shoutouts to my boy Luke for making the auto-rotate script.<br>
-Kyatastrophe for shilling my site on the WoW discord.**<br>
+Kyatastrophe for shilling my site on the WoW discord.<br>
+MattZeeX, for confirming all the time <br>**
 
 **Nery, lord and savior of week 2<br>
 Vauira, lord and savior of week 3<br>
-Beardofedu, week 4 master<br>**
+Beardofedu, week 4 and 5 master<br>
+Variance, week 6 master<br>**
 
 Auchindoun  <br>
 JanoschVG <br>
@@ -39,3 +41,7 @@ lopo <br>
 Elemfao <br>
 sexybertha, week 3 confirmation!<br>
 Asteryx, week 4 confirmation!<br>
+Driaidn, week 6 confirmation <br>
+Adiuva, week 6 confirmation<br>
+
+
