@@ -10,18 +10,18 @@ var diffDays = Math.round(Math.abs((firstDate.getTime() - secondDate.getTime())/
 var weeks = Math.floor(diffDays/7);
 
 
-var week = (weeks%10) + 1;
+var week = (weeks%11) + 1;
 var nextweek;
 var weekafternext;
 
-if (week == 9){
+if (week == 10){
 
-	nextweek = 10;
+	nextweek = 11;
 	weekafternext = 1;
 
 }
 
-else if(week == 10){
+else if(week == 11){
 
 	nextweek = 1;
 	weekafternext = 2;
