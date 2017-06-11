@@ -4,22 +4,23 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i|Roboto Mono" rel="stylesheet">
 		<link rel="stylesheet" href="assets/style.css">
-		<title>what m+ garbage do i have to deal with this week? (now with ptr notes!)</title>
+		<title>what m+ garbage do i have to deal with this week?</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Your quick guide to all things mythic plus.">
 		<meta name="keywords" content="mythic+,mythic_plus,mythic_+,world of warcraft, mythic dungeons,warcraft,mythic plus, legion, warlords, keystone, keystone affixes, affixes, keystones">
+		<script type="text/javascript" src="assets/chart.bundle.min.js"></script>
 	</head>
 	<body>
 		<main class="main" id="this_week">
 			<section class="nav">
 				<ul>
 					<a href="#this_week"><li>This Week</li></a>
+					<a href="#graphs"><li>Graphs</li></a>
 					<a href="#calc"><li>Calculator</li></a>
 					<a href="#affixes-div"><li>Affixes</li></a>
 					<a href="#useful-stuff"><li>Resources</li></a>
 					<a href="#keystone-upgrade"><li>Timers</li></a>
 					<a href="#loot-stuff"><li>Loot</li></a>
-					
 				</ul>
 			</section>
 			<section class="atf content-block">
@@ -27,12 +28,9 @@
 				<article class="affixes">
 					<h1 id="thisweek" class="title title--large"><span class="title__intro">US</span></h1>
 					<h1 id="thisweekeu" class="title title--large"><span class="title__intro">EU</span></h1><br>
-					<center>
-					<blockquote>🎉 This week's affix credit goes to <strong>Cait and Beardofedu</strong>!  🎉 <br>
-					Sorry for the delay! M E E T I N G S<br>
-					Clear your cache if you're seeing incorrect affixes.
+					<blockquote>
+					<p class="affixes-list__note">Put up some new graphs showing POSSIBLE loot per keystone if completed in the timer as well as new difficulty scaling.</p>
 					</blockquote>
-					</center>
 					<div class="arrow">
 					↓
 					</div>
@@ -41,16 +39,24 @@
 			<section class="next content-block content-block--small">
 				<h4 class="title title--small tagline">Next week</h4>
 				<article>
-					<h4 id="nextweek" class="title title--small"><span class="title__intro">us</span>???</h4>
-					<h4 id="nextweekeu" class="title title--small"><span class="title__intro">eu</span>???</h4>
+					<h4 id="nextweek" class="title title--small">???</h4>
 				</article>
 				<h4 class="next title--small tagline">Week after next</h4>
 				<article>
-					<h4 id="weekafternext" class="title title--small"><span class="title__intro">us</span>???</h4>
-					<h4 id="weekafternexteu" class="title title--small"><span class="title__intro">eu</span>???</h4>
-			</article> 
+					<h4 id="weekafternext" class="title title--small">???</h4>
+				</article> 
 			</section>
-
+			<section class="content-block" id="graphs">
+			<h1>HP and Damage scaling per keystone level in 7.2.5 vs 7.2</h1>
+				<div class="container">	
+					<canvas id="canvas"></canvas>
+				</div>
+			<h1>Pieces of loot per 3 keystone levels (roughly)</h1>
+			<p class="affixes-list__note">if completed in the timer</p>
+				<div class="container">
+					<canvas id="loot"></canvas>
+				</div>
+			</section>
 			<section class="content-block cl-effect-1" id="calc">
 				<h4 class="title title--small tagline">Calculate AP required to next artifact level and more!</h4>
 				<a class="link link--large" href="https://mythicpl.us/calc">CALCULATOR</a>
@@ -62,7 +68,6 @@
 					Legend: <span class="easy">easy difficulty</span> | <span class="med">medium difficulty</span> | <span class="hard">hard difficulty</span>
 				</div>
 				<p class="cl-effect-1"><a href="https://goo.gl/forms/YgaYteAnJjg2yMOn1">Short survey to get your feedback on affix difficulty</a></p>
-				<blockquote>NOTE: Enemies’ damage and health have been increased for all Heroic and Mythic dungeons, including Mythic Keystone Dungeons.</blockquote>
 				<div class="affixes-block">
 					<h3 class="title title--medium affixes-block__title">Level 4 affixes <div class="title__subtitle">(these occur at +4 keystones)</div></h3>
 					<ul class="affixes-list">
@@ -161,9 +166,9 @@
 							<td class="table__cell"><span class="hard">Tyrannical</span></td>
 						</tr>
 						<tr class="table__row">
-							<td class="table__cell"><span class="idk">???</span></td>
-							<td class="table__cell"><span class="idk">???</span></td>
-							<td class="table__cell"><span class="idk">???</span></td>
+							<td class="table__cell"><span class="idk">Bursting</span></td>
+							<td class="table__cell"><span class="idk">Quaking</span></td>
+							<td class="table__cell"><span class="idk">Fortified</span></td>
 						</tr>
 					</tbody>
 				</table>
@@ -204,17 +209,17 @@
 				<h1 class="title title--large">Keystones</h1>
 				<div class="text-block">
 					<p>Complete a Mythic Keystone run within the timer to upgrade a keystone.</p>
-					<p>Complete it with 40% of the timer remaining and upgrade it 3 times in one go, rewarding 3 chests of loot at the end. One for the difficulty level completed, one for the next level up and one for the level after that. </p>
-					<p class="affixes-list__note">Example: You complete a +4 keystone with 40% of the timer remaining. It upgrades to a +7 keystone and you are awarded 3 chests at the end of the run, one containing +4 difficulty loot, one containing +5 level loot and one containing +6 level loot (all the levels you "successfully completed").</p>
-					<p>Complete a run with 20% of the timer remaining and upgrade it 2 times in one go - rewarding 2 chests of loot at the end. Like the example above but remove the last chest and difficulty level.</p>
+					<p>Complete it with 40% of the timer remaining and upgrade it 3 times in one go. i.e. Keystone level 5 to keystone level 8.</p>
+					<p>Complete a run with 20% of the timer remaining and upgrade it 2 times in one go. i.e. keystone level 5 to keystone level 7.</p>
+					<p>Didn't make the timer? That's ok. Your keystone doesn't deplete anymore, it just levels down by 1. i.e. keystone level 5 to keystone level 4. The dungeon stays the same.</p>
 				</div>
 				<h3 class="title title--medium">Instance Timer and Requirements for "Level Jumps"</h3>
 				<table class="table">
 					<thead class="table__head">
 						<tr class="table__row table__row--head">
-							<td class="table__cell">+1 chest</td>
-							<td class="table__cell">+2 chests</td>
-							<td class="table__cell">+3 chests</td>
+							<td class="table__cell">+1 keystone level</td>
+							<td class="table__cell">+2 keystone levels</td>
+							<td class="table__cell">+3 keystone levels</td>
 						</tr>
 					</thead>
 					<tbody>
@@ -358,10 +363,13 @@
 						</tbody>
 					</table>
 					<div class="table__description">
-						<p>Each chest at the end of the run guarantees the <strong>GROUP</strong> two pieces of loot from the dungeon loot table - scaled to whatever item level is appropriate for the difficulty you completed the dungeon on (see table).</p>
+						<p>The chest at the end of the run guarantees the <strong>GROUP</strong> two pieces of loot from the dungeon loot table. If you beat the timer you will be awarded one extra piece of loot.</p>
+						<p>In addition, roughly every 3 difficulty levels past 15 will award you with an additional piece of loot.</p>
+						<p class="affixes-list__note">Example time! You beat a level 15 keystone within the timer and your group is awarded 3 pieces of loot. Later, you beat a level 18 keystone within the timer and your group SHOULD BE awarded with 4 pieces of loot. Repeat every three levels. 21 = 5 pieces of loot, 24 = 6 pieces of loot, etc.</p>
+
 						<p>At the start of a week (after raid/mythic reset) a chest will appear in your order hall giving loot based on the highest level keystone dungeon <strong>COMPLETED</strong> the previous week, within the timer or not.</p>
 						<p>In addition, the chest will also have a downgraded keystone based on the highest level keystone run <strong>YOU COMPLETED</strong> in the previous week.</p>
-						<p>It is most beneficial to complete a +10 weekly to get the highest item level gear every reset. If that isn't feasible go for the next highest you can complete. Again, <strong>you don't need to finish in the timer to get the weekly chest.</strong></p>
+						<p>It is most beneficial to complete a +15 weekly to get the highest item level gear every reset. If that isn't feasible go for the next highest you can complete. Again, <strong>you don't need to finish in the timer to get the weekly chest.</strong></p>
 						<br>
 					</div>
 				</div>
@@ -375,22 +383,13 @@
 
 		</main>
 		<script src="assets/headroom.min.js"></script>
-		<script>
-		var hideTheNav = document.querySelector(".nav");
-			var headroom = new Headroom(hideTheNav, {
-			  "offset": 200,
-			  "tolerance": 1,
-			  "classes": {
-			    "initial": "animated",
-			  }
-			});
-			headroom.init();
-			headroom.destroy();
-		</script>
+		<script src="assets/charts.js"></script>
 	</body>
+<!--
 <script>
 !function(a,b,c,d,e,f,g){a.GoogleAnalyticsObject=e,a[e]=a[e]||function(){(a[e].q=a[e].q||[]).push(arguments)},a[e].l=1*new Date,f=b.createElement(c),g=b.getElementsByTagName(c)[0],f.async=1,f.src=d,g.parentNode.insertBefore(f,g)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-88138745-1","auto"),ga("send","pageview");
 </script>
+-->
 <script type="text/javascript" src="assets/us.js"></script>
 <script type="text/javascript" src="assets/eu.js"></script>
 

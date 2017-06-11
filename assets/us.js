@@ -48,8 +48,8 @@ var wan3 = document.getElementById("sched").rows[weekafternext].cells[2].innerHT
 
 
 document.getElementById("thisweek").innerHTML = "<span class=\"title__intro\">US</span>" + tw1 + ", " + tw2 + ", " + tw3;
-document.getElementById("nextweek").innerHTML = "<span class=\"title__intro\">US</span>" + nw1 + ", " + nw2 + ", " + nw3;
-document.getElementById("weekafternext").innerHTML = "<span class=\"title__intro\">US</span>" + wan1 + ", " + wan2 + ", " + wan3;
+document.getElementById("nextweek").innerHTML = "" + nw1 + ", " + nw2 + ", " + nw3;
+document.getElementById("weekafternext").innerHTML = "" + wan1 + ", " + wan2 + ", " + wan3;
 
 
 

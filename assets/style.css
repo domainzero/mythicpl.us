@@ -503,3 +503,17 @@ footer {
 .headroom--unpinned {
     transform: translateY(-100%);
 }
+
+canvas {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+.container {
+	width: 75%;
+	height: 50%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
