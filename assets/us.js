@@ -1,4 +1,3 @@
-
 var d = new Date();
 
 var oneday = 24*60*60*1000;

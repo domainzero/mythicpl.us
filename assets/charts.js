@@ -39,13 +39,13 @@ var chart = new Chart(ctx, {
 	type: 'horizontalBar',
 	yAxisID: "Keystone Level",
 	data: {
-		labels: ["30", "27", "24", "21", "18", "15", "12"],
+		labels: ["24", "21", "18", "15", "12"],
 		datasets: [{
 			label: 'Pieces of loot',
 			backgroundColor: 'rgba(76, 175, 80, 1)',
 			borderColor: 'rgba(76, 175, 80, 1)',
 			beginAtZero: true,
-			data: [8, 7, 6, 5, 4, 3, 3, 0],
+			data: [6, 5, 4, 3, 3, 0],
 		}]
 	},
 	options: {
