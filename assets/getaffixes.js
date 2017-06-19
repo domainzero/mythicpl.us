@@ -50,7 +50,9 @@ uscall.onreadystatechange = function() {
 		   document.getElementById("thisweek").innerHTML = "<span class='title__intro'>US</span>" + affixone.name + affixtwo.name + affixthree.name;
 		}
 	}
-	}
+	else {
+	document.getElementById("thisweek").innerHTML = "Error querying API. Reach out to me on <a href='https://twitter.com/pontifzero'>Twitter</a>."
+	} 
 };
 uscall.open("GET", "https://raider.io/api/v1/mythic-plus/affixes?region=us", true);
 uscall.send();
