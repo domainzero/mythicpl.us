@@ -1,3 +1,5 @@
 archive/*
 routes/*
 test/*
+errors/*
+.well-known/*
