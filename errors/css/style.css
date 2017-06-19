@@ -1,0 +1,51 @@
+body {
+  color: #fff;
+  background:#373c44;
+  font-family: Oswald, sans-serif;
+  overflow: hidden;
+}
+
+#lol404 {
+  color: #b0bec5;
+  cursor: default;
+  font: 700 210px Oswald, sans-serif;
+  letter-spacing: 0px;
+  text-align: center;
+  text-shadow: 0 1px 0 #607D8B, 0 2px 0 #607D8B, 0 3px 0 #607D8B, 0 4px 0 #607D8B, 0 5px 0 #607D8B, 0 6px 0 #607D8B, 0 7px 0 #607D8B, 0 8px 0 #607D8B, 0 9px 0 #607D8B, 0 10px 0 #607D8B, 0 22px 40px #607D8B, 0 4px 10px #607D8B;
+}
+a {
+  color: #607d8b;
+  outline: none;
+  text-decoration: none;
+  -webkit-transition: color .3s ease-in-out;
+  -moz-transition: color .3s ease-in-out;
+  -o-transition: color .3s ease-in-out;
+  transition: color .3s ease-in-out;
+}
+a:hover {
+  color: #ffffff;
+}
+a:focus {
+  text-decoration: underline;
+}
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
