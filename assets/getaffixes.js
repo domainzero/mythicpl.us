@@ -1,9 +1,24 @@
+var fallbackScript = function(src, callbackfn) {
+    var oldScript = document.createElement("script");
+    oldScript.type = "text/javascript";
+    oldScript.setAttribute("async", "true");
+    oldScript.setAttribute("src", src);
+    if(oldScript.readyState) {
+        oldScript.onreadystatechange = function() {
+            if(/loaded|complete/.test(oldScript.readyState)) callbackfn();
+        }
+    } else {
+        oldScript.addEventListener("load", callbackfn, false);
+    }
+    document.documentElement.firstChild.appendChild(oldScript);
+}
+
 getAffixes = function(region) {
 
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function() {
 
-        if (xhr.readyState == 4 && xhr.status == 200) {
+        if (xhr.readyState == 4 && xhr.status == 200 || xhr.status == 0) {
             var parsed_json_respone = JSON.parse(this.responseText);
             var affixes = parsed_json_respone.affix_details;
 
@@ -39,6 +54,10 @@ getAffixes = function(region) {
               //print it
               document.getElementById("thisweek"+region).innerHTML += "<span class='" + affix.difficulty + "'>" + affix.name + "</span>" + " ";
             });
+        } else if (xhr.status != 200) {
+            fallbackScript("assets/eu.js");
+            fallbackScript("assets/us.js");
+            console.log(xhr.status);
         }
     };
     xhr.open('GET', 'https://raider.io/api/v1/mythic-plus/affixes?region='+region, true);
