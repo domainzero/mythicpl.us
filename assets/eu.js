@@ -47,5 +47,6 @@ var wan3 = document.getElementById("sched").rows[weekafternext].cells[2].innerHT
 
 // stop the script from setting this week
 document.getElementById("thisweekeu").innerHTML = "<span class=\"title__intro\">EU</span>" + tw1 + ", " + tw2 + ", " + tw3;
-document.getElementById("nextweekeu").innerHTML = "<span class=\"title__intro\">EU</span>" + nw1 + ", " + nw2 + ", " + nw3;
-document.getElementById("weekafternexteu").innerHTML = "<span class=\"title__intro\">EU</span>" + wan1 + ", " + wan2 + ", " + wan3;
+// commenting out the below lines since they don't exist anymore
+//document.getElementById("nextweekeu").innerHTML = "<span class=\"title__intro\">EU</span>" + nw1 + ", " + nw2 + ", " + nw3;
+//document.getElementById("weekafternexteu").innerHTML = "<span class=\"title__intro\">EU</span>" + wan1 + ", " + wan2 + ", " + wan3;
