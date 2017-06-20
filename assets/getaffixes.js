@@ -59,7 +59,6 @@ getAffixes = function(region) {
     };
     xhr.open('GET', 'https://raider.io/api/v1/mythic-plus/affixes?region='+region, true);
     xhr.send();
-}
 
 getAffixes('us');
 getAffixes('eu');
