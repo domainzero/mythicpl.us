@@ -54,10 +54,7 @@ getAffixes = function(region) {
               //print it
               document.getElementById("thisweek"+region).innerHTML += "<span class='" + affix.difficulty + "'>" + affix.name + "</span>" + " ";
             });
-        } else if (xhr.status != 200) {
-            fallbackScript("assets/eu.js");
-            fallbackScript("assets/us.js");
-            console.log(xhr.status);
+        } 
         }
     };
     xhr.open('GET', 'https://raider.io/api/v1/mythic-plus/affixes?region='+region, true);
