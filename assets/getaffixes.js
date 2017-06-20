@@ -1,18 +1,3 @@
-var fallbackScript = function(src, callbackfn) {
-    var oldScript = document.createElement("script");
-    oldScript.type = "text/javascript";
-    oldScript.setAttribute("async", "true");
-    oldScript.setAttribute("src", src);
-    if(oldScript.readyState) {
-        oldScript.onreadystatechange = function() {
-            if(/loaded|complete/.test(oldScript.readyState)) callbackfn();
-        }
-    } else {
-        oldScript.addEventListener("load", callbackfn, false);
-    }
-    document.documentElement.firstChild.appendChild(oldScript);
-}
-
 getAffixes = function(region) {
 
     var xhr = new XMLHttpRequest();
@@ -55,10 +40,10 @@ getAffixes = function(region) {
               document.getElementById("thisweek"+region).innerHTML += "<span class='" + affix.difficulty + "'>" + affix.name + "</span>" + " ";
             });
         } 
-        }
     };
     xhr.open('GET', 'https://raider.io/api/v1/mythic-plus/affixes?region='+region, true);
     xhr.send();
+}
 
 getAffixes('us');
 getAffixes('eu');
