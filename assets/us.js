@@ -46,7 +46,7 @@ var wan3 = document.getElementById("sched").rows[weekafternext].cells[2].innerHT
 
 
 // stop the script from setting this week
-//document.getElementById("thisweekus").innerHTML = "<span class=\"title__intro\">US</span>" + tw1 + ", " + tw2 + ", " + tw3;
+document.getElementById("affixnote").innerHTML+= tw1 + ", " + tw2 + ", " + tw3 + "." + " If the above is different the leaderboards may not be updated yet.";
 document.getElementById("nextweek").innerHTML = "" + nw1 + ", " + nw2 + ", " + nw3;
 document.getElementById("weekafternext").innerHTML = "" + wan1 + ", " + wan2 + ", " + wan3;
 
