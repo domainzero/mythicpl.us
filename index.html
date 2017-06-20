@@ -52,14 +52,6 @@
 				<div class="container">	
 					<canvas id="canvas"></canvas>
 				</div>
-			<h1>Pieces of loot per 3 keystone levels (roughly)</h1>
-			<p class="affixes-list__note">if completed in the timer</p>
-				<div class="container">
-					<canvas id="loot"></canvas>
-					<blockquote cite="https://worldofwarcraft.com/en-us/news/20812012/world-of-warcraft-7-2-5-patch-notes">
-						<p>From the patch notes: Clearing Mythic Keystone levels above 15 will have a chance of dropping additional items (roughly one extra item awarded per 3 difficulty levels beyond 15).</p>
-					</blockquote>
-				</div>
 			</section>
 			<section class="content-block cl-effect-1" id="calc">
 				<h4 class="title title--small tagline">Calculate AP required to next artifact level and more!</h4>
@@ -119,9 +111,10 @@
 							<td class="table__cell"><span class="med">Raging</span></td>
 							<td class="table__cell"><span class="easy">Volcanic</span></td>
 							<td class="table__cell"><span class="hard">Tyrannical</span></td>
+						</tr>
 						<tr class="table__row">
 							<td class="table__cell"><span class="med">Teeming</span></td>
-							<td class="table__cell"><span class="hard">Explosive</span></td>
+							<td class="table__cell"><span class="med">Explosive</span></td>
 							<td class="table__cell"><span class="hard">Fortified</span></td>
 						</tr>
 						<tr class="table__row">
@@ -170,9 +163,9 @@
 							<td class="table__cell"><span class="hard">Tyrannical</span></td>
 						</tr>
 						<tr class="table__row">
-							<td class="table__cell"><span class="idk">Bursting</span></td>
-							<td class="table__cell"><span class="idk">Quaking</span></td>
-							<td class="table__cell"><span class="idk">Fortified</span></td>
+							<td class="table__cell"><span class="med">Bursting</span></td>
+							<td class="table__cell"><span class="med">Quaking</span></td>
+							<td class="table__cell"><span class="hard">Fortified</span></td>
 						</tr>
 					</tbody>
 				</table>
@@ -382,6 +375,14 @@
 						<br>
 					</div>
 				</div>
+				<h1>Pieces of loot per 3 keystone levels (roughly)</h1>
+				<p class="affixes-list__note">if completed in the timer</p>
+					<div class="container">
+						<canvas id="loot"></canvas>
+						<blockquote cite="https://worldofwarcraft.com/en-us/news/20812012/world-of-warcraft-7-2-5-patch-notes">
+							<p>Clearing Mythic Keystone levels above 15 will have a stacking 40% chance of dropping additional items (roughly one extra item awarded per 3 difficulty levels beyond 15).</p>
+						</blockquote>
+					</div>
 			</section>
 			
 			<footer class="footer">
