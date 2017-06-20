@@ -360,7 +360,7 @@ ul + .title--medium {
 }
 
 .affixes-block {
-	max-width: 1024px;
+	max-width: 768px;
 	margin: 30px auto;
 	padding: 30px 0
 }
