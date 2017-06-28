@@ -9,18 +9,18 @@ var diffDays = Math.round(Math.abs((firstDate.getTime() - secondDate.getTime())/
 var weeks = Math.floor(diffDays/7);
 
 
-var week = (weeks%10) + 1;
+var week = (weeks%12) + 1;
 var nextweek;
 var weekafternext;
 
-if (week == 9){
+if (week == 11){
 
-	nextweek = 10;
+	nextweek = 12;
 	weekafternext = 1;
 
 }
 
-else if(week == 10){
+else if(week == 12){
 
 	nextweek = 1;
 	weekafternext = 2;
@@ -45,7 +45,8 @@ var wan2 = document.getElementById("sched").rows[weekafternext].cells[1].innerHT
 var wan3 = document.getElementById("sched").rows[weekafternext].cells[2].innerHTML;
 
 
-
+// stop the script from setting this week
 document.getElementById("thisweekeu").innerHTML = "<span class=\"title__intro\">EU</span>" + tw1 + ", " + tw2 + ", " + tw3;
-document.getElementById("nextweekeu").innerHTML = "<span class=\"title__intro\">EU</span>" + nw1 + ", " + nw2 + ", " + nw3;
-document.getElementById("weekafternexteu").innerHTML = "<span class=\"title__intro\">EU</span>" + wan1 + ", " + wan2 + ", " + wan3;
+// commenting out the below lines since they don't exist anymore
+//document.getElementById("nextweekeu").innerHTML = "<span class=\"title__intro\">EU</span>" + nw1 + ", " + nw2 + ", " + nw3;
+//document.getElementById("weekafternexteu").innerHTML = "<span class=\"title__intro\">EU</span>" + wan1 + ", " + wan2 + ", " + wan3;

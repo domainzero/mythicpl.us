@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i|Roboto Mono" rel="stylesheet">
+		<link rel="stylesheet" href="assets/style.css">
+		<title>what m+ garbage do i have to deal with this week?</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Your quick guide to all things mythic plus.">
+		<meta name="keywords" content="mythic+,mythic_plus,mythic_+,world of warcraft, mythic dungeons,warcraft,mythic plus, legion, warlords, keystone, keystone affixes, affixes, keystones">
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+		<script type="text/javascript" src="assets/chart.bundle.min.js"></script>
+	</head>
+	<body>
+		<main class="main" id="this_week">
+			<section class="atf content-block">
+			<h1 class="title title--large">AFFIX DIFFICULTY SURVEY RESULTS</h1>
+			<br>
+				<p>The following charts are using input that I got from the survey hosted on mythicpl.us. Currently we're at <span id="totvotes"></span> votes for the original affixes and <span id="newvotes"></span> for the new affixes. The numbers you see are the total count of each difficulty divided by Total Votes (for the original affixes) or New Votes (for the new affixes) multiplied by 100 to get a percentage.</p>
+
+				<p>This page should update in <i>psuedo-realtime</i> since it's just querying the Google spreadsheet hosting all the survey returns.</p>
+
+				<p>Haven't taken the survey yet? You can take it <a href="https://goo.gl/forms/YgaYteAnJjg2yMOn1">here!</a> Wanna see the source spreadsheet? <a href="https://docs.google.com/spreadsheets/d/1saKejReaWhzQUmTy_r8FTTcW9xt1ilxI2knYdc8bQPs/pubhtml?gid=673910183&single=true">Click here!</a></p>
+					<div class="arrow">
+					↓
+					</div>
+			</section>
+			<section class="content-block" id="graphs">
+			<h1 class="title title--large">Tier 1 affixes</h1>
+
+			<div class="affixes-block">
+				<div class="affixes-list__item-4-7">
+					<h1 class="title">Bolstering</h1>
+					<canvas id="bolstering"></canvas>
+					<p class="affixes-list__note">Note: nothing too shocking here I don't think. Bolstering is annoying because it slows down your run.</p>
+				</div>
+				<div class="affixes-list__item-4-7">
+					<h1 class="title">Raging</h1>
+					<canvas id="raging"></canvas>
+					<p class="affixes-list__note">Note: same deal here. Raging is annoying at best. Overwhelming medium votes here.</p>
+				</div>
+				<div class="affixes-list__item-4-7">
+					<h1 class="title">Sanguine</h1>
+					<canvas id="sanguine"></canvas>
+					<p class="affixes-list__note">Note: lol.</p>
+				</div>
+				<div class="affixes-list__item-4-7">
+					<h1 class="title">Teeming</h1>
+					<canvas id="teeming"></canvas>
+					<p class="affixes-list__note">Note: Not too shocking here either.</p>
+				</div>
+				<div class="affixes-list__item-4-7">
+					<h1 class="title">Bursting</h1>
+					<canvas id="bursting"></canvas>
+					<p class="affixes-list__note">Note: Same deal as bolstering, slows your run.</p>
+				</div>
+			</div>
+			</section>
+
+			<section class="content-block">
+			<h1 class="title title--large">Tier 2 affixes</h1>
+
+			<div class="affixes-block">
+				<div class="affixes-list__item-4-7">
+					<h1 class="title">necrotic</h1>
+					<canvas id="necrotic"></canvas>
+					<p class="affixes-list__note">Note: REEEEEE. Necrotic is more doable now that stacks drop, but is still tough.</p>
+				</div>
+				<div class="affixes-list__item-4-7">
+					<h1 class="title">skittish</h1>
+					<canvas id="skittish"></canvas>
+					<p class="affixes-list__note">Note: skittish went from being medium to hard as more people learned to hate it.</p>
+				</div>
+				<div class="affixes-list__item-4-7">
+					<h1 class="title">volcanic</h1>
+					<canvas id="volcanic"></canvas>
+					<p class="affixes-list__note">Note: EZ PZ 3 CHEST LOL. For real though, volcanic got easier after the 7.2 patch.</p>
+				</div>
+				<div class="affixes-list__item-4-7">
+					<h1 class="title">explosive</h1>
+					<canvas id="explosive"></canvas>
+					<p class="affixes-list__note">Note: explosive has high wipe potential if people are auto-piloting. i expect it to go from med to hard</p>
+				</div>
+				<div class="affixes-list__item-4-7">
+					<h1 class="title">quaking</h1>
+					<canvas id="quaking"></canvas>
+					<p class="affixes-list__note">Note: overwhelming medium. spread out and you're good, right?</p>
+				</div>
+				<div class="affixes-list__item-4-7">
+					<h1 class="title">grievous</h1>
+					<canvas id="grievous"></canvas>
+					<p class="affixes-list__note">Note: This might transition from medium to hard as well. Blame the healer!</p>
+				</div>
+			</div>
+			</section>
+
+			<section class="content-block">
+			<h1 class="title title--large">Tier 3 affixes</h1>
+			<p class="affixes-list__note">Note: WHO WOULD HAVE GUESSED. Tier three affixes are the worst.</p>
+
+				<div class="affixes-block">
+					<div class="affixes-list__item-10">
+						<h1 class="title">fortified</h1>
+						<canvas id="fortified"></canvas>
+					</div>
+					<div class="affixes-list__item-10">
+						<h1 class="title">tyrannical</h1>
+						<canvas id="tyrannical"></canvas>
+					</div>
+				</div>
+			</section>
+			
+			<footer class="footer">
+					<p>&copy;dsus. suggestions welcome, hit me on discord: domain#2722, email me admin at mythicpl.us, or open an issue by posting one on <a href="https://github.com/domainzero/mythicpl.us/issues">GitHub</a> or emailing issues at mythicpl.us with your issue (does not require an account!)</p>
+					<p>I sometimes stream <a href="https://twitch.tv/doublejungle">on Twitch.</a> You can also verify all my identities <a href="https://keybase.io/domain">here.</a></p>
+					<p>World of Warcraft, Warcraft and Blizzard Entertainment are trademarks or registered trademarks of Blizzard Entertainment, Inc. in the U.S. and/or other countries.</p>
+				</footer>
+
+		</main>
+		<script src="assets/charts.js"></script>
+		<script>
+		!function(a,b,c,d,e,f,g){a.GoogleAnalyticsObject=e,a[e]=a[e]||function(){(a[e].q=a[e].q||[]).push(arguments)},a[e].l=1*new Date,f=b.createElement(c),g=b.getElementsByTagName(c)[0],f.async=1,f.src=d,g.parentNode.insertBefore(f,g)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-88138745-1","auto"),ga("send","pageview");
+		</script>
+	</body>
+</html>

@@ -142,17 +142,7 @@ var artifactKnowledge = {
 	37: 18200,
 	38: 23700,
 	39: 30800,
-	40: 40000,
-	41: 52000,
-	42: 67600,
-	43: 87900,
-	44: 114300,
-	45: 148600,
-	46: 193200,
-	47: 251200,
-	48: 326600,
-	49: 424500,
-	50: 552000,
+	40: 40000
 };
 var apRewards = {
 	T1: 500,
@@ -163,7 +153,7 @@ var apRewards = {
 var ARTIFACT_LEVEL_35 = 35;
 var ARTIFACT_LEVEL_52 = 52;
 var MAX_ARTIFACT_LEVEL = 101;
-var MAX_ARTIFACT_KNOWLEDGE = 50;
+var MAX_ARTIFACT_KNOWLEDGE = 40;
 
 var currentArtifactLevel = 0;           // user input
 var currentArtifactKnowledge = 0;		// user input
