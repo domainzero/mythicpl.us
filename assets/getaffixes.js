@@ -11,7 +11,7 @@ getAffixes = function(region) {
                 { "name": "Raging", "difficulty": "med" },
                 { "name": "Volcanic", "difficulty": "easy" },
                 { "name": "Teeming", "difficulty": "med" },
-                { "name": "Explosive", "difficulty": "easy" },
+                { "name": "Explosive", "difficulty": "med" },
                 { "name": "Fortified", "difficulty": "hard" },
                 { "name": "Bolstering", "difficulty": "med" },
                 { "name": "Grievous", "difficulty": "med" },
