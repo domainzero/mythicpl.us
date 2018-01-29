@@ -1,5 +1,5 @@
 # mythicpl.us
-m+ lame-o site
+A simple flat file site designed to load quickly and give m+ information at a glance.
 
 Huge thank yous to everyone that provided feedback via reddit, github, discord, whatever. 
 You are appreciated.
