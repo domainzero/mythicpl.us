@@ -1,6 +1,7 @@
 getAffixes = function(region) {
 
     var xhr = new XMLHttpRequest();
+	var affixName = "";
     xhr.onreadystatechange = function() {
 
         if (xhr.readyState == 4 && xhr.status == 200 || xhr.status == 0) {
@@ -36,8 +37,11 @@ getAffixes = function(region) {
                 }
               });
 
+			  //translate the affix name
+			  affixName = translator.get(affix.name);
+			  			  
               //print it
-              document.getElementById("thisweek"+region).innerHTML += "<span class='" + affix.difficulty + "'>" + affix.name + "</span>" + " ";
+              document.getElementById("thisweek"+region).innerHTML += "<span class='" + affix.difficulty + "'>" + affixName + "</span>" + " ";
             });
         } 
     };
