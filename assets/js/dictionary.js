@@ -96,7 +96,61 @@
             pt: "Fortificada"
         },
 		
+		//Dungeons list
+		"Black Rook Hold": {
+            es: "Torreón Grajo Negro",
+            pt: "Castelo Corvo Negro"
+        },
+		"Court of Stars": {
+            es: "Corte de las Estrellas",
+            pt: "Pátio das Estrelas"
+        },
+		"Darkheart Thicket": {
+            es: "Arboleda Corazón Oscuro",
+            pt: "Bosque Corenegro"
+        },
+		"Eye of Azshara": {
+            es: "Ojo de Azshara",
+            pt: "Olho de Azshara"
+        },
+		"Halls of Valor": {
+            es: "Cámaras del Valor",
+            pt: "Salões da Bravura"
+        },
+		"Maw of Souls": {
+            es: "Fauce de Almas",
+            pt: "Gorja das Almas"
+        },
+		"Neltharion's Lair": {
+            es: "Guarida de Neltharion",
+            pt: "Covil de Neltharion"
+        },
+		"The Arcway": {
+            es: "La Arquería",
+            pt: "O Arcâneo"
+        },
+		"Vault of the Wardens": {
+            es: "Cámara de las Celadoras",
+            pt: "Câmara das Guardiãs"
+        },
+		"Lower Karazhan": {
+            es: "Karazhan inferior",
+            pt: "Karazhan inferior"
+        },
+		"Upper Karazhan": {
+            es: "Karazhan superior",
+            pt: "Karazhan superior"
+        },
+		"Cathedral of Eternal Night": {
+            es: "Catedral de la Noche Eterna",
+            pt: "Catedral da Noite Eterna"
+        },
+		"Seat of the Triumvirate": {
+            es: "Trono del Triunvirato",
+            pt: "Sede do Triunvirato"
+        },
 		
+		//Weeks
 		"This Week": {
             es: "Esta semana",
             pt: "Esta semana"
@@ -189,6 +243,7 @@
 		
 		
 		//Useful stuff
+		
 		
 		//Keystones
 		
