@@ -260,6 +260,150 @@
 			es: "Nota: Es importante intentar matar todo el pull a la vez para no potenciar a los enemigos cercanos. Los enemigos adicionales que nascen en un combate contra un jefe de mazmorra no es afectado por la Potenciante.",
 			pt: "Nota: Quando você estiver lidando com esse Afixo, é necessário balancear o dano de forma que todos os inimigos morram juntos evitando potenciar os que estao ao redor. Os inimigos que aparecem junto com o chefe da masmorra não são afetados pela Encorajadora."
 		},
+
+		raging_info: {
+			en: "Non-boss enemies will enrage at low health, dealing double damage until killed.",			
+			es: "Los enemigos que no son jefes se enfuceren cuando les queda un 30% de salud, por lo que infligen un 100% más de daño hasta ser derrotados.",
+			pt: "Inimigos normais ficam enfurecidos ao chegarem a 30% de vida, causando 100% de dano aumentado até serem derrotados."
+		},
+
+		raging_note: {
+			en: "Note: mobs with high damage targeted abilities or high damage AoE abilities become deadly with this affix. Be sure to focus fire mobs down so there aren't multiple enraged mobs at once.",			
+			es: "Nota: los enemigos con habilidades que hacen mucho daño AoE o Unitarget son mortales con este afijo. Asegurate de hacer bien el foco e intenta reservar los stuns y ccs cuando estén enfurecidos.",
+			pt: ""
+		},
+		
+		sanguine_info: {
+			en: "Shortly after death, non-boss enemies will leave a pool of blood on the ground, which grows to a 5yd radius over 2 seconds. This pool heals enemies and damages players for a % of their maximum health. The pool's radius is 8 yds.",			
+			es: "Al morir, los enemigos que no son jefes dejan atrás un charco persistente de icor que sana a sus aliados e inflige daño a los jugadores.",
+			pt: "Ao morrer, inimigos que não são chefes deixam para trás uma poça de icor que cura os aliados e causa dano aos jogadores."
+		},
+
+		sanguine_note: {
+			en: "Note: ez pz affix, don't stand in pools and make sure mobs don't stand in them either.",			
+			es: "",
+			pt: ""
+		},
+
+		teeming_info: {
+			en: "Additional non-boss enemies are present throughout the dungeon; kill count requirement increased.",			
+			es: "Hay enemigos (no jefes) adicionales por toda la mazmorra.",
+			pt: "Inimigos normais adicionais estão presentes na masmorra."
+		},
+
+		teeming_note: {
+			en: "Note: Not much different from usual unless paired with other problematic affixes (Skittish). The most notable change with this affix is that the Enemy Forces Defeated kill requirement is increased. Certain trash pulls can be really nasty with this affix depending on the dungeon.",
+			es: "",
+			pt: ""
+		},
+
+		bursting_info: {
+			en: "When slain, non-boss enemies explode, causing all players to suffer 10% of their maximum health in damage over 4 seconds. (5% every 2 seconds) This effect stacks.",
+			es: "Al morir, los enemigos que no son jefes se detonan y explotan, por lo que todos los jugadores reciben un 10% de su salud máxima como daño durante 4 s. Este efecto se acumula.",
+			pt: "Quando mortos, inimigos que não são chefes explodem, fazendo com que todos os jogadores recebam dano equivalente a 10% do máximo de pontos de vida ao longo de 4 s. Este efeito acumula."
+		},
+
+		bursting_note: {
+			en: "Note: As far as I know there is no range on this. Consider it to work like Mythic Il'gynoth blobs.",			
+			es: "",
+			pt: ""
+		},
+
+		necrotic_info: {
+			en: "Enemy melee attacks apply a stacking debuff that deals damage and reduces healing received. Debuff lasts 9 seconds and is dispelled when exiting combat.",
+			es: "Todos los ataques cuerpo a cuerpo de los enemigos aplican un añublo que se acumula, inflige daño en el tiempo y reduce la sanación recibida.",
+			pt: "Todos os ataques corpo a corpo dos inimigos aplicam uma praga cumulativa que causa dano ao longo do tempo e reduz a cura recebida."
+		},
+
+		necrotic_note: {
+			en: "Note: Strong AoE CC or slows are great for this affix to allow for kiting mobs while the tank's Necrotic stacks fall off.",			
+			es: "",
+			pt: ""
+		},
+
+		skittish_info: {
+			en: "Tanks generate 75% less threat.",
+			es: "Los enemigos prestan menos atención a la amenaza generada por los tanques.",
+			pt: "Os inimigos dão muito menos atenção à ameaça gerada por tanques."
+		},
+
+		skittish_note: {
+			en: "Note: This affix is a lot easier if Tricks of the Trade or Misdirection are used on cooldown. Strong AoE CC is beneficial here as well in case mobs get loose.",			
+			es: "",
+			pt: ""
+		},
+
+		volcanic_info: {
+			en: "Enemies cause eruptions of flame near distant players. Additional volcanoes may appear near existing volcanoes.",
+			es: "Mientras están en combate, los enemigos provocan de forma periódica que surjan llamas bajo los pies de los jugadores distantes.",
+			pt: "Enquanto estiverem em combate, os inimigos periodicamente fazem com que glóbulos de fogo surjam sob os pés dos jogadores distantes."
+		},
+
+		volcanic_note: {
+			en: "Note: Keep an eye out for the volcano animation under your feet or near you. Sometimes you may not have to move!",			
+			es: "",
+			pt: ""
+		},
+
+		explosive_info: {
+			en: "Creatures have a chance to summon an Explosive Orb at a nearby location that will explode, inflicting damage 50% of the player’s maximum health as damage.",
+			es: "Mientras están en combate, los enemigos invocan de forma periódica orbes explosivos que se detonan si nadie los destruye.",
+			pt: "Em combate, os inimigos evocam periodicamente Orbes Explosivos que explodirão se não forem destruídos."
+		},
+
+		explosive_note: {
+			en: "Note: An explosive orb will spawn with a 6 second cast. If the cast goes off the entire party will take 50% of their max hp in damage. They are <strong>AOE immune so you can't cleave them down!</strong> They can also spawn on boss fights.",			
+			es: "",
+			pt: ""
+		},
+
+		quaking_info: {
+			en: "Players will periodically Quake, inflicting 20% of the player’s maximum health as damage and interrupting spell casts of themselves and nearby allies.",
+			es: "Los jugadores emiten una ola de choque de forma periódica, lo que inflige daño e interrumpe a los aliados cercanos.",
+			pt: "Os jogadores emitem periodicamente uma onda de choque, causando dano e interrompendo aliados próximos."
+		},
+
+		quaking_note: {
+			en: "Notes: spread out.",			
+			es: "",
+			pt: ""
+		},
+
+		grievous_info: {
+			en: "While below 90% health, players are afflicted with Grievous Wound.",
+			es: "Cuando están heridos y les queda menos del 90% de salud, los jugadores reciben daño creciente en el tiempo hasta que se curen y recuperen al menos el 90% de la salud.",
+			pt: "Quando são feridos e chegam a menos de 90% dos pontos de vida, os jogadores sofrem dano crescente ao longo do tempo até serem curados acima de 90% dos pontos de vida."
+		},
+
+		grievous_note: {
+			en: "Note: You bleed until you are healed above 90%. Finally, another reason to blame your healer!",			
+			es: "",
+			pt: ""
+		},
+
+		fortified_info: {
+			en: "Non-bosses have more health and deal 30% more damage.",
+			es: "Los enemigos que no son jefes tienen un 20% más de salud e infligen hasta un 30% más de daño.",
+			pt: "Inimigos que não são chefes têm 20% mais pontos de vida e causam até 30% a mais de dano."
+		},
+
+		fortified_note: {
+			en: "Note: interrupting and dodging any/all trash mob abilities becomes an absolute priority with this affix. Most of the time spent in the dungeon will be fighting beefy trash, don't be afraid to use CDs.",			
+			es: "",
+			pt: ""
+		},
+
+		tyrannical_info: {
+			en: "Bosses have more health and deal 15% more damage.",
+			es: "Los jefes enemigos tienen un 40% más de salud e infligen hasta un 15% más de daño.",
+			pt: "Inimigos chefes têm 40% a mais de vida e causam até 15% a mais de dano."
+		},
+
+		tyrannical_note: {
+			en: "Note: Boss abilities are no longer trivial. Boss mechanics need to be done or people will die. Some fights become endurance tests because they last so long.",			
+			es: "",
+			pt: ""
+		},
 		
 		"Weekly schedule for affixes": {
             es: "Calendario semanal de afijos",
@@ -492,7 +636,7 @@
 	userLang = userLang.toLowerCase().substr(0, 2);
 	
 	//Testing tranlations
-	userLang = "pt";
+	//userLang = "pt";
 	
 	if (userLang !="en" && userLang !="es" && userLang !="pt") {
 		//Default
