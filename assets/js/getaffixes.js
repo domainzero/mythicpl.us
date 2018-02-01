@@ -18,7 +18,7 @@ function highlightCurrentAffixes(currentAffixesUS, currentAffixesEU) {
 
     // if any of them is blank, don't do highlight
 
-}
+};
 
 function getAffixes(region) {
 
