@@ -99,7 +99,7 @@ function getAffixes(region) {
                     }
                 });
 
-                //get current week affixes key
+                //get current week affixes key: 2 first chars and lowercase
                 currentAffixes = affix.name.toLowerCase().substr(0, 2) + currentAffixes;
 
                 //translate the affix name
