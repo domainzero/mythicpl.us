@@ -244,7 +244,7 @@
             pt: "Nível 10 - Afixos "
         },
 
-		"(these occur at +10 keystones)":  {
+		"(these occur at +10 keystones)": {
             es: "(ocurre hasta una piedra +10)",
             pt: "(ocorre com pedra até +10)"
         },
@@ -259,8 +259,12 @@
 			en: "Note: it's important to kill all the trash in a pull as closely together as possible with this affix as mobs effectively heal as they gain max health (percent translation). Adds spawned from a trash mob or boss ability do not trigger bolster. It's possible to reset bolster on mobs by resetting them via wiping or exiting combat.",			
 			es: "Nota: Es importante intentar matar todo el pull a la vez para no potenciar a los enemigos cercanos. Los enemigos adicionales que nascen en un combate contra un jefe de mazmorra no es afectado por la Potenciante.",
 			pt: "Nota: Quando você estiver lidando com esse Afixo, é necessário balancear o dano de forma que todos os inimigos morram juntos evitando potenciar os que estao ao redor. Os inimigos que aparecem junto com o chefe da masmorra nao sao afetados pela Encorajadora."
-		}
+		},
 		
+		"Weekly schedule for affixes": {
+            es: "Calendario semanal de afijos",
+            pt: "Agenda semanal de afixos"
+        }
 		
 		//Useful stuff
 		
