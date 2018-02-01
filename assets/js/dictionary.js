@@ -244,7 +244,7 @@
             pt: "Nível 10 - Afixos "
         },
 
-		"(these occur at +10 keystones)": {
+		"(these occur at +10 keystones)":  {
             es: "(ocurre hasta una piedra +10)",
             pt: "(ocorre com pedra até +10)"
         },
