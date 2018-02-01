@@ -229,6 +229,26 @@
             pt: "(ocorre com pedra até +4)"
         },
 		
+		"Level 7 affixes ": {
+            es: "Nivel 7 - Afijos ",
+            pt: "Nível 7 - Afixos "
+        },
+
+		"(these occur at +7 keystones)": {
+            es: "(ocurre hasta una piedra +7)",
+            pt: "(ocorre com pedra até +7)"
+        },
+		
+		"Level 10 affixes ": {
+            es: "Nivel 10 - Afijos ",
+            pt: "Nível 10 - Afixos "
+        },
+
+		"(these occur at +10 keystones)": {
+            es: "(ocurre hasta una piedra +10)",
+            pt: "(ocorre com pedra até +10)"
+        },
+		
 		bolstering_info: {
 			en: "Non-boss enemies will buff nearby allies' health and damage when defeated with a 30yd effective range.",			
 			es: "Cuando un enemigo que no es un jefe muere, su grito al morir potencia a los aliados cercanos, lo que aumenta su salud y su daño máximos un 20%. Radio del grito 30 metros.",
@@ -252,7 +272,8 @@
     };
 	
 	var userLang = navigator.language || navigator.userLanguage;
-
+	//userLang = "en";
+	
     var translator = $('body').translate({
         lang: userLang,
         t: dict
