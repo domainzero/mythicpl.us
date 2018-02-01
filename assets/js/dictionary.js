@@ -264,20 +264,84 @@
 		"Weekly schedule for affixes": {
             es: "Calendario semanal de afijos",
             pt: "Agenda semanal de afixos"
-        }
+        },
 		
 		//Useful stuff
 		
 		
 		//Keystones
+		"Keystones": {
+            es: "Piedras angulares míticas",
+            pt: "Pedra-chave mítica"
+        },
+		
+		"Complete a Mythic Keystone run within the timer to upgrade a keystone.": {
+            es: "Finalice una carrera mítica para mejorar una piedra angular mítica.",
+            pt: "Complete uma corrida mítica para aumentar uma Pedra-chave mítica."
+        },
+		
+		"Complete it with 40% of the timer remaining and upgrade it 3 times in one go. i.e. Keystone level 5 to keystone level 8.": {
+            es: "Finalice con 40% del tiempo restante y mejore 3 veces de golpe. Ejemplo: Piedra de nível 5 sube al nível 8.",
+            pt: "Conclúa com 40% do tempo restante e aumente 3 níveis de uma vez. Por exemplo: Pedra-chave de nível 5 subirá ao nível 8."
+        },
+		
+		"Complete a run with 20% of the timer remaining and upgrade it 2 times in one go. i.e. keystone level 5 to keystone level 7.": {
+            es: "Finalice con 20% del tiempo restante y mejore 2 veces de golpe. Ejemplo: Piedra de nível 5 sube al nível 7.",
+            pt: "Conclúa com 20% do tempo restante e aumente 2 níveis de uma vez. Por exemplo: Pedra-chave de nível 5 subirá ao nível 7."
+        },
+		
+		"Didn't make the timer? That's ok. Your keystone doesn't deplete anymore, it just levels down by 1. i.e. keystone level 5 to keystone level 4. The dungeon stays the same.": {
+            es: "¿No has hecho en tiempo? No pasa nada. Tu piedra ya no se agota, simplemente baja 1 nível. Ejemplo: Piedra de nível 5 baja al nível 7. La mazmorra seguirá siendo la misma.",
+            pt: "Não concluíu em tempo? Sem problemas. Sua pedra não se esgotará, simplesmente baixará de nível. Por exemplo: Pedra-chave de nível 5 baixará ao nível 7. A masmorra continuará sendo a mesma."
+        },
+		
+		"sample": {
+            es: "sample",
+            pt: "sample"
+        },
+		
+		"Instance Timer and Requirements for \"Level Jumps\"":  {
+            es: "Temporizador y requerimientos para \"subir de nivel\"",
+            pt: "Temporizador e requisitos para \"subir de nível\""
+        },
+				
+		"keystone level": {
+            es: "nível de la piedra",
+            pt: "nível da pedra"
+        },
+		
+		"keystone levels": {
+            es: "níveles de la piedra",
+            pt: "níveis da pedra"
+        },
+		
+		"left on the timer": {
+            es: "tiempo restante",
+            pt: "tempo restante"
+        },
+		
 		
 		//Loot
 		
+		
+		"sample": {
+            es: "sample",
+            pt: "sample"
+        }
+				
     };
 	
 	var userLang = navigator.language || navigator.userLanguage;
-	//userLang = "en";
+	userLang = userLang.toLowerCase().substr(0, 2);
 	
+	//Testing tranlations
+	//userLang = "rs";
+	
+	if (userLang !="en" && userLang !="es" && userLang !="pt") {
+		//Default
+		userLang = "en";
+	};
+		
     var translator = $('body').translate({
         lang: userLang,
         t: dict
