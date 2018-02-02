@@ -833,8 +833,7 @@
 		"Note: WHO WOULD HAVE GUESSED. Tier three affixes are the worst.": {
 	        es: "Nota: COMO DEBERÍAS IMAGINAR. Estos afijos del tier 3 son los peores.",
 	        pt: "Nota: COMO VOCÊ DEVE IMAGINAR. Estes afixos de tier 3 são os piores."
-	    }
-		
+	    }		
 		//===== END GRAPHS ===== 
 		
 	};
@@ -855,15 +854,12 @@
 	    t: dict
 	});
 
-var _t = $('body').translate({lang: "en", t: dict});
-  var str = _t.g("translate");
-  console.log(str);
-
-
-  $(".lang_selector").click(function(ev) {
+	var _t = $('body').translate({lang: "en", t: dict});
+  	var str = _t.g("translate");
+  	
+  	$(".lang_selector").click(function(ev) {
     var lang = $(this).attr("data-value");
     _t.lang(lang);
 
-    console.log(lang);
     ev.preventDefault();
   });
