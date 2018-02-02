@@ -1,6 +1,6 @@
 	var title = "What Mythic Plus Garbage Do I Have To Deal With This Week?";
 	var title_es = "¿Cuáles son los retos a los que me enfrentaré esta semana en mi mítica+?";
-	var title_pt = "Qual é a trash que vou enfrentar esta semana em minha mítica+?";
+	var title_pt = "Quais são os desafios que vou enfrentar esta semana em minha mítica+?";
 	
     var dict = {
 		
@@ -8,12 +8,12 @@
 		info_ood: {
 			en: "Info might be a little out of date. I'm always accepting corrections or suggestions. Hit me up on discord: domaiN#2722 or at the ",			
 			es: "La información podría estar desactualizada. Estoy disponible a sugerencias o ajustes. Búscame en Discord: domaiN#2722 o en ",
-			pt: "A página pode estar um pouco desactualizada. Estou sempre aberto a correções ou sugestões. Me procure no Discord: domaiN#2722 ou no "
+			pt: "A página pode estar um pouco desactualizada. Estou disponível para correções ou sugestões. Me procure no Discord: domaiN#2722 ou no "
 		},
 
 		"what m+ garbage do i have to deal with this week?": {
             es: "¿Cuáles son los retos a los que me enfrentaré esta semana en mi mítica+?",
-            pt: "Quais são os desafios que enfreitarei esta semana em minha mítica+?"
+            pt: "Quais são os desafios que vou enfrentar esta semana em minha mítica+?"
         },		
 		
 		//Menu
@@ -163,7 +163,7 @@
 		
 		"Week after next": {
             es: "Semana contígua",
-            pt: "Semana após a próxima"
+            pt: "Semana depois da próxima"
         },
 
 		//Calculator
@@ -174,14 +174,14 @@
 		
 		"Calculate AP required to next artifact level and more!": {
             es: "¡Calcula el AP requerido para el siguiente nivel de artefacto y más!",
-            pt: "Calcule o AP necessário para o próximo nível de artefato e mais!"
+            pt: "Calcule o AP necessário para o próximo nível da arma de artefato e mais!"
         },
 		
 		//Affixes effects
 		
 		"Affix effects": {
             es: "Efectos de los afijos",
-            pt: "Efeitos de afixos"
+            pt: "Efeitos dos afixos"
         },
 		
 		"Legend: ": {
@@ -206,12 +206,12 @@
 		
 		"Short survey to get your feedback on affix difficulty": {
             es: "Rellena la encuesta rápida para obtener comentários sobre la dificultad de afijos",
-            pt: "Preencher enquete rápida para obter seu feedback sobre as dificuldades de afixos"
+            pt: "Preencha a enquete rapidamente para receber um feedback sobre as dificuldades de afixos"
         },
 				
 		"Curious about how I applied the results? Check ": {
             es: "¿Interesado en saber cómo obuve los resultados? Comprueba ",
-            pt: "Curioso sobre como cheguei aos resultados? Comprovar "
+            pt: "Interessado em descubrir como obtive os resultados? Comprovar "
         },
 		
 		"here!": {
@@ -226,7 +226,7 @@
 
 		"(these occur at +4 keystones)": {
             es: "(desde una piedra angular +4)",
-            pt: "(desde uma pedra +4)"
+            pt: "(desde uma pedra-chave +4)"
         },
 		
 		"Level 7 affixes ": {
@@ -236,7 +236,7 @@
 
 		"(these occur at +7 keystones)": {
             es: "(desde una piedra angular +7)",
-            pt: "(desde uma pedra +7)"
+            pt: "(desde uma pedra-chave +7)"
         },
 		
 		"Level 10 affixes ": {
@@ -246,55 +246,55 @@
 
 		"(these occur at +10 keystones)": {
             es: "(desde una piedra angular +10)",
-            pt: "(desde uma pedra +10)"
+            pt: "(desde uma pedra-chave +10)"
         },
 		
 		bolstering_info: {
 			en: "Non-boss enemies will buff nearby allies' health and damage when defeated with a 30yd effective range.",			
 			es: "Cuando un enemigo que no es un jefe muere, su grito al morir potencia a los aliados cercanos, lo que aumenta su salud y su daño máximos un 20%. Radio del grito 30 metros.",
-			pt: "Quando um inimigo morre, os aliados a 30 metros dele recebem um bônus que aumenta sua vida máxima e seu dano em 20%, e o efeito acumula."
+			pt: "Quando um inimigo que não é chefe morre, os aliados a 30 metros dele recebem um bônus que aumenta sua vida máxima e seu dano em 20%, e o efeito acumula."
 		},
 
 		bolstering_note: {
 			en: "Note: it's important to kill all the trash in a pull as closely together as possible with this affix as mobs effectively heal as they gain max health (percent translation). Adds spawned from a trash mob or boss ability do not trigger bolster. It's possible to reset bolster on mobs by resetting them via wiping or exiting combat.",			
 			es: "Nota: Es importante intentar matar todo el pull a la vez para no potenciar a los enemigos cercanos. Los enemigos adicionales que aparecen en un combate contra un jefe de mazmorra no son afectados por la Potenciante.",
-			pt: "Nota: Quando você estiver lidando com esse Afixo, é necessário balancear o dano de forma que todos os inimigos morram juntos evitando potenciar os que estao ao redor. Os inimigos que aparecem junto com o chefe da masmorra não são afetados pela Encorajadora."
+			pt: "Nota: É necessário tentar balancear o dano de forma que todos os inimigos morram juntos evitando potenciar os que estao ao redor. Os inimigos que aparecem junto com o chefe da masmorra não são afetados pela Encorajadora."
 		},
 
 		raging_info: {
 			en: "Non-boss enemies will enrage at low health, dealing double damage until killed.",			
 			es: "Los enemigos que no son jefes se enfuceren cuando les queda un 30% de salud, por lo que infligen un 100% más de daño hasta ser derrotados.",
-			pt: "Inimigos normais ficam enfurecidos ao chegarem a 30% de vida, causando 100% de dano aumentado até serem derrotados."
+			pt: "Os Inimigos que não são chefes ficam enfurecidos ao alcançar 30% de vida, causando 100% mais de dano até serem derrotados."
 		},
 
 		raging_note: {
 			en: "Note: mobs with high damage targeted abilities or high damage AoE abilities become deadly with this affix. Be sure to focus fire mobs down so there aren't multiple enraged mobs at once.",			
 			es: "Nota: los enemigos con habilidades que hacen mucho daño AoE o daño directo son mortales con este afijo. Asegúrate de hacer bien el foco e intenta reservar los stuns y ccs cuando estén enfurecidos.",
-			pt: "Nota: inimigos com habilidades que causam muito dano em áreas ou direto são mortais com este afixo. Garantir que o foco principal esteja morto e guarda algum stun e ccs quando estiverem enfurecidos."
+			pt: "Nota: inimigos com habilidades que causam muito dano em áreas ou direto são mortais com este afixo. Garanta que o foco principal esteja morto e guarde algum aturdir e cc para quando estiverem enfurecidos."
 		},
 		
 		sanguine_info: {
 			en: "Shortly after death, non-boss enemies will leave a pool of blood on the ground, which grows to a 5yd radius over 2 seconds. This pool heals enemies and damages players for a % of their maximum health. The pool's radius is 8 yds.",			
 			es: "Al morir, los enemigos que no son jefes dejan debajo suyo un charco persistente de icor que sana a sus aliados e inflige daño a los jugadores.",
-			pt: "Ao morrer, inimigos que não são chefes deixam debaixo uma poça de icor que cura os aliados e causa dano aos jogadores."
+			pt: "Ao morrer, inimigos que não são chefes deixam debaixo uma poça de sangue que cura aos aliados e causa dano aos jogadores."
 		},
 
 		sanguine_note: {
 			en: "Note: ez pz affix, don't stand in pools and make sure mobs don't stand in them either.",			
 			es: "Nota: afijo facilito :), no te quedes parado en los pulls y asegúrate de que los enemigos tampoco estén parados en el charco. ¡A moverse!",
-			pt: "Nota: afixo faciiiinho, não fique parado nos mobs e mantenhase em movimento. Garantir que os inimigos também se movam. Movimento, movimento!"
+			pt: "Nota: afixo facinho, facinho... Não fique parado nos mobs e mantenhase em movimento. Garanta que os inimigos também se movam. Movimento, movimento!"
 		},
 
 		teeming_info: {
 			en: "Additional non-boss enemies are present throughout the dungeon; kill count requirement increased.",			
 			es: "Hay enemigos (no jefes) adicionales por toda la mazmorra.",
-			pt: "Inimigos normais adicionais estão presentes na masmorra."
+			pt: "Inimigos (não chefes) adicionais estão presentes na masmorra."
 		},
 
 		teeming_note: {
 			en: "Note: Not much different from usual unless paired with other problematic affixes (Skittish). The most notable change with this affix is that the Enemy Forces Defeated kill requirement is increased. Certain trash pulls can be really nasty with this affix depending on the dungeon.",
 			es: "Nota: No es muy relevante, al menos que esté emparejado con otros afijos problemáticos (Inquieta). El cambio más notable con este afijo es que el requisito de hacer porcentaje aumenta igual que las tropas. Ciertos pulls pueden ser realmente desagradables con este afijo dependiendo de la mazmorra.",
-			pt: "Nota: Não é muito relevante, ao menos que esteja em par com outros afixos problemáticos (Assustada). A mudança mais perceptível com este afixo é que o requisito de matar inimigos não-chefes aumenta. Alguns mobs podem ser realmente horríveis com este afixo dependendo da masmorra."
+			pt: "Nota: Não é muito relevante, ao menos que esteja em conjunto com outros afixos problemáticos (Assustada). A mudança mais perceptível com este afixo é que o requisito de matar inimigos não-chefes aumenta. Alguns mobs podem ser realmente horríveis com este afixo dependendo da masmorra."
 		},
 
 		bursting_info: {
@@ -306,7 +306,7 @@
 		bursting_note: {
 			en: "Note: As far as I know there is no range on this. Consider it to work like Mythic Il'gynoth blobs.",			
 			es: "Nota: Este afijo parece que ignora el rango y columneo. Así que cuidado.",
-			pt: "Nota: Até onde eu sei, isto não tem um limite de alcence. Imagina que é parecido com as bolhas em Il'gynoth mítico."			
+			pt: "Nota: Este afixo parece que ignora o alcance. Portanto cuidado!"
 		},
 
 		necrotic_info: {
@@ -318,7 +318,7 @@
 		necrotic_note: {
 			en: "Note: Strong AoE CC or slows are great for this affix to allow for kiting mobs while the tank's Necrotic stacks fall off.",			
 			es: "Nota: Está muy bien utilizar correctamente los CCs en áreas y ralentizaciones con afijo para permitir quitear bien los pulls mientras el tanque se limpia de las cargas de Necrótica.",
-			pt: "Nota: O ideal é utilizar corretamente os CDs controle massivo e redução de velocidade dos inimigos para permitir que o tanque possa fugir. Desta forma ele pode se limpar das cargas necróticas."
+			pt: "Nota: É importante utilizar corretamente os CDs de controle massivo e redução de velocidade dos inimigos para permitir que o tanque possa fugir. Desta forma ele pode limpar-se das cargas necróticas."
 		},
 
 		skittish_info: {
@@ -354,7 +354,7 @@
 		explosive_note: {
 			en: "Note: An explosive orb will spawn with a 6 second cast. If the cast goes off the entire party will take 50% of their max hp in damage. They are <strong>AOE immune so you can't cleave them down!</strong> They can also spawn on boss fights.",
 			es: "Nota: Un orbe explosivo aparece con un lanzamiento de hechizo de 6 segundos. Si el orbe castea, todo el grupo recibirá un daño del 50% de salud máxima. ¡Ellos son <strong>inmunes al daño en áreas, o sea cleave no funciona!</strong> Los orbes pueden aparecer en combates con jefes.",
-			pt: "Nota: Um orbe explosivo "
+			pt: "Nota: Um orbe explosivo surge com um lançamento de magia de 6 segundos. Caso o orbe finalize o lançamento, todo o grupo recebe um dano de 50% de sua saúde máxima. Eles são <strong>imunes ao dano em áreas ou cleave</strong> Los orbes pueden aparecer en combates con jefes."
 		},
 
 		quaking_info: {
@@ -365,7 +365,7 @@
 
 		quaking_note: {
 			en: "Note: spread out.",
-			es: "Nota: separaos. Cuanto más separados estén, mejor. Interrumpe los lanzamientos de hechizos y también para adquirir el buffo de comida.",
+			es: "Nota: separaos. Cuanto más separados estén, mejor. Interrumpe los lanzamientos de hechizos y también el intento de adquirir el buffo de comida.",
 			pt: "Nota: separarem-se!"
 		},
 
@@ -378,7 +378,7 @@
 		grievous_note: {
 			en: "Note: You bleed until you are healed above 90%. Finally, another reason to blame your healer!",			
 			es: "Nota: Sangrarás hasta que se te cure por encima del 90%. ¡Finalmente, otra razón para culpar a tu healer (¿no hay nada que curar?)!",
-			pt: "Nota: Você sangrará enquanto não se cure mais de 90%. Finalmente, outro motivo para culpar seu healer!"
+			pt: "Nota: Você sangrará enquanto não se curar mais de 90%. Finalmente, outro motivo para culpar seu healer!"
 		},
 
 		fortified_info: {
@@ -402,7 +402,7 @@
 		tyrannical_note: {
 			en: "Note: Boss abilities are no longer trivial. Boss mechanics need to be done or people will die. Some fights become endurance tests because they last so long.",			
 			es: "Nota: Las habilidades de los jefes ya no son triviales. La mecánica del jefe debe hacerse o se morirá \"la people\". Algunas peleas se convierten en pruebas de resistencia porque duran mucho tiempo.",
-			pt: "Nota: As habilidades dos chefe não são mais triviais. As mecânicas do chefe precisam ser feitas verás gente morta :). Alguns combates se tornam verdadeiras provas de resistência (e não é do BBB), podem durar muito tempo."
+			pt: "Nota: As habilidades dos chefe não são mais triviais. As mecânicas do chefe precisam ser feitas ou verás gente morta :). Alguns combates se tornam verdadeiras provas de resistência (e não é do BBB) porque duram muito tempo."
 		},
 		
 		"Weekly schedule for affixes": {
