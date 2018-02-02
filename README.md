@@ -12,7 +12,8 @@ Auhsoj for writing most of the script that powers the calc page.<br>
 Gnarfoz and chuDr3t4 for doing keystone research.<br>
 Shoutouts to my boy Luke for making the auto-rotate script.<br>
 Kyatastrophe for shilling my site on the WoW discord.<br>
-MattZeeX, for confirming all the time <br>**
+MattZeeX, for confirming all the time <br>
+amarques, master translator<br>**
 
 **Nery, lord and savior of week 2<br>
 Vauira, lord and savior of week 3<br>
