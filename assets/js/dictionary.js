@@ -1,3 +1,5 @@
+$(function() {
+
 	var dict = {
 
 		//===== HOME ===== 
@@ -840,7 +842,7 @@
 
 	var userLang = navigator.language || navigator.userLanguage;
 	userLang = userLang.toLowerCase().substr(0, 2);
-
+	
 	//Testing tranlations
 	//userLang = "pt";
 
@@ -849,17 +851,18 @@
 	    userLang = "en";
 	};
 
-	var translator = $('body').translate({
+	var _t = $('body').translate({
 	    lang: userLang,
 	    t: dict
 	});
 
-	var _t = $('body').translate({lang: "en", t: dict});
-  	var str = _t.g("translate");
-  	
   	$(".lang_selector").click(function(ev) {
     var lang = $(this).attr("data-value");
     _t.lang(lang);
 
     ev.preventDefault();
+
   });
+
+
+});
