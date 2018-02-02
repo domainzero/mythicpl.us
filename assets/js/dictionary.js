@@ -263,20 +263,20 @@
 
 		raging_info: {
 			en: "Non-boss enemies will enrage at low health, dealing double damage until killed.",			
-			es: "Los enemigos que no son jefes se enfuceren cuando les queda un 30% de salud, por lo que infligen un 100% más de daño hasta ser derrotados.",
+			es: "Los enemigos que no son jefes se enfuceren cuando alcanza un 30% de salud, por lo que infligen un 100% más de daño hasta ser derrotados.",
 			pt: "Os Inimigos que não são chefes ficam enfurecidos ao alcançar 30% de vida, causando 100% mais de dano até serem derrotados."
 		},
 
 		raging_note: {
 			en: "Note: mobs with high damage targeted abilities or high damage AoE abilities become deadly with this affix. Be sure to focus fire mobs down so there aren't multiple enraged mobs at once.",			
-			es: "Nota: los enemigos con habilidades que hacen mucho daño AoE o daño directo son mortales con este afijo. Asegúrate de hacer bien el foco e intenta reservar los stuns y ccs cuando estén enfurecidos.",
-			pt: "Nota: inimigos com habilidades que causam muito dano em áreas ou direto são mortais com este afixo. Garanta que o foco principal esteja morto e guarde algum aturdir e cc para quando estiverem enfurecidos."
+			es: "Nota: los enemigos con habilidades que hacen mucho daño AoE o daño directo son mortales con este afijo. Asegúrate de hacer bien el foco e intenta reservar los stuns y ccs cuando estén enfurecidos. Si se curan después de enfurecerse, seguirán enfucecidos hasta que se mueran.",
+			pt: "Nota: inimigos com habilidades que causam muito dano em áreas ou direto são mortais com este afixo. Garanta que o foco principal esteja morto e guarde algum aturdir e cc para quando estiverem enfurecidos. Se os enemigos se curam depois de potenciar-se, seguirão potenciados até que morram."
 		},
 		
 		sanguine_info: {
 			en: "Shortly after death, non-boss enemies will leave a pool of blood on the ground, which grows to a 5yd radius over 2 seconds. This pool heals enemies and damages players for a % of their maximum health. The pool's radius is 8 yds.",			
 			es: "Al morir, los enemigos que no son jefes dejan debajo suyo un charco persistente de icor que sana a sus aliados e inflige daño a los jugadores.",
-			pt: "Ao morrer, inimigos que não são chefes deixam debaixo uma poça de sangue que cura aos aliados e causa dano aos jogadores."
+			pt: "Ao morrer, inimigos que não-chefes deixam debaixo uma poça de sangue que cura aos aliados e causa dano aos jogadores."
 		},
 
 		sanguine_note: {
