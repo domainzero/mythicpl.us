@@ -269,8 +269,8 @@
 
 		raging_note: {
 			en: "Note: mobs with high damage targeted abilities or high damage AoE abilities become deadly with this affix. Be sure to focus fire mobs down so there aren't multiple enraged mobs at once.",			
-			es: "Nota: los enemigos con habilidades que hacen mucho daño AoE o Unitarget son mortales con este afijo. Asegurate de hacer bien el foco e intenta reservar los stuns y ccs cuando estén enfurecidos.",
-			pt: ""
+			es: "Nota: los enemigos con habilidades que hacen mucho daño AoE o daño directo son mortales con este afijo. Asegurate de hacer bien el foco e intenta reservar los stuns y ccs cuando estén enfurecidos.",
+			pt: "Nota: inimigos com habilidades que causam muito dano em áreas ou direto são mortais com este afixo. Garantir que o foco principal esteja morto e guarda algum stun e ccs quando estiverem enfurecidos."
 		},
 		
 		sanguine_info: {
@@ -281,8 +281,8 @@
 
 		sanguine_note: {
 			en: "Note: ez pz affix, don't stand in pools and make sure mobs don't stand in them either.",			
-			es: "",
-			pt: ""
+			es: "Nota: afijo facilito :), no esté parado en los pulls y asegurate de que los enemigos tampoco estén parados. ¡A moverse!",
+			pt: "Nota: afixo faciiiinho, não fique parado nos mobs e mantenhase em movimento. Garantir que os inimigos também se movam. Movimento, movimento!"
 		},
 
 		teeming_info: {
@@ -293,8 +293,8 @@
 
 		teeming_note: {
 			en: "Note: Not much different from usual unless paired with other problematic affixes (Skittish). The most notable change with this affix is that the Enemy Forces Defeated kill requirement is increased. Certain trash pulls can be really nasty with this affix depending on the dungeon.",
-			es: "",
-			pt: ""
+			es: "Nota: No es muy relevante, al menos que esté emparejado con otros afijos problemáticos (Inquieta). El cambio más notable con este afijo es que el requisito de hacer percentiles las tropas enemigas aumenta. Ciertos pulls pueden ser realmente desagradables con este afijo dependiendo de la mazmorra.",
+			pt: "Nota: Não é muito relevante, ao menos que esteja em par com outros afixos problemáticos (Assustada). A mudança mais perceptível com este afixo é que o requisito de matar inimigos não-chefes aumenta. Alguns mobs podem ser realmente horríveis com este afixo dependendo da masmorra."
 		},
 
 		bursting_info: {
@@ -305,8 +305,8 @@
 
 		bursting_note: {
 			en: "Note: As far as I know there is no range on this. Consider it to work like Mythic Il'gynoth blobs.",			
-			es: "",
-			pt: ""
+			es: "Nota: Hasta donde sé, no hay rango en esto. Imaginate que esto funciona las burbujas en Il'gynoth mítico.",
+			pt: "Nota: Até onde eu sei, isto não tem um limite de alcence. Imagina que é parecido com as bolhas em Il'gynoth mítico."			
 		},
 
 		necrotic_info: {
@@ -317,8 +317,8 @@
 
 		necrotic_note: {
 			en: "Note: Strong AoE CC or slows are great for this affix to allow for kiting mobs while the tank's Necrotic stacks fall off.",			
-			es: "",
-			pt: ""
+			es: "Nota: Está muy bien utilizar correctamente los CCs en áreas e ralentizaciones para este afijo para permitir quitear bien los pulls mientras el tanque se limpia de las cargas de Necrótica.",
+			pt: "Nota: O ideal é utilizar corretamente os CDs controle massivo e redução de velocidade dos inimigos para permitir que o tanque possa fugir. Desta forma ele pode se limpar das cargas necróticas."
 		},
 
 		skittish_info: {
@@ -328,9 +328,9 @@
 		},
 
 		skittish_note: {
-			en: "Note: This affix is a lot easier if Tricks of the Trade or Misdirection are used on cooldown. Strong AoE CC is beneficial here as well in case mobs get loose.",			
-			es: "",
-			pt: ""
+			en: "Note: This affix is a lot easier if Tricks of the Trade or Misdirection are used on cooldown. Strong AoE CC is beneficial here as well in case mobs get loose.",
+			es: "Nota: Este afijo es mucho más fácil si el grupo utiliza recursos de clase como redirección a CD. CCs en áreas también ofrece ventaja en el caso de que los pulls se escapan del tanque.",
+			pt: "Nota: Este afixo é bem mais fácil se o grupo utiliza corretamente os recursos de classe como redirecionar a CD. Controles de áreas também são vantajosos caso os inimigos se separem do tanque."
 		},
 
 		volcanic_info: {
@@ -341,8 +341,8 @@
 
 		volcanic_note: {
 			en: "Note: Keep an eye out for the volcano animation under your feet or near you. Sometimes you may not have to move!",			
-			es: "",
-			pt: ""
+			es: "Nota: Esté atento a la animación del vulcán bajo sus pies o cerca de te. ¡A veces puede que no tengas que moverte!",
+			pt: "Nota: Fique atento as animações do vulcão debaixo dos seus pés ou perto de você. As vezes você nem precisa mover-se!"
 		},
 
 		explosive_info: {
@@ -352,9 +352,9 @@
 		},
 
 		explosive_note: {
-			en: "Note: An explosive orb will spawn with a 6 second cast. If the cast goes off the entire party will take 50% of their max hp in damage. They are <strong>AOE immune so you can't cleave them down!</strong> They can also spawn on boss fights.",			
-			es: "",
-			pt: ""
+			en: "Note: An explosive orb will spawn with a 6 second cast. If the cast goes off the entire party will take 50% of their max hp in damage. They are <strong>AOE immune so you can't cleave them down!</strong> They can also spawn on boss fights.",
+			es: "Nota: Un orbe explosivo aparece con un lanzamiento de hechizo de 6 segundos. Si el orbe castea, todo el grupo recibirá un daño de 50% salud máxima. ¡Ellos son <strong>inmunes al daño en áreas, o sea cleave no funciona!</strong> Los orbs  pueden aparecer en peleas de jefes.",
+			pt: " "
 		},
 
 		quaking_info: {
@@ -364,9 +364,9 @@
 		},
 
 		quaking_note: {
-			en: "Notes: spread out.",			
-			es: "",
-			pt: ""
+			en: "Note: spread out.",
+			es: "Nota: dispersarse. Cuanto más separados estén, mejor. Interrupe los lanzamiento de hechizo y también el parar para comer.",
+			pt: "Nota: separarem-se!"
 		},
 
 		grievous_info: {
@@ -377,8 +377,8 @@
 
 		grievous_note: {
 			en: "Note: You bleed until you are healed above 90%. Finally, another reason to blame your healer!",			
-			es: "",
-			pt: ""
+			es: "Nota: Sangrarás hasta que se te cure por encima del 90%. ¡Finalmente, otra razón para culpar a tu healer (¿no hay nada que curar?)!",
+			pt: "Nota: Você sangrará enquanto não se cure mais de 90%. Finalmente, outro motivo para culpar seu healer!"
 		},
 
 		fortified_info: {
@@ -389,8 +389,8 @@
 
 		fortified_note: {
 			en: "Note: interrupting and dodging any/all trash mob abilities becomes an absolute priority with this affix. Most of the time spent in the dungeon will be fighting beefy trash, don't be afraid to use CDs.",			
-			es: "",
-			pt: ""
+			es: "Nota: interrumpir y esquivar la mayoría (o todas) las habilidades de los pulls convierte en una prioridad absoluta con este afijo. La mayor parte del tiempo que pases en la mazmorra lucharás duramente contra los pulls, por favor, tire CDs.",
+			pt: "Nota: interromper e esquivar a maioria (ou todas) as habilidades dos mobs são prioridade absoluta com este afixo. A maior parte do tempo dentro da masmorra estarás em combate puramente com mobs, não economize os CDs."
 		},
 
 		tyrannical_info: {
@@ -401,8 +401,8 @@
 
 		tyrannical_note: {
 			en: "Note: Boss abilities are no longer trivial. Boss mechanics need to be done or people will die. Some fights become endurance tests because they last so long.",			
-			es: "",
-			pt: ""
+			es: "Nota: Las habilidades de los jefe ya no son triviales. La mecánica del jefe debe hacerse o se morirá la 'people'. Algunas peleas se convierten en pruebas de resistencia porque duran mucho tiempo.",
+			pt: "Nota: As habilidades dos chefe não são mais triviais. As mecânicas do chefe precisam ser feitas verás gente morta :). Alguns combates se tornam verdadeiras provas de resistência (e não é do BBB), podem durar muito tempo."
 		},
 		
 		"Weekly schedule for affixes": {
