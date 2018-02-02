@@ -590,12 +590,12 @@
 	    },
 
 	    "At the start of a week (after raid/mythic reset) a chest will appear in your order hall giving loot based on the highest level keystone dungeon <strong>COMPLETED</strong> the previous week, within the timer or not.": {
-	        es: "Al comenzar la semana (después de un reinício de banda o míticas) aparecerá un cofre en la sede de clase con el botín basado en el nivel de dificultad más alto de la mazmorra <strong>FINALIZADA</strong> (sea en tiempo o no).",
+	        es: "Al comenzar la semana (después de un reinício de banda o míticas) aparecerá un cofre en la sede de clase </br>con el botín basado en el nivel de dificultad más alto de la mazmorra <strong>FINALIZADA</strong> (sea en tiempo o no).",
 	        pt: "No início da semana (depois de reiniciar as raids ou míticas) surgirá um baú no Salão de Classe com o saqueio baseado na masmorra <strong>CONCLUÍDA</strong></br>da semana anterior com o nível de dificuldade mais alto, seja em tempo ou não."
 	    },
 
 	    "In addition, the chest will also have a downgraded keystone based on the highest level keystone run <strong>YOU COMPLETED</strong> in the previous week.": {
-	        es: "Además, el cofre también tendrá una piedra angular solo un nivel más bajo comparada a la piedra de mayor nivel que <strong>COMPLESTASTE</strong> en la semana anterior.",
+	        es: "Además, el cofre también tendrá una piedra angular solo un nivel más bajo comparada con la piedra angular de mayor </br> nivel que <strong>COMPLESTASTE</strong> en la semana anterior.",
 	        pt: "Além disso, o baú também terá uma pedra-chave rebaixada (somente um nível) baseada na corrida de nível mais alto que <strong>VOCÊ COMPLETOU</ strong> na semana anterior."
 	    },
 
