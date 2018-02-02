@@ -18,10 +18,10 @@
 
         var settings = {
             css: "trn",
-            attrs: ["alt", "placeholder", "title"],
+            attrs: ["alt", "placeholder", "title", "value"],
             checkImage: true, // Checking images
             lang: "pt",
-            langDefault: "pt"/*,
+            langDefault: "en"/*,
             t: {
                 "translate": {
                     pt: "tradução",
@@ -73,7 +73,7 @@
                 trn_key = $this.html();
                 $this.attr("data-trn-key", trn_key);
             }
-
+			
             // Filtering attr
             $.each(this.attributes, function() {
                 if ($.inArray(this.name, settings.attrs) !== -1) {
