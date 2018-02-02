@@ -1,9 +1,12 @@
-	var title = "What Mythic Plus Garbage Do I Have To Deal With This Week?";
-	var title_es = "¿Cuáles son los retos a los que me enfrentaré esta semana en mi mítica+?";
-	var title_pt = "Quais são os desafios que vou enfrentar esta semana em minha mítica+?";
-
 	var dict = {
 
+		//===== HOME ===== 
+		//Page title
+		"What Mythic Plus Garbage Do I Have To Deal With This Week?": {
+	        es: "¿Cuáles son los retos a los que me enfrentaré esta semana en mi mítica+?",
+	        pt: "Quais são os desafios que vou enfrentar esta semana em minha mítica+?"
+	    },
+		
 	    //Home texts
 	    info_ood: {
 	        en: "Info might be a little out of date. I'm always accepting corrections or suggestions. Hit me up on discord: domaiN#2722 or at the ",
@@ -628,7 +631,96 @@
 	    "World of Warcraft, Warcraft and Blizzard Entertainment are trademarks or registered trademarks of Blizzard Entertainment, Inc. in the U.S. and/or other countries.": {
 	        es: "World of Warcraft, Warcraft y Blizzard Entertainment son marcas comerciales o marcas comerciales registradas de Blizzard Entertainment, Inc. en los EE.UU. y/o en otros países.",
 	        pt: "World of Warcraft, Warcraft e Blizzard Entertainment são marcas comerciais ou marcas registradas da Blizzard Entertainment, Inc. nos EUA e/ou em outros países."
+	    },
+		//===== END HOME ===== 
+		
+		//===== CALC ===== 
+		//Page title
+		"mythic+ calculator to fill out your artifact": {
+	        es: "Calculadora de mítica+ para subir el poder de artefacto",
+	        pt: "Calculadora de mítica+ para evoluir o poder da arma de artefato"
+	    },
+		
+		//Calculator
+		"back": {
+	        es: "volver",
+	        pt: "voltar"
+	    },
+		
+		"how many m+ do i have to run to get this goddamn artifact levelled? (now with some 7.2 data! m+ AP tokens have changed to scale with dungeon length and I haven't updated that yet)": {
+	        es: "¿Cuántas mazmorras+ tengo hacer para subir el poder de artefacto? (ahora con datos del parche 7.2! Las chapas de AP de las míticas+ han cambiado y escalan con la duración de la mazmorra pero no he actualizado todavía)",
+	        pt: "Quantas masmorras+ são necessárias fazer para subir o poder de artefato? (dados atualizados com a versão 7.2! As fichas de AP das míticas+ mudaram e escalam com a duração da masmorra, porém ainda não atualizei)"
+	    },
+		
+		"Current Artifact Level": {
+	        es: "Nivel actual de poder de artefacto",
+	        pt: "Nível atual de poder de artefato"
+	    },
+		
+		"Current AP totals and AP to level": {
+	        es: "Totales de AP actual y AP para el nivel",
+	        pt: "Totais de AP atuais e AP para o nível"
+	    },
+		
+		btncalculate: {
+			en: "CALCULATE",
+			es: "Calcular",
+			pt: "Calcular"
+		},
+		
+		"Total AP:": {
+	        es: "AP Total",
+	        pt: "AP Total"
+	    },
+		
+		"AP to level:": {
+	        es: "AP para el nivel:",
+	        pt: "AP para o nível:"
+	    },
+		
+		"AP to max:": {
+	        es: "AP para máx. nivel:",
+	        pt: "AP para máx. nível:"
+	    },
+		
+		"Total M+ required to level": {
+	        es: "Total de míticas+ requeridas para nivel",
+	        pt: "Requisito total de míticas+ o nível"
+	    },
+		
+		"M+ to 35": {
+	        es: "M+ hasta 35",
+	        pt: "M+ até 35"
+	    },
+		
+		"M+ to 52 (first Concordance point)": {
+	        es: "M+ hasta 52 (primer punto del Acuerdo)",
+	        pt: "M+ até 52 (primero punto do Acordo)"
+	    },
+		
+		
+		"M+ to next level": {
+	        es: "M+ para el siguiente nivel",
+	        pt: "M+ para o seguinte nível"
+	    },
+		
+		"M+ to Max (lol good luck)": {
+	        es: "M+ para Máx. (lol gzeta)",
+	        pt: "M+ para Máx. (puah sorte)"
+	    },
+		
+		// Footer		
+		"Yeah, this is based off of <a href=\"https://docs.google.com/spreadsheets/d/1Fvx9eKXx6sPa5D_Mz4L9-fUog_kdaOajoTC9UgvV_Ms/edit#gid=0\">this spreadsheet.</a> Don't worry, I worked with the author to get it up here, I didn't just rip them off. Shoutouts to Auhsoj#7928.": {
+	        es: "Sí, esto está basado en <a href=\"https://docs.google.com/spreadsheets/d/1Fvx9eKXx6sPa5D_Mz4L9-fUog_kdaOajoTC9UgvV_Ms/edit#gid=0\"> esta hoja de cálculo.</a> No te preocupes, yo trabajé con el autor para meter esto aquí, no solo le estafé :). Felicitaciones a Auhsoj#7928.",
+	        pt: "Sím, isto está feito com base nesta <a href=\"https://docs.google.com/spreadsheets/d/1Fvx9eKXx6sPa5D_Mz4L9-fUog_kdaOajoTC9UgvV_Ms/edit#gid=0\"> planilha.</a> Nao se preocupe, eu trabalhei com o autor para colocar isto aqui, não somente chupinhei :). Agradecimentos a Auhsoj#7928."
+	    },
+		
+		"Sample": {
+	        es: "Ejemplo",
+	        pt: "Exemplo"
 	    }
+		
+		//===== END HOME ===== 
 
 	};
 
@@ -647,11 +739,3 @@
 	    lang: userLang,
 	    t: dict
 	});
-
-	if (userLang == "es") {
-	    title = title_es;
-	} else if (userLang == "pt") {
-	    title = title_pt;
-	};
-
-	document.title = title;
