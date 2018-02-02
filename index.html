@@ -3,57 +3,29 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <script type='text/javascript' src='https://hailsatan.xyz/js/winter.js'></script>
     <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="assets/js/jquery.translate.js"></script>
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Your quick guide to all things mythic plus. Check this week's affixes, get loot information, browse curated addons and find groupfinding Discords!">
     <meta name="keywords" content="mythic+,mythic_plus,mythic_+,world of warcraft, mythic dungeons,warcraft,mythic plus, legion, warlords, keystone, keystone affixes, affixes, keystones">
-
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 
 <body>
+    <button class="menu-button pulse" id="open-button"><i class="fa fa-fw fa-cog"></i><span>Open Menu</span></button>
 	<title class="trn">What Mythic Plus Garbage Do I Have To Deal With This Week?</title>
     <main class="main" id="this_week">
-        <section class="nav">
-            <ul>
-                <a href="#this_week">
-                    <li class="trn">This Week</li>
-                </a>
-                <a href="#graphs">
-                    <li class="trn">Graphs</li>
-                </a>
-                <a href="#calc">
-                    <li class="trn">Calculator</li>
-                </a>
-                <a href="#affixes-div">
-                    <li class="trn">Affixes</li>
-                </a>
-                <a href="#useful-stuff">
-                    <li class="trn">Resources</li>
-                </a>
-                <a href="#keystone-upgrade">
-                    <li class="trn">Timers</li>
-                </a>
-                <a href="#loot-stuff">
-                    <li class="trn">Loot</li>
-                </a>
-            </ul>
-        </section>
-        
 		<section class="atf content-block">
             <h4 class="title title--small tagline trn">what m+ garbage do i have to deal with this week?</h4>
             <article class="affixes">
-                <h1 id="thisweekus" class="title title--large trn"><span class="title__intro">US</span></h1>
-                <h1 id="thisweekeu" class="title title--large trn"><span class="title__intro">EU</span></h1><br>
+                <h1 id="thisweekus" class="title title--large"><span class="title__intro">US</span></h1>
+                <h1 id="thisweekeu" class="title title--large"><span class="title__intro">EU</span></h1><br>
                 <p><span class="trn" data-trn-key="info_ood">Info might be a little out of date. I'm always accepting corrections or suggestions. Hit me up on discord: domain#2722 or at the </span><a href="https://github.com/domainzero/mythicpl.us">github</a>.</p>
                 <div class="arrow">
                     ↓
                 </div>
             </article>
         </section>
-        
 		<section class="next content-block content-block--small">
             <h4 class="title title--small tagline trn">Next week</h4>
             <article>
@@ -64,7 +36,6 @@
                 <h4 id="weekafternext" class="title title--small">???</h4>
             </article>
         </section>
-		
         <section class="content-block cl-effect-1" id="calc">
             <h4 class="title title--small tagline trn">Calculate AP required to next artifact level and more!</h4>
             <a class="link link--large trn" href="calc/index.html">CALCULATOR</a>
@@ -489,7 +460,25 @@
                 </div>
             </div>
         </section>
-
+        <div class="menu-wrap">
+                <nav class="menu">
+                    <div class="profile"></div>
+                    <div class="link-list">
+                        <a href="#this_week"><span class="trn">This Week</span></a>
+                        <a href="#graphs"><span class="trn">Graphs</span></a>
+                        <a href="#calculator"><span class="trn">Calculator</span></a>
+                        <a href="#affixes-div"><span class="trn">Affixes</span></a>
+                        <a href="#useful-stuff"><span class="trn">Resources</span></a>
+                        <a href="#keystone-upgrade"><span class="trn">Timers</span></a>
+                        <a href="#loot-stuff"><span class="trn">Loot</span></a>
+                    </div>
+                    <div class="link-list">
+                        <a class="btn btn-default lang_selector trn" href="#" role="button" data-value="en" data-trn-key="Translate to English">Translate to English</a>
+                        <a class="btn btn-default lang_selector trn" href="#" role="button" data-value="pt" data-trn-key="Translate to Portuguese">Translate to Portuguese</a>
+                        <a class="btn btn-default lang_selector trn" href="#" role="button" data-value="es" data-trn-key="Translate to Spanish">Translate to Spanish</a>
+                    </div>
+                </nav>
+        </div>
         <footer class="footer">
             <p>&copy;dsus. <span class="trn">suggestions welcome. Reach me by:</span></p>
             <ul>
@@ -507,7 +496,8 @@
     <script type="text/javascript" src="assets/js/dictionary.js"></script>
     <script type="text/javascript" src="assets/js/chart.bundle.min.js"></script>
     <script type="text/javascript" src="assets/js/headroom.min.js"></script>
-    <script async type="text/javascript" src="assets/js/charts.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/classie.js"></script>
     <script>
         ! function(a, b, c, d, e, f, g) {
             a.GoogleAnalyticsObject = e, a[e] = a[e] || function() {
@@ -517,17 +507,6 @@
     </script>
     <script async type="text/javascript" src="assets/js/getaffixes.js?v=0.1"></script>
     <script async type="text/javascript" src="assets/js/us.js"></script>
-    <script async>
-        var hideTheNav = document.querySelector(".nav"),
-            headroom = new Headroom(hideTheNav, {
-                offset: 200,
-                tolerance: 1,
-                classes: {
-                    initial: "animated"
-                }
-            });
-        headroom.init(), headroom.destroy();
-    </script>
 
 </body>
 
