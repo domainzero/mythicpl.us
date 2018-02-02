@@ -160,7 +160,7 @@
 	    },
 
 	    "Next week": {
-	        es: "Próxima siguiente",
+	        es: "Próxima semana",
 	        pt: "Próxima semana"
 	    },
 
@@ -194,7 +194,7 @@
 
 	    "easy difficulty": {
 	        es: "Fácil",
-	        pt: "Fácil"
+	        pt: "Baixa"
 	    },
 
 	    "medium difficulty": {
@@ -206,7 +206,22 @@
 	        es: "Alta",
 	        pt: "Alta"
 	    },
-
+		
+		"Easy": {
+	        es: "Fácil",
+	        pt: "Baixa"
+	    },
+		
+		"Medium": {
+	        es: "Media",
+	        pt: "Média"
+	    },
+		
+		"Hard": {
+	        es: "Alta",
+	        pt: "Alta"
+	    },
+				
 	    "Short survey to get your feedback on affix difficulty": {
 	        es: "Rellena la encuesta rápida para obtener comentários sobre la dificultad de afijos",
 	        pt: "Preencha a enquete rapidamente para receber um feedback sobre as dificuldades de afixos"
@@ -266,7 +281,7 @@
 
 	    raging_info: {
 	        en: "Non-boss enemies will enrage at low health, dealing double damage until killed.",
-	        es: "Los enemigos que no son jefes se enfuceren cuando alcanza un 30% de salud, por lo que infligen un 100% más de daño hasta ser derrotados.",
+	        es: "Los enemigos que no son jefes se enfuceren cuando alcanza un 30% de salud, por lo que infligen un 100% más de daño hasta que sean derrotados.",
 	        pt: "Os Inimigos que não são chefes ficam enfurecidos ao alcançar 30% de vida, causando 100% mais de dano até serem derrotados."
 	    },
 
@@ -593,7 +608,7 @@
 	    },
 
 	    "At the start of a week (after raid/mythic reset) a chest will appear in your order hall giving loot based on the highest level keystone dungeon <strong>COMPLETED</strong> the previous week, within the timer or not.": {
-	        es: "Al comenzar la semana (después de un reinício de banda o míticas) aparecerá un cofre en la sede de clase </br>con el botín basado en el nivel de dificultad más alto de la mazmorra <strong>FINALIZADA</strong> (sea en tiempo o no).",
+	        es: "Al comenzar la semana (después de un reinício de banda o míticas) aparecerá un cofre en la sede de clase con el botín basado en el nivel de</br> dificultad más alto de la mazmorra <strong>FINALIZADA</strong> (sea en tiempo o no).",
 	        pt: "No início da semana (depois de reiniciar as raids ou míticas) surgirá um baú no Salão de Classe com o saqueio baseado na masmorra <strong>CONCLUÍDA</strong></br>da semana anterior com o nível de dificuldade mais alto, seja em tempo ou não."
 	    },
 
@@ -603,7 +618,7 @@
 	    },
 
 	    "It is most beneficial to complete a +15 weekly to get the highest item level gear every reset. If that isn't feasible go for the next highest you can complete. Again, <strong>you don't need to finish in the timer to get the weekly chest.</strong>": {
-	        es: "Es más rentable finalizar una +15 semanalmente para obtener el botín con el nível más alto a cada reinicio. </br>Si eso no es factible, intenta hacer el nivel más alto que puedas finalizar. </br>El poder de artefacto conseguido en la mazmorra también es más alto dependiendo del nivel de dificultad. </br>Otra vez, <strong>no es necesario finalizar la mazmorra en tiempo para obtener el cofre semanal</strong>",
+	        es: "Es más rentable finalizar una +15 semanalmente para obtener el botín con el nível más alto a cada reinicio. </br>Si eso no es factible, intenta hacer el nivel más alto que puedas finalizar. </br>El poder de artefacto conseguido en la mazmorra también es más alto dependiendo del nivel de dificultad. Otra vez, <strong>no es necesario finalizar la mazmorra en tiempo para obtener el cofre semanal</strong>",
 	        pt: "É muito mais rentável finalizar uma masmorra +15 semanalmente para obter o saqueio com o item de nível mais alto a cada reinício. </br>Se não for possível, tente concluir a masmorra com o nível de dificuldade mais alto que puder. </br><strong>Outra vez, não é necessário finalizar a masmorra dentro do cronometro para obter um item no baú semanal<strong>"
 	    },
 
@@ -713,15 +728,115 @@
 		"Yeah, this is based off of <a href=\"https://docs.google.com/spreadsheets/d/1Fvx9eKXx6sPa5D_Mz4L9-fUog_kdaOajoTC9UgvV_Ms/edit#gid=0\">this spreadsheet.</a> Don't worry, I worked with the author to get it up here, I didn't just rip them off. Shoutouts to Auhsoj#7928.": {
 	        es: "Sí, esto está basado en <a href=\"https://docs.google.com/spreadsheets/d/1Fvx9eKXx6sPa5D_Mz4L9-fUog_kdaOajoTC9UgvV_Ms/edit#gid=0\"> esta hoja de cálculo.</a> No te preocupes, yo trabajé con el autor para meter esto aquí, no solo le estafé :). Felicitaciones a Auhsoj#7928.",
 	        pt: "Sím, isto está feito com base nesta <a href=\"https://docs.google.com/spreadsheets/d/1Fvx9eKXx6sPa5D_Mz4L9-fUog_kdaOajoTC9UgvV_Ms/edit#gid=0\"> planilha.</a> Nao se preocupe, eu trabalhei com o autor para colocar isto aqui, não somente chupinhei :). Agradecimentos a Auhsoj#7928."
-	    },
-		
-		"Sample": {
-	        es: "Ejemplo",
-	        pt: "Exemplo"
-	    }
+	    },		
 		
 		//===== END CALC ===== 
-
+		
+		//===== END GRAPHS ===== 
+		"AFFIX DIFFICULTY SURVEY RESULTS": {
+	        es: "RESULTADOS DE LA ENQUETE SOBRE LA DIFICULTAD DE AFIJOS",
+	        pt: "RESULTADOS DA PESQUISA DE DIFICULTAD AFFIX"
+	    },
+		
+		"The following charts are using input that I got from the survey hosted on mythicpl.us. Currently we're at <span id=\"totvotes\"></span> votes for the original affixes and <span id=\"newvotes\"></span> for the new affixes. The numbers you see are the total count of each difficulty divided by Total Votes (for the original affixes) or New Votes (for the new affixes) multiplied by 100 to get a percentage.": {
+	        es: "Los siguientes cuadros están usando la información que obtuve de la encuesta en mythicpl.us. Actualmente estamos en <span id=\"totvotes\"></span> votos para los afijos iniciales y <span id = \"newvotes\"></span> para los nuevos afijos. Los números que ves son el recuento total de cada dificultad dividido entre el total de votos (para los afijos iniciales) o los nuevos votos (para los nuevos afijos) multiplicado por 100 para obtener un porcentaje.",
+	        pt: "Os gráficos a seguir estão usando os inputs que recebi da pesquisa em mythicpl.us. Atualmente, estamos em <span id=\"totvotes\"></span> votos para os affixes iniciais e <span id=\"newvotes\"></span> para os novos afixos. Os números que você vê são a contagem total de cada dificuldade dividida por votos totais (para os afixos iniciais) ou novos votos (para os novos afixos) multiplicados por 100 para obter uma porcentagem."
+	    },
+		
+		"This page should update in <i>psuedo-realtime</i> since it's just querying the Google spreadsheet hosting all the survey returns.": {
+	        es: "Esta pagina debería atualizarse en <i>psuedo-tiempo-real</i> una vez que simplemente consulta la hoja de calculo de Google que almacena todos los resultados de la pesquisa.",
+	        pt: "Esta página deve atualizar em <i>psuedo-tempo-real</i> uma vez que está apenas consultando a planilha do Google que armazena todos os resultados da pesquisa."
+	    },
+		
+		
+		"Haven't taken the survey yet? You can take it <a href=\"https://goo.gl/forms/YgaYteAnJjg2yMOn1\">here!</a> Wanna see the source spreadsheet? <a href=\"https://docs.google.com/spreadsheets/d/1saKejReaWhzQUmTy_r8FTTcW9xt1ilxI2knYdc8bQPs/pubhtml?gid=673910183&single=true\">Click here!</a>": {
+	        es: "",
+	        pt: ""
+	    },
+		
+		invite_survey: {
+	        en: "Haven't taken the survey yet? You can take it <a href=\"https://goo.gl/forms/YgaYteAnJjg2yMOn1\">here!</a> Wanna see the source spreadsheet? <a href=\"https://docs.google.com/spreadsheets/d/1saKejReaWhzQUmTy_r8FTTcW9xt1ilxI2knYdc8bQPs/pubhtml?gid=673910183&single=true\">Click here!</a>",
+	        es: "¿Todavía no has contestado la encuesta? ¡Puedes hacerlo <a href=\"https://goo.gl/forms/YgaYteAnJjg2yMOn1\"> aquí! </a> ¿Quieres ver la hoja de cálculo con la origen de los datos? <a href=\"https://docs.google.com/spreadsheets/d/1saKejReaWhzQUmTy_r8FTTcW9xt1ilxI2knYdc8bQPs/pubhtml?gid=673910183&single=true\">¡Haz clic aquí!</a>",
+	        pt: "Ainda não realizou a pesquisa? Você pode levá-lo <a href=\"https://goo.gl/forms/YgaYteAnJjg2yMOn1\"> aqui! </a> Quer ver a planilha de origem? <a href=\"https://docs.google.com/spreadsheets/d/1saKejReaWhzQUmTy_r8FTTcW9xt1ilxI2knYdc8bQPs/pubhtml?gid=673910183&single=true\"> Clique aqui! </a>"
+	    },
+		
+		"Tier 1 affixes": {
+	        es: "Afijos de tier 1",
+	        pt: "Afixos de tier 1"
+	    },
+		
+		"Tier 2 affixes": {
+	        es: "Afijos de tier 2",
+	        pt: "Afixos de tier 2"
+	    },
+		
+		"Tier 3 affixes": {
+	        es: "Afijos de tier 3",
+	        pt: "Afixos de tier 3"
+	    },
+		
+		"Note: nothing too shocking here I don't think. Bolstering is annoying because it slows down your run.": {
+	        es: "Nota: no creo que haya nada impactante aquí. Potenciante es molesto porque ralentiza mazmorra mítica+.",
+	        pt: "Nota: não vejo nada chocante aqui. A Encorajadora é irritante porque atrasa a sua mítica+."
+	    },
+		
+		"Note: same deal here. Raging is annoying at best. Overwhelming medium votes here.": {
+	        es: "Nota: más de lo mismo. Furibunda ya no es tan molesto en comparación. Votos relevantes para dificultad media aquí.",
+	        pt: "Exemplo"
+	    },
+		
+		"Note: lol.": {
+	        es: "Nota: izipizi loco.",
+	        pt: "Nota: facin facin."
+	    },
+		
+		"Note: Not too shocking here either.": {
+	        es: "Nota: Nada impactante aquí tampoco.",
+	        pt: "Nota: Não há nada impactante por aqui."
+	    },
+		
+		"Note: Same deal as bolstering, slows your run.": {
+	        es: "Nota: Es parecido con la Potenciante, también ralentiza mítica+.",
+	        pt: "Nota: Se parece com a Encorajadora, também atrasa tua mítica+"
+	    },
+		
+		"Note: REEEEEE. Necrotic is more doable now that stacks drop, but is still tough.": {
+	        es: "Nota: VIEJAAAAAAAA ¡Ayúda al tank!. Necrótica ya es más factible porque quita las cargas al salir de combate (antes no), aún así sigue sendo difícil.",
+	        pt: "Nota: AI COMO DÓI, pobre tanque. Necrótica ya es más factible porque quita las cargas al salir de combate (antes no), aún así sigue sendo difícil."
+	    },
+			
+		"Note: skittish went from being medium to hard as more people learned to hate it.": {
+	        es: "Nota: inquieta dejó de ser un afijo de dificultad media a alta, ya que más y más personas fueron aprendiendo a odiarla.",
+	        pt: "Nota: assustada deixou de ser um afixo de dificuldade média e passou a alta, já que mais e mais pessoas foram aprendendo a odiar-la."
+	    },
+		
+		"Note: EZ PZ 3 CHEST LOL. For real though, volcanic got easier after the 7.2 patch.": {
+	        es: "Nota: IZI-PIZI 3 COFRES PA VOSOTROS. De hecho es el afijo más fácil desde el parche 7.2.",
+	        pt: "Nota: FACIIIIN 3 BAÚS!!! Inclusive é o afixo mais fácil desde a versão 7.2"
+	    },
+		
+		"Note: explosive has high wipe potential if people are auto-piloting. i expect it to go from med to hard": {
+	        es: "Nota: este afijo tiene una posibilidad enorme de matar a uno que otro empanado. Espero que cambie de dificultad media a alta.",
+	        pt: "Nota: este afixo tem uma possibilidade enorme de matar aos mais despistados. Espero que a dificuldade mude de média a alta."
+	    },
+		
+		"Note: overwhelming medium. spread out and you're good, right?": {
+	        es: "Nota: definitivamente tiene dificultad media. Separate y todo quedará bien, verdad?",
+	        pt: "Nota: definitivamente tem dificuldade média. Se separe e tudo vai ficar bem, beleza?"
+	    },
+		
+		"Note: This might transition from medium to hard as well. Blame the healer!": {
+	        es: "Nota: Este también podría cambiar de media a alta. ¡Culpe al priest!",
+	        pt: "Nota: Este afixo poderia mudar de dificuldade também. De média a alta. Hora de culpar seu healer!"
+	    },
+		
+		"Note: WHO WOULD HAVE GUESSED. Tier three affixes are the worst.": {
+	        es: "Nota: COMO DEBERÍAS IMAGINAR. Estos afijos del tier 3 son los peores.",
+	        pt: "Nota: COMO VOCÊ DEVE IMAGINAR. Estes afixos de tier 3 são os piores."
+	    }
+		
+		//===== END GRAPHS ===== 
+		
 	};
 
 	var userLang = navigator.language || navigator.userLanguage;

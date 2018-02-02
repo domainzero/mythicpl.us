@@ -1,3 +1,9 @@
+// Get dificulty legends
+
+var dif_easy = translator.get("Easy");
+var dif_medium = translator.get("Medium");
+var dif_hard = translator.get("Hard");
+
 var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1saKejReaWhzQUmTy_r8FTTcW9xt1ilxI2knYdc8bQPs/pubhtml';
 
 		  function init() {
@@ -57,13 +63,13 @@ function showInfo(data, tabletop) {
   window.addEventListener('DOMContentLoaded', init)
 
   //tier 1 affixes
-
+  
   Chart.defaults.global.defaultFontFamily = "'Roboto Condensed', 'Helvetica', 'Arial', sans-serif";
   var ctx = document.getElementById('bolstering').getContext('2d');
   var chart = new Chart(ctx, {
   	type: 'doughnut',
   	data: {
-  		labels: ["Easy", "Medium", "Hard"],
+  		labels: [dif_easy, dif_medium, dif_hard],
   		datasets: [{
   			data: [boleasy, bolmedi, bolhard],
   			backgroundColor: [
@@ -81,7 +87,7 @@ function showInfo(data, tabletop) {
   var chart = new Chart(ctx, {
   	type: 'doughnut',
   	data: {
-  		labels: ["Easy", "Medium", "Hard"],
+  		labels: [dif_easy, dif_medium, dif_hard],
   		datasets: [{
   			data: [rageasy, ragmedi, raghard],
   			backgroundColor: [
@@ -99,7 +105,7 @@ function showInfo(data, tabletop) {
   var chart = new Chart(ctx, {
   	type: 'doughnut',
   	data: {
-  		labels: ["Easy", "Medium", "Hard"],
+  		labels: [dif_easy, dif_medium, dif_hard],
   		datasets: [{
   			data: [saneasy, sanmedi, sanhard],
   			backgroundColor: [
@@ -117,7 +123,7 @@ function showInfo(data, tabletop) {
   var chart = new Chart(ctx, {
   	type: 'doughnut',
   	data: {
-  		labels: ["Easy", "Medium", "Hard"],
+  		labels: [dif_easy, dif_medium, dif_hard],
   		datasets: [{
   			data: [teeeasy, teemedi, teehard],
   			backgroundColor: [
@@ -135,7 +141,7 @@ function showInfo(data, tabletop) {
   var chart = new Chart(ctx, {
   	type: 'doughnut',
   	data: {
-  		labels: ["Easy", "Medium", "Hard"],
+  		labels: [dif_easy, dif_medium, dif_hard],
   		datasets: [{
   			data: [bureasy, burmedi, burhard],
   			backgroundColor: [
@@ -155,7 +161,7 @@ var ctx = document.getElementById('necrotic').getContext('2d');
 var chart = new Chart(ctx, {
 	type: 'doughnut',
 	data: {
-		labels: ["Easy", "Medium", "Hard"],
+		labels: [dif_easy, dif_medium, dif_hard],
 		datasets: [{
 			data: [neceasy, necmedi, nechard],
 			backgroundColor: [
@@ -173,7 +179,7 @@ var ctx = document.getElementById('skittish').getContext('2d');
 var chart = new Chart(ctx, {
 	type: 'doughnut',
 	data: {
-		labels: ["Easy", "Medium", "Hard"],
+		labels: [dif_easy, dif_medium, dif_hard],
 		datasets: [{
 			data: [skieasy, skimedi, skihard],
 			backgroundColor: [
@@ -191,7 +197,7 @@ var ctx = document.getElementById('volcanic').getContext('2d');
 var chart = new Chart(ctx, {
 	type: 'doughnut',
 	data: {
-		labels: ["Easy", "Medium", "Hard"],
+		labels: [dif_easy, dif_medium, dif_hard],
 		datasets: [{
 			data: [voleasy, volmedi, volhard],
 			backgroundColor: [
@@ -209,7 +215,7 @@ var ctx = document.getElementById('explosive').getContext('2d');
 var chart = new Chart(ctx, {
 	type: 'doughnut',
 	data: {
-		labels: ["Easy", "Medium", "Hard"],
+		labels: [dif_easy, dif_medium, dif_hard],
 		datasets: [{
 			data: [expeasy, expmedi, exphard],
 			backgroundColor: [
@@ -227,7 +233,7 @@ var ctx = document.getElementById('quaking').getContext('2d');
 var chart = new Chart(ctx, {
 	type: 'doughnut',
 	data: {
-		labels: ["Easy", "Medium", "Hard"],
+		labels: [dif_easy, dif_medium, dif_hard],
 		datasets: [{
 			data: [quaeasy, quamedi, quahard],
 			backgroundColor: [
@@ -245,7 +251,7 @@ var ctx = document.getElementById('grievous').getContext('2d');
 var chart = new Chart(ctx, {
 	type: 'doughnut',
 	data: {
-		labels: ["Easy", "Medium", "Hard"],
+		labels: [dif_easy, dif_medium, dif_hard],
 		datasets: [{
 			data: [grieasy, grimedi, grihard],
 			backgroundColor: [
@@ -265,7 +271,7 @@ var ctx = document.getElementById('fortified').getContext('2d');
 var chart = new Chart(ctx, {
 	type: 'doughnut',
 	data: {
-		labels: ["Easy", "Medium", "Hard"],
+		labels: [dif_easy, dif_medium, dif_hard],
 		datasets: [{
 			data: [foreasy, formedi, forhard],
 			backgroundColor: [
@@ -283,7 +289,7 @@ var ctx = document.getElementById('tyrannical').getContext('2d');
 var chart = new Chart(ctx, {
 	type: 'doughnut',
 	data: {
-		labels: ["Easy", "Medium", "Hard"],
+		labels: [dif_easy, dif_medium, dif_hard],
 		datasets: [{
 			data: [tyreasy, tyrmedi, tyrhard],
 			backgroundColor: [
@@ -295,21 +301,6 @@ var chart = new Chart(ctx, {
 		]
 	},
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
 window.addEventListener('DOMContentLoaded', init)
