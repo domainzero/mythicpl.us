@@ -9,9 +9,9 @@
 		
 	    //Home texts
 	    info_ood: {
-	        en: "Info might be a little out of date. I'm always accepting corrections or suggestions. Hit me up on discord: domaiN#2722 or at the ",
-	        es: "La información podría estar desactualizada. Estoy disponible a sugerencias o ajustes. Búscame en Discord: domaiN#2722 o en ",
-	        pt: "A página pode estar um pouco desactualizada. Estou disponível para correções ou sugestões. Me procure no Discord: domaiN#2722 ou no "
+	        en: "Info might be a little out of date. I'm always accepting corrections or suggestions. Hit me up on discord: domain#2722 or at the ",
+	        es: "La información podría estar desactualizada. Estoy disponible a sugerencias o ajustes. Búscame en Discord: domain#2722 o en ",
+	        pt: "A página pode estar um pouco desactualizada. Estou disponível para correções ou sugestões. Me procure no Discord: domain#2722 ou no "
 	    },
 
 	    "what m+ garbage do i have to deal with this week?": {
