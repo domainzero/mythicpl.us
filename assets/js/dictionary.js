@@ -720,7 +720,7 @@
 	        pt: "Exemplo"
 	    }
 		
-		//===== END HOME ===== 
+		//===== END CALC ===== 
 
 	};
 
