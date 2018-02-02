@@ -854,3 +854,13 @@
 	    lang: userLang,
 	    t: dict
 	});
+
+$(function() {	
+	$(".lang_selector").click(function(ev) {
+    var lang = $(this).attr("data-value");
+    translator.lang(lang);
+
+    ev.preventDefault();
+  });
+
+});
