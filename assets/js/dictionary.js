@@ -230,7 +230,7 @@ $(function() {
 	    },
 
 	    "Curious about how I applied the results? Check ": {
-	        es: "¿Interesado en saber cómo obtuve los resultados? Comprueba ",
+	        es: "¿Interesado en saber cómo obtuve los resultados? Compruébalo ",
 	        pt: "Interessado em descubrir como obtive os resultados? Comprovar "
 	    },
 
@@ -245,7 +245,7 @@ $(function() {
 	    },
 
 	    "(these occur at +4 keystones)": {
-	        es: "(desde una piedra angular +4)",
+	        es: "(A partir de una piedra angular +4)",
 	        pt: "(desde uma pedra-chave +4)"
 	    },
 
@@ -255,7 +255,7 @@ $(function() {
 	    },
 
 	    "(these occur at +7 keystones)": {
-	        es: "(desde una piedra angular +7)",
+	        es: "(A partir de una piedra angular +7)",
 	        pt: "(desde uma pedra-chave +7)"
 	    },
 
@@ -265,7 +265,7 @@ $(function() {
 	    },
 
 	    "(these occur at +10 keystones)": {
-	        es: "(desde una piedra angular +10)",
+	        es: "(A partir de una piedra angular +10)",
 	        pt: "(desde uma pedra-chave +10)"
 	    },
 
@@ -283,7 +283,7 @@ $(function() {
 
 	    raging_info: {
 	        en: "Non-boss enemies will enrage at low health, dealing double damage until killed.",
-	        es: "Los enemigos que no son jefes se enfuceren cuando alcanza un 30% de salud, por lo que infligen un 100% más de daño hasta que sean derrotados.",
+	        es: "Los enemigos que no son jefes se enfuceren cuando alcanzan un 30% de salud, por lo que infligen un 100% más de daño hasta que sean derrotados.",
 	        pt: "Os Inimigos que não são chefes ficam enfurecidos ao alcançar 30% de vida, causando 100% mais de dano até serem derrotados."
 	    },
 
@@ -319,7 +319,7 @@ $(function() {
 
 	    bursting_info: {
 	        en: "When slain, non-boss enemies explode, causing all players to suffer 10% of their maximum health in damage over 4 seconds. (5% every 2 seconds) This effect stacks.",
-	        es: "Al morir, los enemigos que no son jefes se detonan y explotan, por lo que todos los jugadores reciben un 10% de su salud máxima como daño durante 4 s. Este efecto se acumula.",
+	        es: "Al morir, los enemigos que no son jefes explotan, por lo que todos los jugadores reciben un 10% de su salud máxima como daño durante 4 s. Este efecto se acumula.",
 	        pt: "Quando mortos, inimigos que não são chefes explodem, fazendo com que todos os jogadores recebam dano equivalente a 10% do máximo de pontos de vida ao longo de 4 s. Este efeito acumula."
 	    },
 
@@ -337,7 +337,7 @@ $(function() {
 
 	    necrotic_note: {
 	        en: "Note: Strong AoE CC or slows are great for this affix to allow for kiting mobs while the tank's Necrotic stacks fall off.",
-	        es: "Nota: Está muy bien utilizar correctamente los CCs en áreas y ralentizaciones con afijo para permitir quitear bien los pulls mientras el tanque se limpia de las cargas de Necrótica.",
+	        es: "Nota: Está muy bien utilizar correctamente los CCs en áreas y ralentizaciones con afijo para permitir kitear bien los pulls mientras el tanque se limpia de las cargas de Necrótica.",
 	        pt: "Nota: É importante utilizar corretamente os CDs de controle massivo e redução de velocidade dos inimigos para permitir que o tanque possa fugir. Desta forma ele pode limpar-se das cargas necróticas."
 	    },
 
@@ -367,13 +367,13 @@ $(function() {
 
 	    explosive_info: {
 	        en: "Creatures have a chance to summon an Explosive Orb at a nearby location that will explode, inflicting damage 50% of the player’s maximum health as damage.",
-	        es: "Mientras están en combate, los enemigos invocan de forma periódica orbes explosivos que se detonan si nadie los destruye.",
+	        es: "Mientras están en combate, los enemigos invocan de forma periódica orbes explosivos que detonan si nadie los destruye.",
 	        pt: "Em combate, os inimigos evocam periodicamente orbes Explosivos que explodirão se não forem destruídos."
 	    },
 
 	    explosive_note: {
 	        en: "Note: An explosive orb will spawn with a 6 second cast. If the cast goes off the entire party will take 50% of their max hp in damage. They are <strong>AOE immune so you can't cleave them down!</strong> They can also spawn on boss fights.",
-	        es: "Nota: Un orbe explosivo aparece con un lanzamiento de hechizo de 6 segundos. Si el orbe castea, todo el grupo recibirá un daño del 50% de salud máxima. ¡Ellos son <strong>inmunes al daño en áreas, o sea cleave no funciona!</strong> Los orbes pueden aparecer en combates con jefes.",
+	        es: "Nota: Un orbe explosivo aparece con un lanzamiento de hechizo de 6 segundos. Si el orbe castea, todo el grupo recibirá un daño del 50% de salud máxima. ¡Estos son <strong>inmunes al daño en áreas, o sea cleave no funciona!</strong> Los orbes pueden aparecer en combates con jefes.",
 	        pt: "Nota: Um orbe explosivo surge com um lançamento de magia de 6 segundos. Caso o orbe finalize o lançamento, todo o grupo recebe um dano de 50% de sua saúde máxima. Eles são <strong>imunes ao dano em áreas ou cleave</strong> Los orbes pueden aparecer en combates con jefes."
 	    },
 
@@ -385,13 +385,13 @@ $(function() {
 
 	    quaking_note: {
 	        en: "Note: spread out.",
-	        es: "Nota: separaos. Cuanto más separados estén, mejor. Interrumpe los lanzamientos de hechizos y también el intento de adquirir el buffo de comida.",
-	        pt: "Nota: separarem-se!"
+	        es: "Nota: Separaos. Cuanto más separados estén, mejor. Interrumpe los lanzamientos de hechizos y también el intento de adquirir el buffo de comida.",
+	        pt: "Nota: Separarem-se!"
 	    },
 
 	    grievous_info: {
 	        en: "While below 90% health, players are afflicted with Grievous Wound.",
-	        es: "Cuando estáis heridos y os queda menos del 90% de salud, recibiréis daño creciente en el tiempo hasta os curen y recuperéis al menos el 90% de la salud.",
+	        es: "Cuando estáis heridos y os queda menos del 90% de salud, recibiréis daño creciente en el tiempo hasta que os curen y recuperéis al menos el 90% de esta.",
 	        pt: "Quando são feridos e chegam a menos de 90% dos pontos de vida, os jogadores sofrem dano crescente ao longo do tempo até serem curados acima de 90% dos pontos de vida."
 	    },
 
@@ -409,8 +409,8 @@ $(function() {
 
 	    fortified_note: {
 	        en: "Note: interrupting and dodging any/all trash mob abilities becomes an absolute priority with this affix. Most of the time spent in the dungeon will be fighting beefy trash, don't be afraid to use CDs.",
-	        es: "Nota: interrumpir y esquivar la mayoría (o todas) las habilidades de los pulls se convierte en una prioridad absoluta con este afijo. La mayor parte del tiempo que pases en la mazmorra lucharás duramente contra los pulls, por favor, tire CDs.",
-	        pt: "Nota: interromper e esquivar a maioria (ou todas) as habilidades dos mobs são prioridade absoluta com este afixo. A maior parte do tempo dentro da masmorra estarás em combate puramente com mobs, não economize os CDs."
+	        es: "Nota: Interrumpir y esquivar la mayoría (o todas) las habilidades de los pulls se convierte en una prioridad absoluta con este afijo. La mayor parte del tiempo que pases en la mazmorra lucharás duramente contra los pulls, así que por favor, usa tus CDs.",
+	        pt: "Nota: Interromper e esquivar a maioria (ou todas) as habilidades dos mobs são prioridade absoluta com este afixo. A maior parte do tempo dentro da masmorra estarás em combate puramente com mobs, não economize os CDs."
 	    },
 
 	    tyrannical_info: {
@@ -462,7 +462,7 @@ $(function() {
 	    },
 
 	    " - Queries other people in guild or group with the addon to see what keystones people have.": {
-	        es: " - Búsqueda de piedras angulares mítica en la hermandad o grupo para saber qué piedra tienen cada uno (que también tenga este addon).",
+	        es: " - Búsqueda de piedras angulares mítica en la hermandad o grupo para saber qué piedra tiene cada uno (que también tenga este addon).",
 	        pt: " - Busca pedras-chave míticas na guilda ou grupo para saber qual pedra-chave tem cada um (que também tenha o addon instalado)."
 	    },
 
@@ -472,7 +472,7 @@ $(function() {
 	    },
 
 	    " - Inserts whispered keystones into the default LFG UI. Useful for boosting/carry groups.": {
-	        es: " - Enlaza las piedras susurradas en la interfaz del buscador. Útil para bosteo y grupos para carrito.",
+	        es: " - Enlaza las piedras susurradas en la interfaz del buscador. Útil para boosteo y grupos para carrito.",
 	        pt: " - Link das pedras-chaves sussurradas na interface do buscador. Muito útil para boost e grupos de rush."
 	    },
 
@@ -487,8 +487,8 @@ $(function() {
 	    },
 
 	    " - Same as above but for EU groups.": {
-	        es: " - Mismo del anterior pero para grupos de EUROPA",
-	        pt: " - Idem ao anterior porém para grupos EUROPEUS"
+	        es: " - El mismo Discord que el anterior pero para grupos EUROPEUS.",
+	        pt: " - Idem ao anterior porém para grupos EUROPEUS."
 	    },
 
 	    "Stats and Tools": {
@@ -497,17 +497,17 @@ $(function() {
 	    },
 
 	    " - Raider.io has all kinds of tools including character specific M+ tracking, successful run comp tracking, and ranks for m+ dungeons. They're <strong>community</strong> run and have some cool planned features. Stay tuned! The site is also snappy AF. ": {
-	        es: " - Raider.io posee todos los tipos de herramienta para míticas+, incluye el rastreo de carreras en tiempo y clasificaciones de las míticas+. Ellos son una <strong>comunidad</strong> y tienen algunos recursos planificados muy buenos. ¡Estate atento! La página es rápida y jodidamente buena.",
+	        es: " - Raider.io posee todos los tipos de herramientas para míticas+, incluye el rastreo de carreras en tiempo y clasificaciones de las míticas+. Ellos son una <strong>comunidad</strong> y tienen algunos recursos planificados muy buenos. ¡Estate atento! La página es rápida y jodidamente buena.",
 	        pt: " - Raider.io tem todos os tipos de ferramentas específicas para míticas+, incluindo rastreamento de corridas em tempo e classificações para masmorras+. Eles são uma<strong>comunidade</strong> e têm alguns recursos planejados bem legais. Fique ligado! O site também é foda."
 	    },
 
 	    " - (Mythic Plus Helper) Looks up group candidates and returns ilvl equipped/highest, total mythic plus runs and legendaries! Be sure to get the <a href=\"https://mods.curse.com/addons/wow/260666-mythic-plus-helper\">addon</a> for ease of use. <strong>Community created!</strong>": {
-	        es: " - (Mythic Plus Helper) Revisa candidatos al grupo y muestra el ilvl equipado/más alto, total de carreras míticas+ y también legendarios! Asegúrate de utilizar la página \"<a href=\"https://mods.curse.com/addons/wow/260666-mythic-plus-helper\">complementar</a>\" para facilitar su uso. <strong>¡Comunidad creada!</strong>",
+	        es: " - (Mythic Plus Helper) Revisa candidatos del grupo y muestra el ilvl equipado/más alto, total de carreras míticas+ y también legendarios! Asegúrate de utilizar la página \"<a href=\"https://mods.curse.com/addons/wow/260666-mythic-plus-helper\">complementar</a>\" para facilitar su uso. <strong>¡Comunidad creada!</strong>",
 	        pt: " - (Mythic Plus Helper) Revisa os candidatos para entrar no grupo e mostra o ilvl equipado/mais alto, total de corridas míticas+ e também os legendários! Tenha em mãos a página web <a href=\"https://mods.curse.com/addons/wow/260666-mythic-plus-helper\"> complementar </a> para facilitar a utilização.<strong>¡Comunidade criada!</strong>"
 	    },
 
 	    " - TONS OF USEFUL TOOLS. This site has player lookups that show content cleared, mythic plus stats, and more. The site might run a little slow because of all the data it's crunching, but it's worth it. <strong>Community created!</strong>": {
-	        es: " - TONELADAS DE HERRAMIENTAS ÚTILES. Este sitio tiene búsquedas de jugadores que muestra el contenido realizado, estadísticas de míticas+, y más. El sitio puede funcionar un poco lento debido a toda la información que se está procesando, pero vale la pena. <strong>¡Comunidad creada!</strong>",
+	        es: " - TONELADAS DE HERRAMIENTAS ÚTILES. Este sitio tiene búsqueda de jugadores que muestra el contenido realizado, estadísticas de míticas+, y más. El sitio puede funcionar un poco lento debido a toda la información que se está procesando, pero vale la pena. <strong>¡Comunidad creada!</strong>",
 	        pt: " - TONELADAS DE FERRAMENTAS ÚTEIS. Este site tem pesquisas de jogadores que mostra o conteúdo realizado, estatísticas de míticas+ e muito mais. O site pode ser um pouco lento pela quantidade de dados que está sendo processado, mas vale a pena. <strong>Comunidade criada!</ strong>"
 	    },
 
@@ -522,12 +522,12 @@ $(function() {
 	    },
 
 	    " - Dungeon specific WeakAuras with a cc tracker.": {
-	        es: " - Auras específicas para las mazmorras, tiene rastreador de cc.",
-	        pt: " - Específicas para masmorras com um rastreador de cc."
+	        es: " - Auras específicas para las mazmorras, tiene rastreador de CC.",
+	        pt: " - Específicas para masmorras com um rastreador de CC."
 	    },
 
 	    " - A WeakAura to track raid/group utility CDs (i.e Barkskin, Blessing of Sacrifice, etc).": {
-	        es: " - A WeakAura para rastrear los CDs de utilidad en banda/grupo (como por ejemplo: Piel de corteza, Bendición del sacrificio, etc.).",
+	        es: " - WeakAura para rastrear los CDs de utilidad en banda/grupo (Por ejemplo: Piel de corteza, Bendición del sacrificio, etc.).",
 	        pt: " - Para rastrear CDs úteis de uma raid/grupo (ou seja, Barkskin, Bênção de Sacrifício, etc.)."
 	    },
 
@@ -563,12 +563,12 @@ $(function() {
 	    },
 
 	    "keystone level": {
-	        es: "nível de la piedra angular",
+	        es: "nivel de la piedra angular",
 	        pt: "nível da pedra angular"
 	    },
 
 	    "keystone levels": {
-	        es: "níveles de la piedra angular",
+	        es: "niveles de la piedra angular",
 	        pt: "níveis da pedra"
 	    },
 
@@ -600,17 +600,17 @@ $(function() {
 	    },
 
 	    "In addition, roughly every 3 difficulty levels past 15 will award you with an additional piece of loot.": {
-	        es: "Además, aproximadamente a cada 3 niveles de dificultad después del 15 te otorgarán una pieza adicional de botín.",
+	        es: "Además, aproximadamente a cada 3 niveles de dificultad después del 15 (ejemplo: 18, 21, 24) te otorgarán una pieza adicional de botín.",
 	        pt: "Além disso, aproximadamente a cada 3 níveis de dificuldade depois de 15, te entregará um item adicional ao saquear."
 	    },
 
 	    "Example time! You beat a level 15 keystone within the timer and your group is awarded 3 pieces of loot. Later, you beat a level 18 keystone within the timer and your group SHOULD BE awarded with 4 pieces of loot. Repeat every three levels. 21 = 5 pieces of loot, 24 = 6 pieces of loot, etc.": {
-	        es: "¡Venga, a poner un ejemplo! Tu consigues una piedra angular de nivel 15 dentro del tiempo y tu grupo recibe 3 piezas de botín. </br>Más tarde, superas una piedra angular de nivel 18 en tiempo y tu grupo DEBERÍA recibir 4 piezas de botín. </br>Esto se repite cada tres niveles. 21 = 5 piezas de botín, 24 = 6 piezas de botín, etc.",
+	        es: "¡Venga, a poner un ejemplo! Tú consigues una piedra angular de nivel 15 dentro del tiempo y tu grupo recibe 3 piezas de botín. </br>Más tarde, superas una piedra angular de nivel 18 en tiempo y tu grupo DEBERÍA recibir 4 piezas de botín. </br>Esto se repite cada tres niveles. 21 = 5 piezas de botín, 24 = 6 piezas de botín, etc.",
 	        pt: "Se liga ai que é hora da revisão: - Você consegue finalizar uma pedra-chave de nível 15 dentro do cronometro e seu grupo recebe 3 itens do saqueio. </br>Mais tarde, você finaliza uma pedra-chave de nível 18 dentro do tempo e seu grupo DEVERIA ser premiado com 4 itens ao saquear. </br>Agora, repita o mesmo exercício a cada três níveis. 21 = 5 itens de saqueio, 24 = 6 itens de saqueio, etc."
 	    },
 
 	    "At the start of a week (after raid/mythic reset) a chest will appear in your order hall giving loot based on the highest level keystone dungeon <strong>COMPLETED</strong> the previous week, within the timer or not.": {
-	        es: "Al comenzar la semana (después de un reinício de banda o míticas) aparecerá un cofre en la sede de clase con el botín basado en el nivel de</br> dificultad más alto de la mazmorra <strong>FINALIZADA</strong> (sea en tiempo o no).",
+	        es: "Al comenzar la semana (después de un reinício de banda o míticas), aparecerá un cofre en la sede de clase con el botín basado en el nivel de</br> dificultad más alto de la mazmorra <strong>FINALIZADA</strong> (sea en tiempo o no).",
 	        pt: "No início da semana (depois de reiniciar as raids ou míticas) surgirá um baú no Salão de Classe com o saqueio baseado na masmorra <strong>CONCLUÍDA</strong></br>da semana anterior com o nível de dificuldade mais alto, seja em tempo ou não."
 	    },
 
@@ -620,7 +620,7 @@ $(function() {
 	    },
 
 	    "It is most beneficial to complete a +15 weekly to get the highest item level gear every reset. If that isn't feasible go for the next highest you can complete. Again, <strong>you don't need to finish in the timer to get the weekly chest.</strong>": {
-	        es: "Es más rentable finalizar una +15 semanalmente para obtener el botín con el nível más alto a cada reinicio. </br>Si eso no es factible, intenta hacer el nivel más alto que puedas finalizar. </br>El poder de artefacto conseguido en la mazmorra también es más alto dependiendo del nivel de dificultad. Otra vez, <strong>no es necesario finalizar la mazmorra en tiempo para obtener el cofre semanal</strong>",
+	        es: "Es más rentable finalizar una +15 semanalmente para obtener el botín con el nivel más alto en cada reinicio. </br>Si eso no es factible, intenta hacer el nivel más alto que puedas finalizar. </br>El poder de artefacto conseguido en la mazmorra también es más alto dependiendo del nivel de dificultad. Otra vez, <strong>no es necesario finalizar la mazmorra en tiempo para obtener el cofre semanal</strong>",
 	        pt: "É muito mais rentável finalizar uma masmorra +15 semanalmente para obter o saqueio com o item de nível mais alto a cada reinício. </br>Se não for possível, tente concluir a masmorra com o nível de dificuldade mais alto que puder. </br><strong>Outra vez, não é necessário finalizar a masmorra dentro do cronometro para obter um item no baú semanal<strong>"
 	    },
 
