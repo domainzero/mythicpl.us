@@ -3,11 +3,13 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.translate.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Your quick guide to all things mythic plus. Check this week's affixes, get loot information, browse curated addons and find groupfinding Discords!">
     <meta name="keywords" content="mythic+,mythic_plus,mythic_+,world of warcraft, mythic dungeons,warcraft,mythic plus, legion, warlords, keystone, keystone affixes, affixes, keystones">
+	<script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="assets/js/getaffixes.js?v=0.1"></script>
+    <script type="text/javascript" src="assets/js/us.js"></script>
+
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 
@@ -18,8 +20,8 @@
 		<section class="atf content-block">
             <h4 class="title title--small tagline trn">what m+ garbage do i have to deal with this week?</h4>
             <article class="affixes">
-                <h1 id="thisweekus" class="title title--large"><span class="title__intro">US</span></h1>
-                <h1 id="thisweekeu" class="title title--large"><span class="title__intro">EU</span></h1><br>
+                <h1 id="thisweekus" class="title title--large"><span class="title__intro trn">US</span></h1>
+                <h1 id="thisweekeu" class="title title--large"><span class="title__intro trn">EU</span></h1><br>
                 <p><span class="trn" data-trn-key="info_ood">Info might be a little out of date. I'm always accepting corrections or suggestions. Hit me up on discord: domain#2722 or at the </span><a href="https://github.com/domainzero/mythicpl.us">github</a>.</p>
                 <div class="arrow">
                     ↓
@@ -47,7 +49,7 @@
                 <span class="trn">Legend: </span><span class="easy trn">easy difficulty</span> | <span class="med trn">medium difficulty</span> | <span class="hard trn">hard difficulty</span>
             </div>
 			</br></br>
-			<h3 class="title title--medium affixes-block__title" id="graphs"><span class="trn">Graphs</span></h3>		
+			<h1 class="title title--large trn" id="graphs">Graphs</h1>
             <p class="cl-effect-1"><a class="trn" href="https://goo.gl/forms/YgaYteAnJjg2yMOn1">Short survey to get your feedback on affix difficulty</a></p>
             <p><span class="trn">Curious about how I applied the results? Check </span><a href="graphs/index.html"><span class="trn">here!</span></a></p>
             <div class="affixes-block">
@@ -379,11 +381,11 @@
                         <tr class="table__row">
                             <td class="table__cell">2</td>
                             <td class="table__cell">890</td>
-                            <td class="table__cell">905</td>
+                            <td class="table__cell">910</td>
                         </tr>
                         <tr class="table__row">
                             <td class="table__cell">3</td>
-                            <td class="table__cell">890</td>
+                            <td class="table__cell">895</td>
                             <td class="table__cell">910</td>
                         </tr>
                         <tr class="table__row">
@@ -394,11 +396,11 @@
                         <tr class="table__row">
                             <td class="table__cell">5</td>
                             <td class="table__cell">900</td>
-                            <td class="table__cell">920</td>
+                            <td class="table__cell">915</td>
                         </tr>
                         <tr class="table__row">
                             <td class="table__cell">6</td>
-                            <td class="table__cell">905</td>
+                            <td class="table__cell">900</td>
                             <td class="table__cell">920</td>
                         </tr>
                         <tr class="table__row">
@@ -466,16 +468,16 @@
                     <div class="link-list">
                         <a href="#this_week"><span class="trn">This Week</span></a>
                         <a href="#graphs"><span class="trn">Graphs</span></a>
-                        <a href="#calculator"><span class="trn">Calculator</span></a>
+                        <a href="#calc"><span class="trn">Calculator</span></a>
                         <a href="#affixes-div"><span class="trn">Affixes</span></a>
                         <a href="#useful-stuff"><span class="trn">Resources</span></a>
                         <a href="#keystone-upgrade"><span class="trn">Timers</span></a>
                         <a href="#loot-stuff"><span class="trn">Loot</span></a>
                     </div>
                     <div class="link-list">
-                        <a class="btn btn-default lang_selector trn" href="#" role="button" data-value="en" data-trn-key="Translate to English">Translate to English</a>
-                        <a class="btn btn-default lang_selector trn" href="#" role="button" data-value="pt" data-trn-key="Translate to Portuguese">Translate to Portuguese</a>
-                        <a class="btn btn-default lang_selector trn" href="#" role="button" data-value="es" data-trn-key="Translate to Spanish">Translate to Spanish</a>
+                        <a class="btn btn-default lang_selector trn" href="#" role="button" data-value="en">Translate to English</a>
+                        <a class="btn btn-default lang_selector trn" href="#" role="button" data-value="es">Traducir al Español (ES)</a>
+                        <a class="btn btn-default lang_selector trn" href="#" role="button" data-value="pt">Traduzir ao Português (BR)</a>
                     </div>
                 </nav>
         </div>
@@ -488,16 +490,18 @@
             </ul>
             <p class="trn">You can verify all my identities <a href="https://keybase.io/domain">here.</a></p>
             <p class="trn">World of Warcraft, Warcraft and Blizzard Entertainment are trademarks or registered trademarks of Blizzard Entertainment, Inc. in the U.S. and/or other countries.</p>
+        	</br>
+        	</br>
         </footer>
 
     </main>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i|Roboto Mono" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script type="text/javascript" src="assets/js/dictionary.js"></script>
+    
     <script type="text/javascript" src="assets/js/chart.bundle.min.js"></script>
-    <script type="text/javascript" src="assets/js/headroom.min.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
     <script type="text/javascript" src="assets/js/classie.js"></script>
+
     <script>
         ! function(a, b, c, d, e, f, g) {
             a.GoogleAnalyticsObject = e, a[e] = a[e] || function() {
@@ -505,8 +509,8 @@
             }, a[e].l = 1 * new Date, f = b.createElement(c), g = b.getElementsByTagName(c)[0], f.async = 1, f.src = d, g.parentNode.insertBefore(f, g)
         }(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga"), ga("create", "UA-88138745-1", "auto"), ga("send", "pageview");
     </script>
-    <script async type="text/javascript" src="assets/js/getaffixes.js?v=0.1"></script>
-    <script async type="text/javascript" src="assets/js/us.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.translate.js"></script>
+    <script type="text/javascript" src="assets/js/dictionary.js"></script>
 
 </body>
 

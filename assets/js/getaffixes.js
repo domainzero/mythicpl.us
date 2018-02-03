@@ -102,11 +102,8 @@ function getAffixes(region) {
                 //get current week affixes key: 2 first chars and lowercase
                 currentAffixes = affix.name.toLowerCase().substr(0, 2) + currentAffixes;
 
-                //translate the affix name
-                affixName = translator.get(affix.name);
-
                 //print it
-                document.getElementById("thisweek" + region).innerHTML += "<span class='" + affix.difficulty + "'>" + affixName + "</span>" + " ";
+                document.getElementById("thisweek" + region).innerHTML += "<span class='" + affix.difficulty + " trn'>" + affix.name + "</span>" + " ";
             });
 
             if (region == "us") currentAffixesUS = currentAffixes;
@@ -122,3 +119,5 @@ function getAffixes(region) {
 
 getAffixes('us');
 getAffixes('eu');
+
+
