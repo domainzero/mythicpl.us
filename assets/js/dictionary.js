@@ -230,7 +230,7 @@ $(function() {
 	    },
 
 	    "Curious about how I applied the results? Check ": {
-	        es: "¿Interesado en saber cómo obuve los resultados? Comprueba ",
+	        es: "¿Interesado en saber cómo obtuve los resultados? Comprueba ",
 	        pt: "Interessado em descubrir como obtive os resultados? Comprovar "
 	    },
 
@@ -289,7 +289,7 @@ $(function() {
 
 	    raging_note: {
 	        en: "Note: mobs with high damage targeted abilities or high damage AoE abilities become deadly with this affix. Be sure to focus fire mobs down so there aren't multiple enraged mobs at once.",
-	        es: "Nota: los enemigos con habilidades que hacen mucho daño AoE o daño directo son mortales con este afijo. Asegúrate de hacer bien el foco e intenta reservar los stuns y ccs cuando estén enfurecidos. Si se curan después de enfurecerse, seguirán enfucecidos hasta que se mueran.",
+	        es: "Nota: los enemigos con habilidades que hacen mucho daño AoE o daño directo son mortales con este afijo. Asegúrate de hacer bien el foco e intenta reservar los stuns y ccs cuando estén enfurecidos. Caso se curen después de enfurecerse, seguirán enfucecidos hasta que mueran.",
 	        pt: "Nota: inimigos com habilidades que causam muito dano em áreas ou direto são mortais com este afixo. Garanta que o foco principal esteja morto e guarde algum aturdir e cc para quando estiverem enfurecidos. Se os enemigos se curam depois de potenciar-se, seguirão potenciados até que morram."
 	    },
 
@@ -349,7 +349,7 @@ $(function() {
 
 	    skittish_note: {
 	        en: "Note: This affix is a lot easier if Tricks of the Trade or Misdirection are used on cooldown. Strong AoE CC is beneficial here as well in case mobs get loose.",
-	        es: "Nota: Este afijo es mucho más fácil si el grupo utiliza recursos de clase como redirección a CD. CCs en áreas también ofrece ventaja en el caso de que los pulls se escapen del tanque.",
+	        es: "Nota: Este afijo es mucho más fácil si el grupo utiliza recursos de clase como redirección a CD. CCs en áreas también ofrecen ventaja en el caso de que los pulls se escapen del tanque.",
 	        pt: "Nota: Este afixo é bem mais fácil se o grupo utiliza corretamente os recursos de classe como redirecionar a CD. Controles de áreas também são vantajosos caso os inimigos se separem do tanque."
 	    },
 
