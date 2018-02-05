@@ -1,8 +1,12 @@
 // Get dificulty legends
 
-var dif_easy = translator.get("Easy");
-var dif_medium = translator.get("Medium");
-var dif_hard = translator.get("Hard");
+//var dif_easy = translator.get("Easy");
+//var dif_medium = translator.get("Medium");
+//var dif_hard = translator.get("Hard");
+
+dif_easy = "Easy";
+dif_medium = "Medium";
+dif_hard = "Hard";
 
 var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1saKejReaWhzQUmTy_r8FTTcW9xt1ilxI2knYdc8bQPs/pubhtml';
 
