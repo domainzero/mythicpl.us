@@ -27,8 +27,8 @@ else if(week == 12){
 }
 else {
 
-	nextweek = week + 1;
-	weekafternext = week + 2;
+	nextweek = week;
+	weekafternext = week + 1;
 }
 
 var tw1 = document.getElementById("sched").rows[week].cells[0].innerHTML;
