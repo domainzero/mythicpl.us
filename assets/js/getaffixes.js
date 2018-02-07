@@ -20,6 +20,44 @@ function highlightCurrentAffixes(currentAffixesUS, currentAffixesEU) {
 
 };
 
+function fillNextWeeksAffixes(currentAffixesEU) {
+    // As the servers reset from EU are later than the US, it takes the EU as a reference.
+
+    if (currentAffixesEU != "") {
+
+        var row = document.getElementById(currentAffixesEU)
+        var idx = row.rowIndex;
+
+        idx = 12;
+
+        if (idx == 11) {
+            var nextweek = 12;
+            var weekafternext = 1;
+        } else if (idx > 11) {
+            var nextweek = 1;
+            var weekafternext = 2;
+        } else {
+            var nextweek = idx + 1;
+            var weekafternext = idx + 2;
+        };
+
+        var schedtbl = document.getElementById("sched");
+
+        var nw1 = schedtbl.rows[nextweek].cells[0].innerHTML;
+        var nw2 = schedtbl.rows[nextweek].cells[1].innerHTML;
+        var nw3 = schedtbl.rows[nextweek].cells[2].innerHTML;
+
+        var wan1 = schedtbl.rows[weekafternext].cells[0].innerHTML;
+        var wan2 = schedtbl.rows[weekafternext].cells[1].innerHTML;
+        var wan3 = schedtbl.rows[weekafternext].cells[2].innerHTML;
+
+        document.getElementById("nextweek").innerHTML = "" + nw1 + ", " + nw2 + ", " + nw3;
+        document.getElementById("weekafternext").innerHTML = "" + wan1 + ", " + wan2 + ", " + wan3;
+
+    };
+
+};
+
 function getAffixes(region) {
 
     var xhr = new XMLHttpRequest();
@@ -110,6 +148,7 @@ function getAffixes(region) {
             if (region == "eu") currentAffixesEU = currentAffixes;
 
             highlightCurrentAffixes(currentAffixesUS, currentAffixesEU);
+            fillNextWeeksAffixes(currentAffixesEU);
 
         };
     };
@@ -119,5 +158,3 @@ function getAffixes(region) {
 
 getAffixes('us');
 getAffixes('eu');
-
-
