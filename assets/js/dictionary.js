@@ -1,3 +1,5 @@
+getRegionalAffixes();
+
 $(function() {
 
 	var dict = {
@@ -225,8 +227,8 @@ $(function() {
 	    },
 				
 	    "Short survey to get your feedback on affix difficulty": {
-	        es: "Rellena la encuesta rápida para obtener comentários sobre la dificultad de afijos",
-	        pt: "Preencha a enquete rapidamente para receber um feedback sobre as dificuldades de afixos"
+	        es: "Rellena la encuesta rápida (en inglés) para que tengamos tus opiniones sobre la dificultad de afijos",
+	        pt: "Preencha uma enquete rápida (em inglês) para que possamos ter um feedback sobre as dificuldades de afixos"
 	    },
 
 	    "Curious about how I applied the results? Check ": {
@@ -851,18 +853,17 @@ $(function() {
 	    userLang = "en";
 	};
 
-	var _t = $('body').translate({
+	var translator = $('body').translate({
 	    lang: userLang,
 	    t: dict
 	});
 
   	$(".lang_selector").click(function(ev) {
     var lang = $(this).attr("data-value");
-    _t.lang(lang);
+    translator.lang(lang);
 
     ev.preventDefault();
 
   });
-
 
 });
