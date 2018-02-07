@@ -7,9 +7,9 @@
     <meta name="description" content="Your quick guide to all things mythic plus. Check this week's affixes, get loot information, browse curated addons and find groupfinding Discords!">
     <meta name="keywords" content="mythic+,mythic_plus,mythic_+,world of warcraft, mythic dungeons,warcraft,mythic plus, legion, warlords, keystone, keystone affixes, affixes, keystones">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	
+
 	<script type="text/javascript" src="assets/js/getaffixes.js?v=0.1"></script>
-	
+
 </head>
 
 <body>
@@ -46,10 +46,14 @@
             <h1 class="title title--large trn">Affix effects</h1>
             <div class="legend">
                 <span class="trn">Legend: </span><span class="easy trn">easy difficulty</span> | <span class="med trn">medium difficulty</span> | <span class="hard trn">hard difficulty</span>
+                <br>
+                <br>
             </div>
-            </br>
-            </br>
             <h1 class="title title--large trn" id="graphs">Graphs</h1>
+            <h1>HP and Damage scaling per keystone level</h1>
+            <div class="container">
+                <canvas id="canvas"></canvas>
+            </div>
             <p class="cl-effect-1"><a class="trn" href="https://goo.gl/forms/YgaYteAnJjg2yMOn1">Short survey to get your feedback on affix difficulty</a></p>
             <p><span class="trn">Curious about how I applied the results? Check </span><a href="graphs/index.html"><span class="trn">here!</span></a></p>
             <div class="affixes-block">
@@ -497,16 +501,17 @@
 
     </main>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i|Roboto Mono" rel="stylesheet">
-    
+
 	<link rel="stylesheet" href="assets/css/style.css">
-    
+
 	<script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.translate.js"></script>
     <script type="text/javascript" src="assets/js/dictionary.js"></script>
 	<script type="text/javascript" src="assets/js/chart.bundle.min.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
     <script type="text/javascript" src="assets/js/classie.js"></script>
-		
+    <script type="text/javascript" src="assets/js/charts.js"></script>
+
     <script>
         ! function(a, b, c, d, e, f, g) {
             a.GoogleAnalyticsObject = e, a[e] = a[e] || function() {
@@ -514,7 +519,7 @@
             }, a[e].l = 1 * new Date, f = b.createElement(c), g = b.getElementsByTagName(c)[0], f.async = 1, f.src = d, g.parentNode.insertBefore(f, g)
         }(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga"), ga("create", "UA-88138745-1", "auto"), ga("send", "pageview");
     </script>
-	
+
 </body>
 
 </html>
