@@ -744,7 +744,7 @@ $(function() {
 		//===== END GRAPHS ===== 
 		"AFFIX DIFFICULTY SURVEY RESULTS": {
 	        es: "RESULTADOS DE LA ENQUETE SOBRE LA DIFICULTAD DE AFIJOS",
-	        pt: "RESULTADOS DA PESQUISA DE DIFICULTAD AFFIX"
+	        pt: "RESULTADOS DA PESQUISA SOBRE A DIFICULDADE DOS AFIXOS"
 	    },
 		
 		"The following charts are using input that I got from the survey hosted on mythicpl.us. Currently we're at <span id=\"totvotes\"></span> votes for the original affixes and <span id=\"newvotes\"></span> for the new affixes. The numbers you see are the total count of each difficulty divided by Total Votes (for the original affixes) or New Votes (for the new affixes) multiplied by 100 to get a percentage.": {
