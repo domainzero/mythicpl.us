@@ -147,6 +147,8 @@ function getAffixes(region) {
 
             highlightCurrentAffixes(currentAffixesUS, currentAffixesEU);
             fillNextWeeksAffixes(currentAffixesEU);
+			
+			translate();
 
         };
     };
