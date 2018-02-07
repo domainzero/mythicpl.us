@@ -1,3 +1,5 @@
+getRegionalAffixes();
+
 $(function() {
 
 	var dict = {
