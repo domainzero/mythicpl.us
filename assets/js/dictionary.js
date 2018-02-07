@@ -858,17 +858,17 @@ $(function() {
 	    userLang = "en";
 	};
 
-	var translator = $('body').translate({
-	    lang: userLang,
-	    t: dict
+	getAffixesReady.then(function(){
+		var translator = $('body').translate({
+			lang: userLang,
+			t: dict
+		});
+	
+		$(".lang_selector").click(function(ev) {
+			var lang = $(this).attr("data-value");
+			translator.lang(lang);
+			ev.preventDefault();
+		});
 	});
-
-  	$(".lang_selector").click(function(ev) {
-    var lang = $(this).attr("data-value");
-    translator.lang(lang);
-
-    ev.preventDefault();
-
-  });
 
 });
