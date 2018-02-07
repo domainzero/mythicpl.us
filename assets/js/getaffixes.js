@@ -28,8 +28,6 @@ function fillNextWeeksAffixes(currentAffixesEU) {
         var row = document.getElementById(currentAffixesEU)
         var idx = row.rowIndex;
 
-        idx = 12;
-
         if (idx == 11) {
             var nextweek = 12;
             var weekafternext = 1;
@@ -139,7 +137,7 @@ function getAffixes(region) {
 
                 //get current week affixes key: 2 first chars and lowercase
                 currentAffixes = affix.name.toLowerCase().substr(0, 2) + currentAffixes;
-
+								
                 //print it
                 document.getElementById("thisweek" + region).innerHTML += "<span class='" + affix.difficulty + " trn'>" + affix.name + "</span>" + " ";
             });
@@ -156,5 +154,7 @@ function getAffixes(region) {
     xhr.send();
 };
 
-getAffixes('us');
-getAffixes('eu');
+function getRegionalAffixes() {
+	getAffixes('us');
+	getAffixes('eu');
+};
