@@ -1,5 +1,3 @@
-getRegionalAffixes();
-
 $(function() {
 
 	var dict = {
@@ -10,6 +8,8 @@ $(function() {
 	        es: "¿Cuáles son los retos a los que me enfrentaré esta semana en mi mítica+?",
 	        pt: "Quais são os desafios que vou enfrentar esta semana em minha mítica+?"
 	    },
+		
+		
 		
 	    //Home texts
 	    info_ood: {
@@ -24,6 +24,11 @@ $(function() {
 	    },
 
 	    //Menu
+		"Open Menu": {
+	        es: "Abrir menú",
+	        pt: "Abrir menu"
+	    },
+		
 	    "Graphs": {
 	        es: "Gráficos",
 	        pt: "Gráficos"
