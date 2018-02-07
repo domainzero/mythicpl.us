@@ -158,3 +158,5 @@ function getRegionalAffixes() {
 	getAffixes('us');
 	getAffixes('eu');
 };
+
+getRegionalAffixes();
