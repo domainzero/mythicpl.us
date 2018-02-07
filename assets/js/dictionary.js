@@ -851,18 +851,17 @@ $(function() {
 	    userLang = "en";
 	};
 
-	var _t = $('body').translate({
+	var translator = $('body').translate({
 	    lang: userLang,
 	    t: dict
 	});
 
   	$(".lang_selector").click(function(ev) {
     var lang = $(this).attr("data-value");
-    _t.lang(lang);
+    translator.lang(lang);
 
     ev.preventDefault();
 
   });
-
 
 });
