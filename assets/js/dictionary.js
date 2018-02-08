@@ -507,12 +507,12 @@ $(function() {
 	    },
 
 	    " - Raider.io has all kinds of tools including character specific M+ tracking, successful run comp tracking, and ranks for m+ dungeons. They're <strong>community</strong> run and have some cool planned features. Stay tuned! The site is also snappy AF. ": {
-	        es: " - Raider.io posee todos los tipos de herramientas para míticas+, incluye el rastreo de carreras en tiempo y clasificaciones de las míticas+. Ellos son una <strong>comunidad</strong> y tienen algunos recursos planificados muy buenos. ¡Estate atento! La página es rápida y jodidamente buena.",
+	        es: " - Raider.io posee todos los tipos de herramientas para míticas+, incluye el rastreo de míticas+ en tiempo y clasificaciones de las míticas+. Ellos son una <strong>comunidad</strong> y tienen algunos recursos planificados muy buenos. ¡Estate atento! La página es rápida y jodidamente buena.",
 	        pt: " - Raider.io tem todos os tipos de ferramentas específicas para míticas+, incluindo rastreamento de corridas em tempo e classificações para masmorras+. Eles são uma<strong>comunidade</strong> e têm alguns recursos planejados bem legais. Fique ligado! O site também é foda."
 	    },
 
 	    " - (Mythic Plus Helper) Looks up group candidates and returns ilvl equipped/highest, total mythic plus runs and legendaries! Be sure to get the <a href=\"https://mods.curse.com/addons/wow/260666-mythic-plus-helper\">addon</a> for ease of use. <strong>Community created!</strong>": {
-	        es: " - (Mythic Plus Helper) Revisa candidatos del grupo y muestra el ilvl equipado/más alto, total de carreras míticas+ y también legendarios! Asegúrate de utilizar la página \"<a href=\"https://mods.curse.com/addons/wow/260666-mythic-plus-helper\">complementar</a>\" para facilitar su uso. <strong>¡Comunidad creada!</strong>",
+	        es: " - (Mythic Plus Helper) Revisa candidatos del grupo y muestra el ilvl equipado/más alto, total de míticas+ y también legendarios! Asegúrate de utilizar la página \"<a href=\"https://mods.curse.com/addons/wow/260666-mythic-plus-helper\">complementar</a>\" para facilitar su uso. <strong>¡Comunidad creada!</strong>",
 	        pt: " - (Mythic Plus Helper) Revisa os candidatos para entrar no grupo e mostra o ilvl equipado/mais alto, total de corridas míticas+ e também os legendários! Tenha em mãos a página web <a href=\"https://mods.curse.com/addons/wow/260666-mythic-plus-helper\"> complementar </a> para facilitar a utilização.<strong>¡Comunidade criada!</strong>"
 	    },
 
