@@ -12,7 +12,7 @@
 	
 </head>
 
-<body>
+<body id="home">
     <button class="menu-button pulse" id="open-button"><i class="fa fa-fw fa-cog"></i><span>Open Menu</span></button>
     <title class="trn">What Mythic Plus Garbage Do I Have To Deal With This Week?</title>
     <main class="main" id="this_week">
@@ -50,6 +50,10 @@
             </br>
             </br>
             <h1 class="title title--large trn" id="graphs">Graphs</h1>
+            <h1 class="trn">HP and Damage scaling per keystone level</h1>
+            <div class="container">
+                <canvas id="canvas"></canvas>
+            </div>            
             <p class="cl-effect-1"><a class="trn" href="https://goo.gl/forms/YgaYteAnJjg2yMOn1">Short survey to get your feedback on affix difficulty</a></p>
             <p><span class="trn">Curious about how I applied the results? Check </span><a href="graphs/index.html"><span class="trn">here!</span></a></p>
             <div class="affixes-block">
@@ -504,7 +508,8 @@
 	<script type="text/javascript" src="assets/js/chart.bundle.min.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
     <script type="text/javascript" src="assets/js/classie.js"></script>
-		
+	<script type="text/javascript" src="assets/js/charts.js"></script>
+
     <script>
         ! function(a, b, c, d, e, f, g) {
             a.GoogleAnalyticsObject = e, a[e] = a[e] || function() {
