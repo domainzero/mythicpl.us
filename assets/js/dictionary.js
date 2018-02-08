@@ -1,5 +1,3 @@
-getRegionalAffixes();
-
 $(function() {
 
 	var dict = {
@@ -24,6 +22,11 @@ $(function() {
 	    },
 
 	    //Menu
+		"Open Menu": {
+	        es: "Abrir menú",
+	        pt: "Abrir menu"
+	    },
+		
 	    "Graphs": {
 	        es: "Gráficos",
 	        pt: "Gráficos"
@@ -225,7 +228,12 @@ $(function() {
 	        es: "Alta",
 	        pt: "Alta"
 	    },
-				
+
+	    "HP and Damage scaling per keystone level": {
+	        es: "Escala de Salud y Daño por nivel de Piedra angular mítica",
+	        pt: "Escala de HP e Dano por nível de Pedra-chave mítica"
+	    },
+
 	    "Short survey to get your feedback on affix difficulty": {
 	        es: "Rellena la encuesta rápida (en inglés) para que tengamos tus opiniones sobre la dificultad de afijos",
 	        pt: "Preencha uma enquete rápida (em inglês) para que possamos ter um feedback sobre as dificuldades de afixos"
@@ -736,10 +744,10 @@ $(function() {
 		
 		//===== END CALC ===== 
 		
-		//===== END GRAPHS ===== 
+		//===== GRAPHS ===== 
 		"AFFIX DIFFICULTY SURVEY RESULTS": {
 	        es: "RESULTADOS DE LA ENQUETE SOBRE LA DIFICULTAD DE AFIJOS",
-	        pt: "RESULTADOS DA PESQUISA DE DIFICULTAD AFFIX"
+	        pt: "RESULTADOS DA PESQUISA SOBRE A DIFICULDADE DOS AFIXOS"
 	    },
 		
 		"The following charts are using input that I got from the survey hosted on mythicpl.us. Currently we're at <span id=\"totvotes\"></span> votes for the original affixes and <span id=\"newvotes\"></span> for the new affixes. The numbers you see are the total count of each difficulty divided by Total Votes (for the original affixes) or New Votes (for the new affixes) multiplied by 100 to get a percentage.": {
@@ -853,17 +861,34 @@ $(function() {
 	    userLang = "en";
 	};
 
-	var translator = $('body').translate({
-	    lang: userLang,
-	    t: dict
-	});
+	var homePage = document.getElementById("home");
 
-  	$(".lang_selector").click(function(ev) {
-    var lang = $(this).attr("data-value");
-    translator.lang(lang);
+	if (homePage) {
+		getAffixesReady.then(function(){
+			var translator = $('body').translate({
+				lang: userLang,
+				t: dict
+			});
 
-    ev.preventDefault();
+			$(".lang_selector").click(function(ev) {
+				var lang = $(this).attr("data-value");
+				translator.lang(lang);
+				ev.preventDefault();
+			});
 
-  });
+		});
+	}
+	else {
+			var translator = $('body').translate({
+				lang: userLang,
+				t: dict
+			});
+
+			$(".lang_selector").click(function(ev) {
+				var lang = $(this).attr("data-value");
+				translator.lang(lang);
+				ev.preventDefault();
+			});
+	};
 
 });

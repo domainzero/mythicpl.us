@@ -58,103 +58,115 @@ function fillNextWeeksAffixes(currentAffixesEU) {
 
 function getAffixes(region) {
 
-    var xhr = new XMLHttpRequest();
-    var affixName = "";
-    var currentAffixes = "";
+    return new Promise(function(resolve, reject){
+        var xhr = new XMLHttpRequest();
+        var affixName = "";
+        var currentAffixes = "";
 
-    xhr.onreadystatechange = function() {
+        xhr.onreadystatechange = function() {
 
-        if (xhr.readyState == 4 && xhr.status == 200 || xhr.status == 0) {
-            var parsed_json_respone = JSON.parse(this.responseText);
-            var affixes = parsed_json_respone.affix_details;
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                var parsed_json_respone = JSON.parse(this.responseText);
+                var affixes = parsed_json_respone.affix_details;
 
-            var affix_list = [{
-                    "name": "Raging",
-                    "difficulty": "med"
-                },
-                {
-                    "name": "Volcanic",
-                    "difficulty": "easy"
-                },
-                {
-                    "name": "Teeming",
-                    "difficulty": "med"
-                },
-                {
-                    "name": "Explosive",
-                    "difficulty": "med"
-                },
-                {
-                    "name": "Fortified",
-                    "difficulty": "hard"
-                },
-                {
-                    "name": "Bolstering",
-                    "difficulty": "med"
-                },
-                {
-                    "name": "Grievous",
-                    "difficulty": "med"
-                },
-                {
-                    "name": "Sanguine",
-                    "difficulty": "easy"
-                },
-                {
-                    "name": "Bursting",
-                    "difficulty": "med"
-                },
-                {
-                    "name": "Necrotic",
-                    "difficulty": "hard"
-                },
-                {
-                    "name": "Skittish",
-                    "difficulty": "hard"
-                },
-                {
-                    "name": "Quaking",
-                    "difficulty": "med"
-                },
-                {
-                    "name": "Tyrannical",
-                    "difficulty": "hard"
-                }
-            ];
-
-            //start the output by putting the title in place
-            document.getElementById("thisweek" + region).innerHTML = "<span class='title__intro'>" + region + "</span>";
-
-            //fill it up with the affixes
-            affixes.forEach(function(affix) {
-
-                //get the difficulty
-                affix_list.forEach(function(list_affix) {
-                    if (affix.name == list_affix.name) {
-                        affix.difficulty = list_affix.difficulty; //idk if this assignment will work, can also put it in a new var
+                var affix_list = [{
+                        "name": "Raging",
+                        "difficulty": "med"
+                    },
+                    {
+                        "name": "Volcanic",
+                        "difficulty": "easy"
+                    },
+                    {
+                        "name": "Teeming",
+                        "difficulty": "med"
+                    },
+                    {
+                        "name": "Explosive",
+                        "difficulty": "med"
+                    },
+                    {
+                        "name": "Fortified",
+                        "difficulty": "hard"
+                    },
+                    {
+                        "name": "Bolstering",
+                        "difficulty": "med"
+                    },
+                    {
+                        "name": "Grievous",
+                        "difficulty": "med"
+                    },
+                    {
+                        "name": "Sanguine",
+                        "difficulty": "easy"
+                    },
+                    {
+                        "name": "Bursting",
+                        "difficulty": "med"
+                    },
+                    {
+                        "name": "Necrotic",
+                        "difficulty": "hard"
+                    },
+                    {
+                        "name": "Skittish",
+                        "difficulty": "hard"
+                    },
+                    {
+                        "name": "Quaking",
+                        "difficulty": "med"
+                    },
+                    {
+                        "name": "Tyrannical",
+                        "difficulty": "hard"
                     }
+                ];
+
+                //start the output by putting the title in place
+                document.getElementById("thisweek" + region).innerHTML = "<span class='title__intro'>" + region + "</span>";
+
+                //fill it up with the affixes
+                affixes.forEach(function(affix) {
+
+                    //get the difficulty
+                    affix_list.forEach(function(list_affix) {
+                        if (affix.name == list_affix.name) {
+                            affix.difficulty = list_affix.difficulty; //idk if this assignment will work, can also put it in a new var
+                        }
+                    });
+
+                    //get current week affixes key: 2 first chars and lowercase
+                    currentAffixes = affix.name.toLowerCase().substr(0, 2) + currentAffixes;
+                                    
+                    //print it
+                    document.getElementById("thisweek" + region).innerHTML += "<span class='" + affix.difficulty + " trn'>" + affix.name + "</span>" + " ";
                 });
 
-                //get current week affixes key: 2 first chars and lowercase
-                currentAffixes = affix.name.toLowerCase().substr(0, 2) + currentAffixes;
-								
-                //print it
-                document.getElementById("thisweek" + region).innerHTML += "<span class='" + affix.difficulty + " trn'>" + affix.name + "</span>" + " ";
-            });
+                if (region == "us") currentAffixesUS = currentAffixes;
+                if (region == "eu") currentAffixesEU = currentAffixes;
 
-            if (region == "us") currentAffixesUS = currentAffixes;
-            if (region == "eu") currentAffixesEU = currentAffixes;
+                highlightCurrentAffixes(currentAffixesUS, currentAffixesEU);
+                fillNextWeeksAffixes(currentAffixesEU);
 
-            highlightCurrentAffixes(currentAffixesUS, currentAffixesEU);
-            fillNextWeeksAffixes(currentAffixesEU);
-
+                resolve();
+            }else if(xhr.readyState == 4 && xhr.status !== 200){
+                reject();
+            }
         };
-    };
-    xhr.open('GET', 'https://raider.io/api/v1/mythic-plus/affixes?region=' + region, true);
-    xhr.send();
+        xhr.open('GET', 'https://raider.io/api/v1/mythic-plus/affixes?region=' + region, true);
+        xhr.send();
+    });
+
 };
 
 function getRegionalAffixes() {
-	getAffixes('us');
-	getAffixes('eu');
+    var promises = [
+        getAffixes('us'),
+	    getAffixes('eu')
+    ];
+
+    window.getAffixesReady = Promise.all(promises);
 };
+
+getRegionalAffixes();
