@@ -12,7 +12,7 @@
 
 </head>
 
-<body>
+<body id="home">
     <button class="menu-button pulse" id="open-button"><i class="fa fa-fw fa-cog"></i><span>Open Menu</span></button>
     <title class="trn">What Mythic Plus Garbage Do I Have To Deal With This Week?</title>
     <main class="main" id="this_week">
@@ -50,10 +50,10 @@
                 <br>
             </div>
             <h1 class="title title--large trn" id="graphs">Graphs</h1>
-            <h1>HP and Damage scaling per keystone level</h1>
+            <h1 class="trn">HP and Damage scaling per keystone level</h1>
             <div class="container">
                 <canvas id="canvas"></canvas>
-            </div>
+            </div>            
             <p class="cl-effect-1"><a class="trn" href="https://goo.gl/forms/YgaYteAnJjg2yMOn1">Short survey to get your feedback on affix difficulty</a></p>
             <p><span class="trn">Curious about how I applied the results? Check </span><a href="graphs/index.html"><span class="trn">here!</span></a></p>
             <div class="affixes-block">
@@ -457,9 +457,7 @@
                 <div class="table__description">
                     <p class="trn">The chest at the end of the run guarantees the <strong>GROUP</strong> two pieces of loot from the dungeon loot table. If you beat the timer you will be awarded one extra piece of loot.</p>
                     <p class="trn">In addition, roughly every 3 difficulty levels past 15 will award you with an additional piece of loot.</p>
-                    <p class="affixes-list__note trn">Example time! You beat a level 15 keystone within the timer and your group is awarded 3 pieces of loot. Later, you beat a level 18 keystone within the timer and your group SHOULD BE awarded with 4 pieces of loot. Repeat every three
-                        levels. 21 = 5 pieces of loot, 24 = 6 pieces of loot, etc.</p>
-
+                    <p class="affixes-list__note trn">Example time! You beat a level 15 keystone within the timer and your group is awarded 3 pieces of loot. Later, you beat a level 18 keystone within the timer and your group SHOULD BE awarded with 4 pieces of loot. Repeat every three levels. 21 = 5 pieces of loot, 24 = 6 pieces of loot, etc.</p>
                     <p class="trn">At the start of a week (after raid/mythic reset) a chest will appear in your order hall giving loot based on the highest level keystone dungeon <strong>COMPLETED</strong> the previous week, within the timer or not.</p>
                     <p class="trn">In addition, the chest will also have a downgraded keystone based on the highest level keystone run <strong>YOU COMPLETED</strong> in the previous week.</p>
                     <p class="trn">It is most beneficial to complete a +15 weekly to get the highest item level gear every reset. If that isn't feasible go for the next highest you can complete. Again, <strong>you don't need to finish in the timer to get the weekly chest.</strong></p>
