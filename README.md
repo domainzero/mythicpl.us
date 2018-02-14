@@ -14,7 +14,6 @@ Gnarfoz and chuDr3t4 for doing keystone research.<br>
 Shoutouts to my boy Luke for making the auto-rotate script.<br>
 Kyatastrophe for shilling my site on the WoW discord.<br>
 MattZeeX, for confirming all the time <br>**
-
 **Nery, lord and savior of week 2<br>
 Vauira, lord and savior of week 3<br>
 Beardofedu, week 4 and 5 master<br>
