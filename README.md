@@ -1,5 +1,5 @@
 # mythicpl.us
-A simple flat file site designed to load quickly and give m+ information at a glance.
+A simple flat file site designed to load quickly and give m+ information at a glance (and in multiple languages thanks to some great contributors!).
 
 Huge thank yous to everyone that provided feedback via reddit, github, discord, whatever. 
 You are appreciated.
