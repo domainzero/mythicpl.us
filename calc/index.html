@@ -3,19 +3,26 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i|Roboto Mono" rel="stylesheet">
-		<script type="text/javascript" src="../assets/js/jquery-3.3.1.min.js"></script>
-		<script type="text/javascript" src="../assets/js/jquery.translate.js"></script>
-		<link rel="stylesheet" href="../assets/css/style.css">
-		<link rel="stylesheet" href="../assets/css/calc.css">
+
+		<meta property="og:title" content="what m+ garbage do i have to deal with this week?">
+	    <meta property="og:type" content="website">
+	    <meta property="og:site_name" content="mythicpl.us">
+	    <meta property="og:url" content="https://mythicpl.us/">
+		<meta property="og:image" content="https://mythicpl.us/assets/img/share-icon.png">
+	    <meta property="og:description" content="Calculator - Lots of cool WoW Mythic+ Info - https://mythicpl.us/">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i|Roboto Mono" rel="stylesheet">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
 	</head>
 	<body>
+	<button class="menu-button pulse" id="open-button"><i class="fa fa-fw fa-cog"></i><span class="trn">Open Menu</span></button>
 	<title class="trn">mythic+ calculator to fill out your artifact</title>
 		<main class="main">
 		<section class="back">
 				<ul>
-					<a href="../index.html">
+					<a href="javascript:window.history.back();">
 						<li class="trn">back</li>
 					</a>
 				</ul>
@@ -118,6 +125,21 @@
 			</div>
 			</div>
 			</section>	
+
+			<div class="menu-wrap">
+				<nav class="menu">
+					<div class="profile"></div>
+					<div class="link-list">
+						<a href="../index.html"><span class="trn">Home</span></a>
+						<a href="../graphs/index.html"><span class="trn">Graphs</span></a>						
+					</div>
+					<div class="link-list">
+						<a class="btn btn-default lang_selector trn" href="#" role="button" data-value="en">Translate to English</a>
+						<a class="btn btn-default lang_selector trn" href="#" role="button" data-value="es">Traducir al Español (ES)</a>
+						<a class="btn btn-default lang_selector trn" href="#" role="button" data-value="pt">Traduzir ao Português (BR)</a>
+					</div>
+				</nav>
+			</div>
 			
 		<footer class="footer">
 			<p class="trn">Yeah, this is based off of <a href="https://docs.google.com/spreadsheets/d/1Fvx9eKXx6sPa5D_Mz4L9-fUog_kdaOajoTC9UgvV_Ms/edit#gid=0">this spreadsheet.</a> Don't worry, I worked with the author to get it up here, I didn't just rip them off. Shoutouts to Auhsoj#7928.</p>
@@ -133,9 +155,18 @@
 			
 			</div>
 		</main>
+
+		<link rel="stylesheet" href="../assets/css/style.css">
+		<link rel="stylesheet" href="../assets/css/calc.css">
+
+		<script type="text/javascript" src="../assets/js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="../assets/js/jquery.translate.js"></script>
 		<script type="text/javascript" src="../assets/js/dictionary.js"></script>
-		<script async type="text/javascript" src="../assets/js/grind.js"></script>
-		<script async type="text/javascript" src="../assets/js/classie.js"></script>
+		<script type="text/javascript" src="../assets/js/grind.js"></script>
+		<script type="text/javascript" src="../assets/js/main.js"></script>
+		<script type="text/javascript" src="../assets/js/classie.js"></script>
+
+
 	</body>
 <script>
 !function(a,b,c,d,e,f,g){a.GoogleAnalyticsObject=e,a[e]=a[e]||function(){(a[e].q=a[e].q||[]).push(arguments)},a[e].l=1*new Date,f=b.createElement(c),g=b.getElementsByTagName(c)[0],f.async=1,f.src=d,g.parentNode.insertBefore(f,g)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-88138745-1","auto"),ga("send","pageview");
