@@ -12,7 +12,8 @@ function init() {
     Tabletop.init({
         key: publicSpreadsheetUrl,
         callback: showInfo,
-        simpleSheet: true
+        simpleSheet: true,
+        wanted: ['QuerySheet']
     })
 }
 
