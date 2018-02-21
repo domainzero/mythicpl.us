@@ -8,6 +8,7 @@ You are appreciated.
 
 **Mitcheljager for initial restyle.<br>
 amarques, master translator and bug fixer extraordinaire<br>
+@davidespinola, tabletop fixer<br>
 Heliades for assisting with further restyle and for making the sweet EoA map.<br>
 Auhsoj for writing most of the script that powers the calc page.<br>
 Gnarfoz and chuDr3t4 for doing keystone research.<br>
