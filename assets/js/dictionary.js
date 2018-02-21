@@ -471,6 +471,11 @@ $(function() {
 	        pt: "Dados de pedras-chave mítica"
 	    },
 
+	    " - Shows keys for guild mates, Battle Net friends and alts. It also shows if your friends/guildies have done a 15+ or not!": {
+	        es: "- Muestra las piedras angulares para compañeros del clan, amigos de Battle.Net y alters. ¡También muestra si tus amigos / compañeros del clan han hecho piedras superiores a +15 o no!",
+	        pt: " - Mostra as pedras-chave para as pessoas da guilda, amigos de Battle.Net e alters. Também mostra se seus amigos / pessoas do clan finalizaram pedras-chave superiores a +15 ou não!"
+	    },
+
 	    " - Queries other people in guild or group with the addon to see what keystones people have.": {
 	        es: " - Búsqueda de piedras angulares mítica en la hermandad o grupo para saber qué piedra tiene cada uno (que también tenga este addon).",
 	        pt: " - Busca pedras-chave míticas na guilda ou grupo para saber qual pedra-chave tem cada um (que também tenha o addon instalado)."
