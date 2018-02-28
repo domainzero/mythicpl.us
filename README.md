@@ -2,7 +2,7 @@
 A simple flat file site designed to load quickly and give m+ information at a glance (and in multiple languages thanks to some great contributors!).
 
 Huge thank yous to everyone that provided feedback via reddit, github, discord, whatever. 
-You are appreciated.
+It doesn't mean I hate you if I didn't mention you, I probably just forgot. Thank you to everyone who has kept this site afloat.
  
 ## Wall of Fame
 
