@@ -472,7 +472,7 @@ $(function() {
 	    },
 
 	    " - Shows keys for guild mates, Battle Net friends and alts. It also shows if your friends/guildies have done a 15+ or not!": {
-	        es: "- Muestra las piedras angulares para compañeros del clan, amigos de Battle.Net y alters. ¡También muestra si tus amigos / compañeros del clan han hecho piedras superiores a +15 o no!",
+	        es: "- Muestra las piedras angulares para compañeros del clan, amigos de Battle.Net y alters. ¡También muestra si tus amigos / compañeros del clan han hecho piedras superiores a una +15 o no!",
 	        pt: " - Mostra as pedras-chave para as pessoas da guilda, amigos de Battle.Net e alters. Também mostra se seus amigos / pessoas do clan finalizaram pedras-chave superiores a +15 ou não!"
 	    },
 
