@@ -546,6 +546,11 @@ $(function() {
 	        pt: " - Para rastrear CDs úteis de uma raid/grupo (ou seja, Barkskin, Bênção de Sacrifício, etc.)."
 	    },
 
+		" - Very useful. It shows you how much physical and magic damage you can take. Based on current health, absorbs, and defensive cooldowns from yourself and others.": {
+	        es: " - Muy útil. Muestra cuanto daño físico y mágico puedes recibir. Basado en tu salud actual, absorciones y CDs defensivos, tuyos y de otros.",
+	        pt: " - Muito util. Mostra quanto dano fisico e mágico pode receber. Baseado no seu nível de saúde atual, absorçoes e CDs defensivos, seus e de outras pessoas."
+	    },
+
 	    //Keystones
 	    "Keystones": {
 	        es: "Piedras angulares míticas",
@@ -650,10 +655,20 @@ $(function() {
 	        pt: "e-mail: admin at mythicpl.us"
 	    },
 
+		"discord: domain#2722 OR the <a href=\"https://discord.gg/Z7GPUw8\">offical mythicpl.us discord ;)</a>": {
+	        es: "discord: domain#2722 O también el <a href=\"https://discord.gg/Z7GPUw8\">discord oficial de mythicpl.us ;)</a>",
+	        pt: "discord: domain#2722 OU também pelo <a href=\"https://discord.gg/Z7GPUw8\">discord oficial de mythicpl.us ;)</a>"
+	    },
+
 	    "open an issue at <a href=\"https://github.com/domainzero/mythicpl.us/issues\">GitHub</a>": {
 	        es: "abrir un ticket en <a href=\"https://github.com/domainzero/mythicpl.us/issues\">GitHub</a>",
 	        pt: "criar incidencia em <a href=\"https://github.com/domainzero/mythicpl.us/issues\">GitHub</a>"
 	    },
+
+		"Feeling generous?": {
+	        es: "¿Te sientes generoso?",
+	        pt: "Sentindo gratidão? Doe:"
+	    },	    
 
 	    "You can verify all my identities <a href=\"https://keybase.io/domain\">here.</a>": {
 	        es: "<a href=\"https://keybase.io/domain\">Aquí</a> están todas las formas en que puedes contactarme.",
