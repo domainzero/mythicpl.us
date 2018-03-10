@@ -635,7 +635,7 @@ $(function() {
 	    },
 
 	    "In addition, the chest will also have a downgraded keystone based on the highest level keystone run <strong>YOU COMPLETED</strong> in the previous week.": {
-	        es: "Además, el cofre también tendrá una piedra angular solo un nivel más bajo comparada con la piedra angular de mayor </br> nivel que <strong>COMPLESTASTE</strong> en la semana anterior.",
+	        es: "Además, el cofre también tendrá una piedra angular solo un nivel más bajo comparada con la piedra angular de mayor </br> nivel que <strong>COMPLETASTE</strong> en la semana anterior.",
 	        pt: "Além disso, o baú também terá uma pedra-chave rebaixada (somente um nível) baseada na corrida de nível mais alto que <strong>VOCÊ COMPLETOU</ strong> na semana anterior."
 	    },
 
