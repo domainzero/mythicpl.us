@@ -347,8 +347,8 @@ $(function() {
 
 	    necrotic_note: {
 	        en: "Note: Strong AoE CC or slows are great for this affix to allow for kiting mobs while the tank's Necrotic stacks fall off.",
-	        es: "Nota: Está muy bien utilizar correctamente los CCs en áreas y ralentizaciones con afijo para permitir kitear bien los pulls mientras el tanque se limpia de las cargas de Necrótica.",
-	        pt: "Nota: É importante utilizar corretamente os CDs de controle massivo e redução de velocidade dos inimigos para permitir que o tanque possa fugir. Desta forma ele pode limpar-se das cargas necróticas."
+	        es: "Nota: Está muy bien utilizar correctamente los CCs en áreas y ralentizaciones con este afijo para permitir kitear bien los pulls mientras el tanque se limpia de las cargas de Necrótica.",
+	        pt: "Nota: É importante utilizar corretamente os CCs de controle massivo e redução de velocidade dos inimigos para permitir que o tanque possa fugir. Desta forma ele pode limpar-se das cargas necróticas."
 	    },
 
 	    skittish_info: {
