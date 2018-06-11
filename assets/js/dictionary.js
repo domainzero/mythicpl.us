@@ -21,6 +21,16 @@ $(function() {
 	        pt: "Quais são os desafios que vou enfrentar esta semana em minha mítica+?"
 	    },
 
+        "By request, here's a <a href=\"https://www.patreon.com/mythicplus\">Patreon link</a>. Thank you for your continued support.<br>As always, hit me up on <a href=\"https://discord.gg/Z7GPUw8\">discord</a>: domain#2722 or at the <a href=\"https://github.com/domainzero/mythicpl.us\">github</a>.": {
+	        es: "Por petición, aquí está el enlace <a href=\"https://www.patreon.com/mythicplus\">del Patreon</a>. Gracias por tu apoyo.<br>Como siempre, buscame en <a href=\"https://discord.gg/Z7GPUw8\">discord</a>: domain#2722 o si quieres en <a href=\"https://github.com/domainzero/mythicpl.us\">github</a>.",
+	        pt: "Atendendo a pedidos, compartilho o <a href=\"https://www.patreon.com/mythicplus\">link do Patreon</a>. Obrigado pelo seu apoio.<br>Como sempre, estou em <a href=\"https://discord.gg/Z7GPUw8\">discord</a>: domain#2722 ou no <a href=\"https://github.com/domainzero/mythicpl.us\">github</a>."
+	    },
+
+		"Graphs": {
+	        es: "Gráficos",
+	        pt: "Gráficos"
+	    },
+
 	    //Menu
 		"Open Menu": {
 	        es: "Abrir menú",
@@ -30,7 +40,7 @@ $(function() {
 	    "Graphs": {
 	        es: "Gráficos",
 	        pt: "Gráficos"
-	    },
+	    },	    
 	    "Calculator": {
 	        es: "Calculadora",
 	        pt: "Calculadora"
@@ -347,8 +357,8 @@ $(function() {
 
 	    necrotic_note: {
 	        en: "Note: Strong AoE CC or slows are great for this affix to allow for kiting mobs while the tank's Necrotic stacks fall off.",
-	        es: "Nota: Está muy bien utilizar correctamente los CCs en áreas y ralentizaciones con afijo para permitir kitear bien los pulls mientras el tanque se limpia de las cargas de Necrótica.",
-	        pt: "Nota: É importante utilizar corretamente os CDs de controle massivo e redução de velocidade dos inimigos para permitir que o tanque possa fugir. Desta forma ele pode limpar-se das cargas necróticas."
+	        es: "Nota: Está muy bien utilizar correctamente los CCs en áreas y ralentizaciones con este afijo para permitir kitear bien los pulls mientras el tanque se limpia de las cargas de Necrótica.",
+	        pt: "Nota: É importante utilizar corretamente os CCs de controle massivo e redução de velocidade dos inimigos para permitir que o tanque possa fugir. Desta forma ele pode limpar-se das cargas necróticas."
 	    },
 
 	    skittish_info: {
