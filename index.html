@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,7 +16,6 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 	<script type="text/javascript" src="assets/js/getaffixes.js?v=1.0"></script>
-
 </head>
 
 <body id="home">
@@ -29,7 +27,7 @@
             <article class="affixes">
                 <h1 id="thisweekus" class="title title--large"><span class="title__intro trn">US</span></h1>
                 <h1 id="thisweekeu" class="title title--large"><span class="title__intro trn">EU</span></h1><br>
-                <p class="trn">By request, here's a <a href="https://www.patreon.com/mythicplus">Patreon link</a>. Thank you for your continued support.<br>As always, hit me up on <a href="https://discord.gg/Z7GPUw8">discord</a>: domain#2722 or at the <a href="https://github.com/domainzero/mythicpl.us">github</a>.</p>
+                <h3 style="text-align:center">BATTLE FOR AZEROTH SO CLOSE!</h3>
                 <div class="arrow">
                     ↓
                 </div>
@@ -45,11 +43,6 @@
                 <h4 id="weekafternext" class="title title--small"></h4>
             </article>
         </section>
-        <section class="content-block cl-effect-1" id="calc">
-            <h4 class="title title--small tagline trn">Calculate AP required to next artifact level and more!</h4>
-            <a class="link link--large trn" href="calc/index.html">CALCULATOR</a>
-        </section>
-
         <section id="affixes-div" class="content-block">
             <h1 class="title title--large trn">Affix effects</h1>
             <div class="legend">
@@ -482,7 +475,6 @@
                 <div class="link-list">
                     <a href="#this_week"><span class="trn">This Week</span></a>
                     <a href="#graphs"><span class="trn">Graphs</span></a>
-                    <a href="#calc"><span class="trn">Calculator</span></a>
                     <a href="#affixes-div"><span class="trn">Affixes</span></a>
                     <a href="#useful-stuff"><span class="trn">Resources</span></a>
                     <a href="#keystone-upgrade"><span class="trn">Timers</span></a>
@@ -495,6 +487,23 @@
                 </div>
             </nav>
         </div>
+        <section id="patreon">
+            <div class="text-block">
+                <h1 class="title title--large trn">Patreon heroes</h1>
+                <p style="font-size: 1em">You guys keep it all afloat. Thanks for your continued support! Head over to <a href="https://www.patreon.com/mythicplus">the Patreon page</a> if you feel like becoming a patron!</p>
+                <ul><h2 style="color:#7b1fa2">Revered Patrons</h2>
+                    <li>Instantsmile Entertainment Productions</li>
+                </ul>
+                <ul><h2 style="color:#01579b">Honored Patrons</h2>
+                    <li>Iscari0t</li>
+                </ul>
+                <ul><h2 style="color:#4caf50">Friendly Patrons</h2>
+                    <li>Ktjn</li>
+                    <li>Aspyr & Ulsoga</li>
+                </ul>
+            </div>
+    <canvas id="confetti"></canvas>
+    </section>
         <footer class="footer">
             <p>&copy;dsus. <span class="trn">suggestions welcome. Reach me by:</span></p>
             <ul>
@@ -517,9 +526,7 @@
 
     </main>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i|Roboto Mono" rel="stylesheet">
-
 	<link rel="stylesheet" href="assets/css/style.css">
-
 	<script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.translate.js"></script>
     <script type="text/javascript" src="assets/js/dictionary.js"></script>
@@ -527,6 +534,7 @@
     <script type="text/javascript" src="assets/js/main.js"></script>
     <script type="text/javascript" src="assets/js/classie.js"></script>
     <script type="text/javascript" src="assets/js/charts.js"></script>
+    <script type="text/javascript" src="assets/js/confetti.js"></script>
     <script>
         ! function(a, b, c, d, e, f, g) {
             a.GoogleAnalyticsObject = e, a[e] = a[e] || function() {
@@ -534,5 +542,16 @@
             }, a[e].l = 1 * new Date, f = b.createElement(c), g = b.getElementsByTagName(c)[0], f.async = 1, f.src = d, g.parentNode.insertBefore(f, g)
         }(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga"), ga("create", "UA-88138745-1", "auto"), ga("send", "pageview");
     </script>
+    <script type="text/javascript">
+    var canvas1Settings = {
+        target: 'confetti',
+        max: 75,
+        props: ['square','circle'],
+        colors: [[76,175,80],[255,152,0],[213,0,0]],
+        clock: 25,
+    };
+    var confetti = new ConfettiGenerator(canvas1Settings);
+    confetti.render();
+</script>
 </body>
 </html>
