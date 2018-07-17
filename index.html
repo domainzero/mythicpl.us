@@ -13,14 +13,12 @@
     <meta property="og:image" content="https://mythicpl.us/assets/img/share-icon.png">
     <meta property="og:description" content="What mythic plus garbage do we have to deal with this week? https://mythicpl.us">
 
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
 	<script type="text/javascript" src="assets/js/getaffixes.js?v=1.0"></script>
 </head>
 
 <body id="home">
-    <button class="menu-button pulse" id="open-button"><i class="fa fa-fw fa-cog"></i><span>Open Menu</span></button>
-    <title class="trn">What Mythic Plus Garbage Do I Have To Deal With This Week?</title>
+    <button class="menu-button pulse" id="open-button"><strong>?</strong><span>Open Menu</span></button>
+    <title class="trn">what m+ garbage do i have to deal with this week?</title>
     <main class="main" id="this_week">
         <section class="atf content-block">
             <h4 class="title title--small tagline trn">what m+ garbage do i have to deal with this week?</h4>
@@ -28,6 +26,14 @@
                 <h1 id="thisweekus" class="title title--large"><span class="title__intro trn">US</span></h1>
                 <h1 id="thisweekeu" class="title title--large"><span class="title__intro trn">EU</span></h1><br>
                 <h3 style="text-align:center">BATTLE FOR AZEROTH SO CLOSE!</h3>
+                <ul>Changelog:
+                	<li>Trimmed some stuff off the site in preparation for Battle for Azeroth. Graphs, calculator, routes, etc are all gone as I revamp stuff.</li>
+                	<li>Added raider.io addon link and write-up</li>
+                	<li>Added RU MythicKeys server to Discord list</li>
+                	<li>Added Patreon section</li>
+                	<li>Removed fontawesome</li>
+                </ul>
+                <p>Reminder: raider.io BFA pre-season is now live!</p>
                 <div class="arrow">
                     ↓
                 </div>
@@ -50,13 +56,6 @@
                 <br>
                 <br>
             </div>
-            <h1 class="title title--large trn" id="graphs">Graphs</h1>
-            <h1 class="trn">HP and Damage scaling per keystone level</h1>
-            <div class="container">
-                <canvas id="canvas"></canvas>
-            </div>
-            <p class="cl-effect-1"><a class="trn" href="https://goo.gl/forms/YgaYteAnJjg2yMOn1">Short survey to get your feedback on affix difficulty</a></p>
-            <p><span class="trn">Curious about how I applied the results? Check </span><a href="graphs/index.html"><span class="trn">here!</span></a></p>
             <div class="affixes-block">
                 <h3 class="title title--medium affixes-block__title"><span class="trn">Level 4 affixes </span>
                     <div class="title__subtitle trn">(these occur at +4 keystones)</div>
@@ -239,12 +238,14 @@
                     <li><a href="https://discordapp.com/invite/mythicplusfriends">Mythic+ Friends Discord</a><span class="trn"> - The largest M+ Discord server. I lurk here!</span></li>
                     <li><a href="https://discord.gg/H66r3Wd">Mythic+ and RBGs</a><span class="trn"> - Find RBG or M+ groups. Central focus on pushing high keystones. NA groups.</span></li>
                     <li><a href="https://discord.gg/BbZ5n3P">Mythic+ EU</a><span class="trn"> - Same as above but for EU groups.</span></li>
+                    <li><a href="https://discord.gg/HWfryfD">RU MythicKeys</a><span class="trn"> - Russian group finding and key pushing server.</span></li>
                     <li><a href="https://discord.gg/Z7GPUw8">mythicpl.us</a> - Official mythicpl.us Discord! Used for fact gathering and fact checking.</li>
 
                 </ul>
                 <h2 class="title title--medium title--left trn">Stats and Tools</h2>
                 <ul>
-                    <li><a href="https://raider.io/mythic-plus/all/world/leaderboards">raider.io</a><span class="trn"> - Raider.io has all kinds of tools including character specific M+ tracking, successful run comp tracking, and ranks for m+ dungeons. They're <strong>community</strong> run and have some cool planned features. Stay tuned! The site is also snappy AF. </span></li>
+                    <li><a href="https://raider.io/mythic-plus/all/world/leaderboards">raider.io</a><span class="trn"> - Raider.io has all kinds of tools including character specific M+ tracking, successful run comp tracking, and ranks for m+ dungeons. They're <strong>community</strong> run and have some cool planned features.<br>
+                    Their <a href="https://raider.io/addon">addon</a> is probably the most useful group building/vetting addon you'll find as it uses their scoring system to show you how experienced players are.</span></li>
                     <li><a href="http://mythicplus.help/">MPH</a><span class="trn"> - (Mythic Plus Helper) Looks up group candidates and returns ilvl equipped/highest, total mythic plus runs and legendaries! Be sure to get the <a href="https://mods.curse.com/addons/wow/260666-mythic-plus-helper">addon</a> for ease of use. <strong>Community created!</strong></span></li>
                     <li><a href="https://apinfo.gerritalex.de/">AP World Ranking v3.0 (formerly artifactpower.info)</a><span class="trn"> - TONS OF USEFUL TOOLS. This site has player lookups that show content cleared, mythic plus stats, and more. The site might run a little slow because of all the data it's crunching, but it's worth it. <strong>Community created!</strong></span></li>
                 </ul>
@@ -474,7 +475,6 @@
                 <div class="profile"></div>
                 <div class="link-list">
                     <a href="#this_week"><span class="trn">This Week</span></a>
-                    <a href="#graphs"><span class="trn">Graphs</span></a>
                     <a href="#affixes-div"><span class="trn">Affixes</span></a>
                     <a href="#useful-stuff"><span class="trn">Resources</span></a>
                     <a href="#keystone-upgrade"><span class="trn">Timers</span></a>
@@ -513,13 +513,6 @@
                 <li class="trn">twitter: @mythicpl_us</li>
                 <li class="trn">open an issue at <a href="https://github.com/domainzero/mythicpl.us/issues">GitHub</a></li>
             </ul>
-            <p class="trn">Feeling generous?</p>
-            <ul>
-                <li>ETH: 0x96abA1f8A8c7A01223BCA50ef4BD23b35F54915a</li>
-                <li>BTC: 17k5DE9nZT8wnUYftXY5rg2G4kKkd8QWkx</li>
-                <li>LTC: LcHtqFHJhh2fqkfvRLU933PdPkZmfuA2B9</li>
-            </ul>
-            <p class="trn">You can verify all my identities <a href="https://keybase.io/domain">here.</a></p>
             <p class="trn">World of Warcraft, Warcraft and Blizzard Entertainment are trademarks or registered trademarks of Blizzard Entertainment, Inc. in the U.S. and/or other countries.</p>
             </br>
             </br>
@@ -534,15 +527,8 @@
 	<script type="text/javascript" src="assets/js/chart.bundle.min.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
     <script type="text/javascript" src="assets/js/classie.js"></script>
-    <script type="text/javascript" src="assets/js/charts.js"></script>
     <script type="text/javascript" src="assets/js/confetti.js"></script>
-    <script>
-        ! function(a, b, c, d, e, f, g) {
-            a.GoogleAnalyticsObject = e, a[e] = a[e] || function() {
-                (a[e].q = a[e].q || []).push(arguments)
-            }, a[e].l = 1 * new Date, f = b.createElement(c), g = b.getElementsByTagName(c)[0], f.async = 1, f.src = d, g.parentNode.insertBefore(f, g)
-        }(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga"), ga("create", "UA-88138745-1", "auto"), ga("send", "pageview");
-    </script>
+    <script type="text/javascript" src="assets/js/analyticsfooter.js"></script>
     <script type="text/javascript">
     var canvas1Settings = {
         target: 'confetti',
