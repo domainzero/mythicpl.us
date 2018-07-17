@@ -1,6 +1,8 @@
 assets/css/stylebackup.css
 archive/*
-routes/*
+routes
+calc
+graphs
 test/*
 errors/*
 .well-known/*
