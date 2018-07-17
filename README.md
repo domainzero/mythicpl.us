@@ -44,3 +44,4 @@ sexybertha, week 3 confirmation!<br>
 Asteryx, week 4 confirmation!<br>
 Driaidn, week 6 confirmation <br>
 Adiuva, week 6 confirmation<br>
+BV#8187, link fixer<br>
