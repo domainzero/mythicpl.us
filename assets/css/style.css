@@ -70,7 +70,7 @@ a:hover {
 }
 
 a {
-    color: #3f89ff;
+    color: #8be9fd;
     transition: box-shadow .5s ease;
     margin-bottom: -.05em;
     padding: .1vw;
@@ -80,9 +80,9 @@ a {
 }
 
 a:hover {
-    box-shadow: 0 .75vh .25vh -.5vh #3f89ff;
-    -moz-box-shadow: 0 .75vh .25vh -.5vh #3f89ff;
-    -webkit-box-shadow: 0 .75vh .25vh -.5vh #3f89ff
+    box-shadow: 0 .75vh .25vh -.5vh #8be9fd;
+    -moz-box-shadow: 0 .75vh .25vh -.5vh #8be9fd;
+    -webkit-box-shadow: 0 .75vh .25vh -.5vh #8be9fd
 }
 
 p {
@@ -103,7 +103,8 @@ ul {
 
 li {
     list-style: none;
-    position: relative
+    position: relative;
+    left: 25px;
 }
 
 li::before {
@@ -124,9 +125,9 @@ li::before {
 
 body {
     margin: 0;
-    background: #373c44;
+    background: #282a36;
     font-family: 'Roboto Condensed', 'Segoe UI', Arial, sans-serif;
-    color: #fff;
+    color: #f8f8f2;
     font-size: 16px;
     padding: 0 20px;
     text-rendering: optimizeLegibility;
@@ -148,7 +149,7 @@ body {
     display: flex;
     left: 0;
     padding: .3vw;
-    background: rgba(55, 60, 68, 1);
+    background: rgba(40, 42, 54, 1);
     font-weight: 700;
     font-size: calc(.3vw + .5vmin);
     will-change: transform;
@@ -378,20 +379,19 @@ ul+.title--medium {
 }
 
 .easy {
-    color: #4CAF50
+    color: #50fa7b
 }
 
 .med {
-    color: #FF9800
+    color: #ffb86c
 }
 
 .hard {
-    color: #D50000;
-    text-shadow: 1px 0 rgba(0, 0, 0, .5)
+    color: #ff5555;
 }
 
 .idk {
-    color: #fff
+    color: #f8f8f2
 }
 
 .affixes-list__note,
@@ -582,7 +582,7 @@ canvas {
     width: 2.5em;
     height: 2.25em;
     border: none;
-    color: #FFF;
+    color: #f8f8f2;
     background: 0 0
 }
 
@@ -596,7 +596,7 @@ canvas {
 
 .menu-wrap {
     z-index: 999;
-    background: #373c44;
+    background: #282a36;
     -webkit-transition: width .3s, height .3s;
     transition: width .3s, height .3s;
     width: 0;
@@ -622,7 +622,7 @@ canvas {
     height: 100%;
     opacity: 0;
     font-size: .65em;
-    color: #64697d;
+    color: #44475a;
     text-align: right
 }
 
