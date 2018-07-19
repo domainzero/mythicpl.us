@@ -516,6 +516,11 @@ $(function() {
 	        pt: " - Idem ao anterior porém para grupos EUROPEUS."
 	    },
 
+		" - Official mythicpl.us Discord! Used for fact gathering and fact checking.": {
+	        es: " - ¡Discord oficial de mythicpl.us! Utilizado para recopilar datos y verificar hechos.",
+	        pt: " - Discord oficial de mythicpl.us! Utilizado para coletar dados e verificar fatos."
+	    },
+
 	    "Stats and Tools": {
 	        es: "Estadísticas y herramientas",
 	        pt: "Estatísticas e ferramentas"
@@ -582,7 +587,7 @@ $(function() {
 	        pt: "Conclúa com 20% do tempo restante e aumente 2 níveis de uma vez. Exemplo: Pedra-chave de nível 5 subirá ao nível 7."
 	    },
 
-	    "Didn't make the timer? That's ok. Your keystone doesn't deplete anymore, it just levels down by 1. i.e. keystone level 5 to keystone level 4. The dungeon stays the same.": {
+	    "Didn't make the timer? That's ok. Your keystone doesn't deplete anymore, it just levels down by 1 and randomizes the dungeon. i.e. keystone level 5 for Blackrook Hold to keystone level 4 Halls of Valor.": {
 	        es: "¿No la has hecho en tiempo? No pasa nada. Tu piedra ya no se agota, simplemente baja un nivel. Ejemplo: Piedra angular de nível 5 baja al nível 4. La mazmorra seguirá siendo la misma a no ser que la completes fuera o dentro de tiempo.",
 	        pt: "Não concluíu em tempo? Sem problemas. Sua pedra não se esgotará, simplesmente baixará de nível. Exemplo: Pedra-chave de nível 5 baixará ao nível 7. A masmorra continuará sendo a mesma."
 	    },
@@ -766,7 +771,7 @@ $(function() {
 	        pt: "M+ para Máx. (puah sorte)"
 	    },
 		
-		// Footer		
+		// Footer
 		"Yeah, this is based off of <a href=\"https://docs.google.com/spreadsheets/d/1Fvx9eKXx6sPa5D_Mz4L9-fUog_kdaOajoTC9UgvV_Ms/edit#gid=0\">this spreadsheet.</a> Don't worry, I worked with the author to get it up here, I didn't just rip them off. Shoutouts to Auhsoj#7928.": {
 	        es: "Sí, esto está basado en <a href=\"https://docs.google.com/spreadsheets/d/1Fvx9eKXx6sPa5D_Mz4L9-fUog_kdaOajoTC9UgvV_Ms/edit#gid=0\"> esta hoja de cálculo.</a> No te preocupes, yo trabajé con el autor para meter esto aquí, no solo le estafé :). Felicitaciones a Auhsoj#7928.",
 	        pt: "Sím, isto está feito com base nesta <a href=\"https://docs.google.com/spreadsheets/d/1Fvx9eKXx6sPa5D_Mz4L9-fUog_kdaOajoTC9UgvV_Ms/edit#gid=0\"> planilha.</a> Nao se preocupe, eu trabalhei com o autor para colocar isto aqui, não somente chupinhei :). Agradecimentos a Auhsoj#7928."
