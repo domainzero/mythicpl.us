@@ -12,8 +12,6 @@
     <meta property="og:url" content="https://mythicpl.us/">
     <meta property="og:image" content="https://mythicpl.us/assets/img/share-icon.png">
     <meta property="og:description" content="What mythic plus garbage do we have to deal with this week? https://mythicpl.us">
-
-	<script type="text/javascript" src="assets/js/getaffixes.js?v=1.0"></script>
 </head>
 
 <body id="home">
@@ -75,27 +73,27 @@
                     <div class="title__subtitle trn">(these occur at +4 keystones)</div>
                 </h3>
                 <ul class="affixes-list">
-                    <li class="affixes-list__item-4-7">
+                    <li class="affixes-list__item-4-7 affix-bolstering">
                         <p><span class="med trn">Bolstering</span></p>
                         <p class="trn" data-trn-key="bolstering_info"></p>
                         <p class="affixes-list__note trn" data-trn-key="bolstering_note"></p>
                     </li>
-                    <li class="affixes-list__item-4-7">
+                    <li class="affixes-list__item-4-7 affix-raging">
                         <p><span class="med trn">Raging</span></p>
                         <p class="trn" data-trn-key="raging_info"></p>
                         <p class="affixes-list__note trn" data-trn-key="raging_note"></p>
                     </li>
-                    <li class="affixes-list__item-4-7">
+                    <li class="affixes-list__item-4-7 affix-sanguine">
                         <p><span class="easy trn">Sanguine</span></p>
                         <p class="trn" data-trn-key="sanguine_info"></p>
                         <p class="affixes-list__note trn" data-trn-key="sanguine_note"></p>
                     </li>
-                    <li class="affixes-list__item-4-7">
+                    <li class="affixes-list__item-4-7 affix-teeming">
                         <p><span class="med trn">Teeming</span></p>
                         <p class="trn" data-trn-key="teeming_info"></p>
                         <p class="affixes-list__note trn" data-trn-key="teeming_note"></p>
                     </li>
-                    <li class="affixes-list__item-4-7">
+                    <li class="affixes-list__item-4-7 affix-bursting">
                         <p><span class="med trn">Bursting</span></p>
                         <p class="trn" data-trn-key="bursting_info"></p>
                         <p class="affixes-list__note trn" data-trn-key="bursting_note"></p>
@@ -107,32 +105,32 @@
                     <div class="title__subtitle trn">(these occur at +7 keystones)</div>
                 </h3>
                 <ul class="affixes-list">
-                    <li class="affixes-list__item-4-7">
+                    <li class="affixes-list__item-4-7 affix-necrotic">
                         <p><span class="hard trn">Necrotic</span></p>
                         <p class="trn" data-trn-key="necrotic_info"></p>
                         <p class="affixes-list__note trn" data-trn-key="necrotic_note"></p>
                     </li>
-                    <li class="affixes-list__item-4-7">
+                    <li class="affixes-list__item-4-7 affix-skittish">
                         <p><span class="hard trn">Skittish</span></p>
                         <p class="trn" data-trn-key="skittish_info"></p>
                         <p class="affixes-list__note trn" data-trn-key="skittish_note"></p>
                     </li>
-                    <li class="affixes-list__item-4-7">
+                    <li class="affixes-list__item-4-7 affix-volcanic">
                         <p><span class="easy trn">Volcanic</span></p>
                         <p class="trn" data-trn-key="volcanic_info"></p>
                         <p class="affixes-list__note trn" data-trn-key="volcanic_note"></p>
                     </li>
-                    <li class="affixes-list__item-4-7">
+                    <li class="affixes-list__item-4-7 affix-explosive">
                         <p><span class="med trn">Explosive</span></p>
                         <p class="trn" data-trn-key="explosive_info"></p>
                         <p class="affixes-list__note trn" data-trn-key="explosive_note"></p>
                     </li>
-                    <li class="affixes-list__item-4-7">
+                    <li class="affixes-list__item-4-7 affix-quaking">
                         <p><span class="med trn">Quaking</span></p>
                         <p class="trn" data-trn-key="quaking_info"></p>
                         <p class="affixes-list__note trn" data-trn-key="quaking_note"></p>
                     </li>
-                    <li class="affixes-list__item-4-7">
+                    <li class="affixes-list__item-4-7 affix-grievous">
                         <p><span class="med trn">Grievous</span></p>
                         <p class="trn" data-trn-key="grievous_info"></p>
                         <p class="affixes-list__note trn" data-trn-key="grievous_note"></p>
@@ -145,12 +143,12 @@
                     <div class="title__subtitle trn">(these occur at +10 keystones)</div>
                 </h3>
                 <ul class="affixes-list">
-                    <li class="affixes-list__item-10">
+                    <li class="affixes-list__item-10 affix-fortified">
                         <p><span class="hard trn">Fortified</span></p>
                         <p class="trn" data-trn-key="fortified_info"></p>
                         <p class="affixes-list__note trn" data-trn-key="fortified_note"></p>
                     </li>
-                    <li class="affixes-list__item-10">
+                    <li class="affixes-list__item-10 affix-tyrannical">
                         <p><span class="hard trn">Tyrannical</span></p>
                         <p class="trn" data-trn-key="tyrannical_info"></p>
                         <p class="affixes-list__note trn" data-trn-key="tyrannical_note"></p>
@@ -549,13 +547,15 @@
     </main>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i|Roboto Mono" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/style.css">
+
+    <script type="text/javascript" src="assets/js/classie.js"></script>
 	<script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.translate.js"></script>
     <script type="text/javascript" src="assets/js/dictionary.js"></script>
 	<script type="text/javascript" src="assets/js/chart.bundle.min.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
-    <script type="text/javascript" src="assets/js/classie.js"></script>
     <script type="text/javascript" src="assets/js/confetti.js"></script>
+    <script type="text/javascript" src="assets/js/getaffixes.js?v=1.0"></script>
     <script type="text/javascript" src="assets/js/analyticsfooter.js"></script>
     <script type="text/javascript">
     var canvas1Settings = {
