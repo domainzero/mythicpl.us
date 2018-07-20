@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title class="trn">what m+ garbage do i have to deal with this week?</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Your quick guide to all things mythic plus. Check this week's affixes, get loot information, browse curated addons and find groupfinding Discords!">
+    <meta name="keywords" content="mythic+,mythic_plus,mythic_+,world of warcraft, mythic dungeons,warcraft,mythic plus, legion, warlords, keystone, keystone affixes, affixes, keystones">
+    <meta property="og:title" content="what m+ garbage do i have to deal with this week?">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="mythicpl.us">
+    <meta property="og:url" content="https://mythicpl.us/">
+    <meta property="og:image" content="https://mythicpl.us/assets/img/share-icon.png">
+    <meta property="og:description" content="What mythic plus garbage do we have to deal with this week? https://mythicpl.us">
+    <style>
+    #home{
+    overflow: hidden;
+    display: block
+    }
+
+    #home>* {
+    z-index: 1;
+    top: 0
+    }
+
+    #home>canvas {
+    z-index: -1;
+    position: absolute;
+    left: 0
+    }
+
+    #home,
+    #home>* {
+    position: relative
+    }
+</style>
+</head>
+
+<body id="home">
+    <main class="main" id="this_week">
+        <section class="atf content-block">
+            <article class="affixes">
+                <h1 class="title title--large">404</h1>
+                <h3 style="text-align:center" id="quote"></h3>
+                <h3 style="text-align:center"><a href="https://mythicpl.us"><img src="http://wow.zamimg.com/images/wow/icons/large/achievement_guildperk_hastyhearth.jpg" alt-text="Hearthstone"></a></h3>
+            </article>
+        </section>
+    </main>
+
+<canvas id="confetti"></canvas>
+    </body>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i|Roboto Mono" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="assets/js/confetti.js"></script>
+    <script type="text/javascript" src="assets/js/analyticsfooter.js"></script>
+    <script type="text/javascript">
+    var canvas1Settings = {
+        target: 'confetti',
+        max: 75,
+        props: ['square','circle'],
+        colors: [[139,233,253],[80,250,123],[189,147,249]],
+        clock: 25,
+    };
+    var confetti = new ConfettiGenerator(canvas1Settings);
+    confetti.render();
+</script>
+<script>
+var myArray = ['This page was not prepared!', 'Me no that kind of orc.', 'This 404 is merely a setback!', 'Work is da poop!','Mrglglglgrlglglll!', 'Thrall\'s balls!'];
+var rand = myArray[Math.floor(Math.random() * myArray.length)];
+document.getElementById('quote').innerHTML += rand;
+</script>
+</html>
