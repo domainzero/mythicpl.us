@@ -1,4 +1,8 @@
 assets/css/stylebackup.css
+assets/js/grind.js
+assets/js/charts.js
+assets/js/chart.bundle.min.js
+assets/js/jquery.collapse.js
 archive/*
 routes
 calc
