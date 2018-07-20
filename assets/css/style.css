@@ -434,6 +434,7 @@ ul+.title--medium {
     border: 2px solid rgba(255, 255, 255, .0);
 }
 
+.affixes-list__item-10:hover,
 .affixes-list__item-4-7:hover {
     border: 2px solid rgba(255, 255, 255, .05);
 }
