@@ -147,6 +147,7 @@ function getAffixes(region) {
                 if (region == "eu") currentAffixesEU = currentAffixes;
 
                 highlightCurrentAffixes(currentAffixesUS, currentAffixesEU);
+                highlightCurrentAffixDescriptions(affixes, region);
                 fillNextWeeksAffixes(currentAffixesEU);
 
                 resolve();
@@ -159,6 +160,46 @@ function getAffixes(region) {
     });
 
 };
+
+function highlightCurrentAffixDescriptions(affixes, region) {
+        affixes.forEach(function(affix) {
+            var name = affix.name;
+            var elms = document.querySelectorAll('ul.affixes-list li');
+
+            elms.forEach(function(el) {
+                if (classie.has(el, 'affix-' + name.toLowerCase()))
+                {
+                    var ribbon;
+                    var ribbonColor = (region === 'us') ? 'red' : 'blue';
+
+                    if (classie.has(el, 'thisweek'))
+                    {
+                        // There must already be a ribbon
+                        ribbon = el.querySelector('div.ribbon');
+                        var regionLabel = ribbon.querySelector("span");
+                        regionLabel.innerText = "US & EU";
+                        classie.removeClass(ribbon, 'blue');
+                        classie.removeClass(ribbon, 'red');
+                        classie.addClass(ribbon, 'green');
+                    } else {
+                        classie.addClass(el, 'thisweek');
+
+                        // Let's add a ribbon
+                        ribbon = document.createElement('div');
+                        classie.addClass(ribbon, 'ribbon');
+                        classie.addClass(ribbon, ribbonColor);
+
+                        // Label the region
+                        var span = document.createElement('span');
+                        span.innerText = region.toUpperCase();
+
+                        ribbon.appendChild(span);
+                        el.appendChild(ribbon);
+                    }
+                }
+            })
+        });
+}
 
 function getRegionalAffixes() {
     var promises = [
