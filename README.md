@@ -1,15 +1,16 @@
 # mythicpl.us
-A simple flat file site designed to load quickly and give m+ information at a glance (and in multiple languages thanks to some great contributors!).
+A simple flat file site designed to load quickly and give M+ information at a glance (and in multiple languages thanks to some great contributors!).
 
 Huge thank yous to everyone that provided feedback via reddit, github, discord, whatever. 
 It doesn't mean I hate you if I didn't mention you, I probably just forgot. Thank you to everyone who has kept this site afloat.
 
 ## Contributing
-Fork the page and submit a pull request with your changes.  
+Fork the page and make any changes, then submit a pull request.
+If you are making style or script changes, be sure to adjust the links and scripts to use the static local copies as they are currently set to be fed through a server side minifier.  
 
-It should be noted that you'll have to change the page to use the local static Javascript and CSS as it is set up currently to be fed through a server-side minifier in production.  
+Most notably, you'll have to call all the individual Javascript files as they are currently all being concatenated and minified to reduce requests.  
 
-Find the style tag that has `?f=assets/css/style.css` and change it to `assets/css/style.css`. Also change the `?g=js` and create individual `<script>` tags for all the scripts in `assets/js`.
+If you need assistance, reach out to me on Discord.
  
 ## Wall of Fame
 
