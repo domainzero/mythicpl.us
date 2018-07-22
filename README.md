@@ -3,6 +3,13 @@ A simple flat file site designed to load quickly and give m+ information at a gl
 
 Huge thank yous to everyone that provided feedback via reddit, github, discord, whatever. 
 It doesn't mean I hate you if I didn't mention you, I probably just forgot. Thank you to everyone who has kept this site afloat.
+
+## Contributing
+Fork the page and submit a pull request with your changes.  
+
+It should be noted that you'll have to change the page to use the local static Javascript and CSS as it is set up currently to be fed through a server-side minifier in production.  
+
+Find the style tag that has `?f=assets/css/style.css` and change it to `assets/css/style.css`. Also change the `?g=js` and create individual `<script>` tags for all the scripts in `assets/js`.
  
 ## Wall of Fame
 
