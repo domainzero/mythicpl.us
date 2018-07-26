@@ -508,17 +508,8 @@ ul+.title--medium {
 }
 
 footer {
-    font-size: 10px
+    font-size: 12px
 }
-
-.headroom--pinned {
-    transform: translateY(0)
-}
-
-.headroom--unpinned {
-    transform: translateY(-100%)
-}
-
 canvas {
     -moz-user-select: none;
     -webkit-user-select: none;
