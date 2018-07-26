@@ -13,3 +13,7 @@ graphs
 test/*
 errors/*
 .well-known/*
+form.html
+assets/js/form.js
+assets/css/form.css
+epidemic.html
