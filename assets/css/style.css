@@ -1117,3 +1117,18 @@ ul.affixes-list li {
     border-right-color: #359945;
     border-top-color: #359945;
 }
+
+.rad {
+  font-size: 32px;
+  background: -webkit-linear-gradient(#ff79c6, #8be9fd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dead {
+    font-size: 32px;
+    background: -webkit-linear-gradient(#ff5555, #111);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+}
