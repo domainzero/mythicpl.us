@@ -25,7 +25,7 @@
             <article class="affixes">
                 <h1 id="thisweekus" class="title title--large"><span class="title__intro trn">US</span></h1>
                 <h1 id="thisweekeu" class="title title--large"><span class="title__intro trn">EU</span></h1><br>
-                <h3 style="text-align:center">Your favorite one-page mythic plus primer. 😉</h3>
+                <h3 style="text-align:center" id="quote"></h3>
                 <div class="arrow">
                     ↓
                 </div>
@@ -599,7 +599,7 @@
                     </tbody>
                 </table>
                 <div class="table__description">
-                    <h2>Note: The numbers in this table are adjusted for Battle for Azeroth proper.</h3>
+                    <h2>Note: The numbers in this table are adjusted for Battle for Azeroth proper.</h2>
                     <p class="trn">The chest at the end of the run guarantees the <strong>GROUP</strong> two pieces of loot from the dungeon loot table. If you beat the timer you will be awarded one extra piece of loot.</p>
                     <p class="trn">In addition, roughly every 3 difficulty levels past 15 will award you with an additional piece of loot.</p>
                     <p class="affixes-list__note trn">Example time! You beat a level 15 keystone within the timer and your group is awarded 3 pieces of loot. Later, you beat a level 18 keystone within the timer and your group SHOULD BE awarded with 4 pieces of loot. Repeat every three levels. 21 = 5 pieces of loot, 24 = 6 pieces of loot, etc.</p>
@@ -622,6 +622,7 @@
                 </ul>
                 <ul><h2 style="color:#a335ee">Revered Patrons</h2>
                     <li>Iscari0t</li>
+                </ul>
                 <ul><h2 style="color:#0070dd">Honored Patrons</h2>
                 </ul>
                 <ul><h2 style="color:#1eff00">Friendly Patrons</h2>
@@ -672,7 +673,6 @@
             </br>
             </br>
         </footer>
-
     </main>
     <link rel="stylesheet" href="/min/?f=/assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i|Roboto Mono" rel="stylesheet">
@@ -689,6 +689,11 @@
     };
     var confetti = new ConfettiGenerator(canvas1Settings);
     confetti.render();
+</script>
+<script>
+var myArray = ['Your favorite one-page mythic plus primer. 😉', 'Looking for a guild? Look no more! <a href="https://mythicpl.us/epidemic">Epidemic (US Thrall - Horde)</a> is recruiting!', '<span class="hard">Tyrannical</span> is <span class="rad">radical!</span>', 'Work is da poop!','🤔🤔🤔🤔🤔', 'Rest in pieces artifact weapon.', 'Wanna help keep the site ad free? Become a <a href="https://patreon.com/mythicplus">Patron</a>!', 'Questions? Suggestions? Hate mail? Contact me on Discord @ domain#0001 or scroll down to the contact section for more options', 'Oh boy I sure do love bursting!', '"What happened?"', 'Necrotic... again?', '"How did you die to Sanguine?"', 'I am the proud owner of <span class="easy">201 raider.io score</span>. Get at me.', 'Protip: kill mobs faster to get a better time.', '<span class="dead">Y O U&nbsp;&nbsp;D I E D</span>'];
+var rand = myArray[Math.floor(Math.random() * myArray.length)];
+document.getElementById('quote').innerHTML += rand;
 </script>
 </body>
 </html>
