@@ -115,6 +115,10 @@ $(function() {
 	        es: "Reforzada",
 	        pt: "Fortificada"
 	    },
+	    "Infested": {
+	    	es: "Infestado",
+	    	pt: "Infestado"
+	    },
 
 	    //Dungeons list
 	    "Black Rook Hold": {
@@ -416,7 +420,7 @@ $(function() {
 	    },
 
 	    grievous_note: {
-	        en: "Note: You bleed until you are healed above 90%. Finally, another reason to blame your healer!",
+	        en: "Note: You bleed until you are healed above 90%. The damage over time stacks up to five stacks the longer you aren't healed. Finally, another reason to blame your healer!",
 	        es: "Nota: Sangrarás hasta que se te cure por encima del 90%. ¡Finalmente, otra razón para culpar a tu healer (¿no hay nada que curar?)!",
 	        pt: "Nota: Você sangrará enquanto não se curar mais de 90%. Finalmente, outro motivo para culpar seu healer!"
 	    },
@@ -443,6 +447,40 @@ $(function() {
 	        en: "Note: Boss abilities are no longer trivial. Boss mechanics need to be done or people will die. Some fights become endurance tests because they last so long.",
 	        es: "Nota: Las habilidades de los jefes ya no son triviales. La mecánica del jefe debe hacerse o se morirá \"la people\". Algunas peleas se convierten en pruebas de resistencia porque duran mucho tiempo.",
 	        pt: "Nota: As habilidades dos chefe não são mais triviais. As mecânicas do chefe precisam ser feitas ou verás gente morta :). Alguns combates se tornam verdadeiras provas de resistência (e não é do BBB) porque duram muito tempo."
+	    },
+	    fortified_info_2: {
+	        en: "Non-bosses have more health and deal more damage.",
+	        es: "Los enemigos que no son jefes tienen un 20% más de salud e infligen hasta un 30% más de daño.",
+	        pt: "Inimigos que não são chefes têm 20% mais pontos de vida e causam até 30% a mais de dano."
+	    },
+
+	    fortified_note_2: {
+	        en: "Note: Easier now than when this was a level 10 affix. You'll find trash won't be as beefy now.",
+	        es: "Nota: Interrumpir y esquivar la mayoría (o todas) las habilidades de los pulls se convierte en una prioridad absoluta con este afijo. La mayor parte del tiempo que pases en la mazmorra lucharás duramente contra los pulls, así que por favor, usa tus CDs.",
+	        pt: "Nota: Interromper e esquivar a maioria (ou todas) as habilidades dos mobs são prioridade absoluta com este afixo. A maior parte do tempo dentro da masmorra estarás em combate puramente com mobs, não economize os CDs."
+	    },
+
+	    tyrannical_info_2: {
+	        en: "Bosses have more health and deal more damage.",
+	        es: "Los jefes enemigos tienen un 40% más de salud e infligen hasta un 15% más de daño.",
+	        pt: "Inimigos chefes têm 40% a mais de vida e causam até 15% a mais de dano."
+	    },
+
+	    tyrannical_note_2: {
+	        en: "Note: Easier than when this was a level 10 affix. Bosses will still one shot you with certain abilities but it isn't as absurd as Legion.",
+	        es: "Nota: Las habilidades de los jefes ya no son triviales. La mecánica del jefe debe hacerse o se morirá \"la people\". Algunas peleas se convierten en pruebas de resistencia porque duran mucho tiempo.",
+	        pt: "Nota: As habilidades dos chefe não são mais triviais. As mecânicas do chefe precisam ser feitas ou verás gente morta :). Alguns combates se tornam verdadeiras provas de resistência (e não é do BBB) porque duram muito tempo."
+	    },
+
+	    infested_info: {
+	    	en: "Some non-boss enemies have been infested with a Spawn of G'huun. Those mobs will heal all other trash mobs and bosses within 8yds.",
+	    	es: "Translation required",
+	    	pt: "Translation required",
+	    },
+	    infested_note: {
+	    	en: "Note: random trash packs will have a mob with Spawn of G'huun. These packs change every week. When the Spawn of G'huun mob is killed, worms will explode from its body and run toward living mobs. If they make it, those mobs will gain the Spawn of G'huun buff and the cycle repeats. ",
+	    	es: "Translation required",
+	    	pt: "Translation required",
 	    },
 
 	    "Weekly schedule for affixes": {
