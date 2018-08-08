@@ -20,3 +20,6 @@ epidemic.html
 assets/vid/output.webm
 epidemic/index.html
 stream.html
+stats/index.html
+epidemic/
+assets/js/auxillary.js
