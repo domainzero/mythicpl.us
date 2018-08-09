@@ -125,7 +125,7 @@ li::before {
 body {
     margin: 0;
     background: #282a36;
-    font-family: 'Roboto Condensed', 'Segoe UI', Arial, sans-serif;
+    font-family:'Roboto Condensed','Roboto','Segoe UI', Arial, sans-serif;
     color: #f8f8f2;
     font-size: 16px;
     padding: 0 20px;
