@@ -2,8 +2,6 @@ assets/js/analytics.js
 assets/js/analyticsfooter.js
 assets/css/stylebackup.css
 assets/js/grind.js
-assets/js/charts.js
-assets/js/chart.bundle.min.js
 assets/js/jquery.collapse.js
 archive/*
 min
@@ -20,7 +18,6 @@ epidemic.html
 assets/vid/output.webm
 epidemic/index.html
 stream.html
-stats/index.html
 epidemic/
 assets/js/auxillary.js
 form/index.html
