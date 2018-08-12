@@ -19,7 +19,7 @@ function highlightCurrentAffixes(currentAffixesUS, currentAffixesEU) {
     // if any of them is blank, don't do highlight
 
 };
-
+/*
 function fillNextWeeksAffixes(currentAffixesEU) {
     // As the servers reset from EU are later than the US, it takes the EU as a reference.
 
@@ -55,7 +55,7 @@ function fillNextWeeksAffixes(currentAffixesEU) {
     };
 
 };
-
+*/
 function getAffixes(region) {
 
     return new Promise(function(resolve, reject){
@@ -148,7 +148,7 @@ function getAffixes(region) {
 
                 highlightCurrentAffixes(currentAffixesUS, currentAffixesEU);
                 highlightCurrentAffixDescriptions(affixes, region);
-                fillNextWeeksAffixes(currentAffixesEU);
+                // fillNextWeeksAffixes(currentAffixesEU);
 
                 resolve();
             }else if(xhr.readyState == 4 && xhr.status !== 200){
