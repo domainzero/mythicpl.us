@@ -15,14 +15,15 @@
     <meta property="og:image" content="https://mythicpl.us/assets/img/share-icon.png">
     <meta property="og:description" content="What mythic plus garbage do we have to deal with this week? https://mythicpl.us">
     <link rel="icon" sizes="192x192" href="https://mythicpl.us/assets/img/icon.png">
+    <link rel="stylesheet" href="/min/?f=/assets/css/style.css">
 </head>
 <body id="home">
     <button class="menu-button pulse" id="open-button"><strong>?</strong><span>Open Menu</span></button>
     <title class="trn">what m+ garbage do i have to deal with this week?</title>
     <main class="main" id="this_week">
         <section class="atf content-block">
-            <h4 class="title title--small tagline trn">what garbage affixes do i have to deal with this week?</h4>
-            <article class="affixes">
+            <h4 class="title title--small tagline trn" id="hide" style="display:none">what garbage affixes do i have to deal with this week?</h4>
+            <article id="hideshow" class="affixes" style="display:none">
                 <h1 id="thisweekus" class="title title--large"><span class="title__intro trn">US</span></h1>
                 <h1 id="thisweekeu" class="title title--large"><span class="title__intro trn">EU</span></h1><br>
                 <h3 style="text-align:center" id="quote"></h3>
@@ -30,6 +31,7 @@
                     ↓
                 </div>
             </article>
+                <h1 id="release" class="title title--large" style="font-size: 5em!important"></h1>
         </section>
         <section class="next content-block content-block--small">
             <h4 class="title title--small tagline trn">Next week</h4>
@@ -557,8 +559,22 @@
             <br>
         </footer>
     </main>
-    <link rel="stylesheet" href="/min/?f=/assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i|Roboto Mono" rel="stylesheet">
     <script type="text/javascript" src="/min/?g=js"></script>
+    <script type="text/javascript">
+    var countDownDate = new Date("September 4, 2018 9:00:00").getTime();
+        function addAZero(e) {
+            return (e < 10 ? "0" : "") + e
+        }
+    var x = setInterval(function() {
+        var e = (new Date).getTime(),
+            t = countDownDate - e,
+            n = Math.floor(t / 864e5),
+            o = Math.floor(t % 864e5 / 36e5),
+            a = Math.floor(t % 36e5 / 6e4),
+            d = Math.floor(t % 6e4 / 1e3);
+        document.getElementById("release").innerHTML = "MYTHIC PLUS RELEASES IN " + n + " days " + o + ":" + addAZero(a) + ":" + addAZero(d), t < 0 && (clearInterval(x), document.getElementById("release").style.display = "none", document.getElementById("hideshow").style.display = "inline", document.getElementById("hide").style.display = "inline")
+    }, 1e3);
+    </script>
 </body>
 </html>
