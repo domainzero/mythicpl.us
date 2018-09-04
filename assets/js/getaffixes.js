@@ -1,6 +1,6 @@
 var currentAffixesUS = "";
 var currentAffixesEU = "";
-
+/*
 function highlightCurrentAffixes(currentAffixesUS, currentAffixesEU) {
 
     // if regions are different, change both
@@ -19,7 +19,7 @@ function highlightCurrentAffixes(currentAffixesUS, currentAffixesEU) {
     // if any of them is blank, don't do highlight
 
 };
-/*
+*/
 function fillNextWeeksAffixes(currentAffixesEU) {
     // As the servers reset from EU are later than the US, it takes the EU as a reference.
 
@@ -55,7 +55,7 @@ function fillNextWeeksAffixes(currentAffixesEU) {
     };
 
 };
-*/
+
 function getAffixes(region) {
 
     return new Promise(function(resolve, reject){
@@ -120,6 +120,10 @@ function getAffixes(region) {
                     {
                         "name": "Tyrannical",
                         "difficulty": "hard"
+                    },
+                    {
+                        "name": "Infested",
+                        "difficulty": "med"
                     }
                 ];
 
@@ -146,7 +150,7 @@ function getAffixes(region) {
                 if (region == "us") currentAffixesUS = currentAffixes;
                 if (region == "eu") currentAffixesEU = currentAffixes;
 
-                highlightCurrentAffixes(currentAffixesUS, currentAffixesEU);
+                // highlightCurrentAffixes(currentAffixesUS, currentAffixesEU);
                 highlightCurrentAffixDescriptions(affixes, region);
                 // fillNextWeeksAffixes(currentAffixesEU);
 
