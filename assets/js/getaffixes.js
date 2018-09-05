@@ -1,6 +1,6 @@
 var currentAffixesUS = "";
 var currentAffixesEU = "";
-/*
+
 function highlightCurrentAffixes(currentAffixesUS, currentAffixesEU) {
 
     // if regions are different, change both
@@ -19,7 +19,7 @@ function highlightCurrentAffixes(currentAffixesUS, currentAffixesEU) {
     // if any of them is blank, don't do highlight
 
 };
-*/
+
 function fillNextWeeksAffixes(currentAffixesEU) {
     // As the servers reset from EU are later than the US, it takes the EU as a reference.
 
@@ -70,15 +70,11 @@ function getAffixes(region) {
                 var affixes = parsed_json_respone.affix_details;
 
                 var affix_list = [{
-                        "name": "Raging",
+                        "name": "Bursting",
                         "difficulty": "med"
                     },
                     {
-                        "name": "Volcanic",
-                        "difficulty": "easy"
-                    },
-                    {
-                        "name": "Teeming",
+                        "name": "Bolstering",
                         "difficulty": "med"
                     },
                     {
@@ -90,27 +86,15 @@ function getAffixes(region) {
                         "difficulty": "hard"
                     },
                     {
-                        "name": "Bolstering",
-                        "difficulty": "med"
-                    },
-                    {
                         "name": "Grievous",
                         "difficulty": "med"
                     },
                     {
-                        "name": "Sanguine",
-                        "difficulty": "easy"
-                    },
-                    {
-                        "name": "Bursting",
-                        "difficulty": "med"
-                    },
-                    {
-                        "name": "Necrotic",
+                        "name": "Infested",
                         "difficulty": "hard"
                     },
                     {
-                        "name": "Skittish",
+                        "name": "Necrotic",
                         "difficulty": "hard"
                     },
                     {
@@ -118,12 +102,28 @@ function getAffixes(region) {
                         "difficulty": "med"
                     },
                     {
+                        "name": "Raging",
+                        "difficulty": "med"
+                    },
+                    {
+                        "name": "Sanguine",
+                        "difficulty": "easy"
+                    },
+                    {
+                        "name": "Skittish",
+                        "difficulty": "hard"
+                    },
+                    {
+                        "name": "Teeming",
+                        "difficulty": "med"
+                    },
+                    {
                         "name": "Tyrannical",
                         "difficulty": "hard"
                     },
                     {
-                        "name": "Infested",
-                        "difficulty": "med"
+                        "name": "Volcanic",
+                        "difficulty": "easy"
                     }
                 ];
 
@@ -150,9 +150,9 @@ function getAffixes(region) {
                 if (region == "us") currentAffixesUS = currentAffixes;
                 if (region == "eu") currentAffixesEU = currentAffixes;
 
-                // highlightCurrentAffixes(currentAffixesUS, currentAffixesEU);
+                highlightCurrentAffixes(currentAffixesUS, currentAffixesEU);
                 highlightCurrentAffixDescriptions(affixes, region);
-                // fillNextWeeksAffixes(currentAffixesEU);
+                fillNextWeeksAffixes(currentAffixesEU);
 
                 resolve();
             }else if(xhr.readyState == 4 && xhr.status !== 200){
@@ -208,7 +208,7 @@ function highlightCurrentAffixDescriptions(affixes, region) {
 function getRegionalAffixes() {
     var promises = [
         getAffixes('us'),
-	    getAffixes('eu')
+        getAffixes('eu')
     ];
 
     window.getAffixesReady = Promise.all(promises);
