@@ -47,12 +47,12 @@
             <h1 class="title title--large trn">Battle for Azeroth tl;dr</h1>
             <ul>
                 <ul>Affixes:
-                    <li><span class="hard">Tyrannical</span> and <span class="hard">Fortified</span> changes: <span class="hard">Tyrannical</span> and <span class="hard">Fortified</span> are now keystone level 2 affixes meaning one will always appear on a keystone. The damage/health scaling comes out to be roughly the same at +10 as it was before. The idea iw to switch the focus from trash to bosses more consistently per week.</li>
+                    <li><span class="hard">Tyrannical</span> and <span class="hard">Fortified</span> changes: <span class="hard">Tyrannical</span> and <span class="hard">Fortified</span> are now keystone level 2 affixes meaning one will always appear on a keystone. The damage/health scaling comes out to be roughly the same at +10 as it was before.</li>
                     <li><strong>New affixes:</strong> In addition to other new affixes, Battle for Azeroth is introducing "seasonal affixes", a fourth affix that will be applied to a keystone for the duration of a mythic plus season. The first seasonal affix that is live on the BfA beta is called <a href="http://bfa.wowhead.com/affix=16/infested">Infested</a>. 
                 </ul>
                 <br>
                 <ul>Gear restrictions:
-                    <li>You are now unable to swap gear after a mythic plus dungeon has begun (once the timer has started).</li>
+                    <li>You are now unable to swap gear after a keystone run has begun (once the timer has started).</li>
                 </ul>
                 <br>
                 <ul>Threat changes:
@@ -78,7 +78,11 @@
             </div>
             <div>
                 <h2 class="title">What is an "affix"?</h2>
-                <p>An affix is a modifier applied to a mythic keystone at certain levels. As of Legion, those levels are 4, 7, and 10. One affix from each pool is applied each week on a set schedule.</p>
+                <p>An affix is a modifier applied to a mythic keystone at set levels. Different combinations occur every week, with the combinations eventually repeating on a set schedule.</p>
+            </div>            
+            <div>
+                <h2 class="title">Explaining affix difficulty</h2>
+                <p>Affix difficulty ratings are <strong>crowdsourced</strong>, meaning they are assigned a difficulty based on user feedback. I will be rolling out a new survey when we've seen more of the affixes and how they play in the new dungeons.</p>
             </div>
             <div class="affixes-block">
                 <h3 class="title title--medium affixes-block__title"><span class="trn">Level 2 affixes </span><br>
@@ -99,7 +103,7 @@
             </div>
             <div class="affixes-block">
                 <h3 class="title title--medium affixes-block__title"><span class="trn">Level 4 affixes </span><br>
-                    <div class="title__subtitle trn">(these occur at +4 keystones)</div>
+                    <div class="title__subtitle trn">(one affix will occur at +4 per week)</div>
                 </h3>
                 <ul class="affixes-list">
                     <li class="affixes-list__item-4-7 affix-bolstering">
@@ -131,7 +135,7 @@
             </div>
             <div class="affixes-block">
                 <h3 class="title title--medium affixes-block__title"><span class="trn">Level 7 affixes </span><br>
-                    <div class="title__subtitle trn">(these occur at +7 keystones)</div>
+                    <div class="title__subtitle trn">(one affix will occur at +7 per week)</div>
                 </h3>
                 <ul class="affixes-list">
                     <li class="affixes-list__item-4-7 affix-necrotic">
@@ -140,7 +144,7 @@
                         <p class="affixes-list__note trn" data-trn-key="necrotic_note"></p>
                     </li>
                     <li class="affixes-list__item-4-7 affix-skittish">
-                        <p><span class="hard trn">Skittish</span></p>
+                        <p><span class="med trn">Skittish</span></p>
                         <p class="trn" data-trn-key="skittish_info"></p>
                         <p class="affixes-list__note trn" data-trn-key="skittish_note"></p>
                     </li>
@@ -155,7 +159,7 @@
                         <p class="affixes-list__note trn" data-trn-key="explosive_note"></p>
                     </li>
                     <li class="affixes-list__item-4-7 affix-quaking">
-                        <p><span class="med trn">Quaking</span></p>
+                        <p><span class="easy trn">Quaking</span></p>
                         <p class="trn" data-trn-key="quaking_info"></p>
                         <p class="affixes-list__note trn" data-trn-key="quaking_note"></p>
                     </li>
@@ -451,10 +455,9 @@
                     <p class="trn">The chest at the end of the run guarantees the <strong>GROUP</strong> two pieces of loot from the dungeon loot table. If you beat the timer you will be awarded one extra piece of loot.</p>
                     <p class="trn">In addition, roughly every 3 difficulty levels past 15 will award you with an additional piece of loot. (after 15 it's an additive 40% chance per key level for extra loot. +16 has a 40% chance of extra 1 item, +18 has a 100% chance for an extra item (20% chance for two) and +20 has guaranteed 2 extra items for 5 items total.</p>
                     <p class="affixes-list__note trn">Example time! You beat a level 15 keystone within the timer and your group is awarded 3 pieces of loot. Later, you beat a level 18 keystone within the timer and your group SHOULD BE awarded with 4 pieces of loot. Repeat every 2 levels. 20 = 5 pieces of loot, 22 = 6 pieces of loot, etc. <span class="hard">This behavior is subject to change come Battle for Azeroth and will need confirmation.</span></p>
-                    <p class="trn">At the start of a week (after raid/mythic reset) a chest will appear in your order hall giving up to 3 pieces of loot, including one piece of Azerite armor.  It will also contain Azerite (aka Battle for Azeroth artifact power). The loot ilvl is determined by the highest keystone level dungeon <strong>COMPLETED</strong> the previous week, within the timer or not. <span class="hard">NOTE: Azerite armor will not drop from mythic plus runs! The only way to obtain Azerite armor from mythic plus is through the weekly chest.</span></p>
+                    <p class="trn">At the start of a week (after raid/mythic reset) a chest will appear in your Battle for Azeroth city giving up to 3 pieces of loot, including one piece of Azerite armor.  It will also contain Azerite (aka Battle for Azeroth artifact power). The loot item lvl is determined by the highest level keystone run <strong>COMPLETED</strong> the previous week, within the timer or not. <span class="hard">NOTE: Azerite armor will not drop from mythic plus runs. The only way to obtain Azerite armor from mythic plus is through the weekly chest.</span></p>
                     <p class="trn">In addition, the chest will also have a downgraded keystone based on the highest level keystone run <strong>completed</strong> in the season, degrading by 1 level every week you don't complete a run higher than your previous highest.</p> 
-                    <p>Example: You complete a +19 one week and it is your highest completed run. Next week you get a +18 keystone from your chest. That same week you don't complete anything higher than a +18. Next reset you get a +17 key from the chest.</p>
-                    <p class="trn">It is most beneficial to complete a +15 weekly to get the highest item level gear every reset. If that isn't feasible go for the next highest you can complete. Again, <strong>you don't need to finish in the timer to get the weekly chest.</strong></p>
+                    <p>Example: You complete a +11 one week and it is your highest completed run. Next week you get a +10 keystone from your chest. That same week you don't complete anything higher than a +18. Next reset you get a +9 key from the chest.</p>
                     <br>
                     <p><strong>*It will be most beneficial to complete a +10 every week to get the highest gear value from your weekly chest.</strong></p>
                     <br>
@@ -483,13 +486,13 @@
                     <li><a href="https://wago.io/r1j5nW2NQ">Interrupt tracker</a><span class="trn"> - Tracks interrupts of your group members inside keystone runs.</span></li>
                     <li><a href="https://wago.io/N1aUfBTRM">TimeToDie</a><span class="trn"> - A no frills time-to-target-death indicator. Useful for timing cooldowns, etc.</span></li>
                     <li><a href="https://wago.io/NyJLsr8PW">RaidCDs WeakAura</a><span class="trn"> - A WeakAura to track raid/group utility CDs (i.e Barkskin, Blessing of Sacrifice, etc).</span></li>
-                    <li><a href="https://wago.io/B1pg1fRub">Effective Health - Magic and Physical</a><span class="trn"> - Very useful. It shows you how much physical and magic damage you can take. Based on current health, absorbs, and defensive cooldowns from yourself and others.</span></li>
+                    <li><a href="https://wago.io/B1pg1fRub">Effective Health - Magic and Physical</a><span class="trn"> - It shows you how much physical and magic damage you can take. Based on current health, absorbs, and defensive cooldowns from yourself and others.</span></li>
                 </ul>
                 <h2 class="title title--medium title--left trn">Stats, tools, and guides</h2>
                 <ul>
                     <li><a href="https://raider.io/mythic-plus/all/world/leaderboards">raider.io</a><span class="trn"> - Raider.io has all kinds of tools including character specific M+ tracking, successful run comp tracking, and ranks for m+ dungeons. <strong>Community created!</strong> Their <a href="https://raider.io/addon">addon</a> is probably the most useful group building/vetting addon you'll find as it uses their scoring system to show you how experienced players are.</span></li>
                     <li><a href="https://questionablyepic.com/">Questionably Epic</a> - Easy-to-digest dungeon guides and an <a href="https://wow.curseforge.com/projects/qe-dungeon-tips">addon</a> that provides tips and strategy reminders throughout dungeons. <strong>Community created!</strong></li>
-                    <li><a href="http://mythicplus.help/">MPH</a><span class="trn"> - (Mythic Plus Helper) Looks up group candidates and returns ilvl equipped/highest, total mythic plus runs and legendaries! Be sure to get the <a href="https://mods.curse.com/addons/wow/260666-mythic-plus-helper">addon</a> for ease of use. <strong>Community created!</strong></span></li> 
+                    <li><a href="http://mythicplus.help/">MPH</a><span class="trn"> - (Mythic Plus Helper) Looks up group candidates and returns item level equipped/highest, total mythic plus runs and Heart of Azeroth level! Be sure to get the <a href="https://mods.curse.com/addons/wow/260666-mythic-plus-helper">addon</a> for ease of use. <strong>Community created!</strong></span></li> 
                     <li><a href="https://docs.google.com/spreadsheets/d/1xHvIxX5TE0ZMYTKBzkaRNFQTJzYQJhhho8KuyK4CB0w/htmlview#">Medivh's Raider's Lexicon</a> - BE THE MOST YOU CAN BE. Medivh's lexicon gives tips on how to maximize your loot gain so you're ready to destroy keys as early as possible. Its usefulness cannot be overstated. Medivh has been doing these guides for a long time and they are always grossly comprehensive.</li>
                 </ul>
                 <h2 class="title title--medium title--left">Discords</h2>
@@ -528,10 +531,8 @@
         <div class="text-block">
             <h1 class="title title--large trn">Changelog</h1>
             <ul>
-                <li>Added new affixes</li>
-                <li>Added loot details</li>
-                <li>Added <strong>all</strong> timers</li>
-                <li>Removed all Legion stuff. Bye bye :(</li>
+                <li>Filled out affix schedule.</li>
+                <li>Lots of proofreading.</li>
             </ul>
         </div>
     </section>
