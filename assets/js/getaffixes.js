@@ -158,6 +158,7 @@ function getAffixes(region) {
 
                 resolve();
             }else if(xhr.readyState == 4 && xhr.status !== 200){
+                currentAffixes = null;
                 reject();
             }
         };
