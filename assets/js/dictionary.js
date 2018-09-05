@@ -324,7 +324,7 @@ $(function() {
 	    },
 
 	    sanguine_note: {
-	        en: "Note: ez pz affix, don't stand in pools and make sure mobs don't stand in them either.",
+	        en: "Note: While this affix was mostly ignorable before, it has become a problem in some of the new close-quarters dungeons. In addition, there are a lot more caster-style mobs that will sit in the pools. Mass grips/knockbacks are valuable in Sanguine keys.",
 	        es: "Nota: afijo facilito :), no te quedes parado en los pulls y asegúrate de que los enemigos tampoco estén parados en el charco. ¡A moverse!",
 	        pt: "Nota: afixo facinho, facinho... Não fique parado nos mobs e mantenhase em movimento. Garanta que os inimigos também se movam. Movimento, movimento!"
 	    },
