@@ -44,13 +44,15 @@ function fillNextWeeksAffixes(currentAffixesEU) {
         var nw1 = schedtbl.rows[nextweek].cells[0].innerHTML;
         var nw2 = schedtbl.rows[nextweek].cells[1].innerHTML;
         var nw3 = schedtbl.rows[nextweek].cells[2].innerHTML;
+        var nw4 = schedtbl.rows[nextweek].cells[3].innerHTML;
 
         var wan1 = schedtbl.rows[weekafternext].cells[0].innerHTML;
         var wan2 = schedtbl.rows[weekafternext].cells[1].innerHTML;
         var wan3 = schedtbl.rows[weekafternext].cells[2].innerHTML;
+        var wan4 = schedtbl.rows[weekafternext].cells[3].innerHTML;
 
-        document.getElementById("nextweek").innerHTML = "" + nw1 + ", " + nw2 + ", " + nw3;
-        document.getElementById("weekafternext").innerHTML = "" + wan1 + ", " + wan2 + ", " + wan3;
+        document.getElementById("nextweek").innerHTML = "" + nw1 + ", " + nw2 + ", " + nw3 + ", " + nw4;
+        document.getElementById("weekafternext").innerHTML = "" + wan1 + ", " + wan2 + ", " + wan3 + ", " + wan4;
 
     };
 
