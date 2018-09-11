@@ -16,7 +16,7 @@ var ctx = document.getElementById("dungeons_season_7_2_0").getContext('2d');
 var myChart = new Chart(ctx,{
     type: 'bar',
     data: {
-        labels: ["BRH","COTN","COS","DHT","EOA","HOV","MOS","NL","LOWR","UPPR","ARC","VOTW"],
+        labels: ["BRH","COEN","COS","DHT","EOA","HOV","MOS","NL","LOWR","UPPR","ARC","VOTW"],
         datasets: [{
             label: 'In Time',
             data: [102468,15358,142082,127514,139210,135565,132119,142743,42465,66306,145297,116854],
@@ -61,7 +61,7 @@ var ctx = document.getElementById("dungeons_season_7_2_5").getContext('2d');
 var myChart = new Chart(ctx,{
     type: 'bar',
     data: {
-        labels: ["BRH","COTN","COS","DHT","EOA","HOV","MOS","NL","LOWR","UPPR","ARC","VOTW"],
+        labels: ["BRH","COEN","COS","DHT","EOA","HOV","MOS","NL","LOWR","UPPR","ARC","VOTW"],
         datasets: [{
             label: 'In Time',
             data: [115908,17408,170488,140207,188550,168996,154341,184503,24636,56838,160033,158404],
@@ -106,7 +106,7 @@ var ctx = document.getElementById("dungeons_season_7_3_0").getContext('2d');
 var myChart = new Chart(ctx,{
     type: 'bar',
     data: {
-        labels: ["BRH","COTN","COS","DHT","EOA","HOV","MOS","NL","LOWR","UPPR","SEAT","ARC","VOTW"],
+        labels: ["BRH","COEN","COS","DHT","EOA","HOV","MOS","NL","LOWR","UPPR","SEAT","ARC","VOTW"],
         datasets: [{
             label: 'In Time',
             data: [118909,76980,181397,168271,195336,158370,183291,200537,80719,152513,14776,155393,157094],
@@ -150,7 +150,7 @@ var ctx = document.getElementById("dungeons_season_7_3_2").getContext('2d');
 var myChart = new Chart(ctx,{
     type: 'bar',
     data: {
-        labels: ["BRH","COTN","COS","DHT","EOA","HOV","MOS","NL","LOWR","UPPR","SEAT","ARC","VOTW"],
+        labels: ["BRH","COEN","COS","DHT","EOA","HOV","MOS","NL","LOWR","UPPR","SEAT","ARC","VOTW"],
         datasets: [{
             label: 'In Time',
             data: [366344,330263,574760,559622,647408,468805,637165,692870,291292,630951,68772,430743,524247],
@@ -194,7 +194,7 @@ var ctx = document.getElementById("dungeons_season_post_legion").getContext('2d'
 var myChart = new Chart(ctx,{
     type: 'bar',
     data: {
-        labels: ["BRH","COTN","COS","DHT","EOA","HOV","MOS","NL","LOWR","UPPR","SEAT","ARC","VOTW"],
+        labels: ["BRH","COEN","COS","DHT","EOA","HOV","MOS","NL","LOWR","UPPR","SEAT","ARC","VOTW"],
         datasets: [{
             label: 'In Time',
             data: [26099,25153,39265,39597,46642,33184,48468,47471,23618,44477,5385,25418,39011],
@@ -238,7 +238,7 @@ var ctx = document.getElementById("dungeons_season_pre_bfa").getContext('2d');
 var myChart = new Chart(ctx,{
     type: 'bar',
     data: {
-        labels: ["BRH","COTN","COS","DHT","EOA","HOV","MOS","NL","LOWR","UPPR","SEAT","ARC","VOTW"],
+        labels: ["BRH","COEN","COS","DHT","EOA","HOV","MOS","NL","LOWR","UPPR","SEAT","ARC","VOTW"],
         datasets: [{
             label: 'In Time',
             data: [19817,14898,30469,33489,33109,21156,33387,30698,16611,20298,3691,19536,29126],
