@@ -475,12 +475,13 @@ $(function() {
 	    infested_info: {
 	    	en: "Some non-boss enemies have been infested with a Spawn of G'huun. Those mobs will heal all other trash mobs and bosses within 8yds.",
 	    	es: "Translation required",
-	    	pt: "Translation required",
+	    	pt: "Alguns inimigos normais foram infectados com Crias de G'huun. Esses inimigos irão curar todos os outros inimigos normais e chefes em um raio de 8 metros.",
 	    },
+		
 	    infested_note: {
 	    	en: "Note: random trash packs will have a mob with Spawn of G'huun. These packs change every week. When the Spawn of G'huun mob is killed, worms will explode from its body and run toward living mobs. If they make it, those mobs will gain the Spawn of G'huun buff and the cycle repeats. ",
 	    	es: "Translation required",
-	    	pt: "Translation required",
+	    	pt: "Nota: Grupos aleatórios de inimigos terão um mostro infectado com Cria de G'huun. Esses grupos mudam toda semana. Quando o inimigo infectado com Cria de G'huun morre, vermes explodirão de seus corpo e irão em direção de inimigos vivos. Se eles conseguirem, esses inimigos serão infectados com Cria de G'huun e o ciclo se repetirá.",	    		    
 	    },
 
 	    "Weekly schedule for affixes": {
