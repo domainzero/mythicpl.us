@@ -342,13 +342,13 @@ $(function() {
 	    },
 
 	    bursting_info: {
-	        en: "When slain, non-boss enemies explode, causing all players to suffer 10% of their maximum health in damage over 4 seconds. (5% every 2 seconds) This effect stacks.",
+	        en: "When slain, non-boss enemies explode, causing all players to suffer 5% of their maximum health in damage over 4 seconds. This effect stacks.",
 	        es: "Al morir, los enemigos que no son jefes explotan, por lo que todos los jugadores reciben un 10% de su salud máxima como daño durante 4 s. Este efecto se acumula.",
 	        pt: "Quando mortos, inimigos que não são chefes explodem, fazendo com que todos os jogadores recebam dano equivalente a 10% do máximo de pontos de vida ao longo de 4 s. Este efeito acumula."
 	    },
 
 	    bursting_note: {
-	        en: "Note: As far as I know there is no range on this. Consider it to work like Mythic Il'gynoth blobs.",
+	        en: "Note: This effect stacks, so it is safest to let the stacks drop before killing multiple enemies. (Shrine of the Storm is especially bad with this affix)",
 	        es: "Nota: Este afijo parece que ignora el rango y columneo. Así que cuidado.",
 	        pt: "Nota: Este afixo parece que ignora o alcance. Portanto cuidado!"
 	    },
