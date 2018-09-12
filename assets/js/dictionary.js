@@ -342,13 +342,13 @@ $(function() {
 	    },
 
 	    bursting_info: {
-	        en: "When slain, non-boss enemies explode, causing all players to suffer 10% of their maximum health in damage over 4 seconds. (5% every 2 seconds) This effect stacks.",
+	        en: "When slain, non-boss enemies explode, causing all players to suffer 5% of their maximum health in damage over 4 seconds. This effect stacks.",
 	        es: "Al morir, los enemigos que no son jefes explotan, por lo que todos los jugadores reciben un 10% de su salud máxima como daño durante 4 s. Este efecto se acumula.",
 	        pt: "Quando mortos, inimigos que não são chefes explodem, fazendo com que todos os jogadores recebam dano equivalente a 10% do máximo de pontos de vida ao longo de 4 s. Este efeito acumula."
 	    },
 
 	    bursting_note: {
-	        en: "Note: As far as I know there is no range on this. Consider it to work like Mythic Il'gynoth blobs.",
+	        en: "Note: This effect stacks, so it is safest to let the stacks drop before killing multiple enemies. (Shrine of the Storm is especially bad with this affix)",
 	        es: "Nota: Este afijo parece que ignora el rango y columneo. Así que cuidado.",
 	        pt: "Nota: Este afixo parece que ignora o alcance. Portanto cuidado!"
 	    },
@@ -475,12 +475,13 @@ $(function() {
 	    infested_info: {
 	    	en: "Some non-boss enemies have been infested with a Spawn of G'huun. Those mobs will heal all other trash mobs and bosses within 8yds.",
 	    	es: "Translation required",
-	    	pt: "Translation required",
+	    	pt: "Alguns inimigos normais foram infectados com Crias de G'huun. Esses inimigos irão curar todos os outros inimigos normais e chefes em um raio de 8 metros.",
 	    },
+		
 	    infested_note: {
 	    	en: "Note: random trash packs will have a mob with Spawn of G'huun. These packs change every week. When the Spawn of G'huun mob is killed, worms will explode from its body and run toward living mobs. If they make it, those mobs will gain the Spawn of G'huun buff and the cycle repeats. ",
 	    	es: "Translation required",
-	    	pt: "Translation required",
+	    	pt: "Nota: Grupos aleatórios de inimigos terão um mostro infectado com Cria de G'huun. Esses grupos mudam toda semana. Quando o inimigo infectado com Cria de G'huun morre, vermes explodirão de seus corpo e irão em direção de inimigos vivos. Se eles conseguirem, esses inimigos serão infectados com Cria de G'huun e o ciclo se repetirá.",	    		    
 	    },
 
 	    "Weekly schedule for affixes": {
