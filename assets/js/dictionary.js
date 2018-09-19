@@ -8,25 +8,158 @@ $(function() {
 	        es: "¿Cuáles son los retos a los que me enfrentaré esta semana en mi mítica+?",
 	        pt: "Quais são os desafios que vou enfrentar esta semana em minha mítica+?"
 	    },
-		
-	    //Home texts
-	    info_ood: {
-	        en: "Info might be a little out of date. I'm always accepting corrections or suggestions. Hit me up on discord: domain#2722 or at the ",
-	        es: "La información podría estar desactualizada. Estoy disponible a sugerencias o ajustes. Búscame en Discord: domain#2722 o en ",
-	        pt: "A página pode estar um pouco desactualizada. Estou disponível para correções ou sugestões. Me procure no Discord: domain#2722 ou no "
-	    },
-
-	    "what m+ garbage do i have to deal with this week?": {
+			    
+	    "what garbage affixes do i have to deal with this week?": {
 	        es: "¿Cuáles son los retos a los que me enfrentaré esta semana en mi mítica+?",
 	        pt: "Quais são os desafios que vou enfrentar esta semana em minha mítica+?"
 	    },
 
-        "By request, here's a <a href=\"https://www.patreon.com/mythicplus\">Patreon link</a>. Thank you for your continued support.<br>As always, hit me up on <a href=\"https://discord.gg/Z7GPUw8\">discord</a>: domain#2722 or at the <a href=\"https://github.com/domainzero/mythicpl.us\">github</a>.": {
-	        es: "Por petición, aquí está el enlace <a href=\"https://www.patreon.com/mythicplus\">del Patreon</a>. Gracias por tu apoyo.<br>Como siempre, buscame en <a href=\"https://discord.gg/Z7GPUw8\">discord</a>: domain#2722 o si quieres en <a href=\"https://github.com/domainzero/mythicpl.us\">github</a>.",
-	        pt: "Atendendo a pedidos, compartilho o <a href=\"https://www.patreon.com/mythicplus\">link do Patreon</a>. Obrigado pelo seu apoio.<br>Como sempre, estou em <a href=\"https://discord.gg/Z7GPUw8\">discord</a>: domain#2722 ou no <a href=\"https://github.com/domainzero/mythicpl.us\">github</a>."
+	    "Affixes:": {
+	        es: "Afijos:",
+	        pt: "Afixos:"
 	    },
 
-		"Graphs": {
+	    "<span class=\"hard\">Tyrannical</span> and <span class=\"hard\">Fortified</span> changes: <span class=\"hard\">Tyrannical</span> and <span class=\"hard\">Fortified</span> are now keystone level 2 affixes meaning one will always appear on a keystone. The damage/health scaling comes out to be roughly the same at +10 as it was before.": {
+	        es: "<span class=\"hard\">Tiránica</span> y <span class=\"hard\">Reforzada</span>: Ahora son afijos de nivel 2, lo que significa que siempre aparecerá en una piedra angular. El daño y salud de los enemigos escala más o menos de la misma forma.",
+	        pt: "<span class=\"hard\">Tirânica</span> e <span class=\"hard\">Fortificada</span>: Agora são afixos de nível 2, com esta mudança podemos apreciar em todas as pedras-chave mítica este afixo. O dano/vida dos inimigos escala mais ou menos da mesma forma."
+	    },
+
+	    "<strong>New affixes:</strong> In addition to other new affixes, Battle for Azeroth is introducing \"seasonal affixes\", a fourth affix that will be applied to a keystone for the duration of a mythic plus season. The first seasonal affix that is live on the BfA beta is called <a href=\"http://bfa.wowhead.com/affix=16/infested\">Infested</a>.": {
+	        es: "<strong>Nuevos afijos:</strong> Además de los afijos existentes, Battle for Azeroth está introduciendo los \"afijos de temporada\", un cuarto afijo que se aplicará a una piedra angular mítica mientras dure una temporada de míticas plus partiendo de la dificultad +10. El primer afijo de temporada se llama <a href=\"http://bfa.wowhead.com/affix=16/infested\">Infestado</a>.",
+	        pt: "<strong>Novos afixos:</strong> Além dos afixos existentes, Battle for Azeroth introduz os \"afixos de temporada\", um quarto afixo se aplicará´em uma pedra-chave mítica enquanto dure uma temporada de míticas plus a partir do nível 10 de dificuldade. O primeiro afixo de temporada se chama <a href=\"http://bfa.wowhead.com/affix=16/infested\">Infestada</a>."
+	    },
+
+	    "Gear restrictions:": {
+	        es: "Restricción de gear:",
+	        pt: "Restrição de gear:"
+	    }, 
+
+	    "You are now unable to swap gear after a keystone run has begun (once the timer has started).": {
+	        es: "Ahora no podrás cambiar la equipación una vez que que la mítica plus haya empezado.",
+	        pt: "Agora você não pode mudar seus equipamentos uma vez indicada a mazmorra mítica plus."
+	    },
+
+		"Threat changes:": {
+	        es: "Cambios en la amenaza:",
+	        pt: "Mudanças de aggro:"
+	    },
+
+	    "Threat generation from tanks is now greatly reduced. Some enemies will drop threat throughout encounters.": {
+	        es: "La generación de amenaza de los tanques ahora se reduce enormemente. Algunos enemigos podrán perder la amenaza durante los encuentros.",
+	        pt: "A geraçao de aggro dos tanques agora foi amplamente reduzida. Alguns inimigos irão perder aggro durante os encontros."
+	    },
+
+	    "Weekly chest loot adjustment:": {
+	        es: "Ajustes en el botín semanal:",
+	        pt: "Mudanças no loot semanal:"
+	    },
+
+	    "The end-of-week chest will now contain one piece of gear, either dungeon loot or Azerite armor. It will still contain Azerite.": {
+	        es: "El cofre semanal ahora contendrá una única pieza de equipo, ya sea un botín de mazmorra o un item de Azerita. En las mazmorras con piedra angular mítica no podrás obtener una pieza de azerita, sin embargo puedes conseguirla en una mazmorra mítica (+0) sin piedra angular.",
+	        pt: "O cofre semanal agora irá conter um único equipamento, seja ele um loot de masmorra ou um item de Azerita. Nas masmorras com pedra-chave não poderás obter um item de azerita. Porém, é possível conseguir em uma masmorra mítica (+0) sem pedra angular."
+	    },
+
+	    "STATS": {
+	        es: "ESTADÍSTICAS",
+	        pt: "ESTATÍSTICAS"
+	    },
+
+	    "a raider.io and mythicpl.us collaboration": {
+	        es: "una colaboración de raider.io y mythicpl.us",
+	        pt: "com a colaboração de raider.io e mythicpl.us"
+	    },
+
+	    "Take a look back at all the juicy mythic plus stats from Legion": {
+	        es: "Pincha en el título y echa un vistazo a todas las jugosas estadísticas de las míticas plus desde Legion",
+	        pt: "Click no título para dar uma olhada nas deliciosas estatísitcas das míticas plus desde Legion"
+	    },
+
+	    "What is an \"affix\"?": {
+	        es: "¿Qué es un \"afijo\"?",
+	        pt: "O que é um afixo?"
+	    },
+
+	    "An affix is a modifier applied to a mythic keystone at set levels. Different combinations occur every week, with the combinations eventually repeating on a set schedule.": {
+	        es: "Un afijo es un modificador aplicado a una piedra angular mítica en niveles establecidos. Diferentes combinaciones ocurren cada semana, con las combinaciones eventualmente repitiéndose en un horario establecido.",
+	        pt: "Um afixo é um modificador aplicado a uma pedra-chave mítica em níveis estabelecidos. Diferentes combinações acontecem a cada semana, estas combinações eventualmente se repetem em dias e horários estabelecidos."
+	    },
+
+	    "Explaining affix difficulty": {
+	        es: "Explicando la dificultad dos afijos",
+	        pt: "Explicando sobre a dificudade dos afixos"
+	    },
+
+	    "Affix difficulty ratings are <strong>crowdsourced</strong>, meaning they are assigned a difficulty based on user feedback. I will be rolling out a new survey when we've seen more of the affixes and how they play in the new dungeons.": {
+	        es: "Las calificaciones de dificultad de los afijos son basadas en <strong>colaboración</strong>, lo que significa que se les asigna una dificultad en función de los comentarios de los usuarios. Voy a lanzar una nueva encuesta cuando veamos más afijos y cómo se juegan en las nuevas mazmorras.",
+	        pt: "As qualificações de dificuldade dos afixos são baseadas em <strong>colaboração</strong>, isto significa que se assocíe uma dificuldade em função dos comentários dos usuários. Vou lançar uma nova enquete ao identificar mais enquetes e como atuam nas novas masmorras."
+	    },
+
+	    "(these occur on all keystones, alternating weekly)": {
+	        es: "(estos afijos salen en todas las piedras, y se alternan semanalmente)",
+	        pt: "(estes afixos aparecem em todas as pedra-chave e se alternam semanalmente)"
+	    },
+
+	    "(one affix will occur at +4 per week)": {
+	        es: "(un afijo semanal a partir de una piedra +4 por semana)",
+	        pt: "(um afixo semanal a partir de uma pedra +4)"
+	    },
+
+	    "(one affix will occur at +7 per week)": {
+	        es: "(un afijo semanal a partir de una piedra +7 por semana)",
+	        pt: "(um afixo semanal a partir de uma pedra +7)"
+	    },
+
+	    "(these occur on all keystones throughout the season at keystone level 10 and do not rotate weekly for the duration of the season)": {
+	        es: "(estos afijos ocurren en todas las piedras angulares a lo largo de la temporada en el nivel +10 y no rotam semanalmente durante esta temporada)",
+	        pt: "(estes afixos aparecem em todas as pedras-chave ao longo da temporada nas pedras-chave de nível +10 e não rotam semanalmente durante a temporada)"
+	    },
+
+	    "Changelog": {
+	        es: "Historial de cambios",
+	        pt: "Histórico de mudanças"
+	    },
+
+	    "Filled out affix schedule.": {
+	        es: "Ajustado el calendario de afijos.",
+	        pt: "Ajustando o calendario de afixos"
+	    },
+
+	    "Lots of proofreading.": {
+	        es: "Muchas correciones",
+	        pt: "Muitos ajustes"
+	    },
+
+	    "Added group comp. section": {
+	        es: "Sección 'Consideraciones de grupo' añadida",
+	        pt: "Nova sessão 'Consideraçoes de grupo"
+	    },
+
+	    "Clarified examples": {
+	        es: "Aclaración de ejemplos",
+	        pt: "Melhor explicação nos exemplos"
+	    },
+
+	    "Fixed loot (shoutouts to Blake!)": {
+	        es: "Botín arreglado (¡gracias a Blake!)",
+	        pt: "Loot corrigido (obrigado Blake!"
+	    },
+
+	    "Fixed timers (shoutouts to Veana!)": {
+	        es: "Temporizadores arreglados (¡gracias a Veana!)",
+	        pt: "Temorizadores corrigidos (obrigado Veana!)"
+	    },
+
+	    "Noted that the multiple pieces of gear change was reverted": {
+	        es: "Apunte de que el botín de múltiples piezas se revirtieron",
+	        pt: "Nota de que o loot de múltiplos item foi revertido"
+	    },
+        
+		"New translations added.": {
+	        es: "Nuevas traducciones añadidas",
+	        pt: "Novas frases traduzidas"
+	    },
+
+	    "Graphs": {
 	        es: "Gráficos",
 	        pt: "Gráficos"
 	    },
@@ -117,61 +250,58 @@ $(function() {
 	    },
 	    "Infested": {
 	    	es: "Infestado",
-	    	pt: "Infestado"
+	    	pt: "Infestada"
 	    },
 
 	    //Dungeons list
-	    "Black Rook Hold": {
-	        es: "Torreón Grajo Negro",
-	        pt: "Castelo Corvo Negro"
+	    "Atal'Dazar": {
+	        es: "Atal'Dazar",
+	        pt: "Atal'Dazar"
 	    },
-	    "Court of Stars": {
-	        es: "Corte de las Estrellas",
-	        pt: "Pátio das Estrelas"
+
+	    "Freehold": {
+	        es: "Fuerte Libre",
+	        pt: "Angra do Falcão"
 	    },
-	    "Darkheart Thicket": {
-	        es: "Arboleda Corazón Oscuro",
-	        pt: "Bosque Corenegro"
+
+	    "The MOTHERLODE!!": {
+	        es: "VETA MADRE",
+	        pt: "MEGAMINA!!!"
 	    },
-	    "Eye of Azshara": {
-	        es: "Ojo de Azshara",
-	        pt: "Olho de Azshara"
+
+	    "Shrine of the Storm": {
+	        es: "Altar de la Tormenta",
+	        pt: "Santuário da Tempestade"
 	    },
-	    "Halls of Valor": {
-	        es: "Cámaras del Valor",
-	        pt: "Salões da Bravura"
+
+	    "Temple of Sethraliss": {
+	        es: "Templo de Sethraliss",
+	        pt: "Templo de Sethraliss"
 	    },
-	    "Maw of Souls": {
-	        es: "Fauce de Almas",
-	        pt: "Gorja das Almas"
+
+	    "Tol Dagor": {
+	        es: "Tol Dagor",
+	        pt: "Tol Dagor"
 	    },
-	    "Neltharion's Lair": {
-	        es: "Guarida de Neltharion",
-	        pt: "Covil de Neltharion"
+
+	    "The Underrot": {
+	        es: "Catacumbas putrefactas",
+	        pt: "Terra podre"
 	    },
-	    "The Arcway": {
-	        es: "La Arquería",
-	        pt: "O Arcâneo"
+
+	    "Waycrest Manor": {
+	        es: "Mansión Crestavía",
+	        pt: "Mansão Capelo"
 	    },
-	    "Vault of the Wardens": {
-	        es: "Cámara de las Celadoras",
-	        pt: "Câmara das Guardiãs"
+
+	    "Kings' Rest": {
+	        es: "Reposo de los Reyes",
+	        pt: "Repouso do Rei"
 	    },
-	    "Lower Karazhan": {
-	        es: "Karazhan inferior",
-	        pt: "Karazhan inferior"
-	    },
-	    "Upper Karazhan": {
-	        es: "Karazhan superior",
-	        pt: "Karazhan superior"
-	    },
-	    "Cathedral of Eternal Night": {
-	        es: "Catedral de la Noche Eterna",
-	        pt: "Catedral da Noite Eterna"
-	    },
-	    "Seat of the Triumvirate": {
-	        es: "Trono del Triunvirato",
-	        pt: "Sede do Triunvirato"
+
+	    "Siege of Boralus": {
+	        es: "Asedio de Boralus",
+	        pt: "Cerco de Boralus"
 	    },
 
 	    //Weeks
@@ -261,6 +391,11 @@ $(function() {
 	    "here!": {
 	        es: "aquí!",
 	        pt: "aqui!"
+	    },
+
+	    "Level 2 affixes ": {
+	        es: "Nivel 2 - Afijos ",
+	        pt: "Nível 2 - Afixos "
 	    },
 
 	    "Level 4 affixes ": {
@@ -474,14 +609,14 @@ $(function() {
 
 	    infested_info: {
 	    	en: "Some non-boss enemies have been infested with a Spawn of G'huun. Those mobs will heal all other trash mobs and bosses within 8yds.",
-	    	es: "Translation required",
+	    	es: "Un engendro de G'huun ha infestado a algunos enemigos que no son jefes. Estos enemigos infestados curan a todos los demás enemigos cercanos a una distancia de 8yds.",
 	    	pt: "Alguns inimigos normais foram infectados com Crias de G'huun. Esses inimigos irão curar todos os outros inimigos normais e chefes em um raio de 8 metros.",
 	    },
 		
 	    infested_note: {
 	    	en: "Note: random trash packs will have a mob with Spawn of G'huun. These packs change every week. When the Spawn of G'huun mob is killed, worms will explode from its body and run toward living mobs. If they make it, those mobs will gain the Spawn of G'huun buff and the cycle repeats. ",
-	    	es: "Translation required",
-	    	pt: "Nota: Grupos aleatórios de inimigos terão um mostro infectado com Cria de G'huun. Esses grupos mudam toda semana. Quando o inimigo infectado com Cria de G'huun morre, vermes explodirão de seus corpo e irão em direção de inimigos vivos. Se eles conseguirem, esses inimigos serão infectados com Cria de G'huun e o ciclo se repetirá.",	    		    
+	    	es: "Nota: Grupos aleatórios de enemigos tendrán uno de ellos infectado con la Cría de G'huun. Estos grupos en teoría cambia todas las semanas. Cuando un enemigo infectado con la Cría de G'huun se muere, pequeñas lombrices explotarán de sus cuerpos y corren en dirección a los enemigos vivos, si estas crías llegan a lanzar echizo sobre un enemigo no infectado, el ciclo se repetirá.",
+	    	pt: "Nota: Grupos aleatórios de inimigos terão uma praga infectada com Cria de G'huun. Esses grupos mudam toda semana. Quando o inimigo infectado com Cria de G'huun morre, vermes explodirão de seus corpo e irão em direção de inimigos vivos. Se eles conseguirem, esses inimigos serão infectados com Cria de G'huun e o ciclo se repetirá.",	    		    
 	    },
 
 	    "Weekly schedule for affixes": {
