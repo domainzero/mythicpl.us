@@ -252,7 +252,10 @@ $(function() {
 	    	es: "Infestado",
 	    	pt: "Infestada"
 	    },
-
+	    "Reaping": {
+	    	es: "",
+	    	pt: ""
+	    },
 	    //Dungeons list
 	    "Atal'Dazar": {
 	        es: "Atal'Dazar",
@@ -618,7 +621,16 @@ $(function() {
 	    	es: "Nota: Grupos aleatórios de enemigos tendrán uno de ellos infectado con la Cría de G'huun. Estos grupos en teoría cambia todas las semanas. Cuando un enemigo infectado con la Cría de G'huun se muere, pequeñas lombrices explotarán de sus cuerpos y corren en dirección a los enemigos vivos, si estas crías llegan a lanzar echizo sobre un enemigo no infectado, el ciclo se repetirá.",
 	    	pt: "Nota: Grupos aleatórios de inimigos terão uma praga infectada com Cria de G'huun. Esses grupos mudam toda semana. Quando o inimigo infectado com Cria de G'huun morre, vermes explodirão de seus corpo e irão em direção de inimigos vivos. Se eles conseguirem, esses inimigos serão infectados com Cria de G'huun e o ciclo se repetirá.",	    		    
 	    },
-
+	    reaping_info: {
+	    	en: "All enemies killed generate a ghost with 50% of the health of the source target when they die. All currently active ghosts will aggro the group at 20%, 40%, 60%, 80%, and 100% enemies defeated. They are not affected by affixes and do not have the source enemy's abilities.",
+	    	es: "",
+	    	pt: ""
+	    },
+	    reaping_note: {
+	    	en: "Note: ghosts should not aggro other mobs when they activate. There are 3 ghost archetypes with different abilities. <b>Risen Souls</b> only melee. <b>Tormented Souls</b> cast a spell that does 25% of player max health as damage. <b>Lost Souls</b> cast a cone spell that does a 20% health reduction, and explode into swirlies when they die.",
+	    	es: "",
+	    	pt: ""
+	    },
 	    "Weekly schedule for affixes": {
 	        es: "Calendario semanal de afijos",
 	        pt: "Agenda semanal de afixos"
