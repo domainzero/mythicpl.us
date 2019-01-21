@@ -510,10 +510,18 @@ ul+.title--medium {
         min-width: 320px;
         margin-right: 30px
     }
+    .table--inline--right {
+        float: right;
+        min-width: 320px;
+        margin-right: 30px;
+    }
 }
 
 .table__description {
     margin: 30px 0
+}
+.table__description-right {
+    margin: 0 0 30px 0;
 }
 
 .table__cell {
