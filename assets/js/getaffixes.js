@@ -113,7 +113,7 @@ function getAffixes(region) {
                     },
                     {
                         "name": "Skittish",
-                        "difficulty": "hard"
+                        "difficulty": "med"
                     },
                     {
                         "name": "Teeming",

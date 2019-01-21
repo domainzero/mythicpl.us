@@ -555,7 +555,7 @@ $(function() {
 	    },
 
 	    grievous_note: {
-	        en: "Note: You bleed until you are healed above 90%. The damage over time stacks up to five stacks the longer you aren't healed. Finally, another reason to blame your healer!",
+	        en: "Note: You bleed until you are healed above 90%. The damage over time stacks up to a total of 8% player health as damage per tick. Finally, another reason to blame your healer!",
 	        es: "Nota: Sangrarás hasta que se te cure por encima del 90%. ¡Finalmente, otra razón para culpar a tu healer (¿no hay nada que curar?)!",
 	        pt: "Nota: Você sangrará enquanto não se curar mais de 90%. Finalmente, outro motivo para culpar seu healer!"
 	    },
