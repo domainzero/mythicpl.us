@@ -8,17 +8,160 @@ $(function() {
 	        es: "¿Cuáles son los retos a los que me enfrentaré esta semana en mi mítica+?",
 	        pt: "Quais são os desafios que vou enfrentar esta semana em minha mítica+?"
 	    },
-		
-	    //Home texts
-	    info_ood: {
-	        en: "Info might be a little out of date. I'm always accepting corrections or suggestions. Hit me up on discord: domain#2722 or at the ",
-	        es: "La información podría estar desactualizada. Estoy disponible a sugerencias o ajustes. Búscame en Discord: domain#2722 o en ",
-	        pt: "A página pode estar um pouco desactualizada. Estou disponível para correções ou sugestões. Me procure no Discord: domain#2722 ou no "
-	    },
-
-	    "what m+ garbage do i have to deal with this week?": {
+			    
+	    "what garbage affixes do i have to deal with this week?": {
 	        es: "¿Cuáles son los retos a los que me enfrentaré esta semana en mi mítica+?",
 	        pt: "Quais são os desafios que vou enfrentar esta semana em minha mítica+?"
+	    },
+
+	    "Affixes:": {
+	        es: "Afijos:",
+	        pt: "Afixos:"
+	    },
+
+	    "<span class=\"hard\">Tyrannical</span> and <span class=\"hard\">Fortified</span> changes: <span class=\"hard\">Tyrannical</span> and <span class=\"hard\">Fortified</span> are now keystone level 2 affixes meaning one will always appear on a keystone. The damage/health scaling comes out to be roughly the same at +10 as it was before.": {
+	        es: "<span class=\"hard\">Tiránica</span> y <span class=\"hard\">Reforzada</span>: Ahora son afijos de nivel 2, lo que significa que siempre aparecerá en una piedra angular. El daño y salud de los enemigos escala más o menos de la misma forma.",
+	        pt: "<span class=\"hard\">Tirânica</span> e <span class=\"hard\">Fortificada</span>: Agora são afixos de nível 2, com esta mudança podemos apreciar em todas as pedras-chave mítica este afixo. O dano/vida dos inimigos escala mais ou menos da mesma forma."
+	    },
+
+	    "<strong>New affixes:</strong> In addition to other new affixes, Battle for Azeroth is introducing \"seasonal affixes\", a fourth affix that will be applied to a keystone for the duration of a mythic plus season. The first seasonal affix that is live on the BfA beta is called <a href=\"http://bfa.wowhead.com/affix=16/infested\">Infested</a>.": {
+	        es: "<strong>Nuevos afijos:</strong> Además de los afijos existentes, Battle for Azeroth está introduciendo los \"afijos de temporada\", un cuarto afijo que se aplicará a una piedra angular mítica mientras dure una temporada de míticas plus partiendo de la dificultad +10. El primer afijo de temporada se llama <a href=\"http://bfa.wowhead.com/affix=16/infested\">Infestado</a>.",
+	        pt: "<strong>Novos afixos:</strong> Além dos afixos existentes, Battle for Azeroth introduz os \"afixos de temporada\", um quarto afixo se aplicará´em uma pedra-chave mítica enquanto dure uma temporada de míticas plus a partir do nível 10 de dificuldade. O primeiro afixo de temporada se chama <a href=\"http://bfa.wowhead.com/affix=16/infested\">Infestada</a>."
+	    },
+
+	    "Gear restrictions:": {
+	        es: "Restricción de gear:",
+	        pt: "Restrição de gear:"
+	    }, 
+
+	    "You are now unable to swap gear after a keystone run has begun (once the timer has started).": {
+	        es: "Ahora no podrás cambiar la equipación una vez que que la mítica plus haya empezado.",
+	        pt: "Agora você não pode mudar seus equipamentos uma vez indicada a mazmorra mítica plus."
+	    },
+
+		"Threat changes:": {
+	        es: "Cambios en la amenaza:",
+	        pt: "Mudanças de aggro:"
+	    },
+
+	    "Threat generation from tanks is now greatly reduced. Some enemies will drop threat throughout encounters.": {
+	        es: "La generación de amenaza de los tanques ahora se reduce enormemente. Algunos enemigos podrán perder la amenaza durante los encuentros.",
+	        pt: "A geraçao de aggro dos tanques agora foi amplamente reduzida. Alguns inimigos irão perder aggro durante os encontros."
+	    },
+
+	    "Weekly chest loot adjustment:": {
+	        es: "Ajustes en el botín semanal:",
+	        pt: "Mudanças no loot semanal:"
+	    },
+
+	    "The end-of-week chest will now contain one piece of gear, either dungeon loot or Azerite armor. It will still contain Azerite.": {
+	        es: "El cofre semanal ahora contendrá una única pieza de equipo, ya sea un botín de mazmorra o un item de Azerita. En las mazmorras con piedra angular mítica no podrás obtener una pieza de azerita, sin embargo puedes conseguirla en una mazmorra mítica (+0) sin piedra angular.",
+	        pt: "O cofre semanal agora irá conter um único equipamento, seja ele um loot de masmorra ou um item de Azerita. Nas masmorras com pedra-chave não poderás obter um item de azerita. Porém, é possível conseguir em uma masmorra mítica (+0) sem pedra angular."
+	    },
+
+	    "STATS": {
+	        es: "ESTADÍSTICAS",
+	        pt: "ESTATÍSTICAS"
+	    },
+
+	    "a raider.io and mythicpl.us collaboration": {
+	        es: "una colaboración de raider.io y mythicpl.us",
+	        pt: "com a colaboração de raider.io e mythicpl.us"
+	    },
+
+	    "Take a look back at all the juicy mythic plus stats from Legion": {
+	        es: "Pincha en el título y echa un vistazo a todas las jugosas estadísticas de las míticas plus desde Legion",
+	        pt: "Click no título para dar uma olhada nas deliciosas estatísitcas das míticas plus desde Legion"
+	    },
+
+	    "What is an \"affix\"?": {
+	        es: "¿Qué es un \"afijo\"?",
+	        pt: "O que é um afixo?"
+	    },
+
+	    "An affix is a modifier applied to a mythic keystone at set levels. Different combinations occur every week, with the combinations eventually repeating on a set schedule.": {
+	        es: "Un afijo es un modificador aplicado a una piedra angular mítica en niveles establecidos. Diferentes combinaciones ocurren cada semana, con las combinaciones eventualmente repitiéndose en un horario establecido.",
+	        pt: "Um afixo é um modificador aplicado a uma pedra-chave mítica em níveis estabelecidos. Diferentes combinações acontecem a cada semana, estas combinações eventualmente se repetem em dias e horários estabelecidos."
+	    },
+
+	    "Explaining affix difficulty": {
+	        es: "Explicando la dificultad dos afijos",
+	        pt: "Explicando sobre a dificudade dos afixos"
+	    },
+
+	    "Affix difficulty ratings are <strong>crowdsourced</strong>, meaning they are assigned a difficulty based on user feedback. I will be rolling out a new survey when we've seen more of the affixes and how they play in the new dungeons.": {
+	        es: "Las calificaciones de dificultad de los afijos son basadas en <strong>colaboración</strong>, lo que significa que se les asigna una dificultad en función de los comentarios de los usuarios. Voy a lanzar una nueva encuesta cuando veamos más afijos y cómo se juegan en las nuevas mazmorras.",
+	        pt: "As qualificações de dificuldade dos afixos são baseadas em <strong>colaboração</strong>, isto significa que se assocíe uma dificuldade em função dos comentários dos usuários. Vou lançar uma nova enquete ao identificar mais enquetes e como atuam nas novas masmorras."
+	    },
+
+	    "(these occur on all keystones, alternating weekly)": {
+	        es: "(estos afijos salen en todas las piedras, y se alternan semanalmente)",
+	        pt: "(estes afixos aparecem em todas as pedra-chave e se alternam semanalmente)"
+	    },
+
+	    "(one affix will occur at +4 per week)": {
+	        es: "(un afijo semanal a partir de una piedra +4 por semana)",
+	        pt: "(um afixo semanal a partir de uma pedra +4)"
+	    },
+
+	    "(one affix will occur at +7 per week)": {
+	        es: "(un afijo semanal a partir de una piedra +7 por semana)",
+	        pt: "(um afixo semanal a partir de uma pedra +7)"
+	    },
+
+	    "(these occur on all keystones throughout the season at keystone level 10 and do not rotate weekly for the duration of the season)": {
+	        es: "(estos afijos ocurren en todas las piedras angulares a lo largo de la temporada en el nivel +10 y no rotam semanalmente durante esta temporada)",
+	        pt: "(estes afixos aparecem em todas as pedras-chave ao longo da temporada nas pedras-chave de nível +10 e não rotam semanalmente durante a temporada)"
+	    },
+
+	    "Changelog": {
+	        es: "Historial de cambios",
+	        pt: "Histórico de mudanças"
+	    },
+
+	    "Filled out affix schedule.": {
+	        es: "Ajustado el calendario de afijos.",
+	        pt: "Ajustando o calendario de afixos"
+	    },
+
+	    "Lots of proofreading.": {
+	        es: "Muchas correciones",
+	        pt: "Muitos ajustes"
+	    },
+
+	    "Added group comp. section": {
+	        es: "Sección 'Consideraciones de grupo' añadida",
+	        pt: "Nova sessão 'Consideraçoes de grupo"
+	    },
+
+	    "Clarified examples": {
+	        es: "Aclaración de ejemplos",
+	        pt: "Melhor explicação nos exemplos"
+	    },
+
+	    "Fixed loot (shoutouts to Blake!)": {
+	        es: "Botín arreglado (¡gracias a Blake!)",
+	        pt: "Loot corrigido (obrigado Blake!"
+	    },
+
+	    "Fixed timers (shoutouts to Veana!)": {
+	        es: "Temporizadores arreglados (¡gracias a Veana!)",
+	        pt: "Temorizadores corrigidos (obrigado Veana!)"
+	    },
+
+	    "Noted that the multiple pieces of gear change was reverted": {
+	        es: "Apunte de que el botín de múltiples piezas se revirtieron",
+	        pt: "Nota de que o loot de múltiplos item foi revertido"
+	    },
+        
+		"New translations added.": {
+	        es: "Nuevas traducciones añadidas",
+	        pt: "Novas frases traduzidas"
+	    },
+
+	    "Graphs": {
+	        es: "Gráficos",
+	        pt: "Gráficos"
 	    },
 
 	    //Menu
@@ -30,7 +173,7 @@ $(function() {
 	    "Graphs": {
 	        es: "Gráficos",
 	        pt: "Gráficos"
-	    },
+	    },	    
 	    "Calculator": {
 	        es: "Calculadora",
 	        pt: "Calculadora"
@@ -105,59 +248,63 @@ $(function() {
 	        es: "Reforzada",
 	        pt: "Fortificada"
 	    },
-
+	    "Infested": {
+	    	es: "Infestado",
+	    	pt: "Infestada"
+	    },
+	    "Reaping": {
+	    	es: "",
+	    	pt: ""
+	    },
 	    //Dungeons list
-	    "Black Rook Hold": {
-	        es: "Torreón Grajo Negro",
-	        pt: "Castelo Corvo Negro"
+	    "Atal'Dazar": {
+	        es: "Atal'Dazar",
+	        pt: "Atal'Dazar"
 	    },
-	    "Court of Stars": {
-	        es: "Corte de las Estrellas",
-	        pt: "Pátio das Estrelas"
+
+	    "Freehold": {
+	        es: "Fuerte Libre",
+	        pt: "Angra do Falcão"
 	    },
-	    "Darkheart Thicket": {
-	        es: "Arboleda Corazón Oscuro",
-	        pt: "Bosque Corenegro"
+
+	    "The MOTHERLODE!!": {
+	        es: "VETA MADRE",
+	        pt: "MEGAMINA!!!"
 	    },
-	    "Eye of Azshara": {
-	        es: "Ojo de Azshara",
-	        pt: "Olho de Azshara"
+
+	    "Shrine of the Storm": {
+	        es: "Altar de la Tormenta",
+	        pt: "Santuário da Tempestade"
 	    },
-	    "Halls of Valor": {
-	        es: "Cámaras del Valor",
-	        pt: "Salões da Bravura"
+
+	    "Temple of Sethraliss": {
+	        es: "Templo de Sethraliss",
+	        pt: "Templo de Sethraliss"
 	    },
-	    "Maw of Souls": {
-	        es: "Fauce de Almas",
-	        pt: "Gorja das Almas"
+
+	    "Tol Dagor": {
+	        es: "Tol Dagor",
+	        pt: "Tol Dagor"
 	    },
-	    "Neltharion's Lair": {
-	        es: "Guarida de Neltharion",
-	        pt: "Covil de Neltharion"
+
+	    "The Underrot": {
+	        es: "Catacumbas putrefactas",
+	        pt: "Terra podre"
 	    },
-	    "The Arcway": {
-	        es: "La Arquería",
-	        pt: "O Arcâneo"
+
+	    "Waycrest Manor": {
+	        es: "Mansión Crestavía",
+	        pt: "Mansão Capelo"
 	    },
-	    "Vault of the Wardens": {
-	        es: "Cámara de las Celadoras",
-	        pt: "Câmara das Guardiãs"
+
+	    "Kings' Rest": {
+	        es: "Reposo de los Reyes",
+	        pt: "Repouso do Rei"
 	    },
-	    "Lower Karazhan": {
-	        es: "Karazhan inferior",
-	        pt: "Karazhan inferior"
-	    },
-	    "Upper Karazhan": {
-	        es: "Karazhan superior",
-	        pt: "Karazhan superior"
-	    },
-	    "Cathedral of Eternal Night": {
-	        es: "Catedral de la Noche Eterna",
-	        pt: "Catedral da Noite Eterna"
-	    },
-	    "Seat of the Triumvirate": {
-	        es: "Trono del Triunvirato",
-	        pt: "Sede do Triunvirato"
+
+	    "Siege of Boralus": {
+	        es: "Asedio de Boralus",
+	        pt: "Cerco de Boralus"
 	    },
 
 	    //Weeks
@@ -249,6 +396,11 @@ $(function() {
 	        pt: "aqui!"
 	    },
 
+	    "Level 2 affixes ": {
+	        es: "Nivel 2 - Afijos ",
+	        pt: "Nível 2 - Afixos "
+	    },
+
 	    "Level 4 affixes ": {
 	        es: "Nivel 4 - Afijos ",
 	        pt: "Nível 4 - Afixos "
@@ -310,7 +462,7 @@ $(function() {
 	    },
 
 	    sanguine_note: {
-	        en: "Note: ez pz affix, don't stand in pools and make sure mobs don't stand in them either.",
+	        en: "Note: While this affix was mostly ignorable before, it has become a problem in some of the new close-quarters dungeons. In addition, there are a lot more caster-style mobs that will sit in the pools. Mass grips/knockbacks are valuable in Sanguine keys.",
 	        es: "Nota: afijo facilito :), no te quedes parado en los pulls y asegúrate de que los enemigos tampoco estén parados en el charco. ¡A moverse!",
 	        pt: "Nota: afixo facinho, facinho... Não fique parado nos mobs e mantenhase em movimento. Garanta que os inimigos também se movam. Movimento, movimento!"
 	    },
@@ -328,13 +480,13 @@ $(function() {
 	    },
 
 	    bursting_info: {
-	        en: "When slain, non-boss enemies explode, causing all players to suffer 10% of their maximum health in damage over 4 seconds. (5% every 2 seconds) This effect stacks.",
+	        en: "When slain, non-boss enemies explode, causing all players to suffer 5% of their maximum health in damage over 4 seconds. This effect stacks.",
 	        es: "Al morir, los enemigos que no son jefes explotan, por lo que todos los jugadores reciben un 10% de su salud máxima como daño durante 4 s. Este efecto se acumula.",
 	        pt: "Quando mortos, inimigos que não são chefes explodem, fazendo com que todos os jogadores recebam dano equivalente a 10% do máximo de pontos de vida ao longo de 4 s. Este efeito acumula."
 	    },
 
 	    bursting_note: {
-	        en: "Note: As far as I know there is no range on this. Consider it to work like Mythic Il'gynoth blobs.",
+	        en: "Note: This effect stacks, so it is safest to let the stacks drop before killing multiple enemies. (Shrine of the Storm is especially bad with this affix)",
 	        es: "Nota: Este afijo parece que ignora el rango y columneo. Así que cuidado.",
 	        pt: "Nota: Este afixo parece que ignora o alcance. Portanto cuidado!"
 	    },
@@ -347,8 +499,8 @@ $(function() {
 
 	    necrotic_note: {
 	        en: "Note: Strong AoE CC or slows are great for this affix to allow for kiting mobs while the tank's Necrotic stacks fall off.",
-	        es: "Nota: Está muy bien utilizar correctamente los CCs en áreas y ralentizaciones con afijo para permitir kitear bien los pulls mientras el tanque se limpia de las cargas de Necrótica.",
-	        pt: "Nota: É importante utilizar corretamente os CDs de controle massivo e redução de velocidade dos inimigos para permitir que o tanque possa fugir. Desta forma ele pode limpar-se das cargas necróticas."
+	        es: "Nota: Está muy bien utilizar correctamente los CCs en áreas y ralentizaciones con este afijo para permitir kitear bien los pulls mientras el tanque se limpia de las cargas de Necrótica.",
+	        pt: "Nota: É importante utilizar corretamente os CCs de controle massivo e redução de velocidade dos inimigos para permitir que o tanque possa fugir. Desta forma ele pode limpar-se das cargas necróticas."
 	    },
 
 	    skittish_info: {
@@ -406,7 +558,7 @@ $(function() {
 	    },
 
 	    grievous_note: {
-	        en: "Note: You bleed until you are healed above 90%. Finally, another reason to blame your healer!",
+	        en: "Note: You bleed until you are healed above 90%. The damage over time stacks up to a total of 8% player health as damage per tick. Finally, another reason to blame your healer!",
 	        es: "Nota: Sangrarás hasta que se te cure por encima del 90%. ¡Finalmente, otra razón para culpar a tu healer (¿no hay nada que curar?)!",
 	        pt: "Nota: Você sangrará enquanto não se curar mais de 90%. Finalmente, outro motivo para culpar seu healer!"
 	    },
@@ -434,7 +586,51 @@ $(function() {
 	        es: "Nota: Las habilidades de los jefes ya no son triviales. La mecánica del jefe debe hacerse o se morirá \"la people\". Algunas peleas se convierten en pruebas de resistencia porque duran mucho tiempo.",
 	        pt: "Nota: As habilidades dos chefe não são mais triviais. As mecânicas do chefe precisam ser feitas ou verás gente morta :). Alguns combates se tornam verdadeiras provas de resistência (e não é do BBB) porque duram muito tempo."
 	    },
+	    fortified_info_2: {
+	        en: "Non-bosses have more health and deal more damage.",
+	        es: "Los enemigos que no son jefes tienen un 20% más de salud e infligen hasta un 30% más de daño.",
+	        pt: "Inimigos que não são chefes têm 20% mais pontos de vida e causam até 30% a mais de dano."
+	    },
 
+	    fortified_note_2: {
+	        en: "Note: Easier now than when this was a level 10 affix. You'll find trash won't be as beefy now.",
+	        es: "Nota: Interrumpir y esquivar la mayoría (o todas) las habilidades de los pulls se convierte en una prioridad absoluta con este afijo. La mayor parte del tiempo que pases en la mazmorra lucharás duramente contra los pulls, así que por favor, usa tus CDs.",
+	        pt: "Nota: Interromper e esquivar a maioria (ou todas) as habilidades dos mobs são prioridade absoluta com este afixo. A maior parte do tempo dentro da masmorra estarás em combate puramente com mobs, não economize os CDs."
+	    },
+
+	    tyrannical_info_2: {
+	        en: "Bosses have more health and deal more damage.",
+	        es: "Los jefes enemigos tienen un 40% más de salud e infligen hasta un 15% más de daño.",
+	        pt: "Inimigos chefes têm 40% a mais de vida e causam até 15% a mais de dano."
+	    },
+
+	    tyrannical_note_2: {
+	        en: "Note: Easier than when this was a level 10 affix. Bosses will still one shot you with certain abilities but it isn't as absurd as Legion.",
+	        es: "Nota: Las habilidades de los jefes ya no son triviales. La mecánica del jefe debe hacerse o se morirá \"la people\". Algunas peleas se convierten en pruebas de resistencia porque duran mucho tiempo.",
+	        pt: "Nota: As habilidades dos chefe não são mais triviais. As mecânicas do chefe precisam ser feitas ou verás gente morta :). Alguns combates se tornam verdadeiras provas de resistência (e não é do BBB) porque duram muito tempo."
+	    },
+
+	    infested_info: {
+	    	en: "Some non-boss enemies have been infested with a Spawn of G'huun. Those mobs will heal all other trash mobs and bosses within 8yds.",
+	    	es: "Un engendro de G'huun ha infestado a algunos enemigos que no son jefes. Estos enemigos infestados curan a todos los demás enemigos cercanos a una distancia de 8yds.",
+	    	pt: "Alguns inimigos normais foram infectados com Crias de G'huun. Esses inimigos irão curar todos os outros inimigos normais e chefes em um raio de 8 metros.",
+	    },
+		
+	    infested_note: {
+	    	en: "Note: random trash packs will have a mob with Spawn of G'huun. These packs change every week. When the Spawn of G'huun mob is killed, worms will explode from its body and run toward living mobs. If they make it, those mobs will gain the Spawn of G'huun buff and the cycle repeats. ",
+	    	es: "Nota: Grupos aleatórios de enemigos tendrán uno de ellos infectado con la Cría de G'huun. Estos grupos en teoría cambia todas las semanas. Cuando un enemigo infectado con la Cría de G'huun se muere, pequeñas lombrices explotarán de sus cuerpos y corren en dirección a los enemigos vivos, si estas crías llegan a lanzar echizo sobre un enemigo no infectado, el ciclo se repetirá.",
+	    	pt: "Nota: Grupos aleatórios de inimigos terão uma praga infectada com Cria de G'huun. Esses grupos mudam toda semana. Quando o inimigo infectado com Cria de G'huun morre, vermes explodirão de seus corpo e irão em direção de inimigos vivos. Se eles conseguirem, esses inimigos serão infectados com Cria de G'huun e o ciclo se repetirá.",	    		    
+	    },
+	    reaping_info: {
+	    	en: "All enemies killed generate a ghost with 50% of the health of the source target when they die. All currently active ghosts will aggro the group at 20%, 40%, 60%, 80%, and 100% enemies defeated. They are not affected by affixes and do not have the source enemy's abilities.",
+	    	es: "",
+	    	pt: ""
+	    },
+	    reaping_note: {
+	    	en: "Note: ghosts should not aggro other mobs when they activate. There are 3 ghost archetypes with different abilities. <b>Risen Souls</b> only melee. <b>Tormented Souls</b> cast a spell that does 25% of player max health as damage. <b>Lost Souls</b> cast a cone spell that does a 20% health reduction, and explode into swirlies when they die.",
+	    	es: "",
+	    	pt: ""
+	    },
 	    "Weekly schedule for affixes": {
 	        es: "Calendario semanal de afijos",
 	        pt: "Agenda semanal de afixos"
@@ -506,6 +702,11 @@ $(function() {
 	        pt: " - Idem ao anterior porém para grupos EUROPEUS."
 	    },
 
+		" - Official mythicpl.us Discord! Used for fact gathering and fact checking.": {
+	        es: " - ¡Discord oficial de mythicpl.us! Utilizado para recopilar datos y verificar hechos.",
+	        pt: " - Discord oficial de mythicpl.us! Utilizado para coletar dados e verificar fatos."
+	    },
+
 	    "Stats and Tools": {
 	        es: "Estadísticas y herramientas",
 	        pt: "Estatísticas e ferramentas"
@@ -572,7 +773,7 @@ $(function() {
 	        pt: "Conclúa com 20% do tempo restante e aumente 2 níveis de uma vez. Exemplo: Pedra-chave de nível 5 subirá ao nível 7."
 	    },
 
-	    "Didn't make the timer? That's ok. Your keystone doesn't deplete anymore, it just levels down by 1. i.e. keystone level 5 to keystone level 4. The dungeon stays the same.": {
+	    "Didn't make the timer? That's ok. Your keystone doesn't deplete anymore, it just levels down by 1 and randomizes the dungeon. i.e. keystone level 5 for Blackrook Hold to keystone level 4 Halls of Valor.": {
 	        es: "¿No la has hecho en tiempo? No pasa nada. Tu piedra ya no se agota, simplemente baja un nivel. Ejemplo: Piedra angular de nível 5 baja al nível 4. La mazmorra seguirá siendo la misma a no ser que la completes fuera o dentro de tiempo.",
 	        pt: "Não concluíu em tempo? Sem problemas. Sua pedra não se esgotará, simplesmente baixará de nível. Exemplo: Pedra-chave de nível 5 baixará ao nível 7. A masmorra continuará sendo a mesma."
 	    },
@@ -756,7 +957,7 @@ $(function() {
 	        pt: "M+ para Máx. (puah sorte)"
 	    },
 		
-		// Footer		
+		// Footer
 		"Yeah, this is based off of <a href=\"https://docs.google.com/spreadsheets/d/1Fvx9eKXx6sPa5D_Mz4L9-fUog_kdaOajoTC9UgvV_Ms/edit#gid=0\">this spreadsheet.</a> Don't worry, I worked with the author to get it up here, I didn't just rip them off. Shoutouts to Auhsoj#7928.": {
 	        es: "Sí, esto está basado en <a href=\"https://docs.google.com/spreadsheets/d/1Fvx9eKXx6sPa5D_Mz4L9-fUog_kdaOajoTC9UgvV_Ms/edit#gid=0\"> esta hoja de cálculo.</a> No te preocupes, yo trabajé con el autor para meter esto aquí, no solo le estafé :). Felicitaciones a Auhsoj#7928.",
 	        pt: "Sím, isto está feito com base nesta <a href=\"https://docs.google.com/spreadsheets/d/1Fvx9eKXx6sPa5D_Mz4L9-fUog_kdaOajoTC9UgvV_Ms/edit#gid=0\"> planilha.</a> Nao se preocupe, eu trabalhei com o autor para colocar isto aqui, não somente chupinhei :). Agradecimentos a Auhsoj#7928."

@@ -44,13 +44,15 @@ function fillNextWeeksAffixes(currentAffixesEU) {
         var nw1 = schedtbl.rows[nextweek].cells[0].innerHTML;
         var nw2 = schedtbl.rows[nextweek].cells[1].innerHTML;
         var nw3 = schedtbl.rows[nextweek].cells[2].innerHTML;
+        var nw4 = schedtbl.rows[nextweek].cells[3].innerHTML;
 
         var wan1 = schedtbl.rows[weekafternext].cells[0].innerHTML;
         var wan2 = schedtbl.rows[weekafternext].cells[1].innerHTML;
         var wan3 = schedtbl.rows[weekafternext].cells[2].innerHTML;
+        var wan4 = schedtbl.rows[weekafternext].cells[3].innerHTML;
 
-        document.getElementById("nextweek").innerHTML = "" + nw1 + ", " + nw2 + ", " + nw3;
-        document.getElementById("weekafternext").innerHTML = "" + wan1 + ", " + wan2 + ", " + wan3;
+        document.getElementById("nextweek").innerHTML = "" + nw1 + ", " + nw2 + ", " + nw3 + ", " + nw4;
+        document.getElementById("weekafternext").innerHTML = "" + wan1 + ", " + wan2 + ", " + wan3 + ", " + wan4;
 
     };
 
@@ -70,15 +72,11 @@ function getAffixes(region) {
                 var affixes = parsed_json_respone.affix_details;
 
                 var affix_list = [{
-                        "name": "Raging",
+                        "name": "Bursting",
                         "difficulty": "med"
                     },
                     {
-                        "name": "Volcanic",
-                        "difficulty": "easy"
-                    },
-                    {
-                        "name": "Teeming",
+                        "name": "Bolstering",
                         "difficulty": "med"
                     },
                     {
@@ -90,27 +88,15 @@ function getAffixes(region) {
                         "difficulty": "hard"
                     },
                     {
-                        "name": "Bolstering",
-                        "difficulty": "med"
-                    },
-                    {
                         "name": "Grievous",
                         "difficulty": "med"
                     },
                     {
-                        "name": "Sanguine",
-                        "difficulty": "easy"
-                    },
-                    {
-                        "name": "Bursting",
-                        "difficulty": "med"
-                    },
-                    {
-                        "name": "Necrotic",
+                        "name": "Infested",
                         "difficulty": "hard"
                     },
                     {
-                        "name": "Skittish",
+                        "name": "Necrotic",
                         "difficulty": "hard"
                     },
                     {
@@ -118,8 +104,32 @@ function getAffixes(region) {
                         "difficulty": "med"
                     },
                     {
+                        "name": "Raging",
+                        "difficulty": "med"
+                    },
+                    {
+                        "name": "Reaping",
+                        "difficulty": "hard"
+                    },
+                    {
+                        "name": "Sanguine",
+                        "difficulty": "easy"
+                    },
+                    {
+                        "name": "Skittish",
+                        "difficulty": "med"
+                    },
+                    {
+                        "name": "Teeming",
+                        "difficulty": "med"
+                    },
+                    {
                         "name": "Tyrannical",
                         "difficulty": "hard"
+                    },
+                    {
+                        "name": "Volcanic",
+                        "difficulty": "easy"
                     }
                 ];
 
@@ -147,10 +157,12 @@ function getAffixes(region) {
                 if (region == "eu") currentAffixesEU = currentAffixes;
 
                 highlightCurrentAffixes(currentAffixesUS, currentAffixesEU);
+                highlightCurrentAffixDescriptions(affixes, region);
                 fillNextWeeksAffixes(currentAffixesEU);
 
                 resolve();
             }else if(xhr.readyState == 4 && xhr.status !== 200){
+                currentAffixes = null;
                 reject();
             }
         };
@@ -160,10 +172,50 @@ function getAffixes(region) {
 
 };
 
+function highlightCurrentAffixDescriptions(affixes, region) {
+        affixes.forEach(function(affix) {
+            var name = affix.name;
+            var elms = document.querySelectorAll('ul.affixes-list li');
+
+            elms.forEach(function(el) {
+                if (classie.has(el, 'affix-' + name.toLowerCase()))
+                {
+                    var ribbon;
+                    var ribbonColor = (region === 'us') ? 'red' : 'blue';
+
+                    if (classie.has(el, 'thisweek'))
+                    {
+                        // There must already be a ribbon
+                        ribbon = el.querySelector('div.ribbon');
+                        var regionLabel = ribbon.querySelector("span");
+                        regionLabel.innerText = "US & EU";
+                        classie.removeClass(ribbon, 'blue');
+                        classie.removeClass(ribbon, 'red');
+                        classie.addClass(ribbon, 'green');
+                    } else {
+                        classie.addClass(el, 'thisweek');
+
+                        // Let's add a ribbon
+                        ribbon = document.createElement('div');
+                        classie.addClass(ribbon, 'ribbon');
+                        classie.addClass(ribbon, ribbonColor);
+
+                        // Label the region
+                        var span = document.createElement('span');
+                        span.innerText = region.toUpperCase();
+
+                        ribbon.appendChild(span);
+                        el.appendChild(ribbon);
+                    }
+                }
+            })
+        });
+}
+
 function getRegionalAffixes() {
     var promises = [
         getAffixes('us'),
-	    getAffixes('eu')
+        getAffixes('eu')
     ];
 
     window.getAffixesReady = Promise.all(promises);
