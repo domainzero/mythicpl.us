@@ -622,7 +622,7 @@ $(function() {
 	    	pt: "Nota: Grupos aleatórios de inimigos terão uma praga infectada com Cria de G'huun. Esses grupos mudam toda semana. Quando o inimigo infectado com Cria de G'huun morre, vermes explodirão de seus corpo e irão em direção de inimigos vivos. Se eles conseguirem, esses inimigos serão infectados com Cria de G'huun e o ciclo se repetirá.",	    		    
 	    },
 	    reaping_info: {
-	    	en: "All enemies killed generate a ghost with 50% of the health of the source target when they die. All currently active ghosts will aggro the group at 20%, 40%, 60%, 80%, and 100% enemies defeated. They are not affected by affixes and do not have the source enemy's abilities.",
+	    	en: "All enemies generate a ghost with 50% of their health when they die. Ghosts will aggro the group at 20%, 40%, 60%, 80%, and 100% enemies defeated. Once the ghost is killed it will not attack again. Ghosts are not affected by affixes and do not have the source enemy's abilities.",
 	    	es: "",
 	    	pt: ""
 	    },
