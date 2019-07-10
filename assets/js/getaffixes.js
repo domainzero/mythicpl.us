@@ -1,24 +1,24 @@
 var currentAffixesUS = "";
 var currentAffixesEU = "";
 
-function highlightCurrentAffixes(currentAffixesUS, currentAffixesEU) {
-
-    // if regions are different, change both
-    if ((currentAffixesUS != currentAffixesEU) && (currentAffixesUS != "" && currentAffixesEU != "")) {
-        document.getElementById(currentAffixesUS).classList.add("table__row-us");
-        document.getElementById(currentAffixesUS).classList.remove("table__row");
-
-        document.getElementById(currentAffixesEU).classList.add("table__row-eu");
-        document.getElementById(currentAffixesEU).classList.remove("table__row");
-        // if are the same affixes to the regions, highlight just one
-    } else if (currentAffixesUS == currentAffixesEU) {
-        document.getElementById(currentAffixesUS).classList.add("table__row-both");
-        document.getElementById(currentAffixesUS).classList.remove("table__row");
-    };
-
-    // if any of them is blank, don't do highlight
-
-};
+// function highlightCurrentAffixes(currentAffixesUS, currentAffixesEU) {
+// 
+//     // if regions are different, change both
+//     if ((currentAffixesUS != currentAffixesEU) && (currentAffixesUS != "" && currentAffixesEU != "")) {
+//         document.getElementById(currentAffixesUS).classList.add("table__row-us");
+//         document.getElementById(currentAffixesUS).classList.remove("table__row");
+// 
+//         document.getElementById(currentAffixesEU).classList.add("table__row-eu");
+//         document.getElementById(currentAffixesEU).classList.remove("table__row");
+//         // if are the same affixes to the regions, highlight just one
+//     } else if (currentAffixesUS == currentAffixesEU) {
+//         document.getElementById(currentAffixesUS).classList.add("table__row-both");
+//         document.getElementById(currentAffixesUS).classList.remove("table__row");
+//     };
+// 
+//     // if any of them is blank, don't do highlight
+// 
+// };
 
 function fillNextWeeksAffixes(currentAffixesEU) {
     // As the servers reset from EU are later than the US, it takes the EU as a reference.
@@ -160,7 +160,7 @@ function getAffixes(region) {
                 if (region == "us") currentAffixesUS = currentAffixes;
                 if (region == "eu") currentAffixesEU = currentAffixes;
 
-                highlightCurrentAffixes(currentAffixesUS, currentAffixesEU);
+                //highlightCurrentAffixes(currentAffixesUS, currentAffixesEU);
                 highlightCurrentAffixDescriptions(affixes, region);
                 fillNextWeeksAffixes(currentAffixesEU);
 
