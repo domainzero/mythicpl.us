@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $(function () {
 
     var dict = {
@@ -1125,4 +1126,3 @@ $(function () {
     }
 
 });
-
