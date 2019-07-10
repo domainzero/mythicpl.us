@@ -17,7 +17,6 @@ function highlightCurrentAffixes(currentAffixesUS, currentAffixesEU) {
     };
 
     // if any of them is blank, don't do highlight
-
 };
 
 function fillNextWeeksAffixes(currentAffixesEU) {
@@ -160,7 +159,7 @@ function getAffixes(region) {
                 if (region == "us") currentAffixesUS = currentAffixes;
                 if (region == "eu") currentAffixesEU = currentAffixes;
 
-                //highlightCurrentAffixes(currentAffixesUS, currentAffixesEU);
+                highlightCurrentAffixes(currentAffixesUS, currentAffixesEU);
                 highlightCurrentAffixDescriptions(affixes, region);
                 fillNextWeeksAffixes(currentAffixesEU);
 
