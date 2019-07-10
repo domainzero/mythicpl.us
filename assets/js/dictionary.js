@@ -635,6 +635,16 @@ $(function () {
             es: "",
             pt: ""
         },
+	beguiling_info: {
+	    en: "Watery snake people have invaded all the dungeons! Enchanted ladies cast a damage reflect aura, but get knocked back when you attack them. When their energy bar reaches 0 (it depletes from being in combat), they warp out of the dungeon. Void-Touched snake people have True Sight and cast a spell that does half your HP in damage if you're in line of sight. It also gives you a stacking shadow damage increase debuff. Emissary snakey boys have a passive aura that make enemies near it immune to CC.",
+	    es: "",
+	    pt: ""
+	},
+	beguiling_note: {
+            en: "Emissaries can only be CC'd for a max of 8 seconds in a single CC.",
+            es: "",
+            pt: ""
+	},
         "Weekly schedule for affixes": {
             es: "Calendario semanal de afijos",
             pt: "Agenda semanal de afixos"
