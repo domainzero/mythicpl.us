@@ -17,7 +17,6 @@ function highlightCurrentAffixes(currentAffixesUS, currentAffixesEU) {
     };
 
     // if any of them is blank, don't do highlight
-
 };
 
 function fillNextWeeksAffixes(currentAffixesEU) {
@@ -71,7 +70,12 @@ function getAffixes(region) {
                 var parsed_json_respone = JSON.parse(this.responseText);
                 var affixes = parsed_json_respone.affix_details;
 
-                var affix_list = [{
+                var affix_list = [
+                    {
+                        "name": "Beguiling",
+                        "difficulty": "hard"
+                    },
+		    {
                         "name": "Bursting",
                         "difficulty": "med"
                     },
@@ -148,7 +152,6 @@ function getAffixes(region) {
 
                     //get current week affixes key: 2 first chars and lowercase
                     currentAffixes = affix.name.toLowerCase().substr(0, 2) + currentAffixes;
-                                    
                     //print it
                     document.getElementById("thisweek" + region).innerHTML += "<span class='" + affix.difficulty + " trn'>" + affix.name + "</span>" + " ";
                 });
