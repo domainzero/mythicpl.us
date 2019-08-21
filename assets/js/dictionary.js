@@ -490,7 +490,7 @@ $(function () {
         },
 
         bursting_note: {
-            en: "Note: This effect stacks, so it is safest to let the stacks drop before killing multiple enemies. (Shrine of the Storm is especially bad with this affix)",
+            en: "Note: This effect stacks, so it is safest to let the stacks drop before killing multiple enemies.",
             es: "Nota: Este afijo parece que ignora el rango y columneo. Así que cuidado.",
             pt: "Nota: Este afixo parece que ignora o alcance. Portanto cuidado!"
         },
