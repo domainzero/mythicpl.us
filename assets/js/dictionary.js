@@ -254,11 +254,11 @@ $(function () {
         },
         "Reaping": {
             es: "Segadora",
-            pt: ""
+            pt: "Ceifadora"
         },
 	      "Beguiling": {
 	          es: "Cautivadora",
-            pt: ""
+            pt: "Encantadora"
 	},
         //Dungeons list
         "Atal'Dazar": {
@@ -623,27 +623,27 @@ $(function () {
         infested_note: {
             en: "Note: random trash packs will have a mob with Spawn of G'huun. These packs change every week. When the Spawn of G'huun mob is killed, worms will explode from its body and run toward living mobs. If they make it, those mobs will gain the Spawn of G'huun buff and the cycle repeats. ",
             es: "Nota: Grupos aleatórios de enemigos tendrán uno de ellos infectado con la Cría de G'huun. Estos grupos en teoría cambia todas las semanas. Cuando un enemigo infectado con la Cría de G'huun se muere, pequeñas lombrices explotarán de sus cuerpos y corren en dirección a los enemigos vivos, si estas crías llegan a lanzar echizo sobre un enemigo no infectado, el ciclo se repetirá.",
-            pt: "Nota: Grupos aleatórios de inimigos terão uma praga infectada com Cria de G'huun. Esses grupos mudam toda semana. Quando o inimigo infectado com Cria de G'huun morre, vermes explodirão de seus corpo e irão em direção de inimigos vivos. Se eles conseguirem, esses inimigos serão infectados com Cria de G'huun e o ciclo se repetirá.",
+            pt: "Nota: Grupos aleatórios de inimigos terão uma praga infectada com Cria de G'huun. Esses grupos mudam toda semana. Quando o inimigo infectado com Cria de G'huun morre, vermes explodirão de seus corpos e irão em direção de inimigos vivos. Se eles conseguirem, esses inimigos serão infectados com Cria de G'huun e o ciclo se repetirá.",
         },
         reaping_info: {
             en: "All enemies killed generate a ghost with 50% of the health of the source target when they die. All currently active ghosts will aggro the group at 20%, 40%, 60%, 80%, and 100% enemies defeated. They are not affected by affixes and do not have the source enemy's abilities.",
             es: "Todos los enemigos derrotados, generan un fantasma con el 50% de la vida del enemigo original cuando mueren. Todos los fantasmas activos, atacarán al grupo al alcanzar el 20%, 40%, 60&, 80% y 100% de los enemigos derrotados. No son afectados por los afijos y no poseen sus habilidades originales.",
-            pt: ""
+            pt: "Todos os inimigos mortos geram um fantasma com 50% da saúde do alvo de origem quando morrem. Todos os fantasmas ativos no momento irão atacar o grupo quando a porcentagem de inimigos derrotados for 20%, 40%, 60%, 80% e 100%. Eles não são afetados por afixos e não têm as habilidades do inimigo de origem."
         },
         reaping_note: {
             en: "Note: ghosts should not aggro other mobs when they activate. There are 3 ghost archetypes with different abilities. <b>Risen Souls</b> only melee. <b>Tormented Souls</b> cast a spell that does 25% of player max health as damage. <b>Lost Souls</b> cast a cone spell that does a 20% health reduction, and explode into swirlies when they die.",
             es: "Nota: los fantasmas no generan agresión en los otros enemigos cuando se activan. Hay 3 arquetipos de fantasmas con diferentes habilidades. <b>Alma resucitada</b> solo melee. <b>Almas atormentadas</b> lanzan un hechizo que daña por el 25% de la vida máxima del jugador. <b>Almas perdidas</b> lanzan un hechizo en cono que genera un 20% de reducción de vida, y explota en remolinos cuando mueren.",
-            pt: ""
+            pt: "Nota: os fantasmas não irão gerar aggro em outros inimigos enquanto estiverem ativos. Existem 3 tipos de fantasmas com habilidades diferentes. <b>Almas Reanimadas</b> somente corpo a corpo. <b>Almas Atormentadas</b> lança um feitiço que causa dano equivalente a 25% da vida máxima do jogador. <b>Almas Perdidas</b> lança um feitiço em formato de cone que reduz em 20% a saúde do jogador e explode em redemoinhos quando morre."
         },
         beguiling_info: {
             en: "Watery snake people have invaded all the dungeons! Enchanted ladies cast a damage reflect aura, but get knocked back when you attack them. When their energy bar reaches 0 (it depletes from being in combat), they warp out of the dungeon. Void-Touched snake people have True Sight and cast a spell that does half your HP in damage if you're in line of sight. It also gives you a stacking shadow damage increase debuff. Emissary snakey boys have a passive aura that make enemies near it immune to CC.",
             es: "Emisarios de agua han invadido todos los calabozos! Emisarias encantadas poseen un aura que refleja daño, pero pueden ser desplazadas si las atacas. Cuando su barra de energia llega a 0 (se agota mientras está en combate), se teletransportaran fuera del calabozo. Emisarias tocadas por el Vacío poseen Visión del Vacío y lanzan un hechizo que causa daño igual a la mitad de tu HP si estás en su linea de visión. También otorga un debuff de daño de sombra que se acumula. Emisarias de las mareas poseen un aura pasiva que hace que los enemigos cercanos sean inmunes al CC",
-            pt: ""
+            pt: "Emissárias aquáticas invadiram todas as masmorras! Emissárias encantadas possuem uma aura que reflete dano, mas podem ser empurradas quando atacadas. Quando a barra de energia chega a 0 (diminui quando em combate), elas saem da masmorra. Emissária Tocada pelo Caos têm visão verdadeira e lançam um feitiço que causa metade do seu HP em dano se você estiver na linha de visão. Também inflinge um debuff acumulável que aumenta o dano de sombra recebido. Emissárias das Marés têm uma aura passiva que torna os inimigos próximos a ela imunes a efeitos de controle de grupo."
         },
         beguiling_note: {
             en: "Emissaries can only be CC'd for a max of 8 seconds in a single CC.",
             es: "Los emisarios solo pueden ser CC'ados por un máximo de 8 segundos en un mismo CC.",
-            pt: ""
+            pt: "Emissários permanecem sob efeito de um mesmo controle de grupo por no máximo 8 segundos."
         },
         "Weekly schedule for affixes": {
             es: "Calendario semanal de afijos",
@@ -652,124 +652,124 @@ $(function () {
 
         "These may not be entirely correct as there are undocumented affix schedule changes!" : {
             es: "Pueden no ser enteramente correctos ya que hay cambios no documentados en el calendario!",
-            pt: ""
+            pt: "Pode não estar totalmente correto, pois há alterações nos agendamento de afixo que não são documentadas!"
         },
 
         // Group considerations
 
         "Group considerations": {
             es: "Consideraciones de grupos",
-            pt: ""
+            pt: "Considerações de grupo"
         },
 
         "Group makeup barely matters at low keystone levels. There is little reason to sweat your group composition on keys below 5-6. Bring the player, not the class." : {
             es: "La composición del grupo importa poco en piedras angulares de nivel bajo. No hay motivo para esforzarse en la composición del grupo para piedras menores a 5-6. Trae al jugador, no la clase.",
-            pt: ""
+            pt: "A composição do grupo quase não importa em chaves de nível baixo. Há poucas razões para se esforçar em escolher a composição do seu grupo em chaves menores do que de 5-6. Traga o jogador, não a classe."
         },
 
         "That being said, your group composition will always be one tank, one healer, and three DPS. Multi-tank strategies are not viable." : {
             es: "Dicho esto, la composición del grupo siempre será de un tanque, un sanador y tres DPS. Estratégias de múltiples tanques no son viables",
-            pt: ""
+            pt: "Dito isto, a composição do seu grupo será sempre um tanque, um healer e três DPS. Estratégias com vários tanques não são viáveis."
         },
 
         "It's important to build a group that is well rounded in order increase your chances of completing a keystone within the timer. This means bringing consumables to make up for gaps in your group composition." : {
             es: "Es importante armar un grupo que esté bien nivelado para incrementar las probabilidades de completar una piedra angular en tiempo. Esto significa traer consumibles para suplir las falencias en la composición",
-            pt: ""
+            pt: "É importante criar uma boa composição de grupo para aumentar suas chances de concluir a chave dentro do tempo. Isso significa que trazer consumíveis para compensar as lacunas na composição do seu grupo é importante."
         },
-        
+
         "When considering your group composition, it is also to consider what each class can bring to the table. Does your group have:" : {
             es: "Cuando consideres la composición de tu grupo, recuerda considerar que puede aportar cada clase al grupo. Acaso tu grupo tiene:",
-            pt: ""
+            pt: "Ao considerar a composição do seu grupo, também é necessário considerar o que cada classe pode trazer à mesa. Por acaso o seu grupo tem:"
         },
 
         "Ways to dispel buffs on enemies?" : {
             es: "Maneras de dispelear buffs en enemigos?",
-            pt: ""
+            pt: "Maneiras de dissipar buffs nos inimigos?"
         },
 
         "Ways to dispel debuffs on allies?" : {
             es: "Maneras de dispelear debuffs en aliados?",
-            pt: ""
+            pt: "Maneiras de dissipar debuffs em aliados?"
         },
 
         "Multiple interrupts or other CC to stop enemy casting?" : {
             es: "Múltiples interrupciones y otros CC para evitar el casteo enemigo?",
-            pt: ""
+            pt: "Múltiplas interrupções ou outro CC para interromper a conjuração do inimigo?"
         },
 
         "Strong CC for difficult trash pulls?" : {
             es: "CC fuertes para pulls con trash complicada?",
-            pt: ""
+            pt: "CC fortes para pulls difíceis?"
         },
 
         "Again, selecting your group carefully matters mostly for higher level keys where the difficulty of the run is often very high. For lower level keystone runs, group makeup is not as important as it is easy to power through most of the content. Just saying. Do what you want. ¯\_(ツ)_/¯" : {
             es: "De nuevo, seleccionar tu grupo con cuidado importa más para piedras de nivel alto, donde la dificultad es por lo general mayor. Para piedras de nivel bajo, la composición del grupo no es tán importante. Solo digamos. Haz lo que quieras. ¯\_(ツ)_/¯",
-            pt: ""
+            pt: "Mais uma vez, selecionar seu grupo com cuidado é importante principalmente para chaves de nível superior, onde a dificuldade geralmente é muito alta. Para chaves de nível inferior, a composição do grupo não é tão importante quanto é completar a maior parte do conteúdo. Apenas dizendo. Faça o que você quiser. ¯\_(ツ)_/¯"
         },
 
         "Consumables" : {
             es: "Consumibles",
-            pt: ""
+            pt: "Consumíveis"
         },
 
         "Mandatory (at least above keystone level 5)" : {
             es: "Obligatorio (al menos en piedras mayores a nivel 5)",
-            pt: ""
+            pt: "Obrigatório (pelo menos em chaves acima do nível 5)"
         },
-        
+
         "Current food" : {
             es: "Comida actual",
-            pt: ""
+            pt: "Comida atual"
         },
-        
+
         "Current flasks" : {
             es: "Frascos actuales",
-            pt: ""
+            pt: "Frascos atuais"
         },
-        
+
         "Current potions" : {
             es: "Pociones actuales",
-            pt: ""
+            pt: "Poções atuais"
         },
-        
+
         "Repair mount/Auto-Hammer/Jeeves/Reeves" : {
             es: "Montura de reparar/Martillo automático/Jeeves/Reeves",
-            pt: ""
+            pt: "Montaria de reparo/Martelo automático/Jeeves/Reeves"
         },
 
         "\"Missing a class\" consumables": {
             es: "Consumibles para clases faltantes",
-            pt: ""
+            pt: "\"Consumíveis\" para classes faltantes"
         },
 
         "Drums (any tier is fine, they all give 25% haste): makes up for no Bloodlust/Heroism/Time Warp/Hysteria, etc" : {
             es: "Tambores (cualquier nivel está bien, todos ellos dan 25% de celeridad): para suplir a Ansia de sangre/Distorsión temporal/Histeria, etc",
-            pt: ""
+            pt: "Tambores (qualquer nível é bom, todos eles dão 25% de aceleração): não compensa sede de sangue / heroísmo / distorção temporal / histeria, etc."
         },
-        
+
         "War-Scrolls of Battle Shout (attack power buff), Fortitude (stamina buff), Intellect (intellect buff): makes up for no warrior/priest/mage, respectively" : {
             es: "Pergaminos de guerra de Grito de batalla (buff de poder de ataque), Entereza (buff de aguante), Intelecto (buff de intelecto): para suplir a guerrero/sacerdote/mago, respectivamente",
-            pt: ""
+            pt: "Pergaminho de Guerra do Brado de Batalha (buff de poder de ataque), Fortitude (buff de resistência), Intelecto (buff de intelecto): compensa se não tiver nenhnum guerreiro/sacerdote/mago, respectivamente"
         },
 
         "Optional/niche/high key consumables" : {
             es: "Opcional/nicho/consumibles para piedras de alto nivel",
-            pt: ""
+            pt: "Consumíveis opcionais/com nicho específico/chaves altas"
         },
 
         "Invisibility potions (used for skipping troubling trash packs at high key levels)": {
             es: "Pociones de invisibilidad (usadas para saltear packs de trash problemática en piedras de nivel alto)",
-            pt: ""
+            pt: "Poções de invisibilidade (usadas para pular inimigos problemáticos em níveis mais altos)"
         },
-        
+
         "Tome of Tranquil Mind (you are allowed to step out of the instance to change talents using a tome)": {
             es: "Escrito de la mente tranquila (se permite salir de la instancia para cambiar talentos utilizando un escrito)",
-            pt: ""
+            pt: "Tomo da mente tranquila (se estiver fora de combate, permite ajustar os talentos dentro da massamora)"
         },
-        
+
         "Proving Grounds health stone": {
             es: "Piedra de salud del Terreno de Pruebas",
-            pt: ""
+            pt: "Pedras da vida dos campo de testes ou de um Warlock"
         },
 
         //Useful stuff
@@ -901,9 +901,9 @@ $(function () {
 
         "Example: Your group completes Atal'Dazar +6 in 37 minutes and 32 seconds. The par timer is 39 minutes, the keystone levels up from level 6 to level 7 and rolls a new random dungeon." : {
             es: "Ejemplo: Tu grupo completa Atal'Dazar +6 en 37 minutos y 32 segundos. El tiempo limite es 39 minutos, la piedra angular sube del nivel 6 al nivel 7 y sortea un nuevo calabozo de forma aleatoria.",
-            pt: ""
+            pt: "Exemplo: Seu grupo completa o Atal'Dazar +6 em 37 minutos e 32 segundos. O tempo máximo é de 39 minutos, a pedra angular sobe do nível 6 para o nível 7 e uma nova masmorra aleatória é escolhida."
         },
-        
+
         "Complete a keystone run with 20% of the timer remaining and upgrade the keystone 2 times in one go. ": {
             es: "Finaliza una piedra angular con 20% del tiempo restante y mejora la piedra 2 niveles de una vez.",
             pt: "Conclúa com 20% do tempo restante e aumente 2 níveis de uma vez. Exemplo: Pedra-chave de nível 5 subirá ao nível 7."
@@ -911,7 +911,7 @@ $(function () {
 
         "Example: Your group completes The MOTHERLODE!! +5 in 30 minutes and 54 seconds. The par timer is 39 minutes, so the keystone levels up from level 5 to level 7 and rolls a new random dungeon.":{
             es: "Ejemplo: Tu grupo completa VETA MADRE +5 en 30 minutos y 54 segundos. El tiempo límite es 39 minutos, entonces la piedra subirá de nivel 5 a nivel 7 y sortea un nuevo calabozo de forma aleatoria",
-            pt: "",
+            pt: "Exemplo: Seu grupo conclui MEGAMINA!!! +5 em 30 minutos e 54 segundos. O tempo máximo é de 39 minutos, então a pedra angular sobe do nível 5 para o nível 7 e uma nova masmorra aleatória é escolhida.",
         },
 
         "Complete a keysone run with 40% of the timer remaining and upgrade the keystone 3 times in one go. ": {
@@ -921,37 +921,37 @@ $(function () {
 
         "Example: Your group completes Shrine of the Storm +2 in 19 minutes and 34 seconds. The par timer is 39 minutes, so the keystone levels up from keystone level 2 to keystone level 5 and rolls a new dungeon.": {
             es: "Ejemplo: Tu grupo completa Altar de la Tormenta +2 en 19 minutos y 34 segundos. El tiempo límite es 39 minutos, entonces la piedra subirá de nivel 2 a nivel 5 y sortea un nuevo calabozo de forma aleatoria",
-            pt: ""
+            pt: "Exemplo: Seu grupo completa o Santuário da Tempestade +2 em 19 minutos e 34 segundos. O tempo máximo é de 39 minutos, então a pedra angular sobe do nível 2 para o nível 5 e uma nova masmorra aleatória é escolhida."
         },
 
         "Didn't beat the timer? That's ok. Your keystone doesn't deplete anymore, it just levels down by 1 and rerolls the dungeon. ": {
             es: "¿No la has hecho en tiempo? No pasa nada. Tu piedra ya no se agota, simplemente baja un nivel y sortea un nuevo calabozo de forma aleatoria",
-            pt: "Não concluíu em tempo? Sem problemas. Sua pedra não se esgotará, simplesmente baixará de nível. Exemplo: Pedra-chave de nível 5 baixará ao nível 7. A masmorra continuará sendo a mesma."
+            pt: "Não concluíu em tempo? Sem problemas. Sua pedra não se esgotará, simplesmente abaixará um nível e uma nova masmorra aleatória será escolhida."
         },
 
         "Example: Your group completes Waycrest Manor keystone level 5 for Waycrest Manor to keystone level 4 for The Freehold.": {
             es: "Ejemplo: Tu grupo completa Mansión Crestavía en nivel 5, la piedra pasa a ser de nivel 4 y para Fuerte Libre.",
-            pt: ""
+            pt: "Exemplo: Seu grupo conclui o nível 5 da pedra angular da Mansão Capeto fora do tempo limite. A chave passará a ser de nível 4 e Angra do Facão será a nova masmorra."
         },
 
         "Don't have a keystone? Completing a keystone run will net you a key at the end of the run. This keystone will be one level under the keystone run level you complete. You can also get a key from the final boss of any Battle for Azeroth mythic dungeon.": {
             es: "¿No tienes una piedra angular? Completar una piedra angular te otorga una piedra angular al finalizar. Esta piedra será un nivel menor al de la piedra completada. También puedes obtener una piedra angular en el jefe final de cualquier calabozo mítico de Batallo por Azeroth.",
-            pt: ""
-        },        
+            pt: "Não tem uma pedra angular? A conclusão de uma dungeon te dará uma pedra angular no final. Essa pedra angular estará um nível abaixo do nível de execução da pedra angular que você concluir. Você também pode obter uma chave do chefe final de qualquer masmorra mítica de Battle for Azeroth."
+        },
 
         "Example: you complete a The Freehold +7 - the chest at the end will have a random +6 key in it. Example 2: you completed a +0 The MOTHERLODE!! - the chest at the end will have a +2 keystone for a random dungeon in it." : {
             es: "Ejemplo: completas Fuerte Libre +7 - el cofre al final tendrá una piedra +6 dentro de el. Ejemplo 2: completaste VETA MADRE +0 - el cofre del final tendrá una piedra +2 para algún calabozo aleatorio.",
-            pt: ""
+            pt: "Exemplo: Você completa uma Angra do Facão +7 - o baú no final terá uma chave +6 aleatória. Exemplo 2: você completou um +0 O MEGAMINA!!! - o baú no final terá uma pedra angular +2 para uma masmorra aleatória."
         },
 
         "Time penalty for deaths": {
             es: "Penalidades de tiempo por muerte",
-            pt: ""
+            pt: "Pena de tempo para mortes"
         },
 
         "Five seconds are subtracted from the timer any time a player dies in a keystone run. While this may seem inconsequential at first, the time lost to death will add up quickly if players die to mechanics frequently. This can easily result in missing the timer." : {
             es: "Cinco segundos son restados del contador cada vez que un jugador muere. Aunque esto puede parecer intrascendente al principio, el tiempo perdido por muertes se sumará rápidamente si los jugadores mueren frecuentemente por mecánicas. Esto facilmente puede provocar no llegar a tiempo.",
-            pt: ""
+            pt: "Cinco segundos são subtraídos do cronômetro sempre que um jogador morre em uma dungeon mítica+. Embora isso possa parecer pouco, o tempo perdido irá acumular rapidamente se os jogadores morrerem frequentemente para as mecânicas. Isso pode resultar facilmente na falta de tempo e abaixar o nível da sua chave."
         },
 
         "Instance Timer and Requirements for \"Level Jumps\"": {
@@ -1160,7 +1160,7 @@ $(function () {
 
         "Haven't taken the survey yet? You can take it <a href=\"https://goo.gl/forms/YgaYteAnJjg2yMOn1\">here!</a> Wanna see the source spreadsheet? <a href=\"https://docs.google.com/spreadsheets/d/1saKejReaWhzQUmTy_r8FTTcW9xt1ilxI2knYdc8bQPs/pubhtml?gid=673910183&single=true\">Click here!</a>": {
             es: "¿No has realizado la encuesta todavía? Puedes responderla <a href=\"https://goo.gl/forms/YgaYteAnJjg2yMOn1\">aquí!</a>. Quieres ver los resultados? <a href=\"https://docs.google.com/spreadsheets/d/1saKejReaWhzQUmTy_r8FTTcW9xt1ilxI2knYdc8bQPs/pubhtml?gid=673910183&single=true\">Click aquí!</a>",
-            pt: ""
+            pt: "Ainda não fez a pesquisa? Você pode fazê-la <a href=\"https://goo.gl/forms/YgaYteAnJjg2yMOn1\">aqui!</a> Quer ver a planilha de origem? <a href=\"https://docs.google.com/spreadsheets/d/1saKejReaWhzQUmTy_r8FTTcW9xt1ilxI2knYdc8bQPs/pubhtml?gid=673910183&single=true\">Clique aqui!</a>"
         },
 
         invite_survey: {
