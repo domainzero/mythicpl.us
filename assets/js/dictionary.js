@@ -652,7 +652,7 @@ $(function () {
 
         "These may not be entirely correct as there are undocumented affix schedule changes!" : {
             es: "Pueden no ser enteramente correctos ya que hay cambios no documentados en el calendario!",
-            pt: "Pode não estar totalmente correto, pois há alterações nos agendamento de afixo que não são documentadas!"
+            pt: "Pode não estar totalmente correto, pois há alterações nos agendamentos de afixo que não são documentadas!"
         },
 
         // Group considerations
@@ -744,12 +744,12 @@ $(function () {
 
         "Drums (any tier is fine, they all give 25% haste): makes up for no Bloodlust/Heroism/Time Warp/Hysteria, etc" : {
             es: "Tambores (cualquier nivel está bien, todos ellos dan 25% de celeridad): para suplir a Ansia de sangre/Distorsión temporal/Histeria, etc",
-            pt: "Tambores (qualquer nível é bom, todos eles dão 25% de aceleração): não compensa sede de sangue / heroísmo / distorção temporal / histeria, etc."
+            pt: "Tambores (qualquer nível é bom, todos eles dão 25% de aceleração): supre a necessidade de sede de sangue / heroísmo / distorção temporal / histeria, etc."
         },
 
         "War-Scrolls of Battle Shout (attack power buff), Fortitude (stamina buff), Intellect (intellect buff): makes up for no warrior/priest/mage, respectively" : {
             es: "Pergaminos de guerra de Grito de batalla (buff de poder de ataque), Entereza (buff de aguante), Intelecto (buff de intelecto): para suplir a guerrero/sacerdote/mago, respectivamente",
-            pt: "Pergaminho de Guerra do Brado de Batalha (buff de poder de ataque), Fortitude (buff de resistência), Intelecto (buff de intelecto): compensa se não tiver nenhnum guerreiro/sacerdote/mago, respectivamente"
+            pt: "Pergaminho de Guerra do Brado de Batalha (buff de poder de ataque), Fortitude (buff de resistência), Intelecto (buff de intelecto): supre a falta de um guerreiro/sacerdote/mago, respectivamente"
         },
 
         "Optional/niche/high key consumables" : {
