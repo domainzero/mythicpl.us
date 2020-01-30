@@ -71,6 +71,10 @@ function getAffixes(region) {
                 var affixes = parsed_json_respone.affix_details;
 
                 var affix_list = [
+		    {
+			"name": "Awakened",
+			"difficulty": "hard"
+		    },
                     {
                         "name": "Beguiling",
                         "difficulty": "hard"

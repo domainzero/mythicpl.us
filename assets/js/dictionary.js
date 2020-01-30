@@ -256,10 +256,14 @@ $(function () {
             es: "Segadora",
             pt: "Ceifadora"
         },
-	      "Beguiling": {
-	          es: "Cautivadora",
+	"Beguiling": {
+	    es: "Cautivadora",
             pt: "Encantadora"
 	},
+	"Awakened": {
+	    es: "",
+            pt: ""
+        },
         //Dungeons list
         "Atal'Dazar": {
             es: "Atal'Dazar",
@@ -644,6 +648,12 @@ $(function () {
             en: "Emissaries can only be CC'd for a max of 8 seconds in a single CC.",
             es: "Los emisarios solo pueden ser CC'ados por un máximo de 8 segundos en un mismo CC.",
             pt: "Emissários permanecem sob efeito de um mesmo controle de grupo por no máximo 8 segundos."
+        },
+	awakened_info: {
+            en: "Four obelisks are spawned on the map. Activating the obelisk while out of combat teleports you to spooky world and spawns a miniboss inside spooky world. If you do not kill the minibosses in spooky world before you start the last encounter, they will all activate and aggro to you."
+        },
+        awakened_note: {
+            en: "Heading to spooky world phases you out of the regular dungeon (meaning you cannot aggro trash while there). Killing the miniboss in spooky world causes a rift to appear which you can use to exit spooky world. Using the rift will put you in that exact location in the regular world. This could be used to skip trash, or be used to wipe your group if you aren't paying attention to where the rift is. Each miniboss only spawns when its obelisk is activated."
         },
         "Weekly schedule for affixes": {
             es: "Calendario semanal de afijos",
