@@ -261,8 +261,8 @@ $(function () {
             pt: "Encantadora"
 	},
 	"Awakened": {
-	    es: "",
-            pt: ""
+	    es: "Despierta",
+            pt: "Desperto"
         },
         //Dungeons list
         "Atal'Dazar": {
@@ -312,6 +312,16 @@ $(function () {
 
         "Siege of Boralus": {
             es: "Asedio de Boralus",
+            pt: "Cerco de Boralus"
+        },
+
+        "Mechagon: Junkyard": {
+            es: "Mecandria: Desguace",
+            pt: "Cerco de Boralus"
+        },
+
+        "Mechagon: Workshop": {
+            es: "Mecandria: Taller",
             pt: "Cerco de Boralus"
         },
 
@@ -625,9 +635,9 @@ $(function () {
         },
 
         infested_note: {
-            en: "Note: random trash packs will have a mob with Spawn of G'huun. These packs change every week. When the Spawn of G'huun mob is killed, worms will explode from its body and run toward living mobs. If they make it, those mobs will gain the Spawn of G'huun buff and the cycle repeats. ",
-            es: "Nota: Grupos aleatórios de enemigos tendrán uno de ellos infectado con la Cría de G'huun. Estos grupos en teoría cambia todas las semanas. Cuando un enemigo infectado con la Cría de G'huun se muere, pequeñas lombrices explotarán de sus cuerpos y corren en dirección a los enemigos vivos, si estas crías llegan a lanzar echizo sobre un enemigo no infectado, el ciclo se repetirá.",
-            pt: "Nota: Grupos aleatórios de inimigos terão uma praga infectada com Cria de G'huun. Esses grupos mudam toda semana. Quando o inimigo infectado com Cria de G'huun morre, vermes explodirão de seus corpos e irão em direção de inimigos vivos. Se eles conseguirem, esses inimigos serão infectados com Cria de G'huun e o ciclo se repetirá.",
+            en: "Random trash packs will have a mob with Spawn of G'huun. These packs change every week. When the Spawn of G'huun mob is killed, worms will explode from its body and run toward living mobs. If they make it, those mobs will gain the Spawn of G'huun buff and the cycle repeats. ",
+            es: "Grupos aleatórios de enemigos tendrán uno de ellos infectado con la Cría de G'huun. Estos grupos en teoría cambia todas las semanas. Cuando un enemigo infectado con la Cría de G'huun se muere, pequeñas lombrices explotarán de sus cuerpos y corren en dirección a los enemigos vivos, si estas crías llegan a lanzar echizo sobre un enemigo no infectado, el ciclo se repetirá.",
+            pt: "Grupos aleatórios de inimigos terão uma praga infectada com Cria de G'huun. Esses grupos mudam toda semana. Quando o inimigo infectado com Cria de G'huun morre, vermes explodirão de seus corpos e irão em direção de inimigos vivos. Se eles conseguirem, esses inimigos serão infectados com Cria de G'huun e o ciclo se repetirá.",
         },
         reaping_info: {
             en: "All enemies killed generate a ghost with 50% of the health of the source target when they die. All currently active ghosts will aggro the group at 20%, 40%, 60%, 80%, and 100% enemies defeated. They are not affected by affixes and do not have the source enemy's abilities.",
@@ -635,9 +645,9 @@ $(function () {
             pt: "Todos os inimigos mortos geram um fantasma com 50% da saúde do alvo de origem quando morrem. Todos os fantasmas ativos no momento irão atacar o grupo quando a porcentagem de inimigos derrotados for 20%, 40%, 60%, 80% e 100%. Eles não são afetados por afixos e não têm as habilidades do inimigo de origem."
         },
         reaping_note: {
-            en: "Note: ghosts should not aggro other mobs when they activate. There are 3 ghost archetypes with different abilities. <b>Risen Souls</b> only melee. <b>Tormented Souls</b> cast a spell that does 25% of player max health as damage. <b>Lost Souls</b> cast a cone spell that does a 20% health reduction, and explode into swirlies when they die.",
-            es: "Nota: los fantasmas no generan agresión en los otros enemigos cuando se activan. Hay 3 arquetipos de fantasmas con diferentes habilidades. <b>Alma resucitada</b> solo melee. <b>Almas atormentadas</b> lanzan un hechizo que daña por el 25% de la vida máxima del jugador. <b>Almas perdidas</b> lanzan un hechizo en cono que genera un 20% de reducción de vida, y explota en remolinos cuando mueren.",
-            pt: "Nota: os fantasmas não irão gerar aggro em outros inimigos enquanto estiverem ativos. Existem 3 tipos de fantasmas com habilidades diferentes. <b>Almas Reanimadas</b> somente corpo a corpo. <b>Almas Atormentadas</b> lança um feitiço que causa dano equivalente a 25% da vida máxima do jogador. <b>Almas Perdidas</b> lança um feitiço em formato de cone que reduz em 20% a saúde do jogador e explode em redemoinhos quando morre."
+            en: "Ghosts should not aggro other mobs when they activate. There are 3 ghost archetypes with different abilities. <b>Risen Souls</b> only melee. <b>Tormented Souls</b> cast a spell that does 25% of player max health as damage. <b>Lost Souls</b> cast a cone spell that does a 20% health reduction, and explode into swirlies when they die.",
+            es: "Los fantasmas no generan agresión en los otros enemigos cuando se activan. Hay 3 arquetipos de fantasmas con diferentes habilidades. <b>Alma resucitada</b> solo melee. <b>Almas atormentadas</b> lanzan un hechizo que daña por el 25% de la vida máxima del jugador. <b>Almas perdidas</b> lanzan un hechizo en cono que genera un 20% de reducción de vida, y explota en remolinos cuando mueren.",
+            pt: "Os fantasmas não irão gerar aggro em outros inimigos enquanto estiverem ativos. Existem 3 tipos de fantasmas com habilidades diferentes. <b>Almas Reanimadas</b> somente corpo a corpo. <b>Almas Atormentadas</b> lança um feitiço que causa dano equivalente a 25% da vida máxima do jogador. <b>Almas Perdidas</b> lança um feitiço em formato de cone que reduz em 20% a saúde do jogador e explode em redemoinhos quando morre."
         },
         beguiling_info: {
             en: "Watery snake people have invaded all the dungeons! Enchanted ladies cast a damage reflect aura, but get knocked back when you attack them. When their energy bar reaches 0 (it depletes from being in combat), they warp out of the dungeon. Void-Touched snake people have True Sight and cast a spell that does half your HP in damage if you're in line of sight. It also gives you a stacking shadow damage increase debuff. Emissary snakey boys have a passive aura that make enemies near it immune to CC.",
@@ -649,11 +659,15 @@ $(function () {
             es: "Los emisarios solo pueden ser CC'ados por un máximo de 8 segundos en un mismo CC.",
             pt: "Emissários permanecem sob efeito de um mesmo controle de grupo por no máximo 8 segundos."
         },
-	awakened_info: {
-            en: "Four obelisks are spawned on the map. Activating the obelisk while out of combat teleports you to spooky world and spawns a miniboss inside spooky world. If you do not kill the minibosses in spooky world before you start the last encounter, they will all activate and aggro to you."
+	   awakened_info: {
+            en: "Four obelisks are spawned on the map. Activating the obelisk while out of combat teleports you to spooky world and spawns a miniboss inside spooky world. If you do not kill the minibosses in spooky world before you start the last encounter, they will all activate and aggro to you.",
+            es: "Los obeliscos repartidos por la mazmorra permiten a los jugadores entrar en Ny'alotha y enfrentarse a poderosos sirvientes de N'Zoth. Durante el enfrentamiento con el jefe final habrá que ocuparse de los sirvientes que no hayan sido eliminados previamente.",
+            pt: "Obeliscos pela masmorra permitem que os jogadores entrem em Ny'alotha e enfrentem os poderosos servos de N'Zoth. Se um servo ficar para atrás, ele será enfrentado durante a batalha contra o chefe final."
         },
         awakened_note: {
-            en: "Heading to spooky world phases you out of the regular dungeon (meaning you cannot aggro trash while there). Killing the miniboss in spooky world causes a rift to appear which you can use to exit spooky world. Using the rift will put you in that exact location in the regular world. This could be used to skip trash, or be used to wipe your group if you aren't paying attention to where the rift is. Each miniboss only spawns when its obelisk is activated."
+            en: "Heading to spooky world phases you out of the regular dungeon (meaning you cannot aggro trash while there). Killing the miniboss in spooky world causes a rift to appear which you can use to exit spooky world. Using the rift will put you in that exact location in the regular world. This could be used to skip trash, or be used to wipe your group if you aren't paying attention to where the rift is. Each miniboss only spawns when its obelisk is activated.",
+            es: "Al entrar en una mazmorra veréis obeliscos del Imperio Negro repartidos por el terreno. Interactuar con uno de estos obeliscos te transportará a otro mundo (perderás todo el aggro mientras al transportarte), en el que se puede ver el creciente poder de N’Zoth y a uno de sus lugartenientes vigilando. Derrotar al lugarteniente te devolverá a tu realidad, pero lo hará en el punto exacto en el que te encuentres tras derrotar el mini-jefe.",
+            pt: "Ao entrar na masmorra verás obeliscos do Império Negro repartidos pelo terreno. Qualquer interação com estes obeliscos irá teletransportar-te ao outro mundo (perde todo o aggro enquanto se teletransporta), poderás ver o crescente poder de N’Zoth e um sentinela vigiando. Derrotar ao sentinela te devolverá ao mundo real, porém o fará no ponto exato que você está ao derrotar o mini-chefe."
         },
         "Weekly schedule for affixes": {
             es: "Calendario semanal de afijos",
@@ -853,9 +867,9 @@ $(function () {
             pt: " - Discord oficial de mythicpl.us! Utilizado para coletar dados e verificar fatos."
         },
 
-        "Stats and Tools": {
-            es: "Estadísticas y herramientas",
-            pt: "Estatísticas e ferramentas"
+        "Stats, tools, and guides": {
+            es: "Estadísticas, herramientas y guias",
+            pt: "Estatísticas, ferramentas e guias"
         },
 
         " - Raider.io has all kinds of tools including character specific M+ tracking, successful run comp tracking, and ranks for m+ dungeons. They're <strong>community</strong> run and have some cool planned features. Stay tuned! The site is also snappy AF. ": {
@@ -1029,6 +1043,63 @@ $(function () {
         "It is most beneficial to complete a +15 weekly to get the highest item level gear every reset. If that isn't feasible go for the next highest you can complete. Again, <strong>you don't need to finish in the timer to get the weekly chest.</strong>": {
             es: "Es más rentable finalizar una +15 semanalmente para obtener el botín con el nivel más alto en cada reinicio. </br>Si eso no es factible, intenta hacer el nivel más alto que puedas finalizar. </br>El poder de artefacto conseguido en la mazmorra también es más alto dependiendo del nivel de dificultad. Otra vez, <strong>no es necesario finalizar la mazmorra en tiempo para obtener el cofre semanal</strong>",
             pt: "É muito mais rentável finalizar uma masmorra +15 semanalmente para obter o saqueio com o item de nível mais alto a cada reinício. </br>Se não for possível, tente concluir a masmorra com o nível de dificuldade mais alto que puder. </br><strong>Outra vez, não é necessário finalizar a masmorra dentro do cronometro para obter um item no baú semanal<strong>"
+        },
+
+        //Titan Residuum
+        "Titan Residuum": {
+            es: "Residuo titánico",
+            pt: "Resíduo Titânico"
+        },
+
+        "Level": {
+            es: "Nivel",
+            pt: "Nível"
+        },
+
+        "TR in weekly chest": {
+            es: "RT en el cofre semanal",
+            pt: "RT no cofre semanal"
+        },
+
+        "The weekly cache no longer awards a random Azerite armor piece, but instead awards a new currency called Titan Residuum. Titan Residuum can also be acquired from scrapping or disenchanting Azerite armor pieces." : {
+            es: "El cofre semanal ya no otorga una pieza de azerita aleatória, sino que entrega una moneda llamada Residuo titánico. El Residuo titánico también se puede adquirir al desguazar o desencantar piezas de armadura de azerita.",
+            pt: "y"
+        },
+
+        "Titan Residuum can be used to buy targeted Azerite pieces from Thaumaturge Vashreen.": {
+            es: "El residuo titánico puede ser utilizado para comprar piezas específicas de azerita en el Taumaturgo Vashreen.",
+            pt: "y"
+        },
+
+        //Patreon
+        "Patreon heroes": {
+            es: "Heroes de Patreon",
+            pt: "Heróis do Patreon"
+        },
+
+        "You guys keep it all afloat. Thanks for your continued support! Head over to <a href=\"https://www.patreon.com/mythicplus\">the Patreon page</a> if you feel like becoming a patron!": {
+            es: "Vosotros nos mantienen a flote. ¡Muchísimas gracias por vuestro apoyo! Visita nuestro <a href=\"https://www.patreon.com/mythicplus\">Patreon</a> si quieres ser un mecena.",
+            pt: "Vocês mantém a gente funcionando. Muito obrigado pelo seu apoio! Visite-nos em <a href=\"https://www.patreon.com/mythicplus\">Patreon</a> se quiser ser um apoiador desta causa."
+        },
+
+        "Exalted Patrons": {
+            es: "Mecena: Exaltado",
+            pt: "Exaltado"
+        },
+
+        "Revered Patrons": {
+            es: "Mecena: Venerado",
+            pt: "Reverenciado"
+        },
+
+        "Honored Patrons": {
+            es: "Mecena: Honorado",
+            pt: "Honrado"
+        },
+
+        "Friendly Patrons": {
+            es: "Mecena: Amistoso",
+            pt: "Amigável"
         },
 
         //Footer
