@@ -861,19 +861,75 @@ $(function () {
         " - Shows keys for guild mates, Battle Net friends and alts. It also shows if your friends/guildies have done a 15+ or not!": {
             es: " - Muestra las piedras angulares para compañeros del guild, amigos de Battle.Net y alters. ¡También muestra si tus amigos / compañeros del clan han hecho piedras superiores a una +15 o no!",
             pt: " - Mostra as pedras-chave para as pessoas da guilda, amigos de Battle.Net e alters. Também mostra se seus amigos / pessoas do clan finalizaram pedras-chave superiores a +15 ou não!"
-        },        
+        },
 
+        //BFA Dungeons
+        " - Comprehensive alerts for trash and boss abilities. Covers things bossmods do not. <strong>Absolutely invaluable.</strong>": {
+            es: " - Alertas visuales para los habilidades de boses y pulls. Enseña cosas que los addons tipo bossmods no muestra. <strong>Muy recomendable.</strong>",
+            pt: " - Alertas visuais para as habilidades dos chefes e pulls. Mostra detalhes que os addons do tipo bossmods não mostram. <strong>Extremamente recomendável.</strong>"
+        },
 
+        //Explosive affix Weakaura
+        " - Highlights active explosive orb nameplates and provides a tracker of active explosive orbs.": {
+            es: " - Destaca los orbes explosivos activos en los nameplates y enseña também cuantos orbes explositovs están activos.",
+            pt: " - Destaca os orbes explosivos ativos nos nameplates e exibe também quantos orbes explositovs estam ativos."
+        },
+
+        //Interrupt tracker
+        " - Tracks interrupts of your group members inside keystone runs.": {
+            es: " - Controla las interrupciones disponibles en tu grupo dentro de la mazmorra mítica+.",
+            pt: " - Controla as interrupções disponíveis no teu grupo dentro da dungeon mítica+."
+        },
+
+        //TimeToDie
+        " - A no frills time-to-target-death indicator. Useful for timing cooldowns, etc.": {
+            es: " - Un indicador de tiempo sencillo hasta la muerte objetivo. Útil para cronometrar cooldowns, etc.",
+            pt: " - Indicador de tempo restante até a morte do objetivo. Útil para controlar os cooldowns, CDs, etc."
+        },
+
+        //RaidCDs WeakAura
+        " - A WeakAura to track raid/group utility CDs (i.e Barkskin, Blessing of Sacrifice, etc).": {
+            es: " - Utilizado para el controla de las utilidades y CDs existentes (ejemplo: Barkskin, Sacrifice, etc.).",
+            pt: " - Utilizado para controlar as utilidades e CDs existentes (exemplo: Barkskin, Sacrifice, etc.)."
+        },
+
+        //Effective Health
+        " - It shows you how much physical and magic damage you can take. Based on current health, absorbs, and defensive cooldowns from yourself and others.": {
+            es: " - Enseña cuanto daño físico y mágico puedes aguantar. Está basado en tu vida actual, absorsión y cooldowns defensivos tuyos y de tu equipo.",
+            pt: " - Mostra quanto dano fisico e mágico você pode anguentar. Está baseado na tua vida atual, absorção e cooldowns defensivos, teu e também do seu time."
+        },
+
+        //raider.io
+        " - Raider.io has all kinds of tools including character specific M+ tracking, successful run comp tracking, and ranks for m+ dungeons. <strong>Community created!</strong> Their <a href=\"https://raider.io/addon\">addon</a> is probably the most useful group building/vetting addon you'll find as it uses their scoring system to show you how experienced players are.": {
+            es: " - Posee todo tipo de herramienta incluyendo personajes específicos para controlar las míticas+, rankings, etc. <strong>Comunidade creada</strong>. Su <a href=\"https://raider.io/addon\">addon</a> es sin duda el más utilizado para construir un grupo de cara a encontrar personas con el score y experiencia de jugadores necesaria para asumarse a tu grupo de míticas+.",
+            pt: " - Possuem varios tipos de ferramentas incluindo personagens específicos para controlar as míticas+, rankings, etc. <strong>Comunidade criada</strong>. Seu <a href=\"https://raider.io/addon\">addon</a> sem dúvida é o mais utilizado para formar um grupo e encontrar pessoas com score e experiencia necessária para entrar em seu grupo de míticas+."
+        },
+
+        //Questionably Epic
+        " - Easy-to-digest dungeon guides and an <a href=\"https://wow.curseforge.com/projects/qe-dungeon-tips\">addon</a> that provides tips and strategy reminders throughout dungeons. <strong>Community created!</strong>": {
+            es: " - Guia de mazmorra con un <a href=\"https://wow.curseforge.com/projects/qe-dungeon-tips\">addon</a> facil de entender. Dispone de consejos, estrategias y ayuda para avanzar en las mazmorras.",
+            pt: " - Guia de dungeon com um <a href=\"https://wow.curseforge.com/projects/qe-dungeon-tips\">addon</a> facil de compreender. Contém conselhos, estrategias e ajuda para avançar nas dungeons."
+        },
+
+        //MPH
+        " - (Mythic Plus Helper) Looks up group candidates and returns item level equipped/highest, total mythic plus runs and Heart of Azeroth level! Be sure to get the <a href=\"https://mods.curse.com/addons/wow/260666-mythic-plus-helper\">addon</a> for ease of use. <strong>Community created!</strong>": {
+            es: " - Ayuda a buscar grupos y candidatos además de contestar con el item level más alto equipado, total de míticas plus realizadas y el nível do colar. Debes descargar el <a href=\"https://mods.curse.com/addons/wow/260666-mythic-plus-helper\">addon</a> de cara a facilitar su utilización.",
+            pt: " - Ajuda a buscar grupos e candidatos e responde com o item level mais alto equipado, total de míticas plus feitas e o nível do colar. Deve baixar o <a href=\"https://mods.curse.com/addons/wow/260666-mythic-plus-helper\">addon</a> para facilitar seu uso."
+        },
+
+        //Mythic+ Friends Discord
         " - The largest M+ Discord server aimed at helping players form groups and teaching new players about mythic plus.": {
             es: " - El mayor servidor de Discord de míticas+ que ayudan a jugadores y grupos además de enseñar a nuevos jugadores que desean hacer míticas+.",
             pt: " - O maior servidor de Discord de míticas+ onde ajudam a jogadores e grupos que desejam aprender e avançar nos conhecimentos das táticas das míticas+."
         },
 
+        //Mythic+ EU
         " - Mythic plus group finder server for the EU.": {
             es: " - Encontrar grupos de míticas+ para jogar em EU.",
             pt: " - Buscador de grupos de míticas+ em Europa."
         },
 
+        //RU MythicKeys
         " - Russian group finding and key pushing server.": {
             es: " - Rusos buscando grupos e llaves para pushear piedras.",
             pt: " - Russos buscando grupos e chaves míticas para subir níveis."
