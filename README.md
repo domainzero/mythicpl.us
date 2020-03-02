@@ -1,5 +1,5 @@
 # mythicpl.us
-A simple flat file site designed to load quickly and give M+ information at a glance (and in multiple languages thanks to some great contributors!)
+A simple flat file site designed to load quickly and give M+ information at a glance (and in multiple languages thanks to some great contributors, but mostly [@amarques](https://github.com/amarques)!) 
 
 ## Contributing
 Fork the page and make any changes, then submit a pull request.
