@@ -1339,7 +1339,7 @@ $(function () {
     var userLang = getLang();
 
     //Testing tranlations
-    userLang = "es";
+    //userLang = "es";
 
     var homePage = document.getElementById("home");
 
