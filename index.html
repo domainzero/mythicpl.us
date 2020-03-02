@@ -48,10 +48,10 @@
 			<div class="text-block">
 				<h1 class="title title--large trn">Changelog</h1>
 				<ul>
-					<li>1-31-2020: We up to date for Season 4! Thanks to everyone who contributed via Discord, GitHub, and email!</li>
-					<li>2-12-2020: Forgot to mention a few changes: 
-					<li>streamlined page load (now pulls from a cached API call instead of forcing clients to call the raider.io API. I should have done this a long time ago, thanks for putting up with my shit, Jah!)</li>
-					<li>Removed Google analytics/tracking! (I should have also done this a long time ago. Thanks for putting up with my shit, everyone!)</li>
+					<li class="trn">1-31-2020: We up to date for Season 4! Thanks to everyone who contributed via Discord, GitHub, and email!</li>
+					<li class="trn">2-12-2020: Forgot to mention a few changes:</li>
+					<li class="trn">Streamlined page load (now pulls from a cached API call instead of forcing clients to call the raider.io API. I should have done this a long time ago, thanks for putting up with my shit, Jah!)</li>
+					<li class="trn">Removed Google analytics/tracking! (I should have also done this a long time ago. Thanks for putting up with my shit, everyone!)</li>
 				</ul>
 			</div>
 		</section>
@@ -187,219 +187,137 @@
 					</ul>
 				</div>
 				<h4 class="title title--small trn">Weekly schedule for affixes</h4>
-<!--
-				<h3>Old affix schedule</h3>
-				<table class="table">
-					<thead class="table__head">
-						<tr class="table__row table__row--head">
-							<td class="table__cell">Baseline</td>
-							<td class="table__cell">2 (+4)</td>
-							<td class="table__cell">3 (+7)</td>
-							<td class="table__cell">Seasonal (+10)</td>
-						</tr>
-					</thead>
-					<tbody>
-						<tr id="benesafo" class="table__row">
-							<td class="table__cell"><span class="trn">Fortified</span></td>
-							<td class="table__cell"><span class="trn">Sanguine</span></td>
-							<td class="table__cell"><span class="trn">Necrotic</span></td>
-							<td class="table__cell"><span class="trn">Beguiling</span></td>
-						</tr>
-						<tr id="beskbuty" class="table__row">
-							<td class="table__cell"><span class="trn">Tyrannical</span></td>
-							<td class="table__cell"><span class="trn">Bursting</span></td>
-							<td class="table__cell"><span class="trn">Skittish</span></td>
-							<td class="table__cell"><span class="trn">Beguiling</span></td>
-						</tr>
-						<tr id="bequtefo" class="table__row">
-							<td class="table__cell"><span class="trn">Fortified</span></td>
-							<td class="table__cell"><span class="trn">Teeming</span></td>
-							<td class="table__cell"><span class="trn">Quaking</span></td>
-							<td class="table__cell"><span class="trn">Beguiling</span></td>
-						</tr>
-						<tr id="beneraty" class="table__row">
-							<td class="table__cell"><span class="trn">Tyrannical</span></td>
-							<td class="table__cell"><span class="trn">Raging</span></td>
-							<td class="table__cell"><span class="trn">Necrotic</span></td>
-							<td class="table__cell"><span class="trn">Beguiling</span></td>
-						</tr>
-						<tr id="begrsafo" class="table__row">
-							<td class="table__cell"><span class="trn">Fortified</span></td>
-							<td class="table__cell"><span class="trn">Sanguine</span></td>
-							<td class="table__cell"><span class="trn">Grievous</span></td>
-							<td class="table__cell"><span class="trn">Beguiling</span></td>
-						</tr>
-						<tr id="beexboty" class="table__row">
-							<td class="table__cell"><span class="trn">Tyrannical</span></td>
-							<td class="table__cell"><span class="trn">Bolstering</span></td>
-							<td class="table__cell"><span class="trn">Explosive</span></td>
-							<td class="table__cell"><span class="trn">Beguiling</span></td>
-						</tr>
-						<tr id="bevobufo" class="table__row">
-							<td class="table__cell"><span class="trn">Fortified</span></td>
-							<td class="table__cell"><span class="trn">Bursting</span></td>
-							<td class="table__cell"><span class="trn">Volcanic</span></td>
-							<td class="table__cell"><span class="trn">Beguiling</span></td>
-						</tr>
-						<tr id="bevoraty" class="table__row">
-							<td class="table__cell"><span class="trn">Tyrannical</span></td>
-							<td class="table__cell"><span class="trn">Raging</span></td>
-							<td class="table__cell"><span class="trn">Volcanic</span></td>
-							<td class="table__cell"><span class="trn">Beguiling</span></td>
-						</tr>
-						<tr id="beextefo" class="table__row">
-							<td class="table__cell"><span class="trn">Fortified</span></td>
-							<td class="table__cell"><span class="trn">Teeming</span></td>
-							<td class="table__cell"><span class="trn">Explosive</span></td>
-							<td class="table__cell"><span class="trn">Beguiling</span></td>
-						</tr>
-						<tr id="begrboty" class="table__row">
-							<td class="table__cell"><span class="trn">Tyrannical</span></td>
-							<td class="table__cell"><span class="trn">Bolstering</span></td>
-							<td class="table__cell"><span class="trn">Grievous</span></td>
-							<td class="table__cell"><span class="trn">Beguiling</span></td>
-						</tr>
-					</tbody>
-				</table>
--->
-                                <table id="sched" class="table">
-                                	<thead class="table__head">
-                                        	<tr class="table__row table__row--head">
-                                                	<td class="table__cell">Baseline</td>
-                                                        <td class="table__cell">2 (+4)</td>
-                                                        <td class="table__cell">3 (+7)</td>
-                                                        <td class="table__cell">Seasonal (+10)</td>
-                                                </tr>
-                                        </thead>
-                                        <tbody>
-						<tr id="awgrbofo" class="table__row">
-							<td class="table__cell"><span class="trn">Fortified</span></td>
-							<td class="table__cell"><span class="trn">Bolstering</span></td>
-							<td class="table__cell"><span class="trn">Grievous</span></td>
-							<td class="table__cell"><span class="trn">Awakened</span></td>
-						</tr>
-                                                <tr id="awexraty" class="table__row">
-                                                        <td class="table__cell"><span class="trn">Tyrannical</span></td>
-                                                        <td class="table__cell"><span class="trn">Raging</span></td>
-                                                        <td class="table__cell"><span class="trn">Explosive</span></td>
-                                                        <td class="table__cell"><span class="trn">Awakened</span></td>
-                                                </tr>
-                                                <tr id="awgrsafo" class="table__row">
-                                                        <td class="table__cell"><span class="trn">Fortified</span></td>
-                                                        <td class="table__cell"><span class="trn">Sanguine</span></td>
-                                                        <td class="table__cell"><span class="trn">Grievous</span></td>
-                                                        <td class="table__cell"><span class="trn">Awakened</span></td>
-                                                </tr>
-						<tr id="awvotety" class="table__row">
-							<td class="table__cell"><span class="trn">Tyrannical</span></td>
-							<td class="table__cell"><span class="trn">Teeming</span></td>
-							<td class="table__cell"><span class="trn">Volcanic</span></td>
-							<td class="table__cell"><span class="trn">Awakened</span></td>
-						</tr>
-						<tr id="awskbofo" class="table__row">
-							<td class="table__cell"><span class="trn">Fortified</span></td>
-							<td class="table__cell"><span class="trn">Bolstering</span></td>
-							<td class="table__cell"><span class="trn">Skittish</span></td>
-							<td class="table__cell"><span class="trn">Awakened</span></td>
-						</tr>
-                                                <tr id="awnebuty" class="table__row">
-                                                        <td class="table__cell"><span class="trn">Tyrannical</span></td>
-                                                        <td class="table__cell"><span class="trn">Bursting</span></td>
-                                                        <td class="table__cell"><span class="trn">Necrotic</span></td>
-                                                        <td class="table__cell"><span class="trn">Awakened</span></td>
-                                                </tr>
-                                                <tr id="awqusafo" class="table__row">
-                                                        <td class="table__cell"><span class="trn">Fortified</span></td>
-                                                        <td class="table__cell"><span class="trn">Sanguine</span></td>
-                                                        <td class="table__cell"><span class="trn">Quaking</span></td>
-                                                        <td class="table__cell"><span class="trn">Awakened</span></td>
-                                                </tr>
-                                                <tr id="awexboty" class="table__row">
-                                                        <td class="table__cell"><span class="trn">Tyrannical</span></td>
-                                                        <td class="table__cell"><span class="trn">Bolstering</span></td>
-                                                        <td class="table__cell"><span class="trn">Explosive</span></td>
-                                                        <td class="table__cell"><span class="trn">Awakened</span></td>
-                                                </tr>
-
-                                                <tr id="awvobufo" class="table__row">
-                                                        <td class="table__cell"><span class="trn">Fortified</span></td>
-                                                        <td class="table__cell"><span class="trn">Bursting</span></td>
-                                                        <td class="table__cell"><span class="trn">Volcanic</span></td>
-                                                        <td class="table__cell"><span class="trn">Awakened</span></td>
-                                                </tr>
-
-                                                <tr id="awneraty" class="table__row">
-                                                        <td class="table__cell"><span class="trn">Tyrannical</span></td>
-                                                        <td class="table__cell"><span class="trn">Raging</span></td>
-                                                        <td class="table__cell"><span class="trn">Necrotic</span></td>
-                                                        <td class="table__cell"><span class="trn">Awakened</span></td>
-                                                </tr>
-                                                <tr id="awvoraty" class="table__row">
-                                                        <td class="table__cell"><span class="trn">Tyrannical</span></td>
-                                                        <td class="table__cell"><span class="trn">Raging</span></td>
-                                                        <td class="table__cell"><span class="trn">Volcanic</span></td>
-                                                        <td class="table__cell"><span class="trn">Awakened</span></td>
-                                                </tr>
-						<tr id="awqutefo" class="table__row">
-							<td class="table__cell"><span class="trn">Fortified</span></td>
-                                                        <td class="table__cell"><span class="trn">Teeming</span></td>
-                                                        <td class="table__cell"><span class="trn">Quaking</span></td>
-                                                        <td class="table__cell"><span class="trn">Awakened</span></td>
-						</tr>
-					</tbody>
-				</table>
-
+					<table id="sched" class="table">
+						<thead class="table__head">
+							<tr class="table__row table__row--head">
+                            	<td class="table__cell">Baseline</td>
+                                <td class="table__cell">2 (+4)</td>
+                                <td class="table__cell">3 (+7)</td>
+                                <td class="table__cell">Seasonal (+10)</td>
+                        	</tr>
+                        </thead>
+						<tbody>
+							<tr id="awgrbofo" class="table__row">
+								<td class="table__cell"><span class="trn">Fortified</span></td>
+								<td class="table__cell"><span class="trn">Bolstering</span></td>
+								<td class="table__cell"><span class="trn">Grievous</span></td>
+								<td class="table__cell"><span class="trn">Awakened</span></td>
+							</tr>
+							<tr id="awexraty" class="table__row">
+                            	<td class="table__cell"><span class="trn">Tyrannical</span></td>
+                                <td class="table__cell"><span class="trn">Raging</span></td>
+                                <td class="table__cell"><span class="trn">Explosive</span></td>
+                                <td class="table__cell"><span class="trn">Awakened</span></td>
+							</tr>
+							<tr id="awgrsafo" class="table__row">
+                            	<td class="table__cell"><span class="trn">Fortified</span></td>
+                                <td class="table__cell"><span class="trn">Sanguine</span></td>
+                                <td class="table__cell"><span class="trn">Grievous</span></td>
+                                <td class="table__cell"><span class="trn">Awakened</span></td>
+							</tr>
+							<tr id="awvotety" class="table__row">
+								<td class="table__cell"><span class="trn">Tyrannical</span></td>
+								<td class="table__cell"><span class="trn">Teeming</span></td>
+								<td class="table__cell"><span class="trn">Volcanic</span></td>
+								<td class="table__cell"><span class="trn">Awakened</span></td>
+							</tr>
+							<tr id="awskbofo" class="table__row">
+								<td class="table__cell"><span class="trn">Fortified</span></td>
+								<td class="table__cell"><span class="trn">Bolstering</span></td>
+								<td class="table__cell"><span class="trn">Skittish</span></td>
+								<td class="table__cell"><span class="trn">Awakened</span></td>
+							</tr>
+							<tr id="awnebuty" class="table__row">
+                            	<td class="table__cell"><span class="trn">Tyrannical</span></td>
+                                <td class="table__cell"><span class="trn">Bursting</span></td>
+                                <td class="table__cell"><span class="trn">Necrotic</span></td>
+                                <td class="table__cell"><span class="trn">Awakened</span></td>
+                            </tr>
+                            <tr id="awqusafo" class="table__row">
+                            	<td class="table__cell"><span class="trn">Fortified</span></td>
+                               	<td class="table__cell"><span class="trn">Sanguine</span></td>
+                                <td class="table__cell"><span class="trn">Quaking</span></td>
+                                <td class="table__cell"><span class="trn">Awakened</span></td>
+							</tr>
+                            <tr id="awexboty" class="table__row">
+                            	<td class="table__cell"><span class="trn">Tyrannical</span></td>
+                                <td class="table__cell"><span class="trn">Bolstering</span></td>
+                                <td class="table__cell"><span class="trn">Explosive</span></td>
+                                <td class="table__cell"><span class="trn">Awakened</span></td>
+							</tr>
+							<tr id="awvobufo" class="table__row">
+                            	<td class="table__cell"><span class="trn">Fortified</span></td>
+                                <td class="table__cell"><span class="trn">Bursting</span></td>
+                                <td class="table__cell"><span class="trn">Volcanic</span></td>
+                                <td class="table__cell"><span class="trn">Awakened</span></td>
+							</tr>
+							<tr id="awneraty" class="table__row">
+                            	<td class="table__cell"><span class="trn">Tyrannical</span></td>
+                                <td class="table__cell"><span class="trn">Raging</span></td>
+                                <td class="table__cell"><span class="trn">Necrotic</span></td>
+                                <td class="table__cell"><span class="trn">Awakened</span></td>
+							</tr>
+                            <tr id="awvoraty" class="table__row">
+                            	<td class="table__cell"><span class="trn">Tyrannical</span></td>
+                                <td class="table__cell"><span class="trn">Raging</span></td>
+                                <td class="table__cell"><span class="trn">Volcanic</span></td>
+                                <td class="table__cell"><span class="trn">Awakened</span></td>
+							</tr>
+							<tr id="awqutefo" class="table__row">
+								<td class="table__cell"><span class="trn">Fortified</span></td>
+	                            <td class="table__cell"><span class="trn">Teeming</span></td>
+	                            <td class="table__cell"><span class="trn">Quaking</span></td>
+	                            <td class="table__cell"><span class="trn">Awakened</span></td>
+							</tr>
+						</tbody>
+					</table>
 		</section>
 		<section id="group-considerations" class="content-block">
 			<h1 class="title title--large trn">Group considerations</h1>
 			<div class="text-block">
-				<p><strong>Group makeup barely matters at low keystone levels. There is little reason to sweat your group composition on keys below 5-6. Bring the player, not the class.</strong></p> <p>That being said, your group composition will always be one tank, one healer, and three DPS. Multi-tank strategies are not viable.</p>
-				<p>It's important to build a group that is well rounded in order increase your chances of completing a keystone within the timer. This means bringing consumables to make up for gaps in your group composition.</p>
-				<p>When considering your group composition, it is also to consider what each class can bring to the table. Does your group have:</p>
+				<p><strong class="trn">Group makeup barely matters at low keystone levels. There is little reason to sweat your group composition on keys below 5-6. Bring the player, not the class.</strong></p> <p class="trn">That being said, your group composition will always be one tank, one healer, and three DPS. Multi-tank strategies are not viable.</p>
+				<p class="trn">It's important to build a group that is well rounded in order increase your chances of completing a keystone within the timer. This means bringing consumables to make up for gaps in your group composition.</p>
+				<p class="trn">When considering your group composition, it is also to consider what each class can bring to the table. Does your group have:</p>
 				<ol>
-					<li>Ways to dispel buffs on enemies?</li>
-					<li>Ways to dispel debuffs on allies?</li>
-					<li>Multiple interrupts or other CC to stop enemy casting?</li>
-					<li>Strong CC for difficult trash pulls?</li>
+					<li class="trn">Ways to dispel buffs on enemies?</li>
+					<li class="trn">Ways to dispel debuffs on allies?</li>
+					<li class="trn">Multiple interrupts or other CC to stop enemy casting?</li>
+					<li class="trn">Strong CC for difficult trash pulls?</li>
+				</ol>				
+				<p class="trn" data-trn-key="group_cons_info"></p>
+				<h2 class="title trn">Consumables</h2>
+				<h3 class="title trn">Mandatory (at least above keystone level 10)</h2>
+				<ol>
+					<li class="trn">Current food</li>
+					<li class="trn">Current flasks</li>
+					<li class="trn">Current potions</li>
+					<li class="trn">Repair mount/Auto-Hammer/Jeeves/Reeves</li>
 				</ol>
-				<p>Again, selecting your group carefully matters mostly for higher level keys where the difficulty of the run is often very high. For lower level keystone runs, group makeup is not as important as it is easy to power through most of the content. Just saying. Do what you want. <code>¯\_(ツ)_/¯</code></p>
-				<h2 class="title">Consumables</h2>
-				<h3 class="title">Mandatory (at least above keystone level 5)</h2>
+				<h3 class="title trn">"Missing a class" consumables</h3>
 				<ol>
-					<li>Current food</li>
-					<li>Current flasks</li>
-					<li>Current potions</li>
-					<li>Repair mount/Auto-Hammer/Jeeves/Reeves</li>
+					<li class="trn">Drums (any tier is fine, they all give 25% haste): makes up for no Bloodlust/Heroism/Time Warp/Hysteria, etc</li>
+					<li class="trn">War-Scrolls of Battle Shout (attack power buff), Fortitude (stamina buff), Intellect (intellect buff): makes up for no warrior/priest/mage, respectively</li>
 				</ol>
-				<h3 class="title">"Missing a class" consumables</h3>
+				<h3 class="title trn">Optional/niche/high key consumables</h3>
 				<ol>
-					<li>Drums (any tier is fine, they all give 25% haste): makes up for no Bloodlust/Heroism/Time Warp/Hysteria, etc</li>
-					<li>War-Scrolls of Battle Shout (attack power buff), Fortitude (stamina buff), Intellect (intellect buff): makes up for no warrior/priest/mage, respectively</li>
-				</ol>
-				<h3 class="title">Optional/niche/high key consumables</h3>
-				<ol>
-					<li>Invisibility potions (used for skipping troubling trash packs at high key levels)</li>
-					<li>Tome of Tranquil Mind (you are allowed to step out of the instance to change talents using a tome)</li>
-					<li>Proving Grounds health stone</li>
+					<li class="trn">Invisibility potions (used for skipping troubling trash packs at high key levels)</li>
+					<li class="trn">Tome of Tranquil Mind (you are allowed to step out of the instance to change talents using a tome)</li>
+					<li class="trn">Proving Grounds health stone</li>
 				</ol>
 			</div>
 		</section>
 		<section id="keystone-upgrade" class="content-block">
 			<h1 class="title title--large trn">Keystones</h1>
 			<div class="text-block">
-				<p class="trn">Complete a keystone run within the timer to upgrade a keystone to the next level. <br />
-					<span class="affixes-list__note">Example: Your group completes Atal'Dazar +6 in 37 minutes and 32 seconds. The par timer is 39 minutes, the keystone levels up from level 6 to level 7 and rolls a new random dungeon.</span></p>
-				<p class="trn">Complete a keystone run with 20% of the timer remaining and upgrade the keystone 2 times in one go. <br />
-					<span class="affixes-list__note">Example: Your group completes The MOTHERLODE!! +5 in 30 minutes and 54 seconds. The par timer is 39 minutes, so the keystone levels up from level 5 to level 7 and rolls a new random dungeon.</span></p>
-				<p class="trn">Complete a keysone run with 40% of the timer remaining and upgrade the keystone 3 times in one go. <br />
-					<span class="affixes-list__note">Example: Your group completes Shrine of the Storm +2 in 19 minutes and 34 seconds. The par timer is 39 minutes, so the keystone levels up from keystone level 2 to keystone level 5 and rolls a new dungeon.</span></p>
-				<p class="trn">Didn't beat the timer? That's ok. Your keystone doesn't deplete anymore, it just levels down by 1 and rerolls the dungeon. <br />
-					<span class="affixes-list__note">Example: Your group completes Waycrest Manor keystone level 5 for Waycrest Manor to keystone level 4 for The Freehold.</span></p>
-				<p class="trn">Don't have a keystone? Completing a keystone run will net you a key at the end of the run. This keystone will be one level under the keystone run level you complete. You can also get a key from the final boss of any Battle for Azeroth mythic dungeon.<br /><span class="affixes-list__note trn">Example: you complete a The Freehold +7 - the chest at the end will have a random +6 key in it. Example 2: you completed a +0 The MOTHERLODE!! - the chest at the end will have a +2 keystone for a random dungeon in it.</span></p>
+				<p class="trn" data-trn-key="keystones_timer"></p>
+				<p class="trn" data-trn-key="keystones_20per"></p>
+				<p class="trn" data-trn-key="keystones_40per"></p>
+				<p class="trn" data-trn-key="keystones_didnt"></p>
+				<p class="trn" data-trn-key="keystones_donth"></p>
 			</div>
-			<h2 class="title">Time penalty for deaths</h2>
+			<h2 class="title trn">Time penalty for deaths</h2>
 			<div class="text-block">
-				<p>Five seconds are subtracted from the timer any time a player dies in a keystone run. While this may seem inconsequential at first, the time lost to death will add up quickly if players die to mechanics frequently. This can easily result in missing the timer.</p>
+				<p class="trn">Five seconds are subtracted from the timer any time a player dies in a keystone run. While this may seem inconsequential at first, the time lost to death will add up quickly if players die to mechanics frequently. This can easily result in missing the timer.</p>
 			</div>
 			<h3 class="title title--medium trn">Instance Timer and Requirements for "Level Jumps"</h3>
 			<table class="table">
@@ -603,9 +521,9 @@
 					<p class="trn">In addition, roughly every 5 difficulty levels past 10 will award you with an additional piece of loot (after 10 it's an additive 40% chance per key level for extra loot). +11 has a 40% chance of dropping one extra item, +13 has a 100% chance to drop an extra item (with a 20% chance to drop another extra item) and +15 has a guaranteed chance to drop two extra items for five items total from the chest.</p>
 					<p class="trn">At the start of a week (after raid/mythic reset) a chest will appear in your Battle for Azeroth city awarding one piece of loot. It will also contain Azerite (aka Battle for Azeroth artifact power) and Titan Residuum, a new currency used to buy targeted Azerite armor. More on that below. The loot item lvl is determined by the highest level keystone run <strong>COMPLETED</strong> the previous week, within the timer or not.</p>
 					<p class="trn">In addition, the chest will also have a downgraded keystone based on the highest level keystone run <strong>completed</strong> in the season, degrading by 1 level every week you don't complete a run higher than your previous highest.</p>
-					<p>Example: You complete a +11 one week and it is your highest completed run. Next week you get a +10 keystone from your chest. That same week you don't complete anything higher than a +10. Next reset you get a +9 key from the chest.</p>
+					<p class="trn">Example: You complete a +11 one week and it is your highest completed run. Next week you get a +10 keystone from your chest. That same week you don't complete anything higher than a +10. Next reset you get a +9 key from the chest.</p>
 					<br>
-					<p><strong>*It will be most beneficial to complete a +15 every week to get the highest gear value from your weekly chest.</strong></p>
+					<p class="trn"><strong>*It will be most beneficial to complete a +15 every week to get the highest gear value from your weekly chest.</strong></p>
 					<br>
 				</div>
 			</div>
@@ -663,6 +581,26 @@
 								<td class="table__cell">20</td>
 								<td class="table__cell">2600</td>
 							</tr>
+							<tr class="table__row">
+								<td class="table__cell">21</td>
+								<td class="table__cell">2665</td>
+							</tr>
+							<tr class="table__row">
+								<td class="table__cell">22</td>
+								<td class="table__cell">2730</td>
+							</tr>
+							<tr class="table__row">
+								<td class="table__cell">23</td>
+								<td class="table__cell">2795</td>
+							</tr>
+							<tr class="table__row">
+								<td class="table__cell">24</td>
+								<td class="table__cell">2860</td>
+							</tr>
+							<tr class="table__row">
+								<td class="table__cell">25</td>
+								<td class="table__cell">2915</td>
+							</tr>
 						</tbody>
 					</table>
 					<div class="table__description-right">
@@ -684,13 +622,13 @@
 				</ul>
 				<h3 class="title title--small title--left trn">Keystone and group information</h3>
 				<ul>
-					<li><a href="https://wow.curseforge.com/projects/method-dungeon-tools">Method Dungeon Tools</a> - Plan out routes, then use a shareable interactive map to make sure your group is on the same page.</li>
-					<li><a href="https://raider.io/addon">Raider.io Addon</a> - Hover over players in the world, guild, etc and get their raider.io score. The addon comes with an updater client to automatically get people's scores from raider.io!</li>
+					<li><a href="https://wow.curseforge.com/projects/method-dungeon-tools">Method Dungeon Tools</a><span class="trn"> - Plan out routes, then use a shareable interactive map to make sure your group is on the same page.</span></li>
+					<li><a href="https://raider.io/addon">Raider.io Addon</a><span class="trn"> - Hover over players in the world, guild, etc and get their raider.io score. The addon comes with an updater client to automatically get people's scores from raider.io!</span></li>
 					<li><a href="https://www.curseforge.com/wow/addons/astral-keys">Astral Keys</a><span class="trn"> - Shows keys for guild mates, Battle Net friends and alts. It also shows if your friends/guildies have done a 15+ or not!</span></li>
 				</ul>
 				<h2 class="title title--medium title--left">Weakauras</h2>
 				<ul>
-					<li><a href="https://wago.io/r1lqyX32M">BFA Dungeons</a> - Comprehensive alerts for trash and boss abilities. Covers things bossmods do not. <strong>Absolutely invaluable.</strong></li>
+					<li><a href="https://wago.io/r1lqyX32M">BFA Dungeons</a><span class="trn"> - Comprehensive alerts for trash and boss abilities. Covers things bossmods do not. <strong>Absolutely invaluable.</strong></span></li>
 					<li><a href="https://wago.io/NyIGCeCnf">Explosive affix Weakaura</a><span class="trn"> - Highlights active explosive orb nameplates and provides a tracker of active explosive orbs.</span></li>
 					<li><a href="https://wago.io/r1j5nW2NQ">Interrupt tracker</a><span class="trn"> - Tracks interrupts of your group members inside keystone runs.</span></li>
 					<li><a href="https://wago.io/N1aUfBTRM">TimeToDie</a><span class="trn"> - A no frills time-to-target-death indicator. Useful for timing cooldowns, etc.</span></li>
@@ -700,7 +638,7 @@
 				<h2 class="title title--medium title--left trn">Stats, tools, and guides</h2>
 				<ul>
 					<li><a href="https://raider.io/mythic-plus/all/world/leaderboards">raider.io</a><span class="trn"> - Raider.io has all kinds of tools including character specific M+ tracking, successful run comp tracking, and ranks for m+ dungeons. <strong>Community created!</strong> Their <a href="https://raider.io/addon">addon</a> is probably the most useful group building/vetting addon you'll find as it uses their scoring system to show you how experienced players are.</span></li>
-					<li><a href="https://questionablyepic.com/">Questionably Epic</a> - Easy-to-digest dungeon guides and an <a href="https://wow.curseforge.com/projects/qe-dungeon-tips">addon</a> that provides tips and strategy reminders throughout dungeons. <strong>Community created!</strong></li>
+					<li><a href="https://questionablyepic.com/">Questionably Epic</a><span class="trn"> - Easy-to-digest dungeon guides and an <a href="https://wow.curseforge.com/projects/qe-dungeon-tips">addon</a> that provides tips and strategy reminders throughout dungeons. <strong>Community created!</strong></span></li>
 					<li><a href="http://mythicplus.help/">MPH</a><span class="trn"> - (Mythic Plus Helper) Looks up group candidates and returns item level equipped/highest, total mythic plus runs and Heart of Azeroth level! Be sure to get the <a href="https://mods.curse.com/addons/wow/260666-mythic-plus-helper">addon</a> for ease of use. <strong>Community created!</strong></span></li>
 				</ul>
 				<h2 class="title title--medium title--left">Discords</h2>
@@ -714,19 +652,19 @@
 		<section id="patreon" class="content-block">
 			<div class="text-block">
 				<h1 class="title title--large trn">Patreon heroes</h1>
-				<p style="font-size: 1em">You guys keep it all afloat. Thanks for your continued support! Head over to <a href="https://www.patreon.com/mythicplus">the Patreon page</a> if you feel like becoming a patron!</p>
-				<ul><h2 style="color:#ff5555">Exalted Patrons</h2>
+				<p style="font-size: 1em" class="trn">You guys keep it all afloat. Thanks for your continued support! Head over to <a href="https://www.patreon.com/mythicplus">the Patreon page</a> if you feel like becoming a patron!</p>
+				<ul><h2 style="color:#ff5555" class="trn">Exalted Patrons</h2>
 					<li>Law</li>
 				</ul>
-				<ul><h2 style="color:#a335ee">Revered Patrons</h2>
+				<ul><h2 style="color:#a335ee" class="trn">Revered Patrons</h2>
 					<li>Iscari0t</li>
 					<li>The Affliction Duck</li>
 					<li>Marjorie</li>
 				</ul>
-				<ul><h2 style="color:#0070dd">Honored Patrons</h2>
+				<ul><h2 style="color:#0070dd" class="trn">Honored Patrons</h2>
 					<li>Joshua</li>
 				</ul>
-				<ul><h2 style="color:#1eff00">Friendly Patrons</h2>
+				<ul><h2 style="color:#1eff00" class="trn">Friendly Patrons</h2>
 					<li>Renee</li>
 					<li>Aspyr & Ulsoga</li>
 					<li>Jade</li>

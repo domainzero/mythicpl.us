@@ -4,14 +4,14 @@ $(function () {
 
         //===== HOME =====
         //Page title
-        "What Mythic Plus Garbage Do I Have To Deal With This Week?": {
-            es: "¿Cuáles son los retos a los que me enfrentaré esta semana en mi mítica+?",
-            pt: "Quais são os desafios que vou enfrentar esta semana em minha mítica+?"
+        "what m+ garbage do i have to deal with this week?": {
+            es: "¿Cuáles son mis retos en míticas+?",
+            pt: "Quais são os desafios em míticas+?"
         },
 
         "what garbage affixes do i have to deal with this week?": {
             es: "¿Cuáles son los retos a los que me enfrentaré esta semana en mi mítica+?",
-            pt: "Quais são os desafios que vou enfrentar esta semana em minha mítica+?"
+            pt: "Quais são os desafios que vou enfrentar esta semana em míticas+?"
         },
 
         "Affixes:": {
@@ -118,6 +118,26 @@ $(function () {
             es: "Historial de cambios",
             pt: "Histórico de mudanças"
         },
+
+        "1-31-2020: We up to date for Season 4! Thanks to everyone who contributed via Discord, GitHub, and email!": {
+            es: "31-01-2020: Lo hemos actualizado para la cuarta temporada. ¡Muchas gracias a todos que contribuyeron via Discord, GitHub y correos!",
+            pt: "31-01-2020: Atualizamos o site para a quarta temporada. Muito obrigado a todos que contribuiram por Discord, GitHub e e-mails!"
+        },
+
+        "2-12-2020: Forgot to mention a few changes:": {
+            es: "12-02-2020: Se me pasó comentar algunos cambios:",
+            pt: "12-02-2020: Esqueci de comentar algumas mudanças:"
+        },
+
+        "Streamlined page load (now pulls from a cached API call instead of forcing clients to call the raider.io API. I should have done this a long time ago, thanks for putting up with my shit, Jah!)": {
+            es: "Optimización de la carga de la página (ahora inovca por una caché la API de raider.io en lugar de forzar los clientes a invocarla. Debería haberlo hecho hace rato, gracias por soportarlo.)",
+            pt: "Otimização do carregamento da página (agora usa um cache da API de raider.io em vez de forçar a invocação no cliente. Deveria ter feito isto faz tempo, mas não. Obrigado por esperar a correção.) "
+        },
+
+        "Removed Google analytics/tracking! (I should have also done this a long time ago. Thanks for putting up with my shit, everyone!)": {
+            es: "Removido tracking de Google Analytics (debería haberlo hecho hace rato. ¡Gracias a todos por soportarlo!)",
+            pt: "Eliminados os trackings de Google Analytics (já deveria ter feito isto faz tempo. Obrigado por entender-lo)"
+        },        
 
         "Filled out affix schedule.": {
             es: "Ajustado el calendario de afijos.",
@@ -261,8 +281,8 @@ $(function () {
             pt: "Encantadora"
 	},
 	"Awakened": {
-	    es: "",
-            pt: ""
+	    es: "Despierta",
+            pt: "Desperto"
         },
         //Dungeons list
         "Atal'Dazar": {
@@ -312,6 +332,16 @@ $(function () {
 
         "Siege of Boralus": {
             es: "Asedio de Boralus",
+            pt: "Cerco de Boralus"
+        },
+
+        "Mechagon: Junkyard": {
+            es: "Mecandria: Desguace",
+            pt: "Cerco de Boralus"
+        },
+
+        "Mechagon: Workshop": {
+            es: "Mecandria: Taller",
             pt: "Cerco de Boralus"
         },
 
@@ -625,9 +655,9 @@ $(function () {
         },
 
         infested_note: {
-            en: "Note: random trash packs will have a mob with Spawn of G'huun. These packs change every week. When the Spawn of G'huun mob is killed, worms will explode from its body and run toward living mobs. If they make it, those mobs will gain the Spawn of G'huun buff and the cycle repeats. ",
-            es: "Nota: Grupos aleatórios de enemigos tendrán uno de ellos infectado con la Cría de G'huun. Estos grupos en teoría cambia todas las semanas. Cuando un enemigo infectado con la Cría de G'huun se muere, pequeñas lombrices explotarán de sus cuerpos y corren en dirección a los enemigos vivos, si estas crías llegan a lanzar echizo sobre un enemigo no infectado, el ciclo se repetirá.",
-            pt: "Nota: Grupos aleatórios de inimigos terão uma praga infectada com Cria de G'huun. Esses grupos mudam toda semana. Quando o inimigo infectado com Cria de G'huun morre, vermes explodirão de seus corpos e irão em direção de inimigos vivos. Se eles conseguirem, esses inimigos serão infectados com Cria de G'huun e o ciclo se repetirá.",
+            en: "Random trash packs will have a mob with Spawn of G'huun. These packs change every week. When the Spawn of G'huun mob is killed, worms will explode from its body and run toward living mobs. If they make it, those mobs will gain the Spawn of G'huun buff and the cycle repeats. ",
+            es: "Grupos aleatórios de enemigos tendrán uno de ellos infectado con la Cría de G'huun. Estos grupos en teoría cambia todas las semanas. Cuando un enemigo infectado con la Cría de G'huun se muere, pequeñas lombrices explotarán de sus cuerpos y corren en dirección a los enemigos vivos, si estas crías llegan a lanzar echizo sobre un enemigo no infectado, el ciclo se repetirá.",
+            pt: "Grupos aleatórios de inimigos terão uma praga infectada com Cria de G'huun. Esses grupos mudam toda semana. Quando o inimigo infectado com Cria de G'huun morre, vermes explodirão de seus corpos e irão em direção de inimigos vivos. Se eles conseguirem, esses inimigos serão infectados com Cria de G'huun e o ciclo se repetirá.",
         },
         reaping_info: {
             en: "All enemies killed generate a ghost with 50% of the health of the source target when they die. All currently active ghosts will aggro the group at 20%, 40%, 60%, 80%, and 100% enemies defeated. They are not affected by affixes and do not have the source enemy's abilities.",
@@ -635,9 +665,9 @@ $(function () {
             pt: "Todos os inimigos mortos geram um fantasma com 50% da saúde do alvo de origem quando morrem. Todos os fantasmas ativos no momento irão atacar o grupo quando a porcentagem de inimigos derrotados for 20%, 40%, 60%, 80% e 100%. Eles não são afetados por afixos e não têm as habilidades do inimigo de origem."
         },
         reaping_note: {
-            en: "Note: ghosts should not aggro other mobs when they activate. There are 3 ghost archetypes with different abilities. <b>Risen Souls</b> only melee. <b>Tormented Souls</b> cast a spell that does 25% of player max health as damage. <b>Lost Souls</b> cast a cone spell that does a 20% health reduction, and explode into swirlies when they die.",
-            es: "Nota: los fantasmas no generan agresión en los otros enemigos cuando se activan. Hay 3 arquetipos de fantasmas con diferentes habilidades. <b>Alma resucitada</b> solo melee. <b>Almas atormentadas</b> lanzan un hechizo que daña por el 25% de la vida máxima del jugador. <b>Almas perdidas</b> lanzan un hechizo en cono que genera un 20% de reducción de vida, y explota en remolinos cuando mueren.",
-            pt: "Nota: os fantasmas não irão gerar aggro em outros inimigos enquanto estiverem ativos. Existem 3 tipos de fantasmas com habilidades diferentes. <b>Almas Reanimadas</b> somente corpo a corpo. <b>Almas Atormentadas</b> lança um feitiço que causa dano equivalente a 25% da vida máxima do jogador. <b>Almas Perdidas</b> lança um feitiço em formato de cone que reduz em 20% a saúde do jogador e explode em redemoinhos quando morre."
+            en: "Ghosts should not aggro other mobs when they activate. There are 3 ghost archetypes with different abilities. <b>Risen Souls</b> only melee. <b>Tormented Souls</b> cast a spell that does 25% of player max health as damage. <b>Lost Souls</b> cast a cone spell that does a 20% health reduction, and explode into swirlies when they die.",
+            es: "Los fantasmas no generan agresión en los otros enemigos cuando se activan. Hay 3 arquetipos de fantasmas con diferentes habilidades. <b>Alma resucitada</b> solo melee. <b>Almas atormentadas</b> lanzan un hechizo que daña por el 25% de la vida máxima del jugador. <b>Almas perdidas</b> lanzan un hechizo en cono que genera un 20% de reducción de vida, y explota en remolinos cuando mueren.",
+            pt: "Os fantasmas não irão gerar aggro em outros inimigos enquanto estiverem ativos. Existem 3 tipos de fantasmas com habilidades diferentes. <b>Almas Reanimadas</b> somente corpo a corpo. <b>Almas Atormentadas</b> lança um feitiço que causa dano equivalente a 25% da vida máxima do jogador. <b>Almas Perdidas</b> lança um feitiço em formato de cone que reduz em 20% a saúde do jogador e explode em redemoinhos quando morre."
         },
         beguiling_info: {
             en: "Watery snake people have invaded all the dungeons! Enchanted ladies cast a damage reflect aura, but get knocked back when you attack them. When their energy bar reaches 0 (it depletes from being in combat), they warp out of the dungeon. Void-Touched snake people have True Sight and cast a spell that does half your HP in damage if you're in line of sight. It also gives you a stacking shadow damage increase debuff. Emissary snakey boys have a passive aura that make enemies near it immune to CC.",
@@ -649,11 +679,15 @@ $(function () {
             es: "Los emisarios solo pueden ser CC'ados por un máximo de 8 segundos en un mismo CC.",
             pt: "Emissários permanecem sob efeito de um mesmo controle de grupo por no máximo 8 segundos."
         },
-	awakened_info: {
-            en: "Four obelisks are spawned on the map. Activating the obelisk while out of combat teleports you to spooky world and spawns a miniboss inside spooky world. If you do not kill the minibosses in spooky world before you start the last encounter, they will all activate and aggro to you."
+	   awakened_info: {
+            en: "Four obelisks are spawned on the map. Activating the obelisk while out of combat teleports you to spooky world and spawns a miniboss inside spooky world. If you do not kill the minibosses in spooky world before you start the last encounter, they will all activate and aggro to you.",
+            es: "Los obeliscos repartidos por la mazmorra permiten a los jugadores entrar en Ny'alotha y enfrentarse a poderosos sirvientes de N'Zoth. Durante el enfrentamiento con el jefe final habrá que ocuparse de los sirvientes que no hayan sido eliminados previamente.",
+            pt: "Obeliscos pela masmorra permitem que os jogadores entrem em Ny'alotha e enfrentem os poderosos servos de N'Zoth. Se um servo ficar para atrás, ele será enfrentado durante a batalha contra o chefe final."
         },
         awakened_note: {
-            en: "Heading to spooky world phases you out of the regular dungeon (meaning you cannot aggro trash while there). Killing the miniboss in spooky world causes a rift to appear which you can use to exit spooky world. Using the rift will put you in that exact location in the regular world. This could be used to skip trash, or be used to wipe your group if you aren't paying attention to where the rift is. Each miniboss only spawns when its obelisk is activated."
+            en: "Heading to spooky world phases you out of the regular dungeon (meaning you cannot aggro trash while there). Killing the miniboss in spooky world causes a rift to appear which you can use to exit spooky world. Using the rift will put you in that exact location in the regular world. This could be used to skip trash, or be used to wipe your group if you aren't paying attention to where the rift is. Each miniboss only spawns when its obelisk is activated.",
+            es: "Al entrar en una mazmorra veréis obeliscos del Imperio Negro repartidos por el terreno. Interactuar con uno de estos obeliscos te transportará a otro mundo (perderás todo el aggro mientras al transportarte), en el que se puede ver el creciente poder de N’Zoth y a uno de sus lugartenientes vigilando. Derrotar al lugarteniente te devolverá a tu realidad, pero lo hará en el punto exacto en el que te encuentres tras derrotar el mini-jefe.",
+            pt: "Ao entrar na masmorra verás obeliscos do Império Negro repartidos pelo terreno. Qualquer interação com estes obeliscos irá teletransportar-te ao outro mundo (perde todo o aggro enquanto se teletransporta), poderás ver o crescente poder de N’Zoth e um sentinela vigiando. Derrotar ao sentinela te devolverá ao mundo real, porém o fará no ponto exato que você está ao derrotar o mini-chefe."
         },
         "Weekly schedule for affixes": {
             es: "Calendario semanal de afijos",
@@ -712,9 +746,10 @@ $(function () {
             pt: "CC fortes para pulls difíceis?"
         },
 
-        "Again, selecting your group carefully matters mostly for higher level keys where the difficulty of the run is often very high. For lower level keystone runs, group makeup is not as important as it is easy to power through most of the content. Just saying. Do what you want. ¯\_(ツ)_/¯" : {
-            es: "De nuevo, seleccionar tu grupo con cuidado importa más para piedras de nivel alto, donde la dificultad es por lo general mayor. Para piedras de nivel bajo, la composición del grupo no es tán importante. Solo digamos. Haz lo que quieras. ¯\_(ツ)_/¯",
-            pt: "Mais uma vez, selecionar seu grupo com cuidado é importante principalmente para chaves de nível superior, onde a dificuldade geralmente é muito alta. Para chaves de nível inferior, a composição do grupo não é tão importante quanto é completar a maior parte do conteúdo. Apenas dizendo. Faça o que você quiser. ¯\_(ツ)_/¯"
+        group_cons_info: {
+            en: "Again, selecting your group carefully matters mostly for higher level keys where the difficulty of the run is often very high. For lower level keystone runs, group makeup is not as important as it is easy to power through most of the content. Just saying. Do what you want. <code>¯\_(ツ)_/¯</code>",
+            es: "De nuevo, seleccionar tu grupo con cuidado importa más para piedras de nivel alto, donde la dificultad es por lo general mayor. Para piedras de nivel bajo, la composición del grupo no es tán importante. Solo digamos. Haz lo que quieras. <code>¯\_(ツ)_/¯</code>",
+            pt: "Mais uma vez, selecionar seu grupo com cuidado é importante principalmente para chaves de nível superior, onde a dificuldade geralmente é muito alta. Para chaves de nível inferior, a composição do grupo não é tão importante quanto é completar a maior parte do conteúdo. Apenas dizendo. Faça o que você quiser. <code>¯\_(ツ)_/¯</code>"
         },
 
         "Consumables" : {
@@ -722,9 +757,9 @@ $(function () {
             pt: "Consumíveis"
         },
 
-        "Mandatory (at least above keystone level 5)" : {
-            es: "Obligatorio (al menos en piedras mayores a nivel 5)",
-            pt: "Obrigatório (pelo menos em chaves acima do nível 5)"
+        "Mandatory (at least above keystone level 10)" : {
+            es: "Obligatorio (al menos en piedras mayores a nivel 10)",
+            pt: "Obrigatório (pelo menos em chaves acima do nível 10)"
         },
 
         "Current food" : {
@@ -793,16 +828,13 @@ $(function () {
             pt: "Add-ons"
         },
 
-        "PSA: I took off a pile of outdated addons and updated a few that have maintained forks.": {
-            es: "PD: He quitado algunos addons desactualizados y puse algunos nuevos con las sugerencias de colaboradores.",
-            pt: "PS: Removi alguns add-ons desatualizados e adicionei alguns mais recentes conforme as sugestões dos colaboradores."
-        },
-
+        //GottaGoFast
         " - All-in-one mythic+ timer. Shows % value of mobs on tooltip, timers required for +2/+3 chest and times that objectives are completed.": {
             es: " - Todo en uno para míticas+. Muestra el porcentaje (%) de enemigos no-jefes al pasar el ratón sobre ellos, los temporizadores necesarios para hacer en +2 / +3 cofres y los tiempos en que concluyeron los objetivos.",
             pt: " - Tudo em um para míticas+. Mostra o percentual (%) de inimigos ao passar o mouse sobre eles, cronometro necessário para finalizar com +2 / +3 baús e os tempos de conclusão dos objetivos."
         },
 
+        //Angry Keystones
         " - Another take on the keystone/mythic+ timer. Displays affix rotation schedule and current affixes as well as providing chest timers and kill count % ingame. Also styles keystone links ingame to show you what dungeon they're for.": {
             es: " - Otra forma de visualizar el temporizador de la mítica+. Muestra el calendario de la rotación de afijos y también los afijos actuales, además de proporcionar temporizadores para los cofres y recuento de muertes de los enemigos no-jefes. También es posible enlazar la piedra en el juego para enseñar las mazmorras y dificultades.",
             pt: " - Outra forma de visualizar o cronometro na mítica+. Mostra uma agenda com a rotaçao dos afixos e também os afixos atuais, além disso disponibiliza o cronometro para os baús e contagem de tropas pendentes. Também é possível linkear pedras-chave com as masmorras e dificuldades."
@@ -813,90 +845,95 @@ $(function () {
             pt: "Dados de pedras-chave mítica"
         },
 
+        //Method Dungeon Tools
+        " - Plan out routes, then use a shareable interactive map to make sure your group is on the same page.": {
+            es: " - Planificación de rutas, puedes compartir un mapa interactivo para asegurar que todo el grupo tenga claro la ruta y que hacer la mítica+.",
+            pt: " - Planejamento de rota, é possível compartilhar um mapa interativo para assegurar que o grupo saiba como jogar dentro da mazmorra mitica+."
+        },        
+
+        //Raider.io Addon
+        " - Hover over players in the world, guild, etc and get their raider.io score. The addon comes with an updater client to automatically get people's scores from raider.io!": {
+            es: " - Utilizado por muchísimos jugadores y guilds en todo el mundo para obtener scores en raider.io. Este addon viene con un cliente que se actualiza automaticamente con el score más actualizado posible.",
+            pt: " - Usado por muitos jugadores e guildas em todo o planeta para obter score no raider.io. Este addon também tem um cliente para atualizar-se automaticamente com o score mais atualizado possível."
+        },
+
+        //Astral Keys
         " - Shows keys for guild mates, Battle Net friends and alts. It also shows if your friends/guildies have done a 15+ or not!": {
-            es: "- Muestra las piedras angulares para compañeros del clan, amigos de Battle.Net y alters. ¡También muestra si tus amigos / compañeros del clan han hecho piedras superiores a una +15 o no!",
+            es: " - Muestra las piedras angulares para compañeros del guild, amigos de Battle.Net y alters. ¡También muestra si tus amigos / compañeros del clan han hecho piedras superiores a una +15 o no!",
             pt: " - Mostra as pedras-chave para as pessoas da guilda, amigos de Battle.Net e alters. Também mostra se seus amigos / pessoas do clan finalizaram pedras-chave superiores a +15 ou não!"
         },
 
-        " - Queries other people in guild or group with the addon to see what keystones people have.": {
-            es: " - Búsqueda de piedras angulares mítica en la hermandad o grupo para saber qué piedra tiene cada uno (que también tenga este addon).",
-            pt: " - Busca pedras-chave míticas na guilda ou grupo para saber qual pedra-chave tem cada um (que também tenha o addon instalado)."
+        //BFA Dungeons
+        " - Comprehensive alerts for trash and boss abilities. Covers things bossmods do not. <strong>Absolutely invaluable.</strong>": {
+            es: " - Alertas visuales para los habilidades de boses y pulls. Enseña cosas que los addons tipo bossmods no muestra. <strong>Muy recomendable.</strong>",
+            pt: " - Alertas visuais para as habilidades dos chefes e pulls. Mostra detalhes que os addons do tipo bossmods não mostram. <strong>Extremamente recomendável.</strong>"
         },
 
-        " - Queries people in guild with the addon to build a list of keystones.": {
-            es: " - Hace una lista de piedras y dificultades de todas las personas en la hermandad con el addon instalado.",
-            pt: " - Gera uma lista com as pedras-chave e dificuldades das pessoas na guilda com o addon instalado."
+        //Explosive affix Weakaura
+        " - Highlights active explosive orb nameplates and provides a tracker of active explosive orbs.": {
+            es: " - Destaca los orbes explosivos activos en los nameplates y enseña também cuantos orbes explositovs están activos.",
+            pt: " - Destaca os orbes explosivos ativos nos nameplates e exibe também quantos orbes explositovs estam ativos."
         },
 
-        " - Inserts whispered keystones into the default LFG UI. Useful for boosting/carry groups.": {
-            es: " - Enlaza las piedras susurradas en la interfaz del buscador. Útil para boosteo y grupos para carrito.",
-            pt: " - Link das pedras-chaves sussurradas na interface do buscador. Muito útil para boost e grupos de rush."
+        //Interrupt tracker
+        " - Tracks interrupts of your group members inside keystone runs.": {
+            es: " - Controla las interrupciones disponibles en tu grupo dentro de la mazmorra mítica+.",
+            pt: " - Controla as interrupções disponíveis no teu grupo dentro da dungeon mítica+."
         },
 
-        " - The largest M+ Discord server. I lurk here!": {
-            es: " - El mayor Discord de míticas+. ¡Estoy de paseo por aquí!",
-            pt: " - O maior Discord de míticas+. Estou escondido por aqui!"
+        //TimeToDie
+        " - A no frills time-to-target-death indicator. Useful for timing cooldowns, etc.": {
+            es: " - Un indicador de tiempo sencillo hasta la muerte objetivo. Útil para cronometrar cooldowns, etc.",
+            pt: " - Indicador de tempo restante até a morte do objetivo. Útil para controlar os cooldowns, CDs, etc."
         },
 
-        " - Find RBG or M+ groups. Central focus on pushing high keystones. NA groups.": {
-            es: " - Búsqueda de RGBs o míticas+. Enfoque central en pushear piedras altas.",
-            pt: " - Buscar RGBs ou míticas+. Focado principalmente em subir pedras-chave altas."
-        },
-
-        " - Same as above but for EU groups.": {
-            es: " - El mismo Discord que el anterior pero para grupos EUROPEUS.",
-            pt: " - Idem ao anterior porém para grupos EUROPEUS."
-        },
-
-        " - Official mythicpl.us Discord! Used for fact gathering and fact checking.": {
-            es: " - ¡Discord oficial de mythicpl.us! Utilizado para recopilar datos y verificar hechos.",
-            pt: " - Discord oficial de mythicpl.us! Utilizado para coletar dados e verificar fatos."
-        },
-
-        "Stats and Tools": {
-            es: "Estadísticas y herramientas",
-            pt: "Estatísticas e ferramentas"
-        },
-
-        " - Raider.io has all kinds of tools including character specific M+ tracking, successful run comp tracking, and ranks for m+ dungeons. They're <strong>community</strong> run and have some cool planned features. Stay tuned! The site is also snappy AF. ": {
-            es: " - Raider.io posee todos los tipos de herramientas para míticas+, incluye el rastreo de míticas+ en tiempo y clasificaciones de las míticas+. Ellos son una <strong>comunidad</strong> y tienen algunos recursos planificados muy buenos. ¡Estate atento! La página es rápida y jodidamente buena.",
-            pt: " - Raider.io tem todos os tipos de ferramentas específicas para míticas+, incluindo rastreamento de corridas em tempo e classificações para masmorras+. Eles são uma<strong>comunidade</strong> e têm alguns recursos planejados bem legais. Fique ligado! O site também é foda."
-        },
-
-        " - (Mythic Plus Helper) Looks up group candidates and returns ilvl equipped/highest, total mythic plus runs and legendaries! Be sure to get the <a href=\"https://mods.curse.com/addons/wow/260666-mythic-plus-helper\">addon</a> for ease of use. <strong>Community created!</strong>": {
-            es: " - (Mythic Plus Helper) Revisa candidatos del grupo y muestra el ilvl equipado/más alto, total de míticas+ y también legendarios! Asegúrate de utilizar la página \"<a href=\"https://mods.curse.com/addons/wow/260666-mythic-plus-helper\">complementar</a>\" para facilitar su uso. <strong>¡Comunidad creada!</strong>",
-            pt: " - (Mythic Plus Helper) Revisa os candidatos para entrar no grupo e mostra o ilvl equipado/mais alto, total de corridas míticas+ e também os legendários! Tenha em mãos a página web <a href=\"https://mods.curse.com/addons/wow/260666-mythic-plus-helper\"> complementar </a> para facilitar a utilização.<strong>¡Comunidade criada!</strong>"
-        },
-
-        " - TONS OF USEFUL TOOLS. This site has player lookups that show content cleared, mythic plus stats, and more. The site might run a little slow because of all the data it's crunching, but it's worth it. <strong>Community created!</strong>": {
-            es: " - TONELADAS DE HERRAMIENTAS ÚTILES. Este sitio tiene búsqueda de jugadores que muestra el contenido realizado, estadísticas de míticas+, y más. El sitio puede funcionar un poco lento debido a toda la información que se está procesando, pero vale la pena. <strong>¡Comunidad creada!</strong>",
-            pt: " - TONELADAS DE FERRAMENTAS ÚTEIS. Este site tem pesquisas de jogadores que mostra o conteúdo realizado, estatísticas de míticas+ e muito mais. O site pode ser um pouco lento pela quantidade de dados que está sendo processado, mas vale a pena. <strong>Comunidade criada!</ strong>"
-        },
-
-        " - Highlights active explosive orb nameplates and provides a tracker of active explosive orbs. Great for explosive week!": {
-            es: " - Destaca las placas de nombre de los orbes explosivos activos y muestra un rastreador de orbes explosivos activos. ¡Genial para una semana con este afijo!",
-            pt: " - Destaca as placas de identificação dos orbes explosivos e fornece um rastreador de orbs ativos. É ótimo para as semanas com este afixo!"
-        },
-
-        " - Weakaura that tracks time until target death, average kill times, time until boss death, etc.": {
-            es: " - Weakaura que rastrea el tiempo hasta que muera objetivo, los tiempos promedio de muerte, el tiempo hasta la muerte del jefe, etc.",
-            pt: " - Weakaura que acompanha o tempo até a morte do objetivo, tempos médios da morte, tempo até morrer do chefe da masmorra, etc."
-        },
-
-        " - Dungeon specific WeakAuras with a cc tracker.": {
-            es: " - Auras específicas para las mazmorras, tiene rastreador de CC.",
-            pt: " - Específicas para masmorras com um rastreador de CC."
-        },
-
+        //RaidCDs WeakAura
         " - A WeakAura to track raid/group utility CDs (i.e Barkskin, Blessing of Sacrifice, etc).": {
-            es: " - WeakAura para rastrear los CDs de utilidad en banda/grupo (Por ejemplo: Piel de corteza, Bendición del sacrificio, etc.).",
-            pt: " - Para rastrear CDs úteis de uma raid/grupo (ou seja, Barkskin, Bênção de Sacrifício, etc.)."
+            es: " - Utilizado para el controla de las utilidades y CDs existentes (ejemplo: Barkskin, Sacrifice, etc.).",
+            pt: " - Utilizado para controlar as utilidades e CDs existentes (exemplo: Barkskin, Sacrifice, etc.)."
         },
 
-        " - Very useful. It shows you how much physical and magic damage you can take. Based on current health, absorbs, and defensive cooldowns from yourself and others.": {
-            es: " - Muy útil. Muestra cuanto daño físico y mágico puedes recibir. Basado en tu salud actual, absorciones y CDs defensivos, tuyos y de otros.",
-            pt: " - Muito util. Mostra quanto dano fisico e mágico pode receber. Baseado no seu nível de saúde atual, absorçoes e CDs defensivos, seus e de outras pessoas."
+        //Effective Health
+        " - It shows you how much physical and magic damage you can take. Based on current health, absorbs, and defensive cooldowns from yourself and others.": {
+            es: " - Enseña cuanto daño físico y mágico puedes aguantar. Está basado en tu vida actual, absorsión y cooldowns defensivos tuyos y de tu equipo.",
+            pt: " - Mostra quanto dano fisico e mágico você pode anguentar. Está baseado na tua vida atual, absorção e cooldowns defensivos, teu e também do seu time."
         },
+
+        //raider.io
+        " - Raider.io has all kinds of tools including character specific M+ tracking, successful run comp tracking, and ranks for m+ dungeons. <strong>Community created!</strong> Their <a href=\"https://raider.io/addon\">addon</a> is probably the most useful group building/vetting addon you'll find as it uses their scoring system to show you how experienced players are.": {
+            es: " - Posee todo tipo de herramienta incluyendo personajes específicos para controlar las míticas+, rankings, etc. <strong>Comunidade creada</strong>. Su <a href=\"https://raider.io/addon\">addon</a> es sin duda el más utilizado para construir un grupo de cara a encontrar personas con el score y experiencia de jugadores necesaria para asumarse a tu grupo de míticas+.",
+            pt: " - Possuem varios tipos de ferramentas incluindo personagens específicos para controlar as míticas+, rankings, etc. <strong>Comunidade criada</strong>. Seu <a href=\"https://raider.io/addon\">addon</a> sem dúvida é o mais utilizado para formar um grupo e encontrar pessoas com score e experiencia necessária para entrar em seu grupo de míticas+."
+        },
+
+        //Questionably Epic
+        " - Easy-to-digest dungeon guides and an <a href=\"https://wow.curseforge.com/projects/qe-dungeon-tips\">addon</a> that provides tips and strategy reminders throughout dungeons. <strong>Community created!</strong>": {
+            es: " - Guia de mazmorra con un <a href=\"https://wow.curseforge.com/projects/qe-dungeon-tips\">addon</a> facil de entender. Dispone de consejos, estrategias y ayuda para avanzar en las mazmorras.",
+            pt: " - Guia de dungeon com um <a href=\"https://wow.curseforge.com/projects/qe-dungeon-tips\">addon</a> facil de compreender. Contém conselhos, estrategias e ajuda para avançar nas dungeons."
+        },
+
+        //MPH
+        " - (Mythic Plus Helper) Looks up group candidates and returns item level equipped/highest, total mythic plus runs and Heart of Azeroth level! Be sure to get the <a href=\"https://mods.curse.com/addons/wow/260666-mythic-plus-helper\">addon</a> for ease of use. <strong>Community created!</strong>": {
+            es: " - Ayuda a buscar grupos y candidatos además de contestar con el item level más alto equipado, total de míticas plus realizadas y el nível do colar. Debes descargar el <a href=\"https://mods.curse.com/addons/wow/260666-mythic-plus-helper\">addon</a> de cara a facilitar su utilización.",
+            pt: " - Ajuda a buscar grupos e candidatos e responde com o item level mais alto equipado, total de míticas plus feitas e o nível do colar. Deve baixar o <a href=\"https://mods.curse.com/addons/wow/260666-mythic-plus-helper\">addon</a> para facilitar seu uso."
+        },
+
+        //Mythic+ Friends Discord
+        " - The largest M+ Discord server aimed at helping players form groups and teaching new players about mythic plus.": {
+            es: " - El mayor servidor de Discord de míticas+ que ayudan a jugadores y grupos además de enseñar a nuevos jugadores que desean hacer míticas+.",
+            pt: " - O maior servidor de Discord de míticas+ onde ajudam a jogadores e grupos que desejam aprender e avançar nos conhecimentos das táticas das míticas+."
+        },
+
+        //Mythic+ EU
+        " - Mythic plus group finder server for the EU.": {
+            es: " - Encontrar grupos de míticas+ para jogar em EU.",
+            pt: " - Buscador de grupos de míticas+ em Europa."
+        },
+
+        //RU MythicKeys
+        " - Russian group finding and key pushing server.": {
+            es: " - Rusos buscando grupos e llaves para pushear piedras.",
+            pt: " - Russos buscando grupos e chaves míticas para subir níveis."
+        },        
 
         //Keystones
         "Keystones": {
@@ -904,56 +941,36 @@ $(function () {
             pt: "Pedra-chave mítica"
         },
 
-        "Complete a keystone run within the timer to upgrade a keystone to the next level. ": {
-            es: "Finaliza una mazmorra mítica en tiempo para mejorar la piedra angular.",
-            pt: "Complete uma corrida mítica para aumentar uma Pedra-chave mítica."
+        keystones_timer: {
+            en: "Complete a keystone run within the timer to upgrade a keystone to the next level.<span class=\"affixes-list__note\"></br>Example: Your group completes Atal'Dazar +6 in 37 minutes and 32 seconds. The par timer is 39 minutes, the keystone levels up from level 6 to level 7 and rolls a new random dungeon.",
+            es: "Finaliza una mazmorra mítica en tiempo para mejorar la piedra angular.<span class=\"affixes-list__note\"></br>Ejemplo: Tu grupo completa Atal'Dazar +6 en 37 minutos y 32 segundos. El tiempo limite es 39 minutos, la piedra angular sube del nivel 6 al nivel 7 y sortea un nuevo calabozo de forma aleatoria.</span>",
+            pt: "Complete uma corrida mítica para aumentar uma Pedra-chave mítica.<span class=\"affixes-list__note\"></br>Exemplo: Seu grupo completa o Atal'Dazar +6 em 37 minutos e 32 segundos. O tempo máximo é de 39 minutos, a pedra angular sobe do nível 6 para o nível 7 e uma nova masmorra aleatória é escolhida."
         },
 
-        "Example: Your group completes Atal'Dazar +6 in 37 minutes and 32 seconds. The par timer is 39 minutes, the keystone levels up from level 6 to level 7 and rolls a new random dungeon." : {
-            es: "Ejemplo: Tu grupo completa Atal'Dazar +6 en 37 minutos y 32 segundos. El tiempo limite es 39 minutos, la piedra angular sube del nivel 6 al nivel 7 y sortea un nuevo calabozo de forma aleatoria.",
-            pt: "Exemplo: Seu grupo completa o Atal'Dazar +6 em 37 minutos e 32 segundos. O tempo máximo é de 39 minutos, a pedra angular sobe do nível 6 para o nível 7 e uma nova masmorra aleatória é escolhida."
+        keystones_20per: {
+            en: "Complete a keystone run with 20% of the timer remaining and upgrade the keystone 2 times in one go.</br><span class=\"affixes-list__note\">Example: Your group completes The MOTHERLODE!! +5 in 30 minutes and 54 seconds. The par timer is 39 minutes, so the keystone levels up from level 5 to level 7 and rolls a new random dungeon.</span>",
+            es: "Finaliza una piedra angular con 20% del tiempo restante y mejora la piedra 2 niveles de una vez.</br><span class=\"affixes-list__note\">Ejemplo: Tu grupo completa VETA MADRE +5 en 30 minutos y 54 segundos. El tiempo límite es 39 minutos, entonces la piedra subirá de nivel 5 a nivel 7 y sortea un nuevo calabozo de forma aleatoria.</span>",
+            pt: "Conclúa com 20% do tempo restante e aumente 2 níveis de uma vez.</br><span class=\"affixes-list__note\">Exemplo: Seu grupo conclui MEGAMINA!!! +5 em 30 minutos e 54 segundos. O tempo máximo é de 39 minutos, então a pedra angular sobe do nível 5 para o nível 7 e uma nova masmorra aleatória é escolhida.</span>"
         },
 
-        "Complete a keystone run with 20% of the timer remaining and upgrade the keystone 2 times in one go. ": {
-            es: "Finaliza una piedra angular con 20% del tiempo restante y mejora la piedra 2 niveles de una vez.",
-            pt: "Conclúa com 20% do tempo restante e aumente 2 níveis de uma vez. Exemplo: Pedra-chave de nível 5 subirá ao nível 7."
+        keystones_40per: {
+            en: "Complete a keysone run with 40% of the timer remaining and upgrade the keystone 3 times in one go.</br><span class=\"affixes-list__note\">Example: Your group completes Shrine of the Storm +2 in 19 minutes and 34 seconds. The par timer is 39 minutes, so the keystone levels up from keystone level 2 to keystone level 5 and rolls a new dungeon.</span>",
+            es: "Finaliza una piedra angular con 40% del tiempo restante y mejorea niveles de una vez.</br><span class=\"affixes-list__note\">Ejemplo: Tu grupo completa Altar de la Tormenta +2 en 19 minutos y 34 segundos. El tiempo límite es 39 minutos, entonces la piedra subirá de nivel 2 a nivel 5 y sale una nueva piedra de una mazmorra aleatoria.</span>",
+            pt: "Conclúa com 40% do tempo restante e aumente 3 níveis de uma vez.</br><span class=\"affixes-list__note\">Exemplo: Seu grupo completa o Santuário da Tempestade +2 em 19 minutos e 34 segundos. O tempo máximo é de 39 minutos, então a pedra angular sobe do nível 2 para o nível 5 e uma nova masmorra aleatória é escolhida.</span>"
         },
 
-        "Example: Your group completes The MOTHERLODE!! +5 in 30 minutes and 54 seconds. The par timer is 39 minutes, so the keystone levels up from level 5 to level 7 and rolls a new random dungeon.":{
-            es: "Ejemplo: Tu grupo completa VETA MADRE +5 en 30 minutos y 54 segundos. El tiempo límite es 39 minutos, entonces la piedra subirá de nivel 5 a nivel 7 y sortea un nuevo calabozo de forma aleatoria",
-            pt: "Exemplo: Seu grupo conclui MEGAMINA!!! +5 em 30 minutos e 54 segundos. O tempo máximo é de 39 minutos, então a pedra angular sobe do nível 5 para o nível 7 e uma nova masmorra aleatória é escolhida.",
+        keystones_didnt: {
+            en: "Didn't beat the timer? That's ok. Your keystone doesn't deplete anymore, it just levels down by 1 and rerolls the dungeon.</br><span class=\"affixes-list__note\">Example: Your group completes Waycrest Manor keystone level 5 for Waycrest Manor to keystone level 4 for The Freehold.</span>",
+            es: "¿No la has hecho en tiempo? No pasa nada. Tu piedra ya no se agota, simplemente baja un nivel y sortea un nuevo calabozo de forma aleatoria</br><span class=\"affixes-list__note\">Ejemplo: Tu grupo completa Mansión Crestavía en nivel 5, la piedra pasa a ser de nivel 4 y para Fuerte Libre.</span>",
+            pt: "Não terminou a tempo? Sem problemas. Sua pedra não se esgotará, simplesmente baixa um nível e uma nova masmorra aleatória será escolhida.</br><span class=\"affixes-list__note\">Exemplo: Seu grupo conclui o nível 5 da pedra angular da Mansão Capeto fora do tempo limite. A chave passará a ser de nível 4 e Angra do Facão será a nova masmorra.</span>"
         },
 
-        "Complete a keysone run with 40% of the timer remaining and upgrade the keystone 3 times in one go. ": {
-            es: "Finaliza una piedra angular con 40% del tiempo restante y mejorea niveles de una vez",
-            pt: "Conclúa com 40% do tempo restante e aumente 3 níveis de uma vez. Exemplo: Pedra-chave de nível 5 subirá ao nível 8."
+        keystones_donth: {
+            en: "Don't have a keystone? Completing a keystone run will net you a key at the end of the run. This keystone will be one level under the keystone run level you complete. You can also get a key from the final boss of any Battle for Azeroth mythic dungeon.</br><span class=\"affixes-list__note trn\">Example: you complete a The Freehold +7 - the chest at the end will have a random +6 key in it. Example 2: you completed a +0 The MOTHERLODE!! - the chest at the end will have a +2 keystone for a random dungeon in it.</span>",
+            es: "¿No tienes una piedra angular? Completar una piedra angular te otorga una piedra angular al finalizar. Esta piedra será un nivel menor al de la piedra completada. También puedes obtener una piedra angular en el jefe final de cualquier calabozo mítico de Batallo por Azeroth.</br><span class=\"affixes-list__note trn\">Ejemplo: Finalizas Fuerte Libre +7 - el cofre al final tendrá una piedra +6 dentro de el. Ejemplo 2: completaste VETA MADRE +0 - el cofre del final tendrá una piedra +2 para algún calabozo aleatorio.</span>",
+            pt: "Não tem uma pedra angular? A conclusão de uma dungeon te dará uma pedra angular no final. Essa pedra angular estará um nível abaixo do nível de execução da pedra angular que você concluir. Você também pode obter uma chave do chefe final de qualquer masmorra mítica de Battle for Azeroth.</br><span class=\"affixes-list__note trn\">Exemplo: Você completa uma Angra do Facão +7 - o baú no final terá uma chave +6 aleatória. Exemplo 2: você completou um +0 O MEGAMINA!!! - o baú no final terá uma pedra angular +2 para uma masmorra aleatória.</span>"
         },
-
-        "Example: Your group completes Shrine of the Storm +2 in 19 minutes and 34 seconds. The par timer is 39 minutes, so the keystone levels up from keystone level 2 to keystone level 5 and rolls a new dungeon.": {
-            es: "Ejemplo: Tu grupo completa Altar de la Tormenta +2 en 19 minutos y 34 segundos. El tiempo límite es 39 minutos, entonces la piedra subirá de nivel 2 a nivel 5 y sortea un nuevo calabozo de forma aleatoria",
-            pt: "Exemplo: Seu grupo completa o Santuário da Tempestade +2 em 19 minutos e 34 segundos. O tempo máximo é de 39 minutos, então a pedra angular sobe do nível 2 para o nível 5 e uma nova masmorra aleatória é escolhida."
-        },
-
-        "Didn't beat the timer? That's ok. Your keystone doesn't deplete anymore, it just levels down by 1 and rerolls the dungeon. ": {
-            es: "¿No la has hecho en tiempo? No pasa nada. Tu piedra ya no se agota, simplemente baja un nivel y sortea un nuevo calabozo de forma aleatoria",
-            pt: "Não concluíu em tempo? Sem problemas. Sua pedra não se esgotará, simplesmente abaixará um nível e uma nova masmorra aleatória será escolhida."
-        },
-
-        "Example: Your group completes Waycrest Manor keystone level 5 for Waycrest Manor to keystone level 4 for The Freehold.": {
-            es: "Ejemplo: Tu grupo completa Mansión Crestavía en nivel 5, la piedra pasa a ser de nivel 4 y para Fuerte Libre.",
-            pt: "Exemplo: Seu grupo conclui o nível 5 da pedra angular da Mansão Capeto fora do tempo limite. A chave passará a ser de nível 4 e Angra do Facão será a nova masmorra."
-        },
-
-        "Don't have a keystone? Completing a keystone run will net you a key at the end of the run. This keystone will be one level under the keystone run level you complete. You can also get a key from the final boss of any Battle for Azeroth mythic dungeon.": {
-            es: "¿No tienes una piedra angular? Completar una piedra angular te otorga una piedra angular al finalizar. Esta piedra será un nivel menor al de la piedra completada. También puedes obtener una piedra angular en el jefe final de cualquier calabozo mítico de Batallo por Azeroth.",
-            pt: "Não tem uma pedra angular? A conclusão de uma dungeon te dará uma pedra angular no final. Essa pedra angular estará um nível abaixo do nível de execução da pedra angular que você concluir. Você também pode obter uma chave do chefe final de qualquer masmorra mítica de Battle for Azeroth."
-        },
-
-        "Example: you complete a The Freehold +7 - the chest at the end will have a random +6 key in it. Example 2: you completed a +0 The MOTHERLODE!! - the chest at the end will have a +2 keystone for a random dungeon in it." : {
-            es: "Ejemplo: completas Fuerte Libre +7 - el cofre al final tendrá una piedra +6 dentro de el. Ejemplo 2: completaste VETA MADRE +0 - el cofre del final tendrá una piedra +2 para algún calabozo aleatorio.",
-            pt: "Exemplo: Você completa uma Angra do Facão +7 - o baú no final terá uma chave +6 aleatória. Exemplo 2: você completou um +0 O MEGAMINA!!! - o baú no final terá uma pedra angular +2 para uma masmorra aleatória."
-        },
-
+                
         "Time penalty for deaths": {
             es: "Penalidades de tiempo por muerte",
             pt: "Pena de tempo para mortes"
@@ -1006,9 +1023,9 @@ $(function () {
             pt: "O baú ao final da corrida garante ao <strong>GRUPO</strong> dois itens do saqueio da masmorra. Se você superar o cronometro, ganhará um item extra ao saquear."
         },
 
-        "In addition, roughly every 3 difficulty levels past 15 will award you with an additional piece of loot.": {
-            es: "Además, aproximadamente a cada 3 niveles de dificultad después del 15 (ejemplo: 18, 21, 24) te otorgarán una pieza adicional de botín.",
-            pt: "Além disso, aproximadamente a cada 3 níveis de dificuldade depois de 15, te entregará um item adicional ao saquear."
+        "In addition, roughly every 5 difficulty levels past 10 will award you with an additional piece of loot (after 10 it's an additive 40% chance per key level for extra loot). +11 has a 40% chance of dropping one extra item, +13 has a 100% chance to drop an extra item (with a 20% chance to drop another extra item) and +15 has a guaranteed chance to drop two extra items for five items total from the chest.": {
+            es: "Además, en aproximadamente cada 5 niveles de dificultad (después del nivel 10) te otorgarán una pieza adicional de botín (después del nivel 10 hay una probabilidad adicional del 40% por nivel para obtener un botín adicional). Una +11 tiene un 40% de posibilidades de soltar un elemento extra, la +13 tiene un 100% de posibilidade de soltar un equipo extra (con un 20% de probabilidad de soltar otro iten extra) y una +15 tiene una probabilidad garantizada de soltar dos elementos adicionales por 5 artículos en total del cofre.",
+            pt: "Além disso, a cada 5 níveis aproximadamente de dificuldade (depois +10) te entregará um item adicional ao saquear (depois do nivel 10 existe a possibilidade adicional de 40% por nível para receber loot adicional). Uma +11 tem 40% de possibilidade de saquear um elemento extra, a +13 tem 100% de possibilidade de saquear um item adicional (com 20% de possibilidade de saquear outro item extra) e uma +15 tem uma possibilidade garantida de saquear dois itens adicionais por 5 objetos no total do cofre."
         },
 
         "Example time! You beat a level 15 keystone within the timer and your group is awarded 3 pieces of loot. Later, you beat a level 18 keystone within the timer and your group SHOULD BE awarded with 4 pieces of loot. Repeat every three levels. 21 = 5 pieces of loot, 24 = 6 pieces of loot, etc.": {
@@ -1016,19 +1033,81 @@ $(function () {
             pt: "Se liga ai que é hora da revisão: - Você consegue finalizar uma pedra-chave de nível 15 dentro do cronometro e seu grupo recebe 3 itens do saqueio. </br>Mais tarde, você finaliza uma pedra-chave de nível 18 dentro do tempo e seu grupo DEVERIA ser premiado com 4 itens ao saquear. </br>Agora, repita o mesmo exercício a cada três níveis. 21 = 5 itens de saqueio, 24 = 6 itens de saqueio, etc."
         },
 
-        "At the start of a week (after raid/mythic reset) a chest will appear in your order hall giving loot based on the highest level keystone dungeon <strong>COMPLETED</strong> the previous week, within the timer or not.": {
-            es: "Al comenzar la semana (después de un reinício de banda o míticas), aparecerá un cofre en la sede de clase con el botín basado en el nivel de</br> dificultad más alto de la mazmorra <strong>FINALIZADA</strong> (sea en tiempo o no).",
-            pt: "No início da semana (depois de reiniciar as raids ou míticas) surgirá um baú no Salão de Classe com o saqueio baseado na masmorra <strong>CONCLUÍDA</strong></br>da semana anterior com o nível de dificuldade mais alto, seja em tempo ou não."
+        "At the start of a week (after raid/mythic reset) a chest will appear in your Battle for Azeroth city awarding one piece of loot. It will also contain Azerite (aka Battle for Azeroth artifact power) and Titan Residuum, a new currency used to buy targeted Azerite armor. More on that below. The loot item lvl is determined by the highest level keystone run <strong>COMPLETED</strong> the previous week, within the timer or not.": {
+            es: "Al comenzar la semana (después del reinicio semanal de míticas o banda) aparecerá un cofre en tu ciudad de BfA que otorgará un botín. También contendrá Matriz de azerita radiante (también conocido como poder de artefacto de BfA) y Titan Residuum, una nueva moneda utilizada para comprar armaduras de azerita específica o aleatória con base en el slot elegido. El nivel del iten botín se basa en la mítica <strong>FINALIZADA</strong> más alta que has hecho la semana anterior, dentro o fuera del tiempo de la mazmorra.",
+            pt: "No início da semana (depois de reiniciar as raids ou míticas) surgirá um baú na tua cidade em BfA que te entregará um loot. Também haverá no cofre azerita para potencializar o colar e Titan Residuum, uma nova moeda utilizada para comprar peças de azerita específica ou aleatória baseada no slot escolhido. O nivel do item do baú está baseado na mítica <strong>FINALIZADA</strong> mais alta da semana anterior, seja em tempo ou não."
         },
 
-        "In addition, the chest will also have a downgraded keystone based on the highest level keystone run <strong>YOU COMPLETED</strong> in the previous week.": {
-            es: "Además, el cofre también tendrá una piedra angular solo un nivel más bajo comparada con la piedra angular de mayor </br> nivel que <strong>COMPLETASTE</strong> en la semana anterior.",
-            pt: "Além disso, o baú também terá uma pedra-chave rebaixada (somente um nível) baseada na corrida de nível mais alto que <strong>VOCÊ COMPLETOU</ strong> na semana anterior."
+        "In addition, the chest will also have a downgraded keystone based on the highest level keystone run <strong>completed</strong> in the season, degrading by 1 level every week you don't complete a run higher than your previous highest.": {
+            es: "Además, el cofre también tendrá una piedra angular degradada (-1) basada en la finalización de piedra angular de nivel más alto <strong>completada</strong> en la temporada, degradando el nivel de uno en uno a cada semana que no se complete una mítica más superior que su anterior mítica de nivel más alta.",
+            pt: "Além disso, o baú também terá uma pedra-chave rebaixada (somente um nível) baseada na corrida de nível mais alto que <strong>VOCÊ COMPLETOU</strong> na semana anterior."
         },
 
-        "It is most beneficial to complete a +15 weekly to get the highest item level gear every reset. If that isn't feasible go for the next highest you can complete. Again, <strong>you don't need to finish in the timer to get the weekly chest.</strong>": {
-            es: "Es más rentable finalizar una +15 semanalmente para obtener el botín con el nivel más alto en cada reinicio. </br>Si eso no es factible, intenta hacer el nivel más alto que puedas finalizar. </br>El poder de artefacto conseguido en la mazmorra también es más alto dependiendo del nivel de dificultad. Otra vez, <strong>no es necesario finalizar la mazmorra en tiempo para obtener el cofre semanal</strong>",
-            pt: "É muito mais rentável finalizar uma masmorra +15 semanalmente para obter o saqueio com o item de nível mais alto a cada reinício. </br>Se não for possível, tente concluir a masmorra com o nível de dificuldade mais alto que puder. </br><strong>Outra vez, não é necessário finalizar a masmorra dentro do cronometro para obter um item no baú semanal<strong>"
+        "Example: You complete a +11 one week and it is your highest completed run. Next week you get a +10 keystone from your chest. That same week you don't complete anything higher than a +10. Next reset you get a +9 key from the chest.": {
+            es: "Ejemplo: Finalizando una mítica +11 en una semana y si es tu mítica de nivel más alto, en la siguiente obtendrás una piedra angular +10 en el cofre. Ya en la semana actual si no finalizas ninguna mítica superior a +10, tras el reinicio semanal obtendrás una piedra +9 en tu cofre.",
+            pt: "Exemplo: Ao finalizar uma mítica +11 em uma semana qualquer sendo esta de nível mais alto, na seguinte semana saqueará uma pedra de nível 10 no baú. Na semana atual se não finalizar nenhuma pedra superior a +10, depois do reinicio semanal você terá uma pedra nivel +9 no baú."
+        },
+
+        "<strong>*It will be most beneficial to complete a +15 every week to get the highest gear value from your weekly chest.</strong>": {
+            es: "<strong>Es más rentable finalizar una +15 semanalmente para obtener el botín con el nivel más alto en cada reinicio semanal.</strong>",
+            pt: "<strong>É muito mais rentável finalizar uma masmorra +15 semanalmente para obter o saqueio com o item de nível mais alto a cada reinício semanal.</strong>"
+        },
+
+        //Titan Residuum
+        "Titan Residuum": {
+            es: "Residuo titánico",
+            pt: "Resíduo Titânico"
+        },
+
+        "Level": {
+            es: "Nivel",
+            pt: "Nível"
+        },
+
+        "TR in weekly chest": {
+            es: "RT en el cofre semanal",
+            pt: "RT no cofre semanal"
+        },
+
+        "The weekly cache no longer awards a random Azerite armor piece, but instead awards a new currency called Titan Residuum. Titan Residuum can also be acquired from scrapping or disenchanting Azerite armor pieces." : {
+            es: "El cofre semanal ya no otorga una pieza de azerita aleatória, sino que entrega una moneda llamada Residuo titánico. El Residuo titánico también se puede adquirir al desguazar o desencantar piezas de armadura de azerita.",
+            pt: "y"
+        },
+
+        "Titan Residuum can be used to buy targeted Azerite pieces from Thaumaturge Vashreen.": {
+            es: "El residuo titánico puede ser utilizado para comprar piezas específicas de azerita en el Taumaturgo Vashreen.",
+            pt: "y"
+        },
+
+        //Patreon
+        "Patreon heroes": {
+            es: "Heroes de Patreon",
+            pt: "Heróis do Patreon"
+        },
+
+        "You guys keep it all afloat. Thanks for your continued support! Head over to <a href=\"https://www.patreon.com/mythicplus\">the Patreon page</a> if you feel like becoming a patron!": {
+            es: "Vosotros nos mantienen a flote. ¡Muchísimas gracias por vuestro apoyo! Visita nuestro <a href=\"https://www.patreon.com/mythicplus\">Patreon</a> si quieres ser un mecena.",
+            pt: "Vocês mantém a gente funcionando. Muito obrigado pelo seu apoio! Visite-nos em <a href=\"https://www.patreon.com/mythicplus\">Patreon</a> se quiser ser um apoiador desta causa."
+        },
+
+        "Exalted Patrons": {
+            es: "Mecena: Exaltado",
+            pt: "Exaltado"
+        },
+
+        "Revered Patrons": {
+            es: "Mecena: Venerado",
+            pt: "Reverenciado"
+        },
+
+        "Honored Patrons": {
+            es: "Mecena: Honorado",
+            pt: "Honrado"
+        },
+
+        "Friendly Patrons": {
+            es: "Mecena: Amistoso",
+            pt: "Amigável"
         },
 
         //Footer
@@ -1260,7 +1339,7 @@ $(function () {
     var userLang = getLang();
 
     //Testing tranlations
-    //userLang = "pt";
+    userLang = "es";
 
     var homePage = document.getElementById("home");
 
