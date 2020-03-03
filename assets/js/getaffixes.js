@@ -27,10 +27,10 @@ function fillNextWeeksAffixes(currentAffixesEU) {
         var row = document.getElementById(currentAffixesEU)
         var idx = row.rowIndex;
 
-        if (idx == 11) {
-            var nextweek = 12;
+        if (idx == 10) {
+            var nextweek = 11;
             var weekafternext = 1;
-        } else if (idx > 11) {
+        } else if (idx > 10) {
             var nextweek = 1;
             var weekafternext = 2;
         } else {
