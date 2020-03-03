@@ -337,12 +337,12 @@ $(function () {
 
         "Mechagon: Junkyard": {
             es: "Mecandria: Desguace",
-            pt: "Cerco de Boralus"
+            pt: "Operação: Gnomecan - Ferro-velho"
         },
 
         "Mechagon: Workshop": {
             es: "Mecandria: Taller",
-            pt: "Cerco de Boralus"
+            pt: "Operação: Gnomecan - Oficina"
         },
 
         //Weeks
@@ -1071,12 +1071,12 @@ $(function () {
 
         "The weekly cache no longer awards a random Azerite armor piece, but instead awards a new currency called Titan Residuum. Titan Residuum can also be acquired from scrapping or disenchanting Azerite armor pieces." : {
             es: "El cofre semanal ya no otorga una pieza de azerita aleatória, sino que entrega una moneda llamada Residuo titánico. El Residuo titánico también se puede adquirir al desguazar o desencantar piezas de armadura de azerita.",
-            pt: "y"
+            pt: "O baú semanal já não entrega um item de azerita aleatório, porém te da uma moeda chamada Residuo titânico. O Residuo titânico também pode dá pra conseguir ao sucatear ou desencantar os itens de armadura de azerita."
         },
 
         "Titan Residuum can be used to buy targeted Azerite pieces from Thaumaturge Vashreen.": {
             es: "El residuo titánico puede ser utilizado para comprar piezas específicas de azerita en el Taumaturgo Vashreen.",
-            pt: "y"
+            pt: "O residuo titânico pode ser utilizado para comprar itens específicos de azerita."
         },
 
         //Patreon
