@@ -109,7 +109,7 @@ function getAffixes(region) {
                     },
                     {
                         "name": "Quaking",
-                        "difficulty": "med"
+                        "difficulty": "easy"
                     },
                     {
                         "name": "Raging",
