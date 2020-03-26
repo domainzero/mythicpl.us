@@ -812,9 +812,9 @@ $(function () {
             pt: "Tomo da mente tranquila (se estiver fora de combate, permite ajustar os talentos dentro da massamora)"
         },
 
-        "Proving Grounds health stone": {
-            es: "Piedra de salud del Terreno de Pruebas",
-            pt: "Pedras da vida dos campo de testes ou de um Warlock"
+        "You can no longer use the Proving Grounds to grab a free Healthstone but you can invite a Warlock to the party before start the dungeon.": {
+            es: "Ya no puedes pillar una piedra de salud del Terreno de Pruebas, sin embargo podrás invitar un brujo a la party antes de empezar la mazmorra y obtener la piedra de salud de su pozo.",
+            pt: "Não é mais possível lotear pedras da vida no terreno de provas, agora é necessário convidar um bruxo ao grupo e lotar la pedra do poço."
         },
 
         //Useful stuff
