@@ -875,12 +875,6 @@ $(function () {
             pt: " - Destaca os orbes explosivos ativos nos nameplates e exibe também quantos orbes explositovs estam ativos."
         },
 
-        //Interrupt tracker
-        " - Tracks interrupts of your group members inside keystone runs.": {
-            es: " - Controla las interrupciones disponibles en tu grupo dentro de la mazmorra mítica+.",
-            pt: " - Controla as interrupções disponíveis no teu grupo dentro da dungeon mítica+."
-        },
-
         //TimeToDie
         " - A no frills time-to-target-death indicator. Useful for timing cooldowns, etc.": {
             es: " - Un indicador de tiempo sencillo hasta la muerte objetivo. Útil para cronometrar cooldowns, etc.",
