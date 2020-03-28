@@ -163,12 +163,17 @@ function getAffixes(region) {
                 if (region == "us") currentAffixesUS = currentAffixes;
                 if (region == "eu") currentAffixesEU = currentAffixes;
 
+                if ((currentAffixesUS == currentAffixesEU) && (currentAffixesUS != "" && currentAffixesEU != "")) {
+                    document.getElementById("thisweekeu").remove();
+                    document.getElementById("thisweekus").getElementsByTagName("span")[0].style.display = "none";
+                };
+
                 highlightCurrentAffixes(currentAffixesUS, currentAffixesEU);
                 highlightCurrentAffixDescriptions(affixes, region);
                 fillNextWeeksAffixes(currentAffixesEU);
 
                 resolve();
-            }else if(xhr.readyState == 4 && xhr.status !== 200){
+            } else if (xhr.readyState == 4 && xhr.status !== 200){
                 currentAffixes = null;
                 reject();
             }
