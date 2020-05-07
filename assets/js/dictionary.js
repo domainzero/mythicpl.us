@@ -566,15 +566,15 @@ $(function () {
         },
 
         explosive_info: {
-            en: "Creatures have a chance to summon an Explosive Orb at a nearby location that will explode, inflicting damage 50% of the player’s maximum health as damage.",
+            en: "Creatures have a chance to summon an Explosive Orb at a nearby location that will explode, inflicting damage 40% of the player’s maximum health as damage.",
             es: "Mientras están en combate, los enemigos invocan de forma periódica orbes explosivos que detonan si nadie los destruye.",
             pt: "Em combate, os inimigos evocam periodicamente orbes Explosivos que explodirão se não forem destruídos."
         },
 
         explosive_note: {
-            en: "Note: An explosive orb will spawn with a 6 second cast. If the cast goes off the entire party will take 50% of their max hp in damage. They are <strong>AOE immune so you can't cleave them down!</strong> They can also spawn on boss fights.",
-            es: "Nota: Un orbe explosivo aparece con un lanzamiento de hechizo de 6 segundos. Si el orbe castea, todo el grupo recibirá un daño del 50% de salud máxima. ¡Estos son <strong>inmunes al daño en áreas, o sea cleave no funciona!</strong> Los orbes pueden aparecer en combates con jefes.",
-            pt: "Nota: Um orbe explosivo surge com um lançamento de magia de 6 segundos. Caso o orbe finalize o lançamento, todo o grupo recebe um dano de 50% de sua saúde máxima. Eles são <strong>imunes ao dano em áreas ou cleave</strong> Los orbes pueden aparecer en combates con jefes."
+            en: "Note: An explosive orb will spawn with a 6 second cast. If the cast goes off the entire party will take 40% of their max hp in damage. They are <strong>AOE immune so you can't cleave them down!</strong> They can also spawn on boss fights.",
+            es: "Nota: Un orbe explosivo aparece con un lanzamiento de hechizo de 6 segundos. Si el orbe castea, todo el grupo recibirá un daño del 40% de salud máxima. ¡Estos son <strong>inmunes al daño en áreas, o sea cleave no funciona!</strong> Los orbes pueden aparecer en combates con jefes.",
+            pt: "Nota: Um orbe explosivo surge com um lançamento de magia de 6 segundos. Caso o orbe finalize o lançamento, todo o grupo recebe um dano de 40% de sua saúde máxima. Eles são <strong>imunes ao dano em áreas ou cleave</strong> Los orbes pueden aparecer en combates con jefes."
         },
 
         quaking_info: {
