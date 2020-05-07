@@ -518,9 +518,9 @@ $(function () {
         },
 
         bursting_info: {
-            en: "When slain, non-boss enemies explode, causing all players to suffer 5% of their maximum health in damage over 4 seconds. This effect stacks.",
-            es: "Al morir, los enemigos que no son jefes explotan, por lo que todos los jugadores reciben un 10% de su salud máxima como daño durante 4 s. Este efecto se acumula.",
-            pt: "Quando mortos, inimigos que não são chefes explodem, fazendo com que todos os jogadores recebam dano equivalente a 10% do máximo de pontos de vida ao longo de 4 s. Este efeito acumula."
+            en: "When slain, non-boss enemies explode, causing all players to suffer 14% of their maximum health in damage over 4 seconds. This effect stacks.",
+            es: "Al morir, los enemigos que no son jefes explotan, por lo que todos los jugadores reciben un 14% de su salud máxima como daño durante 4 s. Este efecto se acumula.",
+            pt: "Quando mortos, inimigos que não são chefes explodem, fazendo com que todos os jogadores recebam dano equivalente a 14% do máximo de pontos de vida ao longo de 4 s. Este efeito acumula."
         },
 
         bursting_note: {
