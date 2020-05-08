@@ -578,7 +578,7 @@ $(function () {
         },
 
         quaking_info: {
-            en: "Players will periodically Quake, inflicting 20% of the player’s maximum health as damage and interrupting spell casts of themselves and nearby allies.",
+            en: "Players will periodically Quake, interrupting spell casts of the player. Nearby allies take 40% of their maximum health as damage",
             es: "Los jugadores emiten una ola de choque de forma periódica, lo que inflige daño e interrumpe a los aliados cercanos.",
             pt: "Os jogadores emitem periodicamente uma onda de choque, causando dano e interrompendo aliados próximos."
         },
