@@ -142,7 +142,7 @@ function getAffixes(region) {
                 ];
 
                 //start the output by putting the title in place
-                document.getElementById("thisweek" + region).innerHTML = "<span class='title__intro'>" + region + "</span>";
+                document.getElementById("thisweek" + region).innerHTML = "<span class='title__intro'>" + region + " " + "</span>";
 
                 //fill it up with the affixes
                 affixes.forEach(function(affix) {
@@ -150,7 +150,7 @@ function getAffixes(region) {
                     //get the difficulty
                     affix_list.forEach(function(list_affix) {
                         if (affix.name == list_affix.name) {
-                            affix.difficulty = list_affix.difficulty; //idk if this assignment will work, can also put it in a new var
+                            affix.difficulty = list_affix.difficulty; //id
                         }
                     });
 
@@ -178,7 +178,8 @@ function getAffixes(region) {
                 reject();
             }
         };
-        xhr.open('GET', 'https://raider.io/api/v1/mythic-plus/affixes?region=' + region, true);
+//        xhr.open('GET', 'https://raider.io/api/v1/mythic-plus/affixes?region=' + region, true);
+        xhr.open('GET', 'https://mythicpl.us/affix-' + region, true);
         xhr.send();
     });
 
