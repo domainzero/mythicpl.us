@@ -179,7 +179,7 @@ function getAffixes(region) {
             }
         };
 //        xhr.open('GET', 'https://raider.io/api/v1/mythic-plus/affixes?region=' + region, true);
-        xhr.open('GET', 'https://mythicpl.us/affix-' + region, true);
+        xhr.open('GET', './affix-' + region, true);
         xhr.send();
     });
 
