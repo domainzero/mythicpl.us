@@ -15,14 +15,12 @@
 	<meta property="og:image" content="https://mythicpl.us/assets/img/share-icon.png">
 	<meta property="og:description" content="What mythic plus garbage do we have to deal with this week? https://mythicpl.us">
 	<link rel="icon" sizes="192x192" href="https://mythicpl.us/assets/img/icon.png">
-	
 	<link rel="stylesheet" href="/min/?f=/assets/css/style.css">
 </head>
 <body id="home">
 	<button class="menu-button pulse" id="open-button"><strong>☰</strong><span>Open Menu</span></button>
 	<title class="trn">what m+ garbage do i have to deal with this week?</title>
-	<main class="main" id="this_week">
-		<section class="atf content-block">
+	<main class="main" id="this_week">		<section class="atf content-block">
 			<h4 class="title title--small tagline trn">what garbage affixes do i have to deal with this week?</h4>
 			<article class="affixes">
 				<h1 id="thisweekus" class="title title--large"><span class="title__intro trn">US</span></h1>
@@ -32,7 +30,6 @@
 					↓
 				</div>
 			</article>
-				<h1 id="release" class="title title--large" style="font-size: 5em!important"></h1>
 		</section>
 		<section class="next content-block content-block--small" style="display:none">
 			<h4 class="title title--small tagline trn">Next week</h4>
@@ -43,16 +40,47 @@
 			<article>
 				<h4 id="weekafternext" class="title title--small"></h4>
 			</article>
-		</section>
-		<section id="changelog" class="content-block">
-			<div class="text-block">
-				<h1 class="title title--large trn">Changelog</h1>
-				<li><em>The September Update</em></li>
-				<li>Moved curse.com addon links to curseforge</li>
-			</div>
-			</div>
-		</section>
-		<section id="affixes-div" class="content-block">
+		</section>		<section id="changelog" class="content-block">
+					<div class="text-block">
+						<h1 class="title title--large trn">Changelog</h1>
+						<ul>
+							<li><em>The October/Shadowlands Update</em></li>
+							<li>Pre-patch is finally here! I've updated the site to have new Shadowlands specific information. See ya, BFA!</li>
+							<li>Here's a quick snapshot of the mythic plus changes that are going live in pre-patch <a href="https://worldofwarcraft.com/en-us/news/23529209/shadowlands-pre-expansion-patch-notes#item9">[source]</a></li>
+							<li>Affix changes</li>
+							<li><b>Bursting</b></li>
+							<ol>
+								<li>Bursting is now a dispellable Magic debuff.</li>
+								<li>Bursting deals a flat amount of damage instead of a percentage based off of max HP.</li>
+							</ol>
+							<li><b>Volcanic</b></li>
+							<ol>
+								<li>Players are now knocked in the air when hit by Volcanic.</li>
+								<li>Volcanic now deals damage equal to 15% of the player’s health (was 40%).</li>
+							</ol>
+							<li><b>Sanguine</b></li>
+							<ol>
+								<li>Sanguine's duration reduced to 20 seconds (was 60 seconds).</li>
+							</ol>
+							<li><b>Grievous</b></li>
+							<ol>
+								<li>Non-periodic heals now removes 1 stack of Grievous.</li>
+								<li>Grievous now deals a flat amount of damage instead of a percentage based off of max HP.</li>
+							</ol>
+							<li><b>Explosive</b></li>
+							<ol>
+								<li>Explosive Orbs now spawn 4 to 8 yards from the unit that summoned them (was 3 yards).</li>
+								<li>Explosive Orb health has been reduced and no longer scales with keystone level.</li>
+								<li>Explosive Orbs now have a sound effect when defeated.</li>
+							</ol>
+							<li>Other changes that'll affect how you play</li>
+							<ol>
+								<li>Your class probably plays differently!</li>
+								<li>Your Corruptions are gone!</li>
+							</ol>
+						</ul>
+					</div>
+		</section>		<section id="affixes-div" class="content-block">
 			<h1 class="title title--large trn">Affixes</h1>
 			<div class="legend">
 				<span class="trn">Legend: </span><span class="easy trn">easy difficulty</span> | <span class="med trn">medium difficulty</span> | <span class="hard trn">hard difficulty</span>
@@ -67,7 +95,7 @@
 			<br />
 			<div>
 				<h2 class="title trn">Explaining affix difficulty</h2>
-				<p class="trn">Affix difficulty ratings are <strong>crowdsourced</strong>, meaning they are assigned a difficulty based on user feedback. I will be rolling out a new survey when we've seen more of the affixes and how they play in the new dungeons.</p>
+				<p class="trn">Affix difficulty ratings are <strong>crowdsourced</strong>, meaning they are assigned a difficulty based on user feedback.</p>
 			</div>
 		</div>
 			<div class="affixes-block">
@@ -88,14 +116,23 @@
 				</ul>
 			</div>
 			<div class="affixes-block">
-				<h3 class="title title--medium affixes-block__title"><span class="trn">Level 4 affixes </span><br>
-					<div class="title__subtitle trn">(one affix will occur at +4 per week)</div>
-				</h3>
+				<h3 class="title title--medium affixes-block__title"><span class="trn">Level 4 affixes</span></h3>
+				<div class="title title__medium affixes-block__title">(one affix will occur at +4 per week)</div>
 				<ul class="affixes-list">
 					<li class="affixes-list__item-4-7 affix-bolstering">
 						<p><span class="med trn">Bolstering</span></p>
 						<p class="trn" data-trn-key="bolstering_info"></p>
 						<p class="affixes-list__note trn" data-trn-key="bolstering_note"></p>
+					</li>
+					<li class="affixes-list__item-4-7 affix-bursting">
+						<p><span class="med trn">Bursting</span></p>
+						<p class="trn" data-trn-key="bursting_info"></p>
+						<p class="affixes-list__note trn" data-trn-key="bursting_note"></p>
+					</li>
+					<li class="affixes-list__item-4-7 affix-inspiring">
+						<p><span class="med trn">Inspiring</span></p>
+						<p class="trn" data-trn-key="inspiring_info"></p>
+						<p class="affixes-list__note trn" data-trn-key="inspiring_note"></p>
 					</li>
 					<li class="affixes-list__item-4-7 affix-raging">
 						<p><span class="med trn">Raging</span></p>
@@ -107,15 +144,15 @@
 						<p class="trn" data-trn-key="sanguine_info"></p>
 						<p class="affixes-list__note trn" data-trn-key="sanguine_note"></p>
 					</li>
+					<li class="affixes-list__item-4-7 affix-spiteful">
+						<p><span class="med trn">Spiteful</span></p>
+						<p class="trn" data-trn-key="spiteful_info"></p>
+						<p class="affixes-list__note trn" data-trn-key="spiteful_note"></p>
+					</li>
 					<li class="affixes-list__item-4-7 affix-teeming">
 						<p><span class="med trn">Teeming</span></p>
 						<p class="trn" data-trn-key="teeming_info"></p>
 						<p class="affixes-list__note trn" data-trn-key="teeming_note"></p>
-					</li>
-					<li class="affixes-list__item-4-7 affix-bursting">
-						<p><span class="med trn">Bursting</span></p>
-						<p class="trn" data-trn-key="bursting_info"></p>
-						<p class="affixes-list__note trn" data-trn-key="bursting_note"></p>
 					</li>
 				</ul>
 			</div>
@@ -124,35 +161,40 @@
 					<div class="title__subtitle trn">(one affix will occur at +7 per week)</div>
 				</h3>
 				<ul class="affixes-list">
-					<li class="affixes-list__item-4-7 affix-necrotic">
-						<p><span class="hard trn">Necrotic</span></p>
-						<p class="trn" data-trn-key="necrotic_info"></p>
-						<p class="affixes-list__note trn" data-trn-key="necrotic_note"></p>
-					</li>
-					<li class="affixes-list__item-4-7 affix-skittish">
-						<p><span class="med trn">Skittish</span></p>
-						<p class="trn" data-trn-key="skittish_info"></p>
-						<p class="affixes-list__note trn" data-trn-key="skittish_note"></p>
-					</li>
-					<li class="affixes-list__item-4-7 affix-volcanic">
-						<p><span class="easy trn">Volcanic</span></p>
-						<p class="trn" data-trn-key="volcanic_info"></p>
-						<p class="affixes-list__note trn" data-trn-key="volcanic_note"></p>
-					</li>
 					<li class="affixes-list__item-4-7 affix-explosive">
 						<p><span class="med trn">Explosive</span></p>
 						<p class="trn" data-trn-key="explosive_info"></p>
 						<p class="affixes-list__note trn" data-trn-key="explosive_note"></p>
+					</li>
+					<li class="affixes-list__item-4-7 affix-grievous">
+						<p><span class="med trn">Grievous</span></p>
+						<p class="trn" data-trn-key="grievous_info"></p>
+						<p class="affixes-list__note trn" data-trn-key="grievous_note"></p>
+					</li>
+					<li class="affixes-list__item-4-7 affix-necrotic">
+						<p><span class="hard trn">Necrotic</span></p>
+						<p class="trn" data-trn-key="necrotic_info"></p>
+						<p class="affixes-list__note trn" data-trn-key="necrotic_note"></p>
 					</li>
 					<li class="affixes-list__item-4-7 affix-quaking">
 						<p><span class="easy trn">Quaking</span></p>
 						<p class="trn" data-trn-key="quaking_info"></p>
 						<p class="affixes-list__note trn" data-trn-key="quaking_note"></p>
 					</li>
-					<li class="affixes-list__item-4-7 affix-grievous">
-						<p><span class="med trn">Grievous</span></p>
-						<p class="trn" data-trn-key="grievous_info"></p>
-						<p class="affixes-list__note trn" data-trn-key="grievous_note"></p>
+					<li class="affixes-list__item-4-7 affix-storming">
+						<p><span class="med trn">Storming</span></p>
+						<p class="trn" data-trn-key="storming_info"></p>
+						<p class="affixes-list__note trn" data-trn-key="storming_note"></p>
+					</li>
+					<li class="affixes-list__item-4-7 affix-volcanic">
+						<p><span class="easy trn">Volcanic</span></p>
+						<p class="trn" data-trn-key="volcanic_info"></p>
+						<p class="affixes-list__note trn" data-trn-key="volcanic_note"></p>
+					</li>
+					<li class="affixes-list__item-4-7 affix-skittish">
+						<p><span class="med trn">Skittish</span></p>
+						<p class="trn" data-trn-key="skittish_info"></p>
+						<p class="affixes-list__note trn" data-trn-key="skittish_note"></p>
 					</li>
 				</ul>
 			</div>
@@ -161,115 +203,99 @@
 						<div class="title__subtitle trn">(these occur on all keystones throughout the season at keystone level 10 and do not rotate weekly for the duration of the season)</div>
 					</h3>
 					<ul class="affixes-list">
-						<li class="affixes-list__item-10 affix-infested">
-							<p><span class="trn">Infested</span></p>
-							<p class="trn" data-trn-key="infested_info"></p>
-							<p class="affixes-list__note trn" data-trn-key="infested_note"></p>
-						</li>
-						<li class="affixes-list__item-10 affix-reaping">
-							<p><span class="trn">Reaping</span></p>
-							<p class="trn" data-trn-key="reaping_info"></p>
-							<p class="affixes-list__note trn" data-trn-key="reaping_note"></p>
-						</li>
-						<li class="affixes-list__item-10 affix-beguiling">
-							<p><span class="trn">Beguiling</span></p>
-							<p class="trn" data-trn-key="beguiling_info"></p>
-							<p class="affixes-list__note trn" data-trn-key="beguiling_note"></p>
-						</li>
-						<li class="affixes-list__item-10 affix-awakened">
-							<p><span class="trn">Awakened</span></p>
-							<p class="trn" data-trn-key="awakened_info"></p>
-							<p class="affixes-list__note trn" data-trn-key="awakened_note"></p>
+						<li class="affixes-list__item-10 affix-prideful">
+							<p><span class="trn">Prideful</span></p>
+							<p class="trn" data-trn-key="prideful_info"></p>
+							<p class="affixes-list__note trn" data-trn-key="prideful_note"></p>
 						</li>
 					</ul>
 				</div>
 				<h4 class="title title--small trn">Weekly schedule for affixes</h4>
-					<table id="sched" class="table">
-						<thead class="table__head">
-							<tr class="table__row table__row--head">
-                        				    	<td class="table__cell">Baseline</td>
-				                                <td class="table__cell">2 (+4)</td>
-				                                <td class="table__cell">3 (+7)</td>
-				                                <td class="table__cell">Seasonal (+10)</td>
-			                        	</tr>
-			                        </thead>
-						<tbody>
-							<tr id="awgrbofo" class="table__row">
-								<td class="table__cell"><span class="trn">Fortified</span></td>
-								<td class="table__cell"><span class="trn">Bolstering</span></td>
-								<td class="table__cell"><span class="trn">Grievous</span></td>
-								<td class="table__cell"><span class="trn">Awakened</span></td>
-							</tr>
-							<tr id="awexraty" class="table__row">
-                        				    	<td class="table__cell"><span class="trn">Tyrannical</span></td>
-				                                <td class="table__cell"><span class="trn">Raging</span></td>
-				                                <td class="table__cell"><span class="trn">Explosive</span></td>
-				                                <td class="table__cell"><span class="trn">Awakened</span></td>
-							</tr>
-							<tr id="awgrsafo" class="table__row">
-				                            	<td class="table__cell"><span class="trn">Fortified</span></td>
-				                                <td class="table__cell"><span class="trn">Sanguine</span></td>
-				                                <td class="table__cell"><span class="trn">Grievous</span></td>
-				                                <td class="table__cell"><span class="trn">Awakened</span></td>
-							</tr>
-							<tr id="awvotety" class="table__row">
-								<td class="table__cell"><span class="trn">Tyrannical</span></td>
-								<td class="table__cell"><span class="trn">Teeming</span></td>
-								<td class="table__cell"><span class="trn">Volcanic</span></td>
-								<td class="table__cell"><span class="trn">Awakened</span></td>
-							</tr>
-							<tr id="awskbofo" class="table__row">
-								<td class="table__cell"><span class="trn">Fortified</span></td>
-								<td class="table__cell"><span class="trn">Bolstering</span></td>
-								<td class="table__cell"><span class="trn">Skittish</span></td>
-								<td class="table__cell"><span class="trn">Awakened</span></td>
-							</tr>
-							<tr id="awnebuty" class="table__row">
-								<td class="table__cell"><span class="trn">Tyrannical</span></td>
-				                                <td class="table__cell"><span class="trn">Bursting</span></td>
-				                                <td class="table__cell"><span class="trn">Necrotic</span></td>
-				                                <td class="table__cell"><span class="trn">Awakened</span></td>
-							</tr>
-							<tr id="awqusafo" class="table__row">
-								<td class="table__cell"><span class="trn">Fortified</span></td>
-				                               	<td class="table__cell"><span class="trn">Sanguine</span></td>
-				                                <td class="table__cell"><span class="trn">Quaking</span></td>
-				                                <td class="table__cell"><span class="trn">Awakened</span></td>
-							</tr>
-							<tr id="awexboty" class="table__row">
-				                            	<td class="table__cell"><span class="trn">Tyrannical</span></td>
-				                                <td class="table__cell"><span class="trn">Bolstering</span></td>
-				                                <td class="table__cell"><span class="trn">Explosive</span></td>
-				                                <td class="table__cell"><span class="trn">Awakened</span></td>
-							</tr>
-							<tr id="awvobufo" class="table__row">
-				                            	<td class="table__cell"><span class="trn">Fortified</span></td>
-				                                <td class="table__cell"><span class="trn">Bursting</span></td>
-				                                <td class="table__cell"><span class="trn">Volcanic</span></td>
-				                                <td class="table__cell"><span class="trn">Awakened</span></td>
-							</tr>
-							<tr id="awneraty" class="table__row">
-				                            	<td class="table__cell"><span class="trn">Tyrannical</span></td>
-				                              <td class="table__cell"><span class="trn">Raging</span></td>
-				                              <td class="table__cell"><span class="trn">Necrotic</span></td>
-				                               <td class="table__cell"><span class="trn">Awakened</span></td>
-							</tr>
-							<tr id="awqutefo" class="table__row">
-								<td class="table__cell"><span class="trn">Fortified</span></td>
-								<td class="table__cell"><span class="trn">Teeming</span></td>
-								<td class="table__cell"><span class="trn">Quaking</span></td>
-								<td class="table__cell"><span class="trn">Awakened</span></td>
-							</tr>
-							<tr id="awskbuty" class="table__row">
-								<td class="table__cell"><span class="trn">Tyrannical</span></td>
-								<td class="table__cell"><span class="trn">Bursting</span></td>
-								<td class="table__cell"><span class="trn">Skittish</span></td>
-								<td class="table__cell"><span class="trn">Awakened</span></td>
-							</tr>
-						</tbody>
-					</table>
-		</section>
-		<section id="group-considerations" class="content-block">
+				<table id="sched" class="table">
+					<thead class="table__head">
+						<tr class="table__row table__row--head">
+							<td class="table__cell">Baseline</td>
+							<td class="table__cell">2 (+4)</td>
+							<td class="table__cell">3 (+7)</td>
+							<td class="table__cell">Seasonal (+10)</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr id="awgrbofo" class="table__row">
+							<td class="table__cell"><span class="trn">Fortified</span></td>
+							<td class="table__cell"><span class="trn">Bolstering</span></td>
+							<td class="table__cell"><span class="trn">Grievous</span></td>
+							<td class="table__cell"><span class="trn">Awakened</span></td>
+						</tr>
+						<tr id="awexraty" class="table__row">
+							<td class="table__cell"><span class="trn">Tyrannical</span></td>
+							<td class="table__cell"><span class="trn">Raging</span></td>
+							<td class="table__cell"><span class="trn">Explosive</span></td>
+							<td class="table__cell"><span class="trn">Awakened</span></td>
+						</tr>
+						<tr id="awgrsafo" class="table__row">
+							<td class="table__cell"><span class="trn">Fortified</span></td>
+							<td class="table__cell"><span class="trn">Sanguine</span></td>
+							<td class="table__cell"><span class="trn">Grievous</span></td>
+							<td class="table__cell"><span class="trn">Awakened</span></td>
+						</tr>
+						<tr id="awvotety" class="table__row">
+							<td class="table__cell"><span class="trn">Tyrannical</span></td>
+							<td class="table__cell"><span class="trn">Teeming</span></td>
+							<td class="table__cell"><span class="trn">Volcanic</span></td>
+							<td class="table__cell"><span class="trn">Awakened</span></td>
+						</tr>
+						<tr id="awskbofo" class="table__row">
+							<td class="table__cell"><span class="trn">Fortified</span></td>
+							<td class="table__cell"><span class="trn">Bolstering</span></td>
+							<td class="table__cell"><span class="trn">Skittish</span></td>
+							<td class="table__cell"><span class="trn">Awakened</span></td>
+						</tr>
+						<tr id="awnebuty" class="table__row">
+							<td class="table__cell"><span class="trn">Tyrannical</span></td>
+							<td class="table__cell"><span class="trn">Bursting</span></td>
+							<td class="table__cell"><span class="trn">Necrotic</span></td>
+							<td class="table__cell"><span class="trn">Awakened</span></td>
+						</tr>
+						<tr id="awqusafo" class="table__row">
+							<td class="table__cell"><span class="trn">Fortified</span></td>
+							<td class="table__cell"><span class="trn">Sanguine</span></td>
+							<td class="table__cell"><span class="trn">Quaking</span></td>
+							<td class="table__cell"><span class="trn">Awakened</span></td>
+						</tr>
+						<tr id="awexboty" class="table__row">
+							<td class="table__cell"><span class="trn">Tyrannical</span></td>
+							<td class="table__cell"><span class="trn">Bolstering</span></td>
+							<td class="table__cell"><span class="trn">Explosive</span></td>
+							<td class="table__cell"><span class="trn">Awakened</span></td>
+						</tr>
+						<tr id="awvobufo" class="table__row">
+							<td class="table__cell"><span class="trn">Fortified</span></td>
+							<td class="table__cell"><span class="trn">Bursting</span></td>
+							<td class="table__cell"><span class="trn">Volcanic</span></td>
+							<td class="table__cell"><span class="trn">Awakened</span></td>
+						</tr>
+						<tr id="awneraty" class="table__row">
+							<td class="table__cell"><span class="trn">Tyrannical</span></td>
+							<td class="table__cell"><span class="trn">Raging</span></td>
+							<td class="table__cell"><span class="trn">Necrotic</span></td>
+							<td class="table__cell"><span class="trn">Awakened</span></td>
+						</tr>
+						<tr id="awqutefo" class="table__row">
+							<td class="table__cell"><span class="trn">Fortified</span></td>
+							<td class="table__cell"><span class="trn">Teeming</span></td>
+							<td class="table__cell"><span class="trn">Quaking</span></td>
+							<td class="table__cell"><span class="trn">Awakened</span></td>
+						</tr>
+						<tr id="awskbuty" class="table__row">
+							<td class="table__cell"><span class="trn">Tyrannical</span></td>
+							<td class="table__cell"><span class="trn">Bursting</span></td>
+							<td class="table__cell"><span class="trn">Skittish</span></td>
+							<td class="table__cell"><span class="trn">Awakened</span></td>
+						</tr>
+					</tbody>
+				</table>
+		</section>		<section id="group-considerations" class="content-block">
 			<h1 class="title title--large trn">Group considerations</h1>
 			<div class="text-block">
 				<p><strong class="trn">Group makeup barely matters at low keystone levels. There is little reason to sweat your group composition on keys below 5-6. Bring the player, not the class.</strong></p> <p class="trn">That being said, your group composition will always be one tank, one healer, and three DPS. Multi-tank strategies are not viable.</p>
@@ -283,7 +309,7 @@
 				</ol>				
 				<p class="trn" data-trn-key="group_cons_info"></p>
 				<h2 class="title trn">Consumables</h2>
-				<h3 class="title trn">Mandatory (at least above keystone level 10)</h2>
+				<h3 class="title trn">Mandatory (at least above keystone level 10)</h3>
 				<ol>
 					<li class="trn">Current food</li>
 					<li class="trn">Current flasks</li>
@@ -292,18 +318,17 @@
 				</ol>
 				<h3 class="title trn">"Missing a class" consumables</h3>
 				<ol>
-					<li class="trn">Drums (any tier is fine, they all give 25% haste): makes up for no Bloodlust/Heroism/Time Warp/Hysteria, etc</li>
+					<li class="trn">Drums (any tier is fine, they all give 15% haste): sorta makes up for no Bloodlust/Heroism/Time Warp/Hysteria, etc</li>
 					<li class="trn">War-Scrolls of Battle Shout (attack power buff), Fortitude (stamina buff), Intellect (intellect buff): makes up for no warrior/priest/mage, respectively</li>
 				</ol>
 				<h3 class="title trn">Optional/niche/high key consumables</h3>
 				<ol>
 					<li class="trn">Invisibility potions (used for skipping troubling trash packs at high key levels)</li>
 					<li class="trn">Tome of Tranquil Mind (you are allowed to step out of the instance to change talents using a tome)</li>
-					<li class="trn">You can no longer use the Proving Grounds to grab a free Healthstone but you can invite a Warlock before start the dungeon.</li>
+					<li class="trn">You can no longer use the Proving Grounds to grab a free Healthstone but you can invite a Warlock before starting the dungeon.</li>
 				</ol>
 			</div>
-		</section>
-		<section id="keystone-upgrade" class="content-block">
+		</section>		<section id="keystone-upgrade" class="content-block">
 			<h1 class="title title--large trn">Keystones</h1>
 			<div class="text-block">
 				<p class="trn" data-trn-key="keystones_timer"></p>
@@ -330,106 +355,129 @@
 					<tr class="table__row">
 						<td class="table__cell">Atal'Dazar</td>
 						<td class="table__cell"><strong>30:00</strong></td>
-						<td class="table__cell">24:00 <span class="table__note">(6:00 <span class="trn">left on the timer</span>)</span>
-						</td>
-						<td class="table__cell">18:00 <span class="table__note">(12:00 <span class="trn">left on the timer</span>)</span>
-						</td>
+						<td class="table__cell">24:00 <span class="table__note">(6:00 <span class="trn">left on the timer</span>)</span></td>
+						<td class="table__cell">18:00 <span class="table__note">(12:00 <span class="trn">left on the timer</span>)</span></td>
 					</tr>
 					<tr class="table__row">
 						<td class="table__cell"><span class="trn">Freehold</span></td>
 						<td class="table__cell"><strong>33:00</strong></td>
-						<td class="table__cell">26:24 <span class="table__note">(6:36 <span class="trn">left on the timer</span>)</span>
-						</td>
-						<td class="table__cell">19:48 <span class="table__note">(13:12 <span class="trn">left on the timer</span>)</span>
-						</td>
+						<td class="table__cell">26:24 <span class="table__note">(6:36 <span class="trn">left on the timer</span>)</span></td>
+						<td class="table__cell">19:48 <span class="table__note">(13:12 <span class="trn">left on the timer</span>)</span></td>
 					</tr>
 					<tr class="table__row">
 						<td class="table__cell"><span class="trn">The MOTHERLODE!!</span></td>
 						<td class="table__cell"><strong>39:00</strong></td>
-						<td class="table__cell">31:12 <span class="table__note">(7:48 <span class="trn">left on the timer</span>)</span>
-						</td>
-						<td class="table__cell">23:24 <span class="table__note">(15:36 <span class="trn">left on the timer</span>)</span>
-						</td>
+						<td class="table__cell">31:12 <span class="table__note">(7:48 <span class="trn">left on the timer</span>)</span></td>
+						<td class="table__cell">23:24 <span class="table__note">(15:36 <span class="trn">left on the timer</span>)</span></td>
 					</tr>
 					<tr class="table__row">
 						<td class="table__cell"><span class="trn">Shrine of the Storm</span></td>
 						<td class="table__cell"><strong>42:00</strong></td>
-						<td class="table__cell">33:36 <span class="table__note">(8:24 <span class="trn">left on the timer</span>)</span>
-						</td>
-						<td class="table__cell">25:12 <span class="table__note">(16:48 <span class="trn">left on the timer</span>)</span>
-						</td>
+						<td class="table__cell">33:36 <span class="table__note">(8:24 <span class="trn">left on the timer</span>)</span></td>
+						<td class="table__cell">25:12 <span class="table__note">(16:48 <span class="trn">left on the timer</span>)</span></td>
 					</tr>
 					<tr class="table__row">
 						<td class="table__cell"><span class="trn">Temple of Sethraliss</span></td>
-                        <td class="table__cell"><strong>36:00</strong></td>
-                        <td class="table__cell">28:48 <span class="table__note">(7:12 <span class="trn">left on the timer</span>)</span>
-                        </td>
-                        <td class="table__cell">21:36 <span class="table__note">(14:24 <span class="trn">left on the timer</span>)</span>
-                        </td>
+						<td class="table__cell"><strong>36:00</strong></td>
+						<td class="table__cell">28:48 <span class="table__note">(7:12 <span class="trn">left on the timer</span>)</span></td>
+						<td class="table__cell">21:36 <span class="table__note">(14:24 <span class="trn">left on the timer</span>)</span></td>
 					</tr>
 					<tr class="table__row">
 						<td class="table__cell"><span class="trn">Tol Dagor</span></td>
 						<td class="table__cell"><strong>36:00</strong></td>
-						<td class="table__cell">28:48 <span class="table__note">(7:12 <span class="trn">left on the timer</span>)</span>
-						</td>
-						<td class="table__cell">21:36 <span class="table__note">(14:24 <span class="trn">left on the timer</span>)</span>
-						</td>
+						<td class="table__cell">28:48 <span class="table__note">(7:12 <span class="trn">left on the timer</span>)</span></td>
+						<td class="table__cell">21:36 <span class="table__note">(14:24 <span class="trn">left on the timer</span>)</span></td>
 					</tr>
 					<tr class="table__row">
 						<td class="table__cell"><span class="trn">The Underrot</span></td>
 						<td class="table__cell"><strong>33:00</strong></td>
-						<td class="table__cell">26:24 <span class="table__note">(6:36 <span class="trn">left on the timer</span>)</span>
-						</td>
-						<td class="table__cell">19:48 <span class="table__note">(13:12 <span class="trn">left on the timer</span>)</span>
-						</td>
+						<td class="table__cell">26:24 <span class="table__note">(6:36 <span class="trn">left on the timer</span>)</span></td>
+						<td class="table__cell">19:48 <span class="table__note">(13:12 <span class="trn">left on the timer</span>)</span></td>
 					</tr>
 					<tr class="table__row">
 						<td class="table__cell"><span class="trn">Waycrest Manor</span></td>
 						<td class="table__cell"><strong>39:00</strong></td>
-						<td class="table__cell">31:12 <span class="table__note">(7:48 <span class="trn">left on the timer</span>)</span>
-						</td>
-						<td class="table__cell">23:24 <span class="table__note">(15:36 <span class="trn">left on the timer</span>)</span>
-						</td>
+						<td class="table__cell">31:12 <span class="table__note">(7:48 <span class="trn">left on the timer</span>)</span></td>
+						<td class="table__cell">23:24 <span class="table__note">(15:36 <span class="trn">left on the timer</span>)</span></td>
 					</tr>
 					<tr class="table__row">
 						<td class="table__cell"><span class="trn">Kings' Rest</span></td>
-                                                <td class="table__cell"><strong>42:00</strong></td>
-                                                <td class="table__cell">33:36 <span class="table__note">(8:24 <span class="trn">left on the timer</span>)</span>
-                                                </td>
-                                                <td class="table__cell">25:12 <span class="table__note">(16:48 <span class="trn">left on the timer</span>)</span>
-                                                </td>
+						<td class="table__cell"><strong>42:00</strong></td>
+						<td class="table__cell">33:36 <span class="table__note">(8:24 <span class="trn">left on the timer</span>)</span></td>
+						<td class="table__cell">25:12 <span class="table__note">(16:48 <span class="trn">left on the timer</span>)</span></td>
 					</tr>
 					<tr class="table__row">
 						<td class="table__cell"><span class="trn">Siege of Boralus</span></td>
 						<td class="table__cell"><strong>36:00</strong></td>
-						<td class="table__cell">28:48 <span class="table__note">(7:12 <span class="trn">left on the timer</span>)</span>
-						</td>
-						<td class="table__cell">21:36 <span class="table__note">(14:24 <span class="trn">left on the timer</span>)</span>
-						</td>
+						<td class="table__cell">28:48 <span class="table__note">(7:12 <span class="trn">left on the timer</span>)</span></td>
+						<td class="table__cell">21:36 <span class="table__note">(14:24 <span class="trn">left on the timer</span>)</span></td>
 					</tr>
-                                        <tr class="table__row">
-                                                <td class="table__cell"><span class="trn">Mechagon: Junkyard</span></td>
-                                                <td class="table__cell"><strong>38:00</strong></td>
-                                                <td class="table__cell">30:24 <span class="table__note">(7:36 <span class="trn">left on the timer</span>)</span>
-                                                </td>
-                                                <td class="table__cell">22:38 <span class="table__note">(15:12 <span class="trn">left on the timer</span>)</span>
-                                                </td>
-                                        </tr>
-                                        <tr class="table__row">
-                                                <td class="table__cell"><span class="trn">Mechagon: Workshop</span></td>
-                                                <td class="table__cell"><strong>32:00</strong></td>
-                                                <td class="table__cell">25:36 <span class="table__note">(6:24 <span class="trn">left on the timer</span>)</span>
-                                                </td>
-                                                <td class="table__cell">19:12 <span class="table__note">(12:48 <span class="trn">left on the timer</span>)</span>
-                                                </td>
-                                        </tr>
+					<tr class="table__row">
+						<td class="table__cell"><span class="trn">Mechagon: Junkyard</span></td>
+						<td class="table__cell"><strong>38:00</strong></td>
+						<td class="table__cell">30:24 <span class="table__note">(7:36 <span class="trn">left on the timer</span>)</span></td>
+						<td class="table__cell">22:38 <span class="table__note">(15:12 <span class="trn">left on the timer</span>)</span></td>
+					</tr>
+					<tr class="table__row">
+						<td class="table__cell"><span class="trn">Mechagon: Workshop</span></td>
+						<td class="table__cell"><strong>32:00</strong></td>
+						<td class="table__cell">25:36 <span class="table__note">(6:24 <span class="trn">left on the timer</span>)</span></td>
+						<td class="table__cell">19:12 <span class="table__note">(12:48 <span class="trn">left on the timer</span>)</span></td>
+					</tr>
+				<!--
+					<h2>SHADOWLANDS</h2>
+					<tr class="table__row">
+						<td class="table__cell"><span class="trn">De Other Side</span></td>
+						<td class="table__cell"><strong></strong></td>
+						<td class="table__cell"><span class="table__note">(<span class="trn">left on the timer</span>)</span></td>
+						<td class="table__cell"><span class="table__note">(<span class="trn">left on the timer</span>)</span></td>
+					</tr>
+					<tr class="table__row">
+						<td class="table__cell"><span class="trn">Halls of Atonement</span></td>
+						<td class="table__cell"><strong></strong></td>
+						<td class="table__cell"><span class="table__note">(<span class="trn">left on the timer</span>)</span></td>
+						<td class="table__cell"><span class="table__note">(<span class="trn">left on the timer</span>)</span></td>
+					</tr>
+					<tr class="table__row">
+						<td class="table__cell"><span class="trn">Mists of Tirna Scithe</span></td>
+						<td class="table__cell"><strong></strong></td>
+						<td class="table__cell"><span class="table__note">(<span class="trn">left on the timer</span>)</span></td>
+						<td class="table__cell"><span class="table__note">(<span class="trn">left on the timer</span>)</span></td>
+					</tr>
+					<tr class="table__row">
+						<td class="table__cell"><span class="trn">Plaguefall</span></td>
+						<td class="table__cell"><strong></strong></td>
+						<td class="table__cell"><span class="table__note">(<span class="trn">left on the timer</span>)</span></td>
+						<td class="table__cell"><span class="table__note">(<span class="trn">left on the timer</span>)</span></td>
+					</tr>
+					<tr class="table__row">
+						<td class="table__cell"><span class="trn">Sanguine Depths</span></td>
+						<td class="table__cell"><strong></strong></td>
+						<td class="table__cell"><span class="table__note">(<span class="trn">left on the timer</span>)</span></td>
+						<td class="table__cell"><span class="table__note">(<span class="trn">left on the timer</span>)</span></td>
+					</tr>
+					<tr class="table__row">
+						<td class="table__cell"><span class="trn">Spires of Ascension</span></td>
+						<td class="table__cell"><strong></strong></td>
+						<td class="table__cell"><span class="table__note">(<span class="trn">left on the timer</span>)</span></td>
+						<td class="table__cell"><span class="table__note">(<span class="trn">left on the timer</span>)</span></td>
+					</tr>
+					<tr class="table__row">
+						<td class="table__cell"><span class="trn">The Necrotic Wake</span></td>
+						<td class="table__cell"><strong></strong></td>
+						<td class="table__cell"><span class="table__note">(<span class="trn">left on the timer</span>)</span></td>
+						<td class="table__cell"><span class="table__note">(<span class="trn">left on the timer</span>)</span></td>
+					</tr>
+					<tr class="table__row">
+						<td class="table__cell"><span class="trn">Theater of Pain</span></td>
+						<td class="table__cell"><strong></strong></td>
+						<td class="table__cell"><span class="table__note">(<span class="trn">left on the timer</span>)</span></td>
+						<td class="table__cell"><span class="table__note">(<span class="trn">left on the timer</span>)</span></td>
+					</tr>
+				-->
 				</tbody>
 			</table>
-			<br>
-			<br>
-			<br>
-		</section>
-		<section id="loot-stuff" class="content-block">
+		</section>		<section id="loot-stuff" class="content-block">
 			<h1 class="title title--large trn">Loot</h1>
 			<div class="table-block">
 				<table id="lootcenter" class="table table--inline">
@@ -437,185 +485,109 @@
 						<tr class="table__row">
 							<td class="table__cell trn">Level</td>
 							<td class="table__cell trn">Loot at the end</td>
-							<td class="table__cell trn">Weekly Chest</td>
+							<td class="table__cell trn">Great Vault</td>
 						</tr>
 					</thead>
 					<tbody>
 						<tr class="table__row">
+							<td class="table__cell">1</td>
+							<td class="table__cell">183</td>
+							<td class="table__cell">N/A</td>
+						</tr>
+						<tr class="table__row">
 							<td class="table__cell">2</td>
-							<td class="table__cell">435</td>
-							<td class="table__cell">440</td>
+							<td class="table__cell">187</td>
+							<td class="table__cell">200</td>
 						</tr>
 						<tr class="table__row">
 							<td class="table__cell">3</td>
-							<td class="table__cell">435</td>
-							<td class="table__cell">445</td>
+							<td class="table__cell">190</td>
+							<td class="table__cell">203</td>
 						</tr>
 						<tr class="table__row">
 							<td class="table__cell">4</td>
-							<td class="table__cell">440</td>
-							<td class="table__cell">450</td>
+							<td class="table__cell">194</td>
+							<td class="table__cell">207</td>
 						</tr>
 						<tr class="table__row">
 							<td class="table__cell">5</td>
-							<td class="table__cell">445</td>
-							<td class="table__cell">450</td>
+							<td class="table__cell">194</td>
+							<td class="table__cell">210</td>
 						</tr>
 						<tr class="table__row">
 							<td class="table__cell">6</td>
-							<td class="table__cell">445</td>
-							<td class="table__cell">455</td>
+							<td class="table__cell">197</td>
+							<td class="table__cell">210</td>
 						</tr>
 						<tr class="table__row">
 							<td class="table__cell">7</td>
-							<td class="table__cell">450</td>
-							<td class="table__cell">460</td>
+							<td class="table__cell">200</td>
+							<td class="table__cell">213</td>
 						</tr>
 						<tr class="table__row">
 							<td class="table__cell">8</td>
-							<td class="table__cell">455</td>
-							<td class="table__cell">460</td>
+							<td class="table__cell">200</td>
+							<td class="table__cell">216</td>
 						</tr>
 						<tr class="table__row">
 							<td class="table__cell">9</td>
-							<td class="table__cell">455</td>
-							<td class="table__cell">460</td>
+							<td class="table__cell">200</td>
+							<td class="table__cell">216</td>
 						</tr>
 						<tr class="table__row">
 							<td class="table__cell">10</td>
-							<td class="table__cell">455</td>
-							<td class="table__cell">465</td>
+							<td class="table__cell">204</td>
+							<td class="table__cell">220</td>
 						</tr>
 						<tr class="table__row">
 							<td class="table__cell">11</td>
-							<td class="table__cell">460</td>
-							<td class="table__cell">465</td>
+							<td class="table__cell">204</td>
+							<td class="table__cell">220</td>
 						</tr>
 						<tr class="table__row">
 							<td class="table__cell">12</td>
-							<td class="table__cell">460</td>
-							<td class="table__cell">470</td>
+							<td class="table__cell">207</td>
+							<td class="table__cell">223</td>
 						</tr>
 						<tr class="table__row">
 							<td class="table__cell">13</td>
-							<td class="table__cell">460</td>
-							<td class="table__cell">470</td>
+							<td class="table__cell">207</td>
+							<td class="table__cell">223</td>
 						</tr>
 						<tr class="table__row">
 							<td class="table__cell">14</td>
-							<td class="table__cell">465</td>
-							<td class="table__cell">470</td>
+							<td class="table__cell">207</td>
+							<td class="table__cell">226</td>
 						</tr>
 						<tr class="table__row">
 							<td class="table__cell">15</td>
-							<td class="table__cell">465</td>
-							<td class="table__cell">475</td>
+							<td class="table__cell">210</td>
+							<td class="table__cell">226</td>
 						</tr>
 					</tbody>
 				</table>
 				<div class="table__description">
-					<p class="trn">The chest at the end of the run guarantees the <strong>GROUP</strong> two pieces of loot from the dungeon loot table. If you beat the timer you will be awarded one extra piece of loot.</p>
+					<p class="trn">The chest at the end of the run guarantees the <strong>GROUP</strong> one piece of loot from the dungeon loot table. If you beat the timer you will be awarded one extra piece of loot.</p>
 					<p class="trn">In addition, roughly every 5 difficulty levels past 10 will award you with an additional piece of loot (after 10 it's an additive 40% chance per key level for extra loot). +11 has a 40% chance of dropping one extra item, +13 has a 100% chance to drop an extra item (with a 20% chance to drop another extra item) and +15 has a guaranteed chance to drop two extra items for five items total from the chest.</p>
-					<p class="trn">At the start of a week (after raid/mythic reset) a chest will appear in your Battle for Azeroth city awarding one piece of loot. It will also contain Azerite (aka Battle for Azeroth artifact power) and Titan Residuum, a new currency used to buy targeted Azerite armor. More on that below. The loot item lvl is determined by the highest level keystone run <strong>COMPLETED</strong> the previous week, within the timer or not.</p>
-					<p class="trn">In addition, the chest will also have a downgraded keystone based on the highest level keystone run <strong>completed</strong> in the season, degrading by 1 level every week you don't complete a run higher than your previous highest.</p>
+					<p class="trn">In addition, the Great Vault will also have a downgraded keystone based on the highest level keystone run <strong>completed</strong> in the season, degrading by 1 level every week you don't complete a run higher than your previous highest.</p>
 					<p class="trn">Example: You complete a +11 one week and it is your highest completed run. Next week you get a +10 keystone from your chest. That same week you don't complete anything higher than a +10. Next reset you get a +9 key from the chest.</p>
 					<br>
 					<p class="trn"><strong>*It will be most beneficial to complete a +15 every week to get the highest gear value from your weekly chest.</strong></p>
 					<br>
 				</div>
 			</div>
-			<h2 class="title title--medium trn">Titan Residuum</h2>
-				<div class="table-block">
-					<table id="lootcenter" class="table table--inline--right">
-						<thead class="table__head">
-							<tr class="table__row">
-								<td class="table__cell trn">Level</td>
-								<td class="table__cell trn">TR in weekly chest</td>
-							</tr>
-						</thead>
-						<tbody>
-							<tr class="table__row">
-								<td class="table__cell">10</td>
-								<td class="table__cell">1700</td>
-							</tr>
-							<tr class="table__row">
-								<td class="table__cell">11</td>
-								<td class="table__cell">1790</td>
-							</tr>
-							<tr class="table__row">
-								<td class="table__cell">12</td>
-								<td class="table__cell">1880</td>
-							</tr>
-							<tr class="table__row">
-								<td class="table__cell">13</td>
-								<td class="table__cell">1970</td>
-							</tr>
-							<tr class="table__row">
-								<td class="table__cell">14</td>
-								<td class="table__cell">2060</td>
-							</tr>
-							<tr class="table__row">
-								<td class="table__cell">15</td>
-								<td class="table__cell">2150</td>
-							</tr>
-							<tr class="table__row">
-								<td class="table__cell">16</td>
-								<td class="table__cell">2240</td>
-							</tr>
-							<tr class="table__row">
-								<td class="table__cell">17</td>
-								<td class="table__cell">2330</td>
-							</tr>
-							<tr class="table__row">
-								<td class="table__cell">18</td>
-								<td class="table__cell">2420</td>
-							</tr>
-							<tr class="table__row">
-								<td class="table__cell">19</td>
-								<td class="table__cell">2510</td>
-							</tr>
-							<tr class="table__row">
-								<td class="table__cell">20</td>
-								<td class="table__cell">2600</td>
-							</tr>
-							<tr class="table__row">
-								<td class="table__cell">21</td>
-								<td class="table__cell">2665</td>
-							</tr>
-							<tr class="table__row">
-								<td class="table__cell">22</td>
-								<td class="table__cell">2730</td>
-							</tr>
-							<tr class="table__row">
-								<td class="table__cell">23</td>
-								<td class="table__cell">2795</td>
-							</tr>
-							<tr class="table__row">
-								<td class="table__cell">24</td>
-								<td class="table__cell">2860</td>
-							</tr>
-							<tr class="table__row">
-								<td class="table__cell">25</td>
-								<td class="table__cell">2915</td>
-							</tr>
-						</tbody>
-					</table>
-					<div class="table__description-right">
-						<p class="trn">The weekly cache no longer awards a random Azerite armor piece, but instead awards a new currency called Titan Residuum. Titan Residuum can also be acquired from scrapping or disenchanting Azerite armor pieces.</p>
-						<p class="trn">Titan Residuum can be used to buy targeted Azerite pieces from Thaumaturge Vashreen.</p>
-						<br>
-					</div>
-			</div>
-		</section>
-		<section id="useful-stuff" class="content-block">
+		</section>		<section id="useful-stuff" class="content-block">
 			<h1 class="title title--large trn">Useful stuff</h1>
 			<div class="text-block">
 				<h2 class="title title--medium title--left trn">Addons</h2>
 				<br>
+				<h3 class="title title--small title--left trn">A brief message about addon managers</h3>
+				<p>As someone who values their privacy online, I feel like it's important that I mention the Overwolf client is BAD and all of its privacy options are OPT-OUT by default, instead of OPT-IN - which makes it noncompliant with GDPR regulations. I encourage you to use an open source addon manager like <a href="https://wowup.io">wowup.io</a> or <a href="https://github.com/layday/instawow">instawow</a>. Just my two cents.</p>
 				<h3 class="title title--small title--left trn">Timers</h3>
 				<ul>
 					<li><a href="https://mods.curse.com/addons/wow/gottagofast">GottaGoFast</a><span class="trn"> - All-in-one mythic+ timer. Shows % value of mobs on tooltip, timers required for +2/+3 chest and times that objectives are completed.</span></li>
 					<li><a href="https://mods.curse.com/addons/wow/angry-keystones">Angry Keystones</a><span class="trn"> - Another take on the keystone/mythic+ timer. Displays affix rotation schedule and current affixes as well as providing chest timers and kill count % ingame. Also styles keystone links ingame to show you what dungeon they're for.</span></li>
+					<li><a href="https://www.curseforge.com/wow/addons/ip-mythic-timer">iP Mythic Timer</a><span class="trn"> - A combo timer with a great deal of customization. Shows timer for +2 and +3, % per mob, total percent pulled, and more!</span></li>
 				</ul>
 				<h3 class="title title--small title--left trn">Keystone and group information</h3>
 				<ul>
@@ -625,17 +597,15 @@
 				</ul>
 				<h2 class="title title--medium title--left">Weakauras</h2>
 				<ul>
-					<li><a href="https://wago.io/r1lqyX32M">BFA Dungeons</a><span class="trn"> - Comprehensive alerts for trash and boss abilities. Covers things bossmods do not. <strong>Absolutely invaluable.</strong></span></li>
 					<li><a href="https://wago.io/NyIGCeCnf">Explosive affix Weakaura</a><span class="trn"> - Highlights active explosive orb nameplates and provides a tracker of active explosive orbs.</span></li>
 					<li><a href="https://wago.io/N1aUfBTRM">TimeToDie</a><span class="trn"> - A no frills time-to-target-death indicator. Useful for timing cooldowns, etc.</span></li>
 					<li><a href="https://wago.io/NyJLsr8PW">RaidCDs WeakAura</a><span class="trn"> - A WeakAura to track raid/group utility CDs (i.e Barkskin, Blessing of Sacrifice, etc).</span></li>
-					<li><a href="https://wago.io/B1pg1fRub">Effective Health - Magic and Physical</a><span class="trn"> - It shows you how much physical and magic damage you can take. Based on current health, absorbs, and defensive cooldowns from yourself and others.</span></li>
+					<li><a href="https://wago.io/B1pg1fRub">Effective Health - Magic and Physical</a><span class="trn"> - Shows you how much physical and magic damage you can take. Based on current health, absorbs, and defensive cooldowns from yourself and others.</span></li>
 				</ul>
 				<h2 class="title title--medium title--left trn">Stats, tools, and guides</h2>
 				<ul>
 					<li><a href="https://raider.io/mythic-plus/all/world/leaderboards">raider.io</a><span class="trn"> - Raider.io has all kinds of tools including character specific M+ tracking, successful run comp tracking, and ranks for m+ dungeons. <strong>Community created!</strong> Their <a href="https://raider.io/addon">addon</a> is probably the most useful group building/vetting addon you'll find as it uses their scoring system to show you how experienced players are.</span></li>
 					<li><a href="https://questionablyepic.com/">Questionably Epic</a><span class="trn"> - Easy-to-digest dungeon guides and an <a href="https://wow.curseforge.com/projects/qe-dungeon-tips">addon</a> that provides tips and strategy reminders throughout dungeons. <strong>Community created!</strong></span></li>
-					<li><a href="http://mythicplus.help/">MPH</a><span class="trn"> - (Mythic Plus Helper) Looks up group candidates and returns item level equipped/highest, total mythic plus runs and Heart of Azeroth level! Be sure to get the <a href="https://mods.curse.com/addons/wow/260666-mythic-plus-helper">addon</a> for ease of use. <strong>Community created!</strong></span></li>
 					<li><a href="https://keystone.guru/">Keystone.guru</a><span class="trn"> - Plan your routes online collaboratively with your team. <strong>Community created!</strong></span></li>
 				</ul>
 				<h2 class="title title--medium title--left">Discords</h2>
@@ -645,8 +615,7 @@
 					<li><a href="https://discord.gg/HWfryfD">RU MythicKeys</a><span class="trn"> - Russian group finding and key pushing server.</span></li>
 				</ul>
 			</div>
-		</section>
-		<section id="patreon" class="content-block">
+		</section>		<section id="patreon" class="content-block">
 			<div class="text-block">
 				<h1 class="title title--large trn">Patreon heroes</h1>
 				<p style="font-size: 1em" class="trn">You guys keep it all afloat. Thanks for your continued support! Head over to <a href="https://www.patreon.com/mythicplus">the Patreon page</a> if you feel like becoming a patron!</p>
@@ -672,8 +641,7 @@
 				</ul>
 			</div>
 	<canvas id="confetti"></canvas>
-	</section>
-	<section id="about" class="content-block">
+	</section>	<section id="about" class="content-block">
 		<div class="text-block">
 			<h1 class="title title--large trn">About</h1>
 			<p>I wrote and re-wrote this one hundred times and it still comes off a little self-indulgent, but I wanted to write out some of the guiding stuff that led me to creating this site. I'll keep it short.</p><br>
@@ -682,8 +650,7 @@
 			<p>I wanted to make a site that allows people to contribute information freely. My interest in World of Warcraft waxes and wanes, but I want to keep the information up-to-date and useful even if I'm not playing the game. I have admittedly been pretty bad at seeking out information to keep everything current. Every commit is on Github (for better or for worse - I am a fucking idiot and commit really dumb things), and pull requests are always welcome.</p><br>
 			<p>Thanks again for visiting!</p>
 		</div>
-	</section>
-	<div class="menu-wrap">
+	</section>	<div class="menu-wrap">
 		<nav class="menu">
 			<div class="profile"></div>
 			<div class="link-list">
@@ -716,17 +683,16 @@
 			<br>
 		</footer>
 	</main>
-	
+	<!--
 	<script type="text/javascript" src="/min/?g=js"></script>
 	<link rel="stylesheet" href="/min/?f=/assets/css/fonts.css">
-	<!--
+	-->
 	<script type="text/javascript" src="assets/js/jquery-3.5.1.min.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.translate.js"></script>
 	<script type="text/javascript" src="assets/js/getaffixes.js"></script>
-	<script type="text/javascript" src="assets/js/classie.js"></script>
 	<script type="text/javascript" src="assets/js/dictionary.js"></script>
 	<link rel="stylesheet" href="assets/css/fonts.css">
 	<link rel="stylesheet" href="assets/css/style.css">
-	-->
+
 </body>
 </html>

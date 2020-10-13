@@ -71,15 +71,15 @@ function getAffixes(region) {
                 var affixes = parsed_json_respone.affix_details;
 
                 var affix_list = [
-		    {
-			"name": "Awakened",
-			"difficulty": "hard"
-		    },
+                    {
+                        "name": "Awakened",
+                        "difficulty": "hard"
+                    },
                     {
                         "name": "Beguiling",
                         "difficulty": "hard"
                     },
-		    {
+                    {
                         "name": "Bursting",
                         "difficulty": "med"
                     },
@@ -104,6 +104,10 @@ function getAffixes(region) {
                         "difficulty": "hard"
                     },
                     {
+                        "name": "Inspiring",
+                        "difficulty": "med"
+                    },
+                    {
                         "name": "Necrotic",
                         "difficulty": "hard"
                     },
@@ -125,6 +129,14 @@ function getAffixes(region) {
                     },
                     {
                         "name": "Skittish",
+                        "difficulty": "med"
+                    },
+                    {
+                        "name": "Spiteful",
+                        "difficulty": "med"
+                    },
+                    {
+                        "name": "Storming",
                         "difficulty": "med"
                     },
                     {
@@ -235,3 +247,5 @@ function getRegionalAffixes() {
 };
 
 getRegionalAffixes();
+
+!function(a){"use strict";function b(a){return new RegExp("(^|\\s+)"+a+"(\\s+|$)")}function f(a,b){var f=c(a,b)?e:d;f(a,b)}var c,d,e;"classList"in document.documentElement?(c=function(a,b){return a.classList.contains(b)},d=function(a,b){a.classList.add(b)},e=function(a,b){a.classList.remove(b)}):(c=function(a,c){return b(c).test(a.className)},d=function(a,b){c(a,b)||(a.className=a.className+" "+b)},e=function(a,c){a.className=a.className.replace(b(c)," ")});var g={hasClass:c,addClass:d,removeClass:e,toggleClass:f,has:c,add:d,remove:e,toggle:f};"function"==typeof define&&define.amd?define(g):a.classie=g}(window),!function(){function a(a){classie.add(a.target.parentNode,"input--filled")}function b(a){""===a.target.value.trim()&&classie.remove(a.target.parentNode,"input--filled")}String.prototype.trim||!function(){var a=/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;String.prototype.trim=function(){return this.replace(a,"")}}(),[].slice.call(document.querySelectorAll("input.input__field")).forEach(function(c){""!==c.value.trim()&&classie.add(c.parentNode,"input--filled"),c.addEventListener("focus",a),c.addEventListener("blur",b)})}();
