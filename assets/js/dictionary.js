@@ -972,7 +972,7 @@ $(function () {
         },
 
         keystones_didnt: {
-            en: "Didn't beat the timer? That's ok. Your keystone doesn't deplete anymore, it just levels down by 1 and rerolls the dungeon.</br><span class=\"affixes-list__note\">Example: Your group completes Waycrest Manor keystone level 5 for Waycrest Manor to keystone level 4 for The Freehold.</span>",
+            en: "Didn't beat the timer? That's ok. Your keystone doesn't deplete anymore, it just levels down by 1 and keeps the same dungeon.</br><span class=\"affixes-list__note\">Example: Your group completes Waycrest Manor keystone level 5 for Waycrest Manor to keystone level 4.</span>",
             es: "¿No la has hecho en tiempo? No pasa nada. Tu piedra ya no se agota, simplemente baja un nivel y sortea un nuevo calabozo de forma aleatoria</br><span class=\"affixes-list__note\">Ejemplo: Tu grupo completa Mansión Crestavía en nivel 5, la piedra pasa a ser de nivel 4 y para Fuerte Libre.</span>",
             pt: "Não terminou a tempo? Sem problemas. Sua pedra não se esgotará, simplesmente baixa um nível e uma nova masmorra aleatória será escolhida.</br><span class=\"affixes-list__note\">Exemplo: Seu grupo conclui o nível 5 da pedra angular da Mansão Capeto fora do tempo limite. A chave passará a ser de nível 4 e Angra do Facão será a nova masmorra.</span>"
         },
