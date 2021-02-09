@@ -2,21 +2,21 @@ var currentAffixesUS = "";
 var currentAffixesEU = "";
 
 function highlightCurrentAffixes(currentAffixesUS, currentAffixesEU) {
-
-    // if regions are different, change both
-    if ((currentAffixesUS != currentAffixesEU) && (currentAffixesUS != "" && currentAffixesEU != "")) {
-        document.getElementById(currentAffixesUS).classList.add("table__row-us");
-        document.getElementById(currentAffixesUS).classList.remove("table__row");
-
-        document.getElementById(currentAffixesEU).classList.add("table__row-eu");
-        document.getElementById(currentAffixesEU).classList.remove("table__row");
-        // if are the same affixes to the regions, highlight just one
-    } else if (currentAffixesUS == currentAffixesEU) {
-        document.getElementById(currentAffixesUS).classList.add("table__row-both");
-        document.getElementById(currentAffixesUS).classList.remove("table__row");
-    };
-
-    // if any of them is blank, don't do highlight
+ 
+     // if regions are different, change both
+     if ((currentAffixesUS != currentAffixesEU) && (currentAffixesUS != "" && currentAffixesEU != "")) {
+         document.getElementById(currentAffixesUS).classList.add("table__row-us");
+         document.getElementById(currentAffixesUS).classList.remove("table__row");
+ 
+         document.getElementById(currentAffixesEU).classList.add("table__row-eu");
+         document.getElementById(currentAffixesEU).classList.remove("table__row");
+         // if are the same affixes to the regions, highlight just one
+     } else if (currentAffixesUS == currentAffixesEU) {
+         document.getElementById(currentAffixesUS).classList.add("table__row-both");
+         document.getElementById(currentAffixesUS).classList.remove("table__row");
+     };
+ 
+     // if any of them is blank, don't do highlight
 };
 
 function fillNextWeeksAffixes(currentAffixesEU) {
@@ -71,15 +71,7 @@ function getAffixes(region) {
                 var affixes = parsed_json_respone.affix_details;
 
                 var affix_list = [
-		    {
-			"name": "Awakened",
-			"difficulty": "hard"
-		    },
                     {
-                        "name": "Beguiling",
-                        "difficulty": "hard"
-                    },
-		    {
                         "name": "Bursting",
                         "difficulty": "med"
                     },
@@ -104,8 +96,16 @@ function getAffixes(region) {
                         "difficulty": "hard"
                     },
                     {
+                        "name": "Inspiring",
+                        "difficulty": "med"
+                    },
+                    {
                         "name": "Necrotic",
                         "difficulty": "hard"
+                    },
+                    {
+                        "name": "Prideful",
+                        "difficulty": "med"
                     },
                     {
                         "name": "Quaking",
@@ -124,11 +124,11 @@ function getAffixes(region) {
                         "difficulty": "easy"
                     },
                     {
-                        "name": "Skittish",
+                        "name": "Spiteful",
                         "difficulty": "med"
                     },
                     {
-                        "name": "Teeming",
+                        "name": "Storming",
                         "difficulty": "med"
                     },
                     {
@@ -163,6 +163,7 @@ function getAffixes(region) {
                 if (region == "us") currentAffixesUS = currentAffixes;
                 if (region == "eu") currentAffixesEU = currentAffixes;
 
+                // if the affixes are the same for both regions, don't show both regions
                 if ((currentAffixesUS == currentAffixesEU) && (currentAffixesUS != "" && currentAffixesEU != "")) {
                     document.getElementById("thisweekeu").remove();
                     document.getElementById("thisweekus").getElementsByTagName("span")[0].style.display = "none";
@@ -179,7 +180,7 @@ function getAffixes(region) {
             }
         };
 //        xhr.open('GET', 'https://raider.io/api/v1/mythic-plus/affixes?region=' + region, true);
-        xhr.open('GET', 'https://mythicpl.us/affix-' + region, true);
+        xhr.open('GET', './affix-' + region, true);
         xhr.send();
     });
 
@@ -235,3 +236,5 @@ function getRegionalAffixes() {
 };
 
 getRegionalAffixes();
+
+!function(a){"use strict";function b(a){return new RegExp("(^|\\s+)"+a+"(\\s+|$)")}function f(a,b){var f=c(a,b)?e:d;f(a,b)}var c,d,e;"classList"in document.documentElement?(c=function(a,b){return a.classList.contains(b)},d=function(a,b){a.classList.add(b)},e=function(a,b){a.classList.remove(b)}):(c=function(a,c){return b(c).test(a.className)},d=function(a,b){c(a,b)||(a.className=a.className+" "+b)},e=function(a,c){a.className=a.className.replace(b(c)," ")});var g={hasClass:c,addClass:d,removeClass:e,toggleClass:f,has:c,add:d,remove:e,toggle:f};"function"==typeof define&&define.amd?define(g):a.classie=g}(window),!function(){function a(a){classie.add(a.target.parentNode,"input--filled")}function b(a){""===a.target.value.trim()&&classie.remove(a.target.parentNode,"input--filled")}String.prototype.trim||!function(){var a=/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;String.prototype.trim=function(){return this.replace(a,"")}}(),[].slice.call(document.querySelectorAll("input.input__field")).forEach(function(c){""!==c.value.trim()&&classie.add(c.parentNode,"input--filled"),c.addEventListener("focus",a),c.addEventListener("blur",b)})}();
