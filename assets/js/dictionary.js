@@ -23,12 +23,6 @@ $(function () {
             es: "<span class=\"hard\">Tiránica</span> y <span class=\"hard\">Reforzada</span>: Ahora son afijos de nivel 2, lo que significa que siempre aparecerá en una piedra angular. El daño y salud de los enemigos escala más o menos de la misma forma.",
             pt: "<span class=\"hard\">Tirânica</span> e <span class=\"hard\">Fortificada</span>: Agora são afixos de nível 2, com esta mudança podemos apreciar em todas as pedras-chave mítica este afixo. O dano/vida dos inimigos escala mais ou menos da mesma forma."
         },
-
-        "<strong>New affixes:</strong> In addition to other new affixes, Battle for Azeroth is introducing \"seasonal affixes\", a fourth affix that will be applied to a keystone for the duration of a mythic plus season. The first seasonal affix that is live on the BfA beta is called <a href=\"http://bfa.wowhead.com/affix=16/infested\">Infested</a>.": {
-            es: "<strong>Nuevos afijos:</strong> Además de los afijos existentes, Battle for Azeroth está introduciendo los \"afijos de temporada\", un cuarto afijo que se aplicará a una piedra angular mítica mientras dure una temporada de míticas plus partiendo de la dificultad +10. El primer afijo de temporada se llama <a href=\"http://bfa.wowhead.com/affix=16/infested\">Infestado</a>.",
-            pt: "<strong>Novos afixos:</strong> Além dos afixos existentes, Battle for Azeroth introduz os \"afixos de temporada\", um quarto afixo se aplicará´em uma pedra-chave mítica enquanto dure uma temporada de míticas plus a partir do nível 10 de dificuldade. O primeiro afixo de temporada se chama <a href=\"http://bfa.wowhead.com/affix=16/infested\">Infestada</a>."
-        },
-
         "Gear restrictions:": {
             es: "Restricción de gear:",
             pt: "Restrição de gear:"
@@ -268,21 +262,9 @@ $(function () {
             es: "Reforzada",
             pt: "Fortificada"
         },
-        "Infested": {
-            es: "Infestado",
-            pt: "Infestada"
-        },
-        "Reaping": {
-            es: "Segadora",
-            pt: "Ceifadora"
-        },
-	"Beguiling": {
-	    es: "Cautivadora",
-            pt: "Encantadora"
-	},
-	"Awakened": {
-	    es: "Despierta",
-            pt: "Desperto"
+        "Prideful": {
+            es: "Orgulloso",
+            pt: "Orgulhosa"
         },
         //Dungeons list
         "Atal'Dazar": {
@@ -344,7 +326,41 @@ $(function () {
             es: "Mecandria: Taller",
             pt: "Operação: Gnomecan - Oficina"
         },
+        /* Not yet!
+        "De Other Side": {
+            es: "",
+            pt: ""
+        },
+        "Halls of Atonement": {
+            es: "",
+            pt: ""
+        },
+        "Mists of Tirna Scithe": {
+            es: "",
+            pt: ""
+        },
+        "Plaguefall": {
+            es: "",
+            pt: ""
+        },
+        "Sanguine Depths": {
+            es: "",
+            pt: ""
+        },
+        "Spires of Ascension": {
+            es: "",
+            pt: ""
+        },
 
+        "The Necrotic Wake": {
+            es: "",
+            pt: ""
+        },
+        "Theater of Pain": {
+            es: "",
+            pt: ""
+        },
+        */
         //Weeks
         "This Week": {
             es: "Esta semana",
@@ -361,16 +377,6 @@ $(function () {
             pt: "Semana depois da próxima"
         },
 
-        //Calculator
-        "CALCULATOR": {
-            es: "CALCULADORA",
-            pt: "CALCULADORA"
-        },
-
-        "Calculate AP required to next artifact level and more!": {
-            es: "¡Calcula el AP requerido para el siguiente nivel de artefacto y más!",
-            pt: "Calcule o AP necessário para o próximo nível da arma de artefato e mais!"
-        },
 
         //Affixes effects
 
@@ -468,6 +474,17 @@ $(function () {
             es: "(A partir de una piedra angular +10)",
             pt: "(desde uma pedra-chave +10)"
         },
+	awakened_info: {
+	    en: "Four obelisks are spawned on the map. Activating the obelisk while out of combat teleports you to spooky world and spawns a miniboss inside spooky world. If you do not kill the minibosses in spooky world before you start the last encounter, they will all activate and aggro to you.",
+            es: "Los obeliscos repartidos por la mazmorra permiten a los jugadores entrar en Ny'alotha y enfrentarse a poderosos sirvientes de N'Zoth. Durante el enfrentamiento con el jefe final habrá que ocuparse de los sirvientes que no hayan sido eliminados previamente.",
+            pt: "Obeliscos pela masmorra permitem que os jogadores entrem em Ny'alotha e enfrentem os poderosos servos de N'Zoth. Se um servo ficar para atrás, ele será enfrentado durante a batalha contra o chefe final."
+        },
+
+        awakened_note: {
+            en: "Heading to spooky world phases you out of the regular dungeon (meaning you cannot aggro trash while there). Killing the miniboss in spooky world causes a rift to appear which you can use to exit spooky world. Using the rift will put you in that exact location in the regular world. This could be used to skip trash, or be used to wipe your group if you aren't paying attention to where the rift is. Each miniboss only spawns when its obelisk is activated.",
+            es: "Al entrar en una mazmorra veréis obeliscos del Imperio Negro repartidos por el terreno. Interactuar con uno de estos obeliscos te transportará a otro mundo (perderás todo el aggro mientras al transportarte), en el que se puede ver el creciente poder de N’Zoth y a uno de sus lugartenientes vigilando. Derrotar al lugarteniente te devolverá a tu realidad, pero lo hará en el punto exacto en el que te encuentres tras derrotar el mini-jefe.",
+            pt: "Ao entrar na masmorra verás obeliscos do Império Negro repartidos pelo terreno. Qualquer interação com estes obeliscos irá teletransportar-te ao outro mundo (perde todo o aggro enquanto se teletransporta), poderás ver o crescente poder de N’Zoth e um sentinela vigiando. Derrotar ao sentinela te devolverá ao mundo real, porém o fará no ponto exato que você está ao derrotar o mini-chefe."
+        },
 
         bolstering_info: {
             en: "Non-boss enemies will buff nearby allies' health and damage when defeated with a 30yd effective range.",
@@ -479,6 +496,30 @@ $(function () {
             en: "Note: it's important to kill all the trash in a pull as closely together as possible with this affix as mobs effectively heal as they gain max health (percent translation). Adds spawned from a trash mob or boss ability do not trigger bolster. It's possible to reset bolster on mobs by resetting them via wiping or exiting combat.",
             es: "Nota: Es importante intentar matar todo el pull a la vez para no potenciar a los enemigos cercanos. Los enemigos adicionales que aparecen en un combate contra un jefe de mazmorra no son afectados por la Potenciante.",
             pt: "Nota: É necessário tentar balancear o dano de forma que todos os inimigos morram juntos evitando potenciar os que estao ao redor. Os inimigos que aparecem junto com o chefe da masmorra não são afetados pela Encorajadora."
+        },
+
+        inspiring_info: {
+            en: "A new affix! Wow! Some non-boss enemies will have an aura that empowers their nearby allies.",
+            es: "",
+            pt: ""
+        },
+
+        inspiring_note: {
+            en: "Note: The <b>Inspiring Presence</b> buff makes mobs immune to crowd control. The mobs that have this buff appear to be fixed (as in they will always be the same every time), and do not apply this buff to themselves.",
+            es: "",
+            pt: ""
+        },
+
+        spiteful_info: {
+            en: "Spirits rise from the corpses of non-boss enemies and chase down random players, dealing <b>HEAVY</b> melee damage.",
+            es: "",
+            pt: ""
+        },
+
+        spiteful_note: {
+            en: "Note: Whenever a mob dies, it spawns a <i>Spiteful Shade</i> that will fixate on a random player. Their health and damage scales with keystone level. They lose 8% of their HP every second and can be crowd controlled.",
+            es: "",
+            pt: ""
         },
 
         raging_info: {
@@ -494,37 +535,37 @@ $(function () {
         },
 
         sanguine_info: {
-            en: "Shortly after death, non-boss enemies will leave a pool of blood on the ground, which grows to a 5yd radius over 2 seconds. This pool heals enemies and damages players for a % of their maximum health. The pool's radius is 8 yds.",
+            en: "Shortly after death, non-boss enemies will leave a pool of blood on the ground. This pool heals enemies and damages players for a % of their maximum health.",
             es: "Al morir, los enemigos que no son jefes dejan debajo suyo un charco persistente de icor que sana a sus aliados e inflige daño a los jugadores.",
             pt: "Ao morrer, inimigos que não-chefes deixam debaixo uma poça de sangue que cura aos aliados e causa dano aos jogadores."
         },
 
         sanguine_note: {
-            en: "Note: While this affix was mostly ignorable before, it has become a problem in some of the new close-quarters dungeons. In addition, there are a lot more caster-style mobs that will sit in the pools. Mass grips/knockbacks are valuable in Sanguine keys.",
-            es: "Nota: afijo facilito :), no te quedes parado en los pulls y asegúrate de que los enemigos tampoco estén parados en el charco. ¡A moverse!",
-            pt: "Nota: afixo facinho, facinho... Não fique parado nos mobs e mantenhase em movimento. Garanta que os inimigos também se movam. Movimento, movimento!"
+            en: "Note:  The pool's radius is 8 yds. Pools last 20 seconds.",
+            es: "",
+            pt: ""
         },
 
         teeming_info: {
             en: "Additional non-boss enemies are present throughout the dungeon; kill count requirement increased.",
-            es: "Hay enemigos (no jefes) adicionales por toda la mazmorra.",
-            pt: "Inimigos (não chefes) adicionais estão presentes na masmorra."
+            es: "",
+            pt: ""
         },
 
         teeming_note: {
-            en: "Note: Not much different from usual unless paired with other problematic affixes (Skittish). The most notable change with this affix is that the Enemy Forces Defeated kill requirement is increased. Certain trash pulls can be really nasty with this affix depending on the dungeon.",
-            es: "Nota: No es muy relevante, al menos que esté emparejado con otros afijos problemáticos (Inquieta). El cambio más notable con este afijo es que el requisito de hacer porcentaje aumenta igual que las tropas. Ciertos pulls pueden ser realmente desagradables con este afijo dependiendo de la mazmorra.",
-            pt: "Nota: Não é muito relevante, ao menos que esteja em conjunto com outros afixos problemáticos (Assustada). A mudança mais perceptível com este afixo é que o requisito de matar inimigos não-chefes aumenta. Alguns mobs podem ser realmente horríveis com este afixo dependendo da masmorra."
+            en: "Note: Removed for Season 1 of Shadowlands! Not much different from usual unless paired with other problematic affixes (Skittish). The most notable change with this affix is that the Enemy Forces Defeated kill requirement is increased.",
+            es: "",
+            pt: ""
         },
 
         bursting_info: {
-            en: "When slain, non-boss enemies explode, causing all players to suffer 14% of their maximum health in damage over 4 seconds. This effect stacks.",
+            en: "When slain, non-boss enemies explode, causing all players to suffer flat damage that scales with keystone level. This effect stacks.",
             es: "Al morir, los enemigos que no son jefes explotan, por lo que todos los jugadores reciben un 14% de su salud máxima como daño durante 4 s. Este efecto se acumula.",
             pt: "Quando mortos, inimigos que não são chefes explodem, fazendo com que todos os jogadores recebam dano equivalente a 14% do máximo de pontos de vida ao longo de 4 s. Este efeito acumula."
         },
 
         bursting_note: {
-            en: "Note: This effect stacks, so it is safest to let the stacks drop before killing multiple enemies.",
+            en: "Note: This effect stacks, so it is safest to let the stacks drop before killing multiple enemies. Now dispellable!",
             es: "Nota: Este afijo parece que ignora el rango y columneo. Así que cuidado.",
             pt: "Nota: Este afixo parece que ignora o alcance. Portanto cuidado!"
         },
@@ -543,14 +584,14 @@ $(function () {
 
         skittish_info: {
             en: "Tanks generate 75% less threat.",
-            es: "Los enemigos prestan menos atención a la amenaza generada por los tanques.",
-            pt: "Os inimigos dão muito menos atenção à ameaça gerada por tanques."
+            es: "",
+            pt: ""
         },
 
         skittish_note: {
-            en: "Note: This affix is a lot easier if Tricks of the Trade or Misdirection are used on cooldown. Strong AoE CC is beneficial here as well in case mobs get loose.",
-            es: "Nota: Este afijo es mucho más fácil si el grupo utiliza recursos de clase como redirección a CD. CCs en áreas también ofrecen ventaja en el caso de que los pulls se escapen del tanque.",
-            pt: "Nota: Este afixo é bem mais fácil se o grupo utiliza corretamente os recursos de classe como redirecionar a CD. Controles de áreas também são vantajosos caso os inimigos se separem do tanque."
+            en: "This affix is a lot easier if Tricks of the Trade or Misdirection are used on cooldown. Strong AoE CC is beneficial here as well in case mobs get loose. Removed for (at least) Season 1 of Shadowlands! Hurray!",
+            es: "",
+            pt: ""
         },
 
         volcanic_info: {
@@ -560,19 +601,31 @@ $(function () {
         },
 
         volcanic_note: {
-            en: "Note: Keep an eye out for the volcano animation under your feet or near you. Sometimes you may not have to move!",
+            en: "Note: Keep an eye out for the volcano animation under your feet or near you. Sometimes you may not have to move! Knocks you high in to the air in addition to doing damage scaled to the keystone level.",
             es: "Nota: Estate atento a la animación del volcán bajo tus pies o cerca de ti. ¡A veces puede que no tengas que moverte!",
             pt: "Nota: Fique atento as animações do vulcão debaixo dos seus pés ou perto de você. As vezes você nem precisa mover-se!"
         },
 
+        storming_info: {
+            en: "Tornadoes spawn around enemy creatures while in combat.",
+            es: "",
+            pt: ""
+        },
+
+        storming_note: {
+            en: "The fun never ends! Grey swirlies will appear on the floor, indicating that a tornado is going to spawn there. After the tornado spawns, it moves around the area. If you get hit by the tornado, you take damage and get knocked back. More than one tornado can be up at a time.",
+            es: "",
+            pt: ""
+        },
+
         explosive_info: {
-            en: "Creatures have a chance to summon an Explosive Orb at a nearby location that will explode, inflicting damage 40% of the player’s maximum health as damage.",
+            en: "Creatures have a chance to summon an Explosive Orb nearby that will explode after six seconds, inflicting damage 40% of the player’s maximum health as damage.",
             es: "Mientras están en combate, los enemigos invocan de forma periódica orbes explosivos que detonan si nadie los destruye.",
             pt: "Em combate, os inimigos evocam periodicamente orbes Explosivos que explodirão se não forem destruídos."
         },
 
         explosive_note: {
-            en: "Note: An explosive orb will spawn with a 6 second cast. If the cast goes off the entire party will take 40% of their max hp in damage. They are <strong>AOE immune so you can't cleave them down!</strong> They can also spawn on boss fights.",
+            en: "Note: The explosive orb will spawn and begin casting a six second cast. If the cast goes off, the entire party will take 40% of their max hp in damage. They are <strong>AOE immune so you can't cleave them down!</strong> They can also spawn on boss fights. In Shadowlands, these orbs spawn at a slightly greater distance away from the enemy that spawns them.",
             es: "Nota: Un orbe explosivo aparece con un lanzamiento de hechizo de 6 segundos. Si el orbe castea, todo el grupo recibirá un daño del 40% de salud máxima. ¡Estos son <strong>inmunes al daño en áreas, o sea cleave no funciona!</strong> Los orbes pueden aparecer en combates con jefes.",
             pt: "Nota: Um orbe explosivo surge com um lançamento de magia de 6 segundos. Caso o orbe finalize o lançamento, todo o grupo recebe um dano de 40% de sua saúde máxima. Eles são <strong>imunes ao dano em áreas ou cleave</strong> Los orbes pueden aparecer en combates con jefes."
         },
@@ -590,15 +643,15 @@ $(function () {
         },
 
         grievous_info: {
-            en: "While below 90% health, players are afflicted with Grievous Wound.",
+            en: "While below 90% health, players are afflicted with <b>Grievous Wound</b>.",
             es: "Cuando estáis heridos y os queda menos del 90% de salud, recibiréis daño creciente en el tiempo hasta que os curen y recuperéis al menos el 90% de esta.",
             pt: "Quando são feridos e chegam a menos de 90% dos pontos de vida, os jogadores sofrem dano crescente ao longo do tempo até serem curados acima de 90% dos pontos de vida."
         },
 
         grievous_note: {
-            en: "Note: You bleed until you are healed above 90%. The damage over time stacks up to a total of 8% player health as damage per tick. Finally, another reason to blame your healer!",
-            es: "Nota: Sangrarás hasta que se te cure por encima del 90%. ¡Finalmente, otra razón para culpar a tu healer (¿no hay nada que curar?)!",
-            pt: "Nota: Você sangrará enquanto não se curar mais de 90%. Finalmente, outro motivo para culpar seu healer!"
+            en: "Note: You bleed until you are healed above 90%. Does flat damage that scales with keystone level. Direct heals remove one stack of <b>Grievous Wound</b>.",
+            es: "",
+            pt: ""
         },
 
         fortified_info: {
@@ -648,55 +701,20 @@ $(function () {
             pt: "Nota: As habilidades dos chefe não são mais triviais. As mecânicas do chefe precisam ser feitas ou verás gente morta :). Alguns combates se tornam verdadeiras provas de resistência (e não é do BBB) porque duram muito tempo."
         },
 
-        infested_info: {
-            en: "Some non-boss enemies have been infested with a Spawn of G'huun. Those mobs will heal all other trash mobs and bosses within 8yds.",
-            es: "Un engendro de G'huun ha infestado a algunos enemigos que no son jefes. Estos enemigos infestados curan a todos los demás enemigos cercanos a una distancia de 8yds.",
-            pt: "Alguns inimigos normais foram infectados com Crias de G'huun. Esses inimigos irão curar todos os outros inimigos normais e chefes em um raio de 8 metros.",
+        prideful_info: {
+            en: "Killing enemies fills a progress bar. Every 20% on the bar spawns a <i>Manifestation of Pride</i>. Killing the <i>Manifestation of Pride</i> provides players with a buff.",
+            es: "",
+            pt: "",
         },
 
-        infested_note: {
-            en: "Random trash packs will have a mob with Spawn of G'huun. These packs change every week. When the Spawn of G'huun mob is killed, worms will explode from its body and run toward living mobs. If they make it, those mobs will gain the Spawn of G'huun buff and the cycle repeats. ",
-            es: "Grupos aleatórios de enemigos tendrán uno de ellos infectado con la Cría de G'huun. Estos grupos en teoría cambia todas las semanas. Cuando un enemigo infectado con la Cría de G'huun se muere, pequeñas lombrices explotarán de sus cuerpos y corren en dirección a los enemigos vivos, si estas crías llegan a lanzar echizo sobre un enemigo no infectado, el ciclo se repetirá.",
-            pt: "Grupos aleatórios de inimigos terão uma praga infectada com Cria de G'huun. Esses grupos mudam toda semana. Quando o inimigo infectado com Cria de G'huun morre, vermes explodirão de seus corpos e irão em direção de inimigos vivos. Se eles conseguirem, esses inimigos serão infectados com Cria de G'huun e o ciclo se repetirá.",
-        },
-        reaping_info: {
-            en: "All enemies killed generate a ghost with 50% of the health of the source target when they die. All currently active ghosts will aggro the group at 20%, 40%, 60%, 80%, and 100% enemies defeated. They are not affected by affixes and do not have the source enemy's abilities.",
-            es: "Todos los enemigos derrotados, generan un fantasma con el 50% de la vida del enemigo original cuando mueren. Todos los fantasmas activos, atacarán al grupo al alcanzar el 20%, 40%, 60&, 80% y 100% de los enemigos derrotados. No son afectados por los afijos y no poseen sus habilidades originales.",
-            pt: "Todos os inimigos mortos geram um fantasma com 50% da saúde do alvo de origem quando morrem. Todos os fantasmas ativos no momento irão atacar o grupo quando a porcentagem de inimigos derrotados for 20%, 40%, 60%, 80% e 100%. Eles não são afetados por afixos e não têm as habilidades do inimigo de origem."
-        },
-        reaping_note: {
-            en: "Ghosts should not aggro other mobs when they activate. There are 3 ghost archetypes with different abilities. <b>Risen Souls</b> only melee. <b>Tormented Souls</b> cast a spell that does 25% of player max health as damage. <b>Lost Souls</b> cast a cone spell that does a 20% health reduction, and explode into swirlies when they die.",
-            es: "Los fantasmas no generan agresión en los otros enemigos cuando se activan. Hay 3 arquetipos de fantasmas con diferentes habilidades. <b>Alma resucitada</b> solo melee. <b>Almas atormentadas</b> lanzan un hechizo que daña por el 25% de la vida máxima del jugador. <b>Almas perdidas</b> lanzan un hechizo en cono que genera un 20% de reducción de vida, y explota en remolinos cuando mueren.",
-            pt: "Os fantasmas não irão gerar aggro em outros inimigos enquanto estiverem ativos. Existem 3 tipos de fantasmas com habilidades diferentes. <b>Almas Reanimadas</b> somente corpo a corpo. <b>Almas Atormentadas</b> lança um feitiço que causa dano equivalente a 25% da vida máxima do jogador. <b>Almas Perdidas</b> lança um feitiço em formato de cone que reduz em 20% a saúde do jogador e explode em redemoinhos quando morre."
-        },
-        beguiling_info: {
-            en: "Watery snake people have invaded all the dungeons! Enchanted ladies cast a damage reflect aura, but get knocked back when you attack them. When their energy bar reaches 0 (it depletes from being in combat), they warp out of the dungeon. Void-Touched snake people have True Sight and cast a spell that does half your HP in damage if you're in line of sight. It also gives you a stacking shadow damage increase debuff. Emissary snakey boys have a passive aura that make enemies near it immune to CC.",
-            es: "Emisarios de agua han invadido todos los calabozos! Emisarias encantadas poseen un aura que refleja daño, pero pueden ser desplazadas si las atacas. Cuando su barra de energia llega a 0 (se agota mientras está en combate), se teletransportaran fuera del calabozo. Emisarias tocadas por el Vacío poseen Visión del Vacío y lanzan un hechizo que causa daño igual a la mitad de tu HP si estás en su linea de visión. También otorga un debuff de daño de sombra que se acumula. Emisarias de las mareas poseen un aura pasiva que hace que los enemigos cercanos sean inmunes al CC",
-            pt: "Emissárias aquáticas invadiram todas as masmorras! Emissárias encantadas possuem uma aura que reflete dano, mas podem ser empurradas quando atacadas. Quando a barra de energia chega a 0 (diminui quando em combate), elas saem da masmorra. Emissária Tocada pelo Caos têm visão verdadeira e lançam um feitiço que causa metade do seu HP em dano se você estiver na linha de visão. Também inflinge um debuff acumulável que aumenta o dano de sombra recebido. Emissárias das Marés têm uma aura passiva que torna os inimigos próximos a ela imunes a efeitos de controle de grupo."
-        },
-        beguiling_note: {
-            en: "Emissaries can only be CC'd for a max of 8 seconds in a single CC.",
-            es: "Los emisarios solo pueden ser CC'ados por un máximo de 8 segundos en un mismo CC.",
-            pt: "Emissários permanecem sob efeito de um mesmo controle de grupo por no máximo 8 segundos."
-        },
-	   awakened_info: {
-            en: "Four obelisks are spawned on the map. Activating the obelisk while out of combat teleports you to spooky world and spawns a miniboss inside spooky world. If you do not kill the minibosses in spooky world before you start the last encounter, they will all activate and aggro to you.",
-            es: "Los obeliscos repartidos por la mazmorra permiten a los jugadores entrar en Ny'alotha y enfrentarse a poderosos sirvientes de N'Zoth. Durante el enfrentamiento con el jefe final habrá que ocuparse de los sirvientes que no hayan sido eliminados previamente.",
-            pt: "Obeliscos pela masmorra permitem que os jogadores entrem em Ny'alotha e enfrentem os poderosos servos de N'Zoth. Se um servo ficar para atrás, ele será enfrentado durante a batalha contra o chefe final."
-        },
-        awakened_note: {
-            en: "Heading to spooky world phases you out of the regular dungeon (meaning you cannot aggro trash while there). Killing the miniboss in spooky world causes a rift to appear which you can use to exit spooky world. Using the rift will put you in that exact location in the regular world. This could be used to skip trash, or be used to wipe your group if you aren't paying attention to where the rift is. Each miniboss only spawns when its obelisk is activated.",
-            es: "Al entrar en una mazmorra veréis obeliscos del Imperio Negro repartidos por el terreno. Interactuar con uno de estos obeliscos te transportará a otro mundo (perderás todo el aggro mientras al transportarte), en el que se puede ver el creciente poder de N’Zoth y a uno de sus lugartenientes vigilando. Derrotar al lugarteniente te devolverá a tu realidad, pero lo hará en el punto exacto en el que te encuentres tras derrotar el mini-jefe.",
-            pt: "Ao entrar na masmorra verás obeliscos do Império Negro repartidos pelo terreno. Qualquer interação com estes obeliscos irá teletransportar-te ao outro mundo (perde todo o aggro enquanto se teletransporta), poderás ver o crescente poder de N’Zoth e um sentinela vigiando. Derrotar ao sentinela te devolverá ao mundo real, porém o fará no ponto exato que você está ao derrotar o mini-chefe."
+        prideful_note: {
+            en: "The buff you get from killing the <i>Manifestation of Pride</i> is pretty good, as it increases Mana Regeneration by 5% per second, damage dealt by 30%, and Movement Speed by 60% for a minute. The <i>Manifestation of Pride</i> has somewhere around 30% of the health of a dungeon boss and does heavy AoE damage every 2 seconds of the fight. You'll probably want to position this enemy to be near a boss or difficult trash pull so you can make the most use of the buff.",
+            es: "",
+            pt: "",
         },
         "Weekly schedule for affixes": {
             es: "Calendario semanal de afijos",
             pt: "Agenda semanal de afixos"
-        },
-
-        "These may not be entirely correct as there are undocumented affix schedule changes!" : {
-            es: "Pueden no ser enteramente correctos ya que hay cambios no documentados en el calendario!",
-            pt: "Pode não estar totalmente correto, pois há alterações nos agendamentos de afixo que não são documentadas!"
         },
 
         // Group considerations
@@ -787,9 +805,9 @@ $(function () {
             pt: "\"Consumíveis\" para classes faltantes"
         },
 
-        "Drums (any tier is fine, they all give 25% haste): makes up for no Bloodlust/Heroism/Time Warp/Hysteria, etc" : {
-            es: "Tambores (cualquier nivel está bien, todos ellos dan 25% de celeridad): para suplir a Ansia de sangre/Distorsión temporal/Histeria, etc",
-            pt: "Tambores (qualquer nível é bom, todos eles dão 25% de aceleração): supre a necessidade de sede de sangue / heroísmo / distorção temporal / histeria, etc."
+        "Drums: sorta makes up for no Bloodlust/Heroism/Time Warp/Hysteria, etc. Worse because they only give a 15% haste buff." : {
+            es: "Tambores: para suplir a Ansia de sangre/Distorsión temporal/Histeria, etc",
+            pt: "Tambores: supre a necessidade de sede de sangue / heroísmo / distorção temporal / histeria, etc."
         },
 
         "War-Scrolls of Battle Shout (attack power buff), Fortitude (stamina buff), Intellect (intellect buff): makes up for no warrior/priest/mage, respectively" : {
@@ -936,31 +954,31 @@ $(function () {
         },
 
         keystones_timer: {
-            en: "Complete a keystone run within the timer to upgrade a keystone to the next level.<span class=\"affixes-list__note\"></br>Example: Your group completes Atal'Dazar +6 in 37 minutes and 32 seconds. The par timer is 39 minutes, the keystone levels up from level 6 to level 7 and rolls a new random dungeon.",
+            en: "Complete a keystone run within the timer to upgrade a keystone to the next level.<span class=\"affixes-list__note\"></br>Example: Your group completes Halls of Atonement +6 in 37 minutes and 32 seconds. The par timer is 39 minutes, the keystone levels up from level 6 to level 7 and rolls a new random dungeon.",
             es: "Finaliza una mazmorra mítica en tiempo para mejorar la piedra angular.<span class=\"affixes-list__note\"></br>Ejemplo: Tu grupo completa Atal'Dazar +6 en 37 minutos y 32 segundos. El tiempo limite es 39 minutos, la piedra angular sube del nivel 6 al nivel 7 y sortea un nuevo calabozo de forma aleatoria.</span>",
             pt: "Complete uma corrida mítica para aumentar uma Pedra-chave mítica.<span class=\"affixes-list__note\"></br>Exemplo: Seu grupo completa o Atal'Dazar +6 em 37 minutos e 32 segundos. O tempo máximo é de 39 minutos, a pedra angular sobe do nível 6 para o nível 7 e uma nova masmorra aleatória é escolhida."
         },
 
         keystones_20per: {
-            en: "Complete a keystone run with 20% of the timer remaining and upgrade the keystone 2 times in one go.</br><span class=\"affixes-list__note\">Example: Your group completes The MOTHERLODE!! +5 in 30 minutes and 54 seconds. The par timer is 39 minutes, so the keystone levels up from level 5 to level 7 and rolls a new random dungeon.</span>",
+            en: "Complete a keystone run with 20% of the timer remaining and upgrade the keystone 2 times in one go.</br><span class=\"affixes-list__note\">Example: Your group completes Spires of Ascension +5 in 30 minutes and 54 seconds. The par timer is 39 minutes, so the keystone levels up from level 5 to level 7 and rolls a new random dungeon.</span>",
             es: "Finaliza una piedra angular con 20% del tiempo restante y mejora la piedra 2 niveles de una vez.</br><span class=\"affixes-list__note\">Ejemplo: Tu grupo completa VETA MADRE +5 en 30 minutos y 54 segundos. El tiempo límite es 39 minutos, entonces la piedra subirá de nivel 5 a nivel 7 y sortea un nuevo calabozo de forma aleatoria.</span>",
             pt: "Conclúa com 20% do tempo restante e aumente 2 níveis de uma vez.</br><span class=\"affixes-list__note\">Exemplo: Seu grupo conclui MEGAMINA!!! +5 em 30 minutos e 54 segundos. O tempo máximo é de 39 minutos, então a pedra angular sobe do nível 5 para o nível 7 e uma nova masmorra aleatória é escolhida.</span>"
         },
 
         keystones_40per: {
-            en: "Complete a keysone run with 40% of the timer remaining and upgrade the keystone 3 times in one go.</br><span class=\"affixes-list__note\">Example: Your group completes Shrine of the Storm +2 in 19 minutes and 34 seconds. The par timer is 39 minutes, so the keystone levels up from keystone level 2 to keystone level 5 and rolls a new dungeon.</span>",
+            en: "Complete a keysone run with 40% of the timer remaining and upgrade the keystone 3 times in one go.</br><span class=\"affixes-list__note\">Example: Your group completes Spires of Ascension +2 in 19 minutes and 34 seconds. The par timer is 39 minutes, so the keystone levels up from keystone level 2 to keystone level 5 and rolls a new dungeon.</span>",
             es: "Finaliza una piedra angular con 40% del tiempo restante y mejorea niveles de una vez.</br><span class=\"affixes-list__note\">Ejemplo: Tu grupo completa Altar de la Tormenta +2 en 19 minutos y 34 segundos. El tiempo límite es 39 minutos, entonces la piedra subirá de nivel 2 a nivel 5 y sale una nueva piedra de una mazmorra aleatoria.</span>",
             pt: "Conclúa com 40% do tempo restante e aumente 3 níveis de uma vez.</br><span class=\"affixes-list__note\">Exemplo: Seu grupo completa o Santuário da Tempestade +2 em 19 minutos e 34 segundos. O tempo máximo é de 39 minutos, então a pedra angular sobe do nível 2 para o nível 5 e uma nova masmorra aleatória é escolhida.</span>"
         },
 
         keystones_didnt: {
-            en: "Didn't beat the timer? That's ok. Your keystone doesn't deplete anymore, it just levels down by 1 and rerolls the dungeon.</br><span class=\"affixes-list__note\">Example: Your group completes Waycrest Manor keystone level 5 for Waycrest Manor to keystone level 4 for The Freehold.</span>",
+            en: "Didn't beat the timer? That's ok. Your keystone doesn't deplete anymore, it just levels down by 1 and rerolls the dungeon.</br><span class=\"affixes-list__note\">Example: Your group completes Necrotic Wake +5 but misses the timer. Your keystone downgrades to Necrotic Wake +4.</span>",
             es: "¿No la has hecho en tiempo? No pasa nada. Tu piedra ya no se agota, simplemente baja un nivel y sortea un nuevo calabozo de forma aleatoria</br><span class=\"affixes-list__note\">Ejemplo: Tu grupo completa Mansión Crestavía en nivel 5, la piedra pasa a ser de nivel 4 y para Fuerte Libre.</span>",
             pt: "Não terminou a tempo? Sem problemas. Sua pedra não se esgotará, simplesmente baixa um nível e uma nova masmorra aleatória será escolhida.</br><span class=\"affixes-list__note\">Exemplo: Seu grupo conclui o nível 5 da pedra angular da Mansão Capeto fora do tempo limite. A chave passará a ser de nível 4 e Angra do Facão será a nova masmorra.</span>"
         },
 
         keystones_donth: {
-            en: "Don't have a keystone? Completing a keystone run will net you a key at the end of the run. This keystone will be one level under the keystone run level you complete. You can also get a key from the final boss of any Battle for Azeroth mythic dungeon.</br><span class=\"affixes-list__note trn\">Example: you complete a The Freehold +7 - the chest at the end will have a random +6 key in it. Example 2: you completed a +0 The MOTHERLODE!! - the chest at the end will have a +2 keystone for a random dungeon in it.</span>",
+            en: "Don't have a keystone? Completing a keystone run will net you a key at the end of the run. This keystone will be one level under the keystone run level you complete. You can also get a key from the final boss of any Shadowlands mythic dungeon.</br><span class=\"affixes-list__note trn\">Example: you complete a Plaguefall +7 - the chest at the end will have a random +6 key in it. Example 2: you completed a +0 Sanguine Depths - the chest at the end will have a +2 keystone for a random dungeon in it.</span>",
             es: "¿No tienes una piedra angular? Completar una piedra angular te otorga una piedra angular al finalizar. Esta piedra será un nivel menor al de la piedra completada. También puedes obtener una piedra angular en el jefe final de cualquier calabozo mítico de Batallo por Azeroth.</br><span class=\"affixes-list__note trn\">Ejemplo: Finalizas Fuerte Libre +7 - el cofre al final tendrá una piedra +6 dentro de el. Ejemplo 2: completaste VETA MADRE +0 - el cofre del final tendrá una piedra +2 para algún calabozo aleatorio.</span>",
             pt: "Não tem uma pedra angular? A conclusão de uma dungeon te dará uma pedra angular no final. Essa pedra angular estará um nível abaixo do nível de execução da pedra angular que você concluir. Você também pode obter uma chave do chefe final de qualquer masmorra mítica de Battle for Azeroth.</br><span class=\"affixes-list__note trn\">Exemplo: Você completa uma Angra do Facão +7 - o baú no final terá uma chave +6 aleatória. Exemplo 2: você completou um +0 O MEGAMINA!!! - o baú no final terá uma pedra angular +2 para uma masmorra aleatória.</span>"
         },
