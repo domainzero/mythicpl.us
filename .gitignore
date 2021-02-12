@@ -23,4 +23,12 @@ map.xml
 min
 sections/
 test/*
-.well-known/*
+assets/js/jquery.serialize-object.min.js
+assets/js/jquery.validate.min.js
+survey/index.html
+epidemic/*
+google*
+footer.html
+map.xml
+stats/footer.html
+sections/
