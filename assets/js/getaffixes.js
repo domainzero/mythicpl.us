@@ -92,12 +92,8 @@ function getAffixes(region) {
                         "difficulty": "med"
                     },
                     {
-                        "name": "Infested",
-                        "difficulty": "hard"
-                    },
-                    {
                         "name": "Inspiring",
-                        "difficulty": "med"
+                        "difficulty": "easy"
                     },
                     {
                         "name": "Necrotic",
@@ -114,10 +110,6 @@ function getAffixes(region) {
                     {
                         "name": "Raging",
                         "difficulty": "med"
-                    },
-                    {
-                        "name": "Reaping",
-                        "difficulty": "hard"
                     },
                     {
                         "name": "Sanguine",

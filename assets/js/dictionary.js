@@ -499,7 +499,7 @@ $(function () {
         },
 
         inspiring_info: {
-            en: "A new affix! Wow! Some non-boss enemies will have an aura that empowers their nearby allies.",
+            en: "Some non-boss enemies will have an aura that makes their nearby allies immune to crowd control effects.",
             es: "",
             pt: ""
         },
