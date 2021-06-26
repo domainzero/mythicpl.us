@@ -23,6 +23,7 @@ $(function () {
             es: "<span class=\"hard\">Tiránica</span> y <span class=\"hard\">Reforzada</span>: Ahora son afijos de nivel 2, lo que significa que siempre aparecerá en una piedra angular. El daño y salud de los enemigos escala más o menos de la misma forma.",
             pt: "<span class=\"hard\">Tirânica</span> e <span class=\"hard\">Fortificada</span>: Agora são afixos de nível 2, com esta mudança podemos apreciar em todas as pedras-chave mítica este afixo. O dano/vida dos inimigos escala mais ou menos da mesma forma."
         },
+
         "Gear restrictions:": {
             es: "Restricción de gear:",
             pt: "Restrição de gear:"
@@ -173,24 +174,10 @@ $(function () {
             pt: "Novas frases traduzidas"
         },
 
-        "Graphs": {
-            es: "Gráficos",
-            pt: "Gráficos"
-        },
-
         //Menu
         "Open Menu": {
             es: "Abrir menú",
             pt: "Abrir menu"
-        },
-
-        "Graphs": {
-            es: "Gráficos",
-            pt: "Gráficos"
-        },
-        "Calculator": {
-            es: "Calculadora",
-            pt: "Calculadora"
         },
         "Affixes": {
             es: "Afijos",
@@ -200,167 +187,44 @@ $(function () {
             es: "Recursos",
             pt: "Ferramentas"
         },
-        "Timers": {
-            es: "Tiempos",
-            pt: "Tempos"
-        },
         "Loot": {
             es: "Botín",
             pt: "Saqueio"
         },
 
-        //Affixes list
-        "Raging": {
-            es: "Furibunda",
-            pt: "Enraivecedora"
-        },
-        "Volcanic": {
-            es: "Volcánica",
-            pt: "Vulcânica"
-        },
-        "Teeming": {
-            es: "Bullente",
-            pt: "Apinhada"
-        },
-        "Explosive": {
-            es: "Explosiva",
-            pt: "Explosiva"
-        },
-        "Bolstering": {
-            es: "Potenciante",
-            pt: "Encorajadora"
-        },
-        "Grievous": {
-            es: "Dolorosa",
-            pt: "Atrocidade"
-        },
-        "Sanguine": {
-            es: "Sanguina",
-            pt: "Sanguínea"
-        },
-        "Bursting": {
-            es: "Detonante",
-            pt: "Explosivo"
-        },
-        "Necrotic": {
-            es: "Necrótica",
-            pt: "Necrótica"
-        },
-        "Skittish": {
-            es: "Inquieta",
-            pt: "Assustada"
-        },
-        "Quaking": {
-            es: "Sísmica",
-            pt: "Estremecendo"
-        },
-        "Tyrannical": {
-            es: "Tiránica",
-            pt: "Tirânica"
-        },
-        "Fortified": {
-            es: "Reforzada",
-            pt: "Fortificada"
-        },
-        "Prideful": {
-            es: "Orgulloso",
-            pt: "Orgulhosa"
-        },
-        //Dungeons list
-        "Atal'Dazar": {
-            es: "Atal'Dazar",
-            pt: "Atal'Dazar"
-        },
-
-        "Freehold": {
-            es: "Fuerte Libre",
-            pt: "Angra do Falcão"
-        },
-
-        "The MOTHERLODE!!": {
-            es: "VETA MADRE",
-            pt: "MEGAMINA!!!"
-        },
-
-        "Shrine of the Storm": {
-            es: "Altar de la Tormenta",
-            pt: "Santuário da Tempestade"
-        },
-
-        "Temple of Sethraliss": {
-            es: "Templo de Sethraliss",
-            pt: "Templo de Sethraliss"
-        },
-
-        "Tol Dagor": {
-            es: "Tol Dagor",
-            pt: "Tol Dagor"
-        },
-
-        "The Underrot": {
-            es: "Catacumbas putrefactas",
-            pt: "Terra podre"
-        },
-
-        "Waycrest Manor": {
-            es: "Mansión Crestavía",
-            pt: "Mansão Capelo"
-        },
-
-        "Kings' Rest": {
-            es: "Reposo de los Reyes",
-            pt: "Repouso do Rei"
-        },
-
-        "Siege of Boralus": {
-            es: "Asedio de Boralus",
-            pt: "Cerco de Boralus"
-        },
-
-        "Mechagon: Junkyard": {
-            es: "Mecandria: Desguace",
-            pt: "Operação: Gnomecan - Ferro-velho"
-        },
-
-        "Mechagon: Workshop": {
-            es: "Mecandria: Taller",
-            pt: "Operação: Gnomecan - Oficina"
-        },
-        /* Not yet!
         "De Other Side": {
-            es: "",
-            pt: ""
+            es: "El Otro Lado",
+            pt: "O Outro Lado"
         },
         "Halls of Atonement": {
-            es: "",
-            pt: ""
+            es: "Salas de la Expiación",
+            pt: "Salões da Expiação"
         },
         "Mists of Tirna Scithe": {
-            es: "",
-            pt: ""
+            es: "Nieblas de Tirna Scithe",
+            pt: "Brumas de Tirna Scithe"
         },
         "Plaguefall": {
-            es: "",
-            pt: ""
+            es: "Bajapeste",
+            pt: "Empéstia"
         },
         "Sanguine Depths": {
-            es: "",
-            pt: ""
+            es: "Cavernas Sanguinas",
+            pt: "Profundezas Sanguinárias"
         },
         "Spires of Ascension": {
-            es: "",
-            pt: ""
+            es: "Agujas de Ascensión",
+            pt: "Torres da Ascensão"
         },
-
         "The Necrotic Wake": {
-            es: "",
-            pt: ""
+            es: "Estela Necrótica",
+            pt: "A Chaga Necrótica"
         },
         "Theater of Pain": {
-            es: "",
-            pt: ""
+            es: "Teatro del Dolor",
+            pt: "Teatro da Dor"
         },
-        */
+        
         //Weeks
         "This Week": {
             es: "Esta semana",
@@ -474,184 +338,13 @@ $(function () {
             es: "(A partir de una piedra angular +10)",
             pt: "(desde uma pedra-chave +10)"
         },
-	awakened_info: {
-	    en: "Four obelisks are spawned on the map. Activating the obelisk while out of combat teleports you to spooky world and spawns a miniboss inside spooky world. If you do not kill the minibosses in spooky world before you start the last encounter, they will all activate and aggro to you.",
-            es: "Los obeliscos repartidos por la mazmorra permiten a los jugadores entrar en Ny'alotha y enfrentarse a poderosos sirvientes de N'Zoth. Durante el enfrentamiento con el jefe final habrá que ocuparse de los sirvientes que no hayan sido eliminados previamente.",
-            pt: "Obeliscos pela masmorra permitem que os jogadores entrem em Ny'alotha e enfrentem os poderosos servos de N'Zoth. Se um servo ficar para atrás, ele será enfrentado durante a batalha contra o chefe final."
-        },
 
-        awakened_note: {
-            en: "Heading to spooky world phases you out of the regular dungeon (meaning you cannot aggro trash while there). Killing the miniboss in spooky world causes a rift to appear which you can use to exit spooky world. Using the rift will put you in that exact location in the regular world. This could be used to skip trash, or be used to wipe your group if you aren't paying attention to where the rift is. Each miniboss only spawns when its obelisk is activated.",
-            es: "Al entrar en una mazmorra veréis obeliscos del Imperio Negro repartidos por el terreno. Interactuar con uno de estos obeliscos te transportará a otro mundo (perderás todo el aggro mientras al transportarte), en el que se puede ver el creciente poder de N’Zoth y a uno de sus lugartenientes vigilando. Derrotar al lugarteniente te devolverá a tu realidad, pero lo hará en el punto exacto en el que te encuentres tras derrotar el mini-jefe.",
-            pt: "Ao entrar na masmorra verás obeliscos do Império Negro repartidos pelo terreno. Qualquer interação com estes obeliscos irá teletransportar-te ao outro mundo (perde todo o aggro enquanto se teletransporta), poderás ver o crescente poder de N’Zoth e um sentinela vigiando. Derrotar ao sentinela te devolverá ao mundo real, porém o fará no ponto exato que você está ao derrotar o mini-chefe."
-        },
+        // Affix details
+        // Level 2
 
-        bolstering_info: {
-            en: "Non-boss enemies will buff nearby allies' health and damage when defeated with a 30yd effective range.",
-            es: "Cuando un enemigo que no es un jefe muere, su grito al morir potencia a los aliados cercanos, lo que aumenta su salud y su daño máximos un 20%. Radio del grito 30 metros.",
-            pt: "Quando um inimigo que não é chefe morre, os aliados a 30 metros dele recebem um bônus que aumenta sua vida máxima e seu dano em 20%, e o efeito acumula."
-        },
-
-        bolstering_note: {
-            en: "Note: it's important to kill all the trash in a pull as closely together as possible with this affix as mobs effectively heal as they gain max health (percent translation). Adds spawned from a trash mob or boss ability do not trigger bolster. It's possible to reset bolster on mobs by resetting them via wiping or exiting combat.",
-            es: "Nota: Es importante intentar matar todo el pull a la vez para no potenciar a los enemigos cercanos. Los enemigos adicionales que aparecen en un combate contra un jefe de mazmorra no son afectados por la Potenciante.",
-            pt: "Nota: É necessário tentar balancear o dano de forma que todos os inimigos morram juntos evitando potenciar os que estao ao redor. Os inimigos que aparecem junto com o chefe da masmorra não são afetados pela Encorajadora."
-        },
-
-        inspiring_info: {
-            en: "Some non-boss enemies will have an aura that makes their nearby allies immune to crowd control effects.",
-            es: "",
-            pt: ""
-        },
-
-        inspiring_note: {
-            en: "Note: The <b>Inspiring Presence</b> buff makes mobs immune to crowd control. The mobs that have this buff appear to be fixed (as in they will always be the same every time), and do not apply this buff to themselves.",
-            es: "",
-            pt: ""
-        },
-
-        spiteful_info: {
-            en: "Spirits rise from the corpses of non-boss enemies and chase down random players, dealing <b>HEAVY</b> melee damage.",
-            es: "",
-            pt: ""
-        },
-
-        spiteful_note: {
-            en: "Note: Whenever a mob dies, it spawns a <i>Spiteful Shade</i> that will fixate on a random player. Their health and damage scales with keystone level. They lose 8% of their HP every second and can be crowd controlled.",
-            es: "",
-            pt: ""
-        },
-
-        raging_info: {
-            en: "Non-boss enemies will enrage at low health, dealing double damage until killed.",
-            es: "Los enemigos que no son jefes se enfuceren cuando alcanzan un 30% de salud, por lo que infligen un 100% más de daño hasta que sean derrotados.",
-            pt: "Os Inimigos que não são chefes ficam enfurecidos ao alcançar 30% de vida, causando 100% mais de dano até serem derrotados."
-        },
-
-        raging_note: {
-            en: "Note: mobs with high damage targeted abilities or high damage AoE abilities become deadly with this affix. Be sure to focus fire mobs down so there aren't multiple enraged mobs at once.",
-            es: "Nota: los enemigos con habilidades que hacen mucho daño AoE o daño directo son mortales con este afijo. Asegúrate de hacer bien el foco e intenta reservar los stuns y ccs cuando estén enfurecidos. Caso se curen después de enfurecerse, seguirán enfucecidos hasta que mueran.",
-            pt: "Nota: inimigos com habilidades que causam muito dano em áreas ou direto são mortais com este afixo. Garanta que o foco principal esteja morto e guarde algum aturdir e cc para quando estiverem enfurecidos. Se os enemigos se curam depois de potenciar-se, seguirão potenciados até que morram."
-        },
-
-        sanguine_info: {
-            en: "Shortly after death, non-boss enemies will leave a pool of blood on the ground. This pool heals enemies and damages players for a % of their maximum health.",
-            es: "Al morir, los enemigos que no son jefes dejan debajo suyo un charco persistente de icor que sana a sus aliados e inflige daño a los jugadores.",
-            pt: "Ao morrer, inimigos que não-chefes deixam debaixo uma poça de sangue que cura aos aliados e causa dano aos jogadores."
-        },
-
-        sanguine_note: {
-            en: "Note:  The pool's radius is 8 yds. Pools last 20 seconds.",
-            es: "",
-            pt: ""
-        },
-
-        teeming_info: {
-            en: "Additional non-boss enemies are present throughout the dungeon; kill count requirement increased.",
-            es: "",
-            pt: ""
-        },
-
-        teeming_note: {
-            en: "Note: Removed for Season 1 of Shadowlands! Not much different from usual unless paired with other problematic affixes (Skittish). The most notable change with this affix is that the Enemy Forces Defeated kill requirement is increased.",
-            es: "",
-            pt: ""
-        },
-
-        bursting_info: {
-            en: "When slain, non-boss enemies explode, causing all players to suffer flat damage that scales with keystone level. This effect stacks.",
-            es: "Al morir, los enemigos que no son jefes explotan, por lo que todos los jugadores reciben un 14% de su salud máxima como daño durante 4 s. Este efecto se acumula.",
-            pt: "Quando mortos, inimigos que não são chefes explodem, fazendo com que todos os jogadores recebam dano equivalente a 14% do máximo de pontos de vida ao longo de 4 s. Este efeito acumula."
-        },
-
-        bursting_note: {
-            en: "Note: This effect stacks, so it is safest to let the stacks drop before killing multiple enemies. Now dispellable!",
-            es: "Nota: Este afijo parece que ignora el rango y columneo. Así que cuidado.",
-            pt: "Nota: Este afixo parece que ignora o alcance. Portanto cuidado!"
-        },
-
-        necrotic_info: {
-            en: "Enemy melee attacks apply a stacking debuff that deals damage and reduces healing received. Debuff lasts 9 seconds and is dispelled when exiting combat.",
-            es: "Todos los ataques cuerpo a cuerpo de los enemigos aplican un añublo que se acumula, inflige daño en el tiempo y reduce la sanación recibida.",
-            pt: "Todos os ataques corpo a corpo dos inimigos aplicam uma praga cumulativa que causa dano ao longo do tempo e reduz a cura recebida."
-        },
-
-        necrotic_note: {
-            en: "Note: Strong AoE CC or slows are great for this affix to allow for kiting mobs while the tank's Necrotic stacks fall off.",
-            es: "Nota: Está muy bien utilizar correctamente los CCs en áreas y ralentizaciones con este afijo para permitir kitear bien los pulls mientras el tanque se limpia de las cargas de Necrótica.",
-            pt: "Nota: É importante utilizar corretamente os CCs de controle massivo e redução de velocidade dos inimigos para permitir que o tanque possa fugir. Desta forma ele pode limpar-se das cargas necróticas."
-        },
-
-        skittish_info: {
-            en: "Tanks generate 75% less threat.",
-            es: "",
-            pt: ""
-        },
-
-        skittish_note: {
-            en: "This affix is a lot easier if Tricks of the Trade or Misdirection are used on cooldown. Strong AoE CC is beneficial here as well in case mobs get loose. Removed for (at least) Season 1 of Shadowlands! Hurray!",
-            es: "",
-            pt: ""
-        },
-
-        volcanic_info: {
-            en: "Enemies cause eruptions of flame near distant players. Additional volcanoes may appear near existing volcanoes.",
-            es: "Mientras están en combate, los enemigos provocan de forma periódica que surjan llamas bajo los pies de los jugadores distantes.",
-            pt: "Enquanto estiverem em combate, os inimigos periodicamente fazem com que glóbulos de fogo surjam sob os pés dos jogadores distantes."
-        },
-
-        volcanic_note: {
-            en: "Note: Keep an eye out for the volcano animation under your feet or near you. Sometimes you may not have to move! Knocks you high in to the air in addition to doing damage scaled to the keystone level.",
-            es: "Nota: Estate atento a la animación del volcán bajo tus pies o cerca de ti. ¡A veces puede que no tengas que moverte!",
-            pt: "Nota: Fique atento as animações do vulcão debaixo dos seus pés ou perto de você. As vezes você nem precisa mover-se!"
-        },
-
-        storming_info: {
-            en: "Tornadoes spawn around enemy creatures while in combat.",
-            es: "",
-            pt: ""
-        },
-
-        storming_note: {
-            en: "The fun never ends! Grey swirlies will appear on the floor, indicating that a tornado is going to spawn there. After the tornado spawns, it moves around the area. If you get hit by the tornado, you take damage and get knocked back. More than one tornado can be up at a time.",
-            es: "",
-            pt: ""
-        },
-
-        explosive_info: {
-            en: "Creatures have a chance to summon an Explosive Orb nearby that will explode after six seconds, inflicting damage 40% of the player’s maximum health as damage.",
-            es: "Mientras están en combate, los enemigos invocan de forma periódica orbes explosivos que detonan si nadie los destruye.",
-            pt: "Em combate, os inimigos evocam periodicamente orbes Explosivos que explodirão se não forem destruídos."
-        },
-
-        explosive_note: {
-            en: "Note: The explosive orb will spawn and begin casting a six second cast. If the cast goes off, the entire party will take 40% of their max hp in damage. They are <strong>AOE immune so you can't cleave them down!</strong> They can also spawn on boss fights. In Shadowlands, these orbs spawn at a slightly greater distance away from the enemy that spawns them.",
-            es: "Nota: Un orbe explosivo aparece con un lanzamiento de hechizo de 6 segundos. Si el orbe castea, todo el grupo recibirá un daño del 40% de salud máxima. ¡Estos son <strong>inmunes al daño en áreas, o sea cleave no funciona!</strong> Los orbes pueden aparecer en combates con jefes.",
-            pt: "Nota: Um orbe explosivo surge com um lançamento de magia de 6 segundos. Caso o orbe finalize o lançamento, todo o grupo recebe um dano de 40% de sua saúde máxima. Eles são <strong>imunes ao dano em áreas ou cleave</strong> Los orbes pueden aparecer en combates con jefes."
-        },
-
-        quaking_info: {
-            en: "Players will periodically Quake, interrupting spell casts of the player. Nearby allies take 40% of their maximum health as damage",
-            es: "Los jugadores emiten una ola de choque de forma periódica, lo que inflige daño e interrumpe a los aliados cercanos.",
-            pt: "Os jogadores emitem periodicamente uma onda de choque, causando dano e interrompendo aliados próximos."
-        },
-
-        quaking_note: {
-            en: "Note: spread out.",
-            es: "Nota: Separaos. Cuanto más separados estén, mejor. Interrumpe los lanzamientos de hechizos y también el intento de adquirir el buffo de comida.",
-            pt: "Nota: Separarem-se!"
-        },
-
-        grievous_info: {
-            en: "While below 90% health, players are afflicted with <b>Grievous Wound</b>.",
-            es: "Cuando estáis heridos y os queda menos del 90% de salud, recibiréis daño creciente en el tiempo hasta que os curen y recuperéis al menos el 90% de esta.",
-            pt: "Quando são feridos e chegam a menos de 90% dos pontos de vida, os jogadores sofrem dano crescente ao longo do tempo até serem curados acima de 90% dos pontos de vida."
-        },
-
-        grievous_note: {
-            en: "Note: You bleed until you are healed above 90%. Does flat damage that scales with keystone level. Direct heals remove one stack of <b>Grievous Wound</b>.",
-            es: "",
-            pt: ""
+        "Fortified": {
+            es: "Reforzada",
+            pt: "Fortificada"
         },
 
         fortified_info: {
@@ -666,8 +359,13 @@ $(function () {
             pt: "Nota: Interromper e esquivar a maioria (ou todas) as habilidades dos mobs são prioridade absoluta com este afixo. A maior parte do tempo dentro da masmorra estarás em combate puramente com mobs, não economize os CDs."
         },
 
+        "Tyrannical": {
+            es: "Tiránica",
+            pt: "Tirânica"
+        },
+
         tyrannical_info: {
-            en: "Bosses have more health and deal 15% more damage.",
+            en: "Bosses have 30% more health and deal 15% more damage.",
             es: "Los jefes enemigos tienen un 40% más de salud e infligen hasta un 15% más de daño.",
             pt: "Inimigos chefes têm 40% a mais de vida e causam até 15% a mais de dano."
         },
@@ -677,41 +375,275 @@ $(function () {
             es: "Nota: Las habilidades de los jefes ya no son triviales. La mecánica del jefe debe hacerse o se morirá \"la people\". Algunas peleas se convierten en pruebas de resistencia porque duran mucho tiempo.",
             pt: "Nota: As habilidades dos chefe não são mais triviais. As mecânicas do chefe precisam ser feitas ou verás gente morta :). Alguns combates se tornam verdadeiras provas de resistência (e não é do BBB) porque duram muito tempo."
         },
-        fortified_info_2: {
-            en: "Non-bosses have more health and deal more damage.",
-            es: "Los enemigos que no son jefes tienen un 20% más de salud e infligen hasta un 30% más de daño.",
-            pt: "Inimigos que não são chefes têm 20% mais pontos de vida e causam até 30% a mais de dano."
+
+        // Level 4
+
+        "Bolstering": {
+            es: "Potenciante",
+            pt: "Encorajadora"
         },
 
-        fortified_note_2: {
-            en: "Note: Easier now than when this was a level 10 affix. You'll find trash won't be as beefy now.",
-            es: "Nota: Interrumpir y esquivar la mayoría (o todas) las habilidades de los pulls se convierte en una prioridad absoluta con este afijo. La mayor parte del tiempo que pases en la mazmorra lucharás duramente contra los pulls, así que por favor, usa tus CDs.",
-            pt: "Nota: Interromper e esquivar a maioria (ou todas) as habilidades dos mobs são prioridade absoluta com este afixo. A maior parte do tempo dentro da masmorra estarás em combate puramente com mobs, não economize os CDs."
+        bolstering_info: {
+            en: "Non-boss enemies will buff nearby allies' maximum health by 15% and damage by 20% when defeated with a 30yd effective range.",
+            es: "Cuando un enemigo que no es un jefe muere, su grito al morir potencia a los aliados cercanos, lo que aumenta su salud máximos un 15% y su daño un 20%. Radio del grito 30 metros.",
+            pt: "Quando um inimigo que não é chefe morre, os aliados a 30 metros dele recebem um bônus que aumenta sua vida máxima em 15% e seu dano em 20%, e o efeito acumula."
         },
 
-        tyrannical_info_2: {
-            en: "Bosses have more health and deal more damage.",
-            es: "Los jefes enemigos tienen un 40% más de salud e infligen hasta un 15% más de daño.",
-            pt: "Inimigos chefes têm 40% a mais de vida e causam até 15% a mais de dano."
+        bolstering_note: {
+            en: "Note: it's important to kill all the trash in a pull as closely together as possible with this affix as mobs effectively heal as they gain max health (percent translation). Adds spawned from a trash mob or boss ability do not trigger bolster. It's possible to reset bolster on mobs by resetting them via wiping or exiting combat.",
+            es: "Nota: Es importante intentar matar todo el pull a la vez para no potenciar a los enemigos cercanos. Los enemigos adicionales que aparecen en un combate contra un jefe de mazmorra no son afectados por la Potenciante.",
+            pt: "Nota: É necessário tentar balancear o dano de forma que todos os inimigos morram juntos evitando potenciar os que estao ao redor. Os inimigos que aparecem junto com o chefe da masmorra não são afetados pela Encorajadora."
         },
 
-        tyrannical_note_2: {
-            en: "Note: Easier than when this was a level 10 affix. Bosses will still one shot you with certain abilities but it isn't as absurd as Legion.",
-            es: "Nota: Las habilidades de los jefes ya no son triviales. La mecánica del jefe debe hacerse o se morirá \"la people\". Algunas peleas se convierten en pruebas de resistencia porque duran mucho tiempo.",
-            pt: "Nota: As habilidades dos chefe não são mais triviais. As mecânicas do chefe precisam ser feitas ou verás gente morta :). Alguns combates se tornam verdadeiras provas de resistência (e não é do BBB) porque duram muito tempo."
+        bolstering_new: {
+            en: "New in 9.1: Maximum health increase per stack reduced to 15% (from 20%).",
+            es: " ",
+            pt: " "
+        },
+
+        "Bursting": {
+            es: "Detonante",
+            pt: "Explosivo"
+        },
+
+        bursting_info: {
+            en: "When slain, non-boss enemies explode, causing all players to suffer flat damage that scales with keystone level. This effect stacks.",
+            es: "Al morir, los enemigos que no son jefes explotan, por lo que todos los jugadores reciben un 14% de su salud máxima como daño durante 4 s. Este efecto se acumula.",
+            pt: "Quando mortos, inimigos que não são chefes explodem, fazendo com que todos os jogadores recebam dano equivalente a 14% do máximo de pontos de vida ao longo de 4 s. Este efeito acumula."
+        },
+
+        bursting_note: {
+            en: "Note: This effect stacks, so it is safest to let the stacks drop before killing multiple enemies. Now dispellable!",
+            es: "Nota: Este afijo parece que ignora el rango y columneo. Así que cuidado.",
+            pt: "Nota: Este afixo parece que ignora o alcance. Portanto cuidado!"
+        },
+
+        "Inspiring": {
+            es: "Inspiradora",
+            pt: "Inspiradora"
+        },
+
+        inspiring_info: {
+            en: "Some non-boss enemies will have an aura that makes their nearby allies immune to crowd control effects.",
+            es: "Algunos enemigos que no son jefes tienen una presencia inspiradora que refuerza a sus aliados.",
+            pt: "Alguns inimigos normais têm uma presença inspiradora que fortalece os aliados."
+        },
+
+        inspiring_note: {
+            en: "Note: The <b>Inspiring Presence</b> buff makes mobs immune to crowd control. The mobs that have this buff appear to be fixed (as in they will always be the same every time), and do not apply this buff to themselves.",
+            es: " ",
+            pt: " "
+        },
+
+        "Raging": {
+            es: "Furibunda",
+            pt: "Enraivecedora"
+        },
+
+        raging_info: {
+            en: "Non-boss enemies will enrage at 30% health, dealing 75% increased damage until killed.",
+            es: "Los enemigos que no son jefes se enfuceren cuando alcanzan un 30% de salud, por lo que infligen un 75% más de daño hasta que sean derrotados.",
+            pt: "Os Inimigos que não são chefes ficam enfurecidos ao alcançar 30% de vida, causando 75% mais de dano até serem derrotados."
+        },
+
+        raging_note: {
+            en: "Note: mobs with high damage targeted abilities or high damage AoE abilities become deadly with this affix. Be sure to focus fire mobs down so there aren't multiple enraged mobs at once. Soothe effects remove the enrage!",
+            es: "Nota: los enemigos con habilidades que hacen mucho daño AoE o daño directo son mortales con este afijo. Asegúrate de hacer bien el foco e intenta reservar los stuns y ccs cuando estén enfurecidos. Caso se curen después de enfurecerse, seguirán enfucecidos hasta que mueran.",
+            pt: "Nota: inimigos com habilidades que causam muito dano em áreas ou direto são mortais com este afixo. Garanta que o foco principal esteja morto e guarde algum aturdir e cc para quando estiverem enfurecidos. Se os enemigos se curam depois de potenciar-se, seguirão potenciados até que morram."
+        },
+
+        raging_new: {
+            en: "New in 9.1: Enrage now increases damage done by 75% (was 100%).",
+            es: " ",
+            pt: " "
+        },
+
+        "Sanguine": {
+            es: "Sanguina",
+            pt: "Sanguínea"
+        },
+
+        sanguine_info: {
+            en: "Shortly after death, non-boss enemies will leave a pool of blood on the ground. This pool heals enemies and damages players for a % of their maximum health.",
+            es: "Al morir, los enemigos que no son jefes dejan debajo suyo un charco persistente de icor que sana a sus aliados e inflige daño a los jugadores.",
+            pt: "Ao morrer, inimigos que não-chefes deixam debaixo uma poça de sangue que cura aos aliados e causa dano aos jogadores."
+        },
+
+        sanguine_note: {
+            en: "Note:  The pool's radius is 8 yds. Pools last 20 seconds.",
+            es: " ",
+            pt: " "
+        },
+
+        "Spiteful": {
+            es: "Rencorosa",
+            pt: "Detestável"
+        },
+
+        spiteful_info: {
+            en: "Spirits rise from the corpses of non-boss enemies and chase down random players, dealing <b>HEAVY</b> melee damage.",
+            es: "De los cadáveres de enemigos que no son jefes surgen malignos que persiguen a jugadores al azar.",
+            pt: "Demônios se erguem dos corpos de inimigos normais para perseguir jogadores aleatórios."
+        },
+
+        spiteful_note: {
+            en: "Note: Whenever a mob dies, it spawns a <i>Spiteful Shade</i> that will fixate on a random player. Their health and damage scales with keystone level. They lose 8% of their HP every second and can be crowd controlled.",
+            es: " ",
+            pt: " "
+        },
+
+        // Level 7
+
+        "Explosive": {
+            es: "Explosiva",
+            pt: "Explosiva"
+        },
+
+        explosive_info: {
+            en: "Creatures have a chance to summon an Explosive Orb nearby that will explode after six seconds, inflicting damage 40% of the player’s maximum health as damage.",
+            es: "Mientras están en combate, los enemigos invocan de forma periódica orbes explosivos que detonan si nadie los destruye.",
+            pt: "Em combate, os inimigos evocam periodicamente orbes Explosivos que explodirão se não forem destruídos."
+        },
+
+        explosive_note: {
+            en: "Note: The explosive orb will spawn and begin casting a six second cast. If the cast goes off, the entire party will take 40% of their max hp in damage. They are <strong>AOE immune so you can't cleave them down!</strong> They can also spawn on boss fights. In Shadowlands, these orbs spawn at a slightly greater distance away from the enemy that spawns them.",
+            es: "Nota: Un orbe explosivo aparece con un lanzamiento de hechizo de 6 segundos. Si el orbe castea, todo el grupo recibirá un daño del 40% de salud máxima. ¡Estos son <strong>inmunes al daño en áreas, o sea cleave no funciona!</strong> Los orbes pueden aparecer en combates con jefes.",
+            pt: "Nota: Um orbe explosivo surge com um lançamento de magia de 6 segundos. Caso o orbe finalize o lançamento, todo o grupo recebe um dano de 40% de sua saúde máxima. Eles são <strong>imunes ao dano em áreas ou cleave</strong> Los orbes pueden aparecer en combates con jefes."
+        },
+
+        "Grievous": {
+            es: "Dolorosa",
+            pt: "Atrocidade"
+        },
+
+        grievous_info: {
+            en: "While below 90% health, players are afflicted with <b>Grievous Wound</b>.",
+            es: "Cuando estáis heridos y os queda menos del 90% de salud, recibiréis daño creciente en el tiempo hasta que os curen y recuperéis al menos el 90% de esta.",
+            pt: "Quando são feridos e chegam a menos de 90% dos pontos de vida, os jogadores sofrem dano crescente ao longo do tempo até serem curados acima de 90% dos pontos de vida."
+        },
+
+        grievous_note: {
+            en: "Note: You bleed until you are healed above 90%. Does flat damage that scales with keystone level. Direct heals remove one stack of <b>Grievous Wound</b>.",
+            es: " ",
+            pt: " "
+        },
+
+        "Necrotic": {
+            es: "Necrótica",
+            pt: "Necrótica"
+        },
+
+        necrotic_info: {
+            en: "Enemy melee attacks apply a stacking debuff that deals damage and reduces healing received. Debuff lasts 9 seconds and is dispelled when exiting combat.",
+            es: "Todos los ataques cuerpo a cuerpo de los enemigos aplican un añublo que se acumula, inflige daño en el tiempo y reduce la sanación recibida.",
+            pt: "Todos os ataques corpo a corpo dos inimigos aplicam uma praga cumulativa que causa dano ao longo do tempo e reduz a cura recebida."
+        },
+
+        necrotic_note: {
+            en: "Note: Strong AoE CC or slows are great for this affix to allow for kiting mobs while the tank's Necrotic stacks fall off.",
+            es: "Nota: Está muy bien utilizar correctamente los CCs en áreas y ralentizaciones con este afijo para permitir kitear bien los pulls mientras el tanque se limpia de las cargas de Necrótica.",
+            pt: "Nota: É importante utilizar corretamente os CCs de controle massivo e redução de velocidade dos inimigos para permitir que o tanque possa fugir. Desta forma ele pode limpar-se das cargas necróticas."
+        },
+
+        necrotic_new: {
+            en: "New in 9.1: Level 61 enemies only apply a stack on every other auto attack.",
+            es: " ",
+            pt: " "
+        },
+
+        "Quaking": {
+            es: "Sísmica",
+            pt: "Estremecendo"
+        },
+
+        quaking_info: {
+            en: "Players will periodically Quake, interrupting spell casts of the player. Nearby allies take 40% of their maximum health as damage",
+            es: "Los jugadores emiten una ola de choque de forma periódica, lo que inflige daño e interrumpe a los aliados cercanos.",
+            pt: "Os jogadores emitem periodicamente uma onda de choque, causando dano e interrompendo aliados próximos."
+        },
+
+        quaking_note: {
+            en: "Note: spread out.",
+            es: "Nota: Separaos. Cuanto más separados estén, mejor. Interrumpe los lanzamientos de hechizos y también el intento de adquirir el buffo de comida.",
+            pt: "Nota: Separarem-se!"
+        },
+
+        "Storming": {
+            es: "Tormentosa",
+            pt: "Tempestuosa"
+        },
+
+        storming_note: {
+            en: "The fun never ends! Grey swirlies will appear on the floor, indicating that a tornado is going to spawn there. After the tornado spawns, it moves around the area. If you get hit by the tornado, you take damage and get knocked back. More than one tornado can be up at a time.",
+            es: " ",
+            pt: " "
+        },
+
+        storming_info: {
+            en: "Tornadoes spawn around enemy creatures while in combat.",
+            es: "Mientras están en combate, los enemigos invocan de forma periódica torbellinos dañinos.",
+            pt: "Em combate, os inimigos evocam periodicamente redemoinhos que causam dano."
+        },
+
+        storming_new: {
+            en: "New in 9.1: Tornadoes now always moves in the same direction, and their movement speed reduced by 30%. Tornadoes now dissipate once a target is hit.",
+            es: " ",
+            pt: " "
+        },
+
+        "Volcanic": {
+            es: "Volcánica",
+            pt: "Vulcânica"
+        },
+
+        volcanic_info: {
+            en: "Enemies cause eruptions of flame near distant players. Additional volcanoes may appear near existing volcanoes.",
+            es: "Mientras están en combate, los enemigos provocan de forma periódica que surjan llamas bajo los pies de los jugadores distantes.",
+            pt: "Enquanto estiverem em combate, os inimigos periodicamente fazem com que glóbulos de fogo surjam sob os pés dos jogadores distantes."
+        },
+
+        volcanic_note: {
+            en: "Note: Keep an eye out for the volcano animation under your feet or near you. Sometimes you may not have to move! Knocks you high in to the air in addition to doing damage scaled to the keystone level.",
+            es: "Nota: Estate atento a la animación del volcán bajo tus pies o cerca de ti. ¡A veces puede que no tengas que moverte!",
+            pt: "Nota: Fique atento as animações do vulcão debaixo dos seus pés ou perto de você. As vezes você nem precisa mover-se!"
+        },
+
+        // Level 10 (Season Affixes)
+
+        "Prideful": {
+            es: "Orgulloso",
+            pt: "Orgulhosa"
         },
 
         prideful_info: {
             en: "Killing enemies fills a progress bar. Every 20% on the bar spawns a <i>Manifestation of Pride</i>. Killing the <i>Manifestation of Pride</i> provides players with a buff.",
-            es: "",
-            pt: "",
+            es: "Los jugadores se llenan de orgullo al derrotar a enemigos que no sean jefes y acaban formando una manifestación del orgullo. Si derrotan a esta manifestación, se potencian de manera considerable.",
+            pt: "Os jogadores transbordam orgulho ao derrotar inimigos normais, dando origem a uma Manifestação do Orgulho. Derrotar a Manifestação fortalece significativamente os jogadores.",
         },
 
         prideful_note: {
             en: "The buff you get from killing the <i>Manifestation of Pride</i> is pretty good, as it increases Mana Regeneration by 5% per second, damage dealt by 30%, and Movement Speed by 60% for a minute. The <i>Manifestation of Pride</i> has somewhere around 30% of the health of a dungeon boss and does heavy AoE damage every 2 seconds of the fight. You'll probably want to position this enemy to be near a boss or difficult trash pull so you can make the most use of the buff.",
-            es: "",
-            pt: "",
+            es: " ",
+            pt: " ",
         },
+
+        "Tormented": {
+            es: "Atormentado",
+            pt: "Atormentados"
+        },
+
+        tormented_info: {
+            en: "Servants of the Jailer can be found throughout the dungeon and grant powerful boons when defeated. If a servant is not dealt with, they empower the final boss.",
+            es: " ",
+            pt: " ",
+        },
+
+        tormented_note: {
+            en: "Four new Lieutenants are available to kill in the dungeon. When you kill a lieutenant, each party member gets an Anima Power. For every lieutenant still up when the final boss is pulled, it will apply an aura that will make the final boss harder.",
+            es: " ",
+            pt: " ",
+        },
+
         "Weekly schedule for affixes": {
             es: "Calendario semanal de afijos",
             pt: "Agenda semanal de afixos"
@@ -719,7 +651,7 @@ $(function () {
 
         // Group considerations
 
-        "Group considerations": {
+        "Group Considerations": {
             es: "Consideraciones de grupos",
             pt: "Considerações de grupo"
         },
@@ -729,7 +661,7 @@ $(function () {
             pt: "A composição do grupo quase não importa em chaves de nível baixo. Há poucas razões para se esforçar em escolher a composição do seu grupo em chaves menores do que de 5-6. Traga o jogador, não a classe."
         },
 
-        "That being said, your group composition will always be one tank, one healer, and three DPS. Multi-tank strategies are not viable." : {
+        "That being said, your group composition will always be one tank, one healer, and three DPS. Multi-tank strategies are not viable, no matter how much you think they should be." : {
             es: "Dicho esto, la composición del grupo siempre será de un tanque, un sanador y tres DPS. Estratégias de múltiples tanques no son viables",
             pt: "Dito isto, a composição do seu grupo será sempre um tanque, um healer e três DPS. Estratégias com vários tanques não são viáveis."
         },
@@ -768,6 +700,12 @@ $(function () {
             en: "Again, selecting your group carefully matters mostly for higher level keys where the difficulty of the run is often very high. For lower level keystone runs, group makeup is not as important as it is easy to power through most of the content. Just saying. Do what you want. <code>¯\\_(ツ)_/¯</code>",
             es: "De nuevo, seleccionar tu grupo con cuidado importa más para piedras de nivel alto, donde la dificultad es por lo general mayor. Para piedras de nivel bajo, la composición del grupo no es tán importante. Solo digamos. Haz lo que quieras. <code>¯\\_(ツ)_/¯</code>",
             pt: "Mais uma vez, selecionar seu grupo com cuidado é importante principalmente para chaves de nível superior, onde a dificuldade geralmente é muito alta. Para chaves de nível inferior, a composição do grupo não é tão importante quanto é completar a maior parte do conteúdo. Apenas dizendo. Faça o que você quiser. <code>¯\\_(ツ)_/¯</code>"
+        },
+
+        group_cons_drums: {
+            en: "Drums (any tier is fine, they all give 15% haste <sup><a href=\"https://www.icy-veins.com/forums/topic/51841-drums-haste-effects-nerfed-to-15-in-shadowlands/\">[source]</a></sup>): sorta makes up for no Bloodlust/Heroism/Time Warp/Hysteria, but the nerf from 25% haste to 15% really hurts the value of drums.",
+            es: "Tambores: para suplir a Ansia de sangre/Distorsión temporal/Histeria, etc",
+            pt: "Tambores: supre a necessidade de sede de sangue / heroísmo / distorção temporal / histeria, etc."
         },
 
         "Consumables" : {
@@ -833,6 +771,12 @@ $(function () {
         "You can no longer use the Proving Grounds to grab a free Healthstone but you can invite a Warlock to the party before start the dungeon.": {
             es: "Ya no puedes pillar una piedra de salud del Terreno de Pruebas, sin embargo podrás invitar un brujo a la party antes de empezar la mazmorra y obtener la piedra de salud de su pozo.",
             pt: "Não é mais possível lotear pedras da vida no terreno de provas, agora é necessário convidar um bruxo ao grupo e lotar la pedra do poço."
+        },
+
+        //Valor
+        "Valor": {
+            es: "Valor",
+            pt: "Bravura"
         },
 
         //Useful stuff
@@ -1030,65 +974,10 @@ $(function () {
             pt: "Baú semanal"
         },
 
-        "The chest at the end of the run guarantees the <strong>GROUP</strong> two pieces of loot from the dungeon loot table. If you beat the timer you will be awarded one extra piece of loot.": {
-            es: "El cofre al final de la mazmorra garantiza al <strong>GRUPO</strong> dos piezas de botín. Si superas el cronómetro, se le otorgará una pieza extra de botín.",
-            pt: "O baú ao final da corrida garante ao <strong>GRUPO</strong> dois itens do saqueio da masmorra. Se você superar o cronometro, ganhará um item extra ao saquear."
-        },
-
-        "In addition, roughly every 5 difficulty levels past 10 will award you with an additional piece of loot (after 10 it's an additive 40% chance per key level for extra loot). +11 has a 40% chance of dropping one extra item, +13 has a 100% chance to drop an extra item (with a 20% chance to drop another extra item) and +15 has a guaranteed chance to drop two extra items for five items total from the chest.": {
-            es: "Además, en aproximadamente cada 5 niveles de dificultad (después del nivel 10) te otorgarán una pieza adicional de botín (después del nivel 10 hay una probabilidad adicional del 40% por nivel para obtener un botín adicional). Una +11 tiene un 40% de posibilidades de soltar un elemento extra, la +13 tiene un 100% de posibilidade de soltar un equipo extra (con un 20% de probabilidad de soltar otro iten extra) y una +15 tiene una probabilidad garantizada de soltar dos elementos adicionales por 5 artículos en total del cofre.",
-            pt: "Além disso, a cada 5 níveis aproximadamente de dificuldade (depois +10) te entregará um item adicional ao saquear (depois do nivel 10 existe a possibilidade adicional de 40% por nível para receber loot adicional). Uma +11 tem 40% de possibilidade de saquear um elemento extra, a +13 tem 100% de possibilidade de saquear um item adicional (com 20% de possibilidade de saquear outro item extra) e uma +15 tem uma possibilidade garantida de saquear dois itens adicionais por 5 objetos no total do cofre."
-        },
-
-        "Example time! You beat a level 15 keystone within the timer and your group is awarded 3 pieces of loot. Later, you beat a level 18 keystone within the timer and your group SHOULD BE awarded with 4 pieces of loot. Repeat every three levels. 21 = 5 pieces of loot, 24 = 6 pieces of loot, etc.": {
-            es: "¡Venga, a poner un ejemplo! Tú consigues una piedra angular de nivel 15 dentro del tiempo y tu grupo recibe 3 piezas de botín. </br>Más tarde, superas una piedra angular de nivel 18 en tiempo y tu grupo DEBERÍA recibir 4 piezas de botín. </br>Esto se repite cada tres niveles. 21 = 5 piezas de botín, 24 = 6 piezas de botín, etc.",
-            pt: "Se liga ai que é hora da revisão: - Você consegue finalizar uma pedra-chave de nível 15 dentro do cronometro e seu grupo recebe 3 itens do saqueio. </br>Mais tarde, você finaliza uma pedra-chave de nível 18 dentro do tempo e seu grupo DEVERIA ser premiado com 4 itens ao saquear. </br>Agora, repita o mesmo exercício a cada três níveis. 21 = 5 itens de saqueio, 24 = 6 itens de saqueio, etc."
-        },
-
-        "At the start of a week (after raid/mythic reset) a chest will appear in your Battle for Azeroth city awarding one piece of loot. It will also contain Azerite (aka Battle for Azeroth artifact power) and Titan Residuum, a new currency used to buy targeted Azerite armor. More on that below. The loot item lvl is determined by the highest level keystone run <strong>COMPLETED</strong> the previous week, within the timer or not.": {
-            es: "Al comenzar la semana (después del reinicio semanal de míticas o banda) aparecerá un cofre en tu ciudad de BfA que otorgará un botín. También contendrá Matriz de azerita radiante (también conocido como poder de artefacto de BfA) y Titan Residuum, una nueva moneda utilizada para comprar armaduras de azerita específica o aleatória con base en el slot elegido. El nivel del iten botín se basa en la mítica <strong>FINALIZADA</strong> más alta que has hecho la semana anterior, dentro o fuera del tiempo de la mazmorra.",
-            pt: "No início da semana (depois de reiniciar as raids ou míticas) surgirá um baú na tua cidade em BfA que te entregará um loot. Também haverá no cofre azerita para potencializar o colar e Titan Residuum, uma nova moeda utilizada para comprar peças de azerita específica ou aleatória baseada no slot escolhido. O nivel do item do baú está baseado na mítica <strong>FINALIZADA</strong> mais alta da semana anterior, seja em tempo ou não."
-        },
-
-        "In addition, the chest will also have a downgraded keystone based on the highest level keystone run <strong>completed</strong> in the season, degrading by 1 level every week you don't complete a run higher than your previous highest.": {
-            es: "Además, el cofre también tendrá una piedra angular degradada (-1) basada en la finalización de piedra angular de nivel más alto <strong>completada</strong> en la temporada, degradando el nivel de uno en uno a cada semana que no se complete una mítica más superior que su anterior mítica de nivel más alta.",
-            pt: "Além disso, o baú também terá uma pedra-chave rebaixada (somente um nível) baseada na corrida de nível mais alto que <strong>VOCÊ COMPLETOU</strong> na semana anterior."
-        },
-
-        "Example: You complete a +11 one week and it is your highest completed run. Next week you get a +10 keystone from your chest. That same week you don't complete anything higher than a +10. Next reset you get a +9 key from the chest.": {
-            es: "Ejemplo: Finalizando una mítica +11 en una semana y si es tu mítica de nivel más alto, en la siguiente obtendrás una piedra angular +10 en el cofre. Ya en la semana actual si no finalizas ninguna mítica superior a +10, tras el reinicio semanal obtendrás una piedra +9 en tu cofre.",
-            pt: "Exemplo: Ao finalizar uma mítica +11 em uma semana qualquer sendo esta de nível mais alto, na seguinte semana saqueará uma pedra de nível 10 no baú. Na semana atual se não finalizar nenhuma pedra superior a +10, depois do reinicio semanal você terá uma pedra nivel +9 no baú."
-        },
-
-        "<strong>*It will be most beneficial to complete a +15 every week to get the highest gear value from your weekly chest.</strong>": {
-            es: "<strong>Es más rentable finalizar una +15 semanalmente para obtener el botín con el nivel más alto en cada reinicio semanal.</strong>",
-            pt: "<strong>É muito mais rentável finalizar uma masmorra +15 semanalmente para obter o saqueio com o item de nível mais alto a cada reinício semanal.</strong>"
-        },
-
-        //Titan Residuum
-        "Titan Residuum": {
-            es: "Residuo titánico",
-            pt: "Resíduo Titânico"
-        },
-
-        "Level": {
-            es: "Nivel",
-            pt: "Nível"
-        },
-
-        "TR in weekly chest": {
-            es: "RT en el cofre semanal",
-            pt: "RT no cofre semanal"
-        },
-
-        "The weekly cache no longer awards a random Azerite armor piece, but instead awards a new currency called Titan Residuum. Titan Residuum can also be acquired from scrapping or disenchanting Azerite armor pieces." : {
-            es: "El cofre semanal ya no otorga una pieza de azerita aleatória, sino que entrega una moneda llamada Residuo titánico. El Residuo titánico también se puede adquirir al desguazar o desencantar piezas de armadura de azerita.",
-            pt: "O baú semanal já não entrega um item de azerita aleatório, porém te da uma moeda chamada Residuo titânico. O Residuo titânico também pode dá pra conseguir ao sucatear ou desencantar os itens de armadura de azerita."
-        },
-
-        "Titan Residuum can be used to buy targeted Azerite pieces from Thaumaturge Vashreen.": {
-            es: "El residuo titánico puede ser utilizado para comprar piezas específicas de azerita en el Taumaturgo Vashreen.",
-            pt: "O residuo titânico pode ser utilizado para comprar itens específicos de azerita."
+        greatvault_loot_new: {
+            en: "It will be most beneficial to complete a +15 every week to get the highest gear value from your weekly chest (was +14 prior to 9.1)",
+            es: "Es más rentable finalizar una +15 semanalmente para obtener el botín con el nivel más alto en cada reinicio semanal.",
+            pt: "É muito mais rentável finalizar uma masmorra +15 semanalmente para obter o saqueio com o item de nível mais alto a cada reinício semanal."
         },
 
         //Patreon
@@ -1158,194 +1047,6 @@ $(function () {
             pt: "World of Warcraft, Warcraft e Blizzard Entertainment são marcas comerciais ou marcas registradas da Blizzard Entertainment, Inc. nos EUA e/ou em outros países."
         },
         //===== END HOME =====
-
-        //===== CALC =====
-        //Page title
-        "mythic+ calculator to fill out your artifact": {
-            es: "Calculadora de mítica+ para subir el poder de artefacto",
-            pt: "Calculadora de mítica+ para evoluir o poder da arma de artefato"
-        },
-
-        //Calculator
-        "back": {
-            es: "volver",
-            pt: "voltar"
-        },
-
-        "how many m+ do i have to run to get this goddamn artifact levelled? (now with some 7.2 data! m+ AP tokens have changed to scale with dungeon length and I haven't updated that yet)": {
-            es: "¿Cuántas mazmorras+ tengo hacer para subir el poder de artefacto? (ahora con datos del parche 7.2! Las chapas de AP de las míticas+ han cambiado y escalan con la duración de la mazmorra pero no he actualizado todavía)",
-            pt: "Quantas masmorras+ são necessárias fazer para subir o poder de artefato? (dados atualizados com a versão 7.2! As fichas de AP das míticas+ mudaram e escalam com a duração da masmorra, porém ainda não atualizei)"
-        },
-
-        "Current Artifact Level": {
-            es: "Nivel actual de poder de artefacto",
-            pt: "Nível atual de poder de artefato"
-        },
-
-        "Current AP totals and AP to level": {
-            es: "Totales de AP actual y AP para el nivel",
-            pt: "Totais de AP atuais e AP para o nível"
-        },
-
-        btncalculate: {
-            en: "CALCULATE",
-            es: "Calcular",
-            pt: "Calcular"
-        },
-
-        "Total AP:": {
-            es: "AP Total",
-            pt: "AP Total"
-        },
-
-        "AP to level:": {
-            es: "AP para el nivel:",
-            pt: "AP para o nível:"
-        },
-
-        "AP to max:": {
-            es: "AP para máx. nivel:",
-            pt: "AP para máx. nível:"
-        },
-
-        "Total M+ required to level": {
-            es: "Total de míticas+ requeridas para nivel",
-            pt: "Requisito total de míticas+ o nível"
-        },
-
-        "M+ to 35": {
-            es: "M+ hasta 35",
-            pt: "M+ até 35"
-        },
-
-        "M+ to 52 (first Concordance point)": {
-            es: "M+ hasta 52 (primer punto del Acuerdo)",
-            pt: "M+ até 52 (primero punto do Acordo)"
-        },
-
-
-        "M+ to next level": {
-            es: "M+ para el siguiente nivel",
-            pt: "M+ para o seguinte nível"
-        },
-
-        "M+ to Max (lol good luck)": {
-            es: "M+ para Máx. (lol gzeta)",
-            pt: "M+ para Máx. (puah sorte)"
-        },
-
-        // Footer
-        "Yeah, this is based off of <a href=\"https://docs.google.com/spreadsheets/d/1Fvx9eKXx6sPa5D_Mz4L9-fUog_kdaOajoTC9UgvV_Ms/edit#gid=0\">this spreadsheet.</a> Don't worry, I worked with the author to get it up here, I didn't just rip them off. Shoutouts to Auhsoj#7928.": {
-            es: "Sí, esto está basado en <a href=\"https://docs.google.com/spreadsheets/d/1Fvx9eKXx6sPa5D_Mz4L9-fUog_kdaOajoTC9UgvV_Ms/edit#gid=0\"> esta hoja de cálculo.</a> No te preocupes, yo trabajé con el autor para meter esto aquí, no solo le estafé :). Felicitaciones a Auhsoj#7928.",
-            pt: "Sím, isto está feito com base nesta <a href=\"https://docs.google.com/spreadsheets/d/1Fvx9eKXx6sPa5D_Mz4L9-fUog_kdaOajoTC9UgvV_Ms/edit#gid=0\"> planilha.</a> Nao se preocupe, eu trabalhei com o autor para colocar isto aqui, não somente chupinhei :). Agradecimentos a Auhsoj#7928."
-        },
-
-        //===== END CALC =====
-
-        //===== GRAPHS =====
-        "AFFIX DIFFICULTY SURVEY RESULTS": {
-            es: "RESULTADOS DE LA ENQUETE SOBRE LA DIFICULTAD DE AFIJOS",
-            pt: "RESULTADOS DA PESQUISA SOBRE A DIFICULDADE DOS AFIXOS"
-        },
-
-        "The following charts are using input that I got from the survey hosted on mythicpl.us. Currently we're at <span id=\"totvotes\"></span> votes for the original affixes and <span id=\"newvotes\"></span> for the new affixes. The numbers you see are the total count of each difficulty divided by Total Votes (for the original affixes) or New Votes (for the new affixes) multiplied by 100 to get a percentage.": {
-            es: "Los siguientes cuadros están usando la información que obtuve de la encuesta en mythicpl.us. Actualmente estamos en <span id=\"totvotes\"></span> votos para los afijos iniciales y <span id = \"newvotes\"></span> para los nuevos afijos. Los números que ves son el recuento total de cada dificultad dividido entre el total de votos (para los afijos iniciales) o los nuevos votos (para los nuevos afijos) multiplicado por 100 para obtener un porcentaje.",
-            pt: "Os gráficos a seguir estão usando os inputs que recebi da pesquisa em mythicpl.us. Atualmente, estamos em <span id=\"totvotes\"></span> votos para os affixes iniciais e <span id=\"newvotes\"></span> para os novos afixos. Os números que você vê são a contagem total de cada dificuldade dividida por votos totais (para os afixos iniciais) ou novos votos (para os novos afixos) multiplicados por 100 para obter uma porcentagem."
-        },
-
-        "This page should update in <i>psuedo-realtime</i> since it's just querying the Google spreadsheet hosting all the survey returns.": {
-            es: "Esta pagina debería atualizarse en <i>psuedo-tiempo-real</i> una vez que simplemente consulta la hoja de calculo de Google que almacena todos los resultados de la pesquisa.",
-            pt: "Esta página deve atualizar em <i>psuedo-tempo-real</i> uma vez que está apenas consultando a planilha do Google que armazena todos os resultados da pesquisa."
-        },
-
-
-        "Haven't taken the survey yet? You can take it <a href=\"https://goo.gl/forms/YgaYteAnJjg2yMOn1\">here!</a> Wanna see the source spreadsheet? <a href=\"https://docs.google.com/spreadsheets/d/1saKejReaWhzQUmTy_r8FTTcW9xt1ilxI2knYdc8bQPs/pubhtml?gid=673910183&single=true\">Click here!</a>": {
-            es: "¿No has realizado la encuesta todavía? Puedes responderla <a href=\"https://goo.gl/forms/YgaYteAnJjg2yMOn1\">aquí!</a>. Quieres ver los resultados? <a href=\"https://docs.google.com/spreadsheets/d/1saKejReaWhzQUmTy_r8FTTcW9xt1ilxI2knYdc8bQPs/pubhtml?gid=673910183&single=true\">Click aquí!</a>",
-            pt: "Ainda não fez a pesquisa? Você pode fazê-la <a href=\"https://goo.gl/forms/YgaYteAnJjg2yMOn1\">aqui!</a> Quer ver a planilha de origem? <a href=\"https://docs.google.com/spreadsheets/d/1saKejReaWhzQUmTy_r8FTTcW9xt1ilxI2knYdc8bQPs/pubhtml?gid=673910183&single=true\">Clique aqui!</a>"
-        },
-
-        invite_survey: {
-            en: "Haven't taken the survey yet? You can take it <a href=\"https://goo.gl/forms/YgaYteAnJjg2yMOn1\">here!</a> Wanna see the source spreadsheet? <a href=\"https://docs.google.com/spreadsheets/d/1saKejReaWhzQUmTy_r8FTTcW9xt1ilxI2knYdc8bQPs/pubhtml?gid=673910183&single=true\">Click here!</a>",
-            es: "¿Todavía no has contestado la encuesta? ¡Puedes hacerlo <a href=\"https://goo.gl/forms/YgaYteAnJjg2yMOn1\"> aquí! </a> ¿Quieres ver la hoja de cálculo con la origen de los datos? <a href=\"https://docs.google.com/spreadsheets/d/1saKejReaWhzQUmTy_r8FTTcW9xt1ilxI2knYdc8bQPs/pubhtml?gid=673910183&single=true\">¡Haz clic aquí!</a>",
-            pt: "Ainda não realizou a pesquisa? Você pode levá-lo <a href=\"https://goo.gl/forms/YgaYteAnJjg2yMOn1\"> aqui! </a> Quer ver a planilha de origem? <a href=\"https://docs.google.com/spreadsheets/d/1saKejReaWhzQUmTy_r8FTTcW9xt1ilxI2knYdc8bQPs/pubhtml?gid=673910183&single=true\"> Clique aqui! </a>"
-        },
-
-        "Tier 1 affixes": {
-            es: "Afijos de tier 1",
-            pt: "Afixos de tier 1"
-        },
-
-        "Tier 2 affixes": {
-            es: "Afijos de tier 2",
-            pt: "Afixos de tier 2"
-        },
-
-        "Tier 3 affixes": {
-            es: "Afijos de tier 3",
-            pt: "Afixos de tier 3"
-        },
-
-        "Note: nothing too shocking here I don't think. Bolstering is annoying because it slows down your run.": {
-            es: "Nota: no creo que haya nada impactante aquí. Potenciante es molesto porque ralentiza mazmorra mítica+.",
-            pt: "Nota: não vejo nada chocante aqui. A Encorajadora é irritante porque atrasa a sua mítica+."
-        },
-
-        "Note: same deal here. Raging is annoying at best. Overwhelming medium votes here.": {
-            es: "Nota: más de lo mismo. Furibunda ya no es tan molesto en comparación. Votos relevantes para dificultad media aquí.",
-            pt: "Exemplo"
-        },
-
-        "Note: lol.": {
-            es: "Nota: izipizi loco.",
-            pt: "Nota: facin facin."
-        },
-
-        "Note: Not too shocking here either.": {
-            es: "Nota: Nada impactante aquí tampoco.",
-            pt: "Nota: Não há nada impactante por aqui."
-        },
-
-        "Note: Same deal as bolstering, slows your run.": {
-            es: "Nota: Es parecido con la Potenciante, también ralentiza mítica+.",
-            pt: "Nota: Se parece com a Encorajadora, também atrasa tua mítica+"
-        },
-
-        "Note: REEEEEE. Necrotic is more doable now that stacks drop, but is still tough.": {
-            es: "Nota: VIEJAAAAAAAA ¡Ayúda al tank!. Necrótica ya es más factible porque quita las cargas al salir de combate (antes no), aún así sigue sendo difícil.",
-            pt: "Nota: AI COMO DÓI, pobre tanque. Necrótica ya es más factible porque quita las cargas al salir de combate (antes no), aún así sigue sendo difícil."
-        },
-
-        "Note: skittish went from being medium to hard as more people learned to hate it.": {
-            es: "Nota: inquieta dejó de ser un afijo de dificultad media a alta, ya que más y más personas fueron aprendiendo a odiarla.",
-            pt: "Nota: assustada deixou de ser um afixo de dificuldade média e passou a alta, já que mais e mais pessoas foram aprendendo a odiar-la."
-        },
-
-        "Note: EZ PZ 3 CHEST LOL. For real though, volcanic got easier after the 7.2 patch.": {
-            es: "Nota: IZI-PIZI 3 COFRES PA VOSOTROS. De hecho es el afijo más fácil desde el parche 7.2.",
-            pt: "Nota: FACIIIIN 3 BAÚS!!! Inclusive é o afixo mais fácil desde a versão 7.2"
-        },
-
-        "Note: explosive has high wipe potential if people are auto-piloting. i expect it to go from med to hard": {
-            es: "Nota: este afijo tiene una posibilidad enorme de matar a uno que otro empanado. Espero que cambie de dificultad media a alta.",
-            pt: "Nota: este afixo tem uma possibilidade enorme de matar aos mais despistados. Espero que a dificuldade mude de média a alta."
-        },
-
-        "Note: overwhelming medium. spread out and you're good, right?": {
-            es: "Nota: definitivamente tiene dificultad media. Separate y todo quedará bien, verdad?",
-            pt: "Nota: definitivamente tem dificuldade média. Se separe e tudo vai ficar bem, beleza?"
-        },
-
-        "Note: This might transition from medium to hard as well. Blame the healer!": {
-            es: "Nota: Este también podría cambiar de media a alta. ¡Culpe al priest!",
-            pt: "Nota: Este afixo poderia mudar de dificuldade também. De média a alta. Hora de culpar seu healer!"
-        },
-
-        "Note: WHO WOULD HAVE GUESSED. Tier three affixes are the worst.": {
-            es: "Nota: COMO DEBERÍAS IMAGINAR. Estos afijos del tier 3 son los peores.",
-            pt: "Nota: COMO VOCÊ DEVE IMAGINAR. Estes afixos de tier 3 são os piores."
-        }
-        //===== END GRAPHS =====
-
     };
 
     var userLang = getLang();

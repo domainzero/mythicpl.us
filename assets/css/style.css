@@ -699,7 +699,7 @@ canvas {
 
 .show-menu .menu-wrap {
     width: 280px;
-    height: 340px;
+    height: auto;
     -webkit-animation: anim-jelly .8s linear forwards;
     animation: anim-jelly .8s linear forwards
 }
@@ -1144,5 +1144,4 @@ ul.affixes-list li {
     background: -webkit-linear-gradient(#ff5555, #111);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    }
 }
