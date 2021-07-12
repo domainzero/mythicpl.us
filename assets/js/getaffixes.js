@@ -104,6 +104,10 @@ function getAffixes(region) {
                         "difficulty": "med"
                     },
                     {
+                        "name": "Tormented",
+                        "difficulty": "med"
+                    },
+                    {
                         "name": "Quaking",
                         "difficulty": "easy"
                     },
