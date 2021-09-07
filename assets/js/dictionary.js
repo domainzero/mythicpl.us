@@ -586,7 +586,7 @@ $(function () {
         },
 
         storming_new: {
-            en: "New in 9.1: Tornadoes now always moves in the same direction, and their movement speed reduced by 30%. Tornadoes now dissipate once a target is hit.",
+            en: "New in 9.1: Tornadoes now always move in the same direction, and their movement speed is reduced by 30%. Tornadoes now dissipate once a target is hit.",
             es: " ",
             pt: " "
         },
