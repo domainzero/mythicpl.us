@@ -1,0 +1,19 @@
+{
+  "name": "mythicpl.us",
+  "version": "1.0.0",
+  "description": "A simple flat file site designed to load quickly and give M+ information at a glance (and in multiple languages thanks to some great contributors, but mostly [@amarques](https://github.com/amarques)!)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zbouvier/mythicpl.us.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zbouvier/mythicpl.us/issues"
+  },
+  "homepage": "https://github.com/zbouvier/mythicpl.us#readme"
+}
