@@ -384,7 +384,7 @@ $(function () {
         },
 
         bolstering_info: {
-            en: "Non-boss enemies will buff nearby allies' maximum health by 15% and damage by 20% when defeated with a 30yd effective range.",
+            en: "Non-boss enemies will buff nearby allies' maximum health by 15% and damage by 20% when defeated with a 30yd effective range. This effect lasts 20 seconds.",
             es: "Cuando un enemigo que no es un jefe muere, su grito al morir potencia a los aliados cercanos, lo que aumenta su salud máximos un 15% y su daño un 20%. Radio del grito 30 metros.",
             pt: "Quando um inimigo que não é chefe morre, os aliados a 30 metros dele recebem um bônus que aumenta sua vida máxima em 15% e seu dano em 20%, e o efeito acumula."
         },
@@ -441,7 +441,7 @@ $(function () {
         },
 
         raging_info: {
-            en: "Non-boss enemies will enrage at 30% health, dealing 75% increased damage until killed.",
+            en: "Non-boss enemies will enrage at 30% health, dealing 50% increased damage until killed.",
             es: "Los enemigos que no son jefes se enfuceren cuando alcanzan un 30% de salud, por lo que infligen un 75% más de daño hasta que sean derrotados.",
             pt: "Os Inimigos que não são chefes ficam enfurecidos ao alcançar 30% de vida, causando 75% mais de dano até serem derrotados."
         },
@@ -453,7 +453,7 @@ $(function () {
         },
 
         raging_new: {
-            en: "New in 9.1: Enrage now increases damage done by 75% (was 100%).",
+            en: " ",
             es: " ",
             pt: " "
         },
@@ -534,19 +534,19 @@ $(function () {
         },
 
         necrotic_info: {
-            en: "Enemy melee attacks apply a stacking debuff that deals damage and reduces healing received. Debuff lasts 9 seconds and is dispelled when exiting combat.",
+            en: "Enemy melee attacks apply a stacking debuff that deals damage and reduces healing received. Debuff lasts 6 seconds and is dispelled when exiting combat.",
             es: "Todos los ataques cuerpo a cuerpo de los enemigos aplican un añublo que se acumula, inflige daño en el tiempo y reduce la sanación recibida.",
             pt: "Todos os ataques corpo a corpo dos inimigos aplicam uma praga cumulativa que causa dano ao longo do tempo e reduz a cura recebida."
         },
 
         necrotic_note: {
-            en: "Note: Strong AoE CC or slows are great for this affix to allow for kiting mobs while the tank's Necrotic stacks fall off.",
+            en: "Note: Strong AoE CC or slows are great for this affix to allow for kiting mobs while the tank's Necrotic stacks fall off. Bosses apply necrotic on every other melee.",
             es: "Nota: Está muy bien utilizar correctamente los CCs en áreas y ralentizaciones con este afijo para permitir kitear bien los pulls mientras el tanque se limpia de las cargas de Necrótica.",
             pt: "Nota: É importante utilizar corretamente os CCs de controle massivo e redução de velocidade dos inimigos para permitir que o tanque possa fugir. Desta forma ele pode limpar-se das cargas necróticas."
         },
 
         necrotic_new: {
-            en: "New in 9.1: Level 61 enemies only apply a stack on every other auto attack.",
+            en: " ",
             es: " ",
             pt: " "
         },
@@ -922,11 +922,22 @@ $(function () {
         },
 
         keystones_donth: {
-            en: "Don't have a keystone? Completing a keystone run will net you a key at the end of the run. This keystone will be one level under the keystone run level you complete. You can also get a key from the final boss of any Shadowlands mythic dungeon.</br><span class=\"affixes-list__note trn\">Example: you complete a Plaguefall +7 - the chest at the end will have a random +6 key in it. Example 2: you completed a +0 Sanguine Depths - the chest at the end will have a +2 keystone for a random dungeon in it.</span>",
+            en: "Don't have a keystone? Completing a keystone run will net you a key at the end of the run. This keystone will be one level under the keystone run level you complete. You can also get a key from the final boss of any Shadowlands mythic dungeon.</br><span class=\"affixes-list__note\">Example: you complete a Plaguefall +7 - the chest at the end will have a random +6 key in it. Example 2: you completed a +0 Sanguine Depths - the chest at the end will have a +2 keystone for a random dungeon in it.</span> If you happen to delete your keystone, you can get a new one from Ta'hsup in Oribos (near the vault).",
             es: "¿No tienes una piedra angular? Completar una piedra angular te otorga una piedra angular al finalizar. Esta piedra será un nivel menor al de la piedra completada. También puedes obtener una piedra angular en el jefe final de cualquier calabozo mítico de Batallo por Azeroth.</br><span class=\"affixes-list__note trn\">Ejemplo: Finalizas Fuerte Libre +7 - el cofre al final tendrá una piedra +6 dentro de el. Ejemplo 2: completaste VETA MADRE +0 - el cofre del final tendrá una piedra +2 para algún calabozo aleatorio.</span>",
             pt: "Não tem uma pedra angular? A conclusão de uma dungeon te dará uma pedra angular no final. Essa pedra angular estará um nível abaixo do nível de execução da pedra angular que você concluir. Você também pode obter uma chave do chefe final de qualquer masmorra mítica de Battle for Azeroth.</br><span class=\"affixes-list__note trn\">Exemplo: Você completa uma Angra do Facão +7 - o baú no final terá uma chave +6 aleatória. Exemplo 2: você completou um +0 O MEGAMINA!!! - o baú no final terá uma pedra angular +2 para uma masmorra aleatória.</span>"
         },
-                
+        keystones_delvl: {
+            en: "Ta'hsup in Oribos will also let you de-level a keystone without having to run into a dungeon and reset over and over.",
+            es: "Ta'hsup in Oribos will also let you de-level a keystone without having to run into a dungeon and reset over and over.",
+            pt: "Ta'hsup in Oribos will also let you de-level a keystone without having to run into a dungeon and reset over and over."
+        },
+
+        keystones_reroll: {
+            en: "Finally, if you complete a keystone dungeon in time and have a keystone of the same or a lesser level than the one you just completed, you can re-roll the dungeon of your keystone at the guy named Ta'hsup who appears near the chest.",
+            es: "Finally, if you complete a keystone dungeon in time and have a keystone of the same or a lesser level than the one you just completed, you can re-roll the dungeon of your keystone at the guy named Ta'hsup who appears near the chest.",
+            pt: "Finally, if you complete a keystone dungeon in time and have a keystone of the same or a lesser level than the one you just completed, you can re-roll the dungeon of your keystone at the guy named Ta'hsup who appears near the chest."
+        },
+
         "Time penalty for deaths": {
             es: "Penalidades de tiempo por muerte",
             pt: "Pena de tempo para mortes"
