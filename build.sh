@@ -1,7 +1,13 @@
 #!/bin/bash
-curl -fk 'https://raider.io/api/v1/mythic-plus/affixes?region=eu' -o affix-eu
-curl -fk 'https://raider.io/api/v1/mythic-plus/affixes?region=us' -o affix-us
 
+rm -rf public/*
+# Grab latest affix information
+curl -fk 'https://raider.io/api/v1/mythic-plus/affixes?region=eu' -o public/affix-eu
+curl -fk 'https://raider.io/api/v1/mythic-plus/affixes?region=us' -o public/affix-us
+
+# Copy assets and other files into public
+cp -r assets error.html favicon.ico public/
+
+# Concatenate all sections into main page
 cd sections/
-cat $(ls | sort -n) > ../index.html
-rm -rf sections/
+cat $(ls | sort -n) > ../public/index.html
