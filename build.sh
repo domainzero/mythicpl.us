@@ -1,6 +1,6 @@
 #!/bin/bash
-/bin/wget -O affix-eu 'https://raider.io/api/v1/mythic-plus/affixes?region=eu'
-/bin/wget -O affix-us 'https://raider.io/api/v1/mythic-plus/affixes?region=us'
+curl -fk 'https://raider.io/api/v1/mythic-plus/affixes?region=eu' -o affix-eu
+curl -fk 'https://raider.io/api/v1/mythic-plus/affixes?region=us' -o affix-us
+
 cd sections/
 cat $(ls | sort -n) > ../index.html
-
