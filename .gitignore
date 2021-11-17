@@ -11,9 +11,6 @@ assets/js/jquery.collapse.js
 assets/js/jquery.serialize-object.min.js
 assets/js/jquery.validate.min.js
 assets/vid/*
-calc
-epidemic/*
-epidemic/*
 errors/*
 footer.html
 form/index.html
@@ -30,7 +27,6 @@ google*
 footer.html
 map.xml
 stats/footer.html
-sections/
 ui-demo.mp4
 demo.mp4
 keybase*
