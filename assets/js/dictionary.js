@@ -395,12 +395,6 @@ $(function () {
             pt: "Nota: É necessário tentar balancear o dano de forma que todos os inimigos morram juntos evitando potenciar os que estao ao redor. Os inimigos que aparecem junto com o chefe da masmorra não são afetados pela Encorajadora."
         },
 
-        bolstering_new: {
-            en: "New in 9.1: Maximum health increase per stack reduced to 15% (from 20%).",
-            es: " ",
-            pt: " "
-        },
-
         "Bursting": {
             es: "Detonante",
             pt: "Explosivo"
@@ -450,12 +444,6 @@ $(function () {
             en: "Note: mobs with high damage targeted abilities or high damage AoE abilities become deadly with this affix. Be sure to focus fire mobs down so there aren't multiple enraged mobs at once. Soothe effects remove the enrage!",
             es: "Nota: los enemigos con habilidades que hacen mucho daño AoE o daño directo son mortales con este afijo. Asegúrate de hacer bien el foco e intenta reservar los stuns y ccs cuando estén enfurecidos. Caso se curen después de enfurecerse, seguirán enfucecidos hasta que mueran.",
             pt: "Nota: inimigos com habilidades que causam muito dano em áreas ou direto são mortais com este afixo. Garanta que o foco principal esteja morto e guarde algum aturdir e cc para quando estiverem enfurecidos. Se os enemigos se curam depois de potenciar-se, seguirão potenciados até que morram."
-        },
-
-        raging_new: {
-            en: "New in 9.1: Enrage now increases damage done by 75% (was 100%).",
-            es: " ",
-            pt: " "
         },
 
         "Sanguine": {
@@ -540,15 +528,9 @@ $(function () {
         },
 
         necrotic_note: {
-            en: "Note: Strong AoE CC or slows are great for this affix to allow for kiting mobs while the tank's Necrotic stacks fall off.",
+            en: "Note: Strong AoE CC or slows are great for this affix to allow for kiting mobs while the tank's Necrotic stacks fall off. Bosses only apply necrotic on every other melee hit.",
             es: "Nota: Está muy bien utilizar correctamente los CCs en áreas y ralentizaciones con este afijo para permitir kitear bien los pulls mientras el tanque se limpia de las cargas de Necrótica.",
             pt: "Nota: É importante utilizar corretamente os CCs de controle massivo e redução de velocidade dos inimigos para permitir que o tanque possa fugir. Desta forma ele pode limpar-se das cargas necróticas."
-        },
-
-        necrotic_new: {
-            en: "New in 9.1: Level 61 enemies only apply a stack on every other auto attack.",
-            es: " ",
-            pt: " "
         },
 
         "Quaking": {
@@ -574,7 +556,7 @@ $(function () {
         },
 
         storming_note: {
-            en: "The fun never ends! Grey swirlies will appear on the floor, indicating that a tornado is going to spawn there. After the tornado spawns, it moves around the area. If you get hit by the tornado, you take damage and get knocked back. More than one tornado can be up at a time.",
+            en: "Note: Grey swirlies appear on the floor indicating where a tornado will spawn. If you get hit by the tornado, you take damage and get knocked back and the tornado disappears.",
             es: " ",
             pt: " "
         },
@@ -583,12 +565,6 @@ $(function () {
             en: "Tornadoes spawn around enemy creatures while in combat.",
             es: "Mientras están en combate, los enemigos invocan de forma periódica torbellinos dañinos.",
             pt: "Em combate, os inimigos evocam periodicamente redemoinhos que causam dano."
-        },
-
-        storming_new: {
-            en: "New in 9.1: Tornadoes now always move in the same direction, and their movement speed is reduced by 30%. Tornadoes now dissipate once a target is hit.",
-            es: " ",
-            pt: " "
         },
 
         "Volcanic": {
