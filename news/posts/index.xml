@@ -1,32 +1,77 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on mythicpl.us news</title><link>https://mythicpl.us/news/posts/</link><description>Recent content in Posts on mythicpl.us news</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 10 Dec 2021 14:08:57 -0600</lastBuildDate><atom:link href="https://mythicpl.us/news/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Changelog</title><link>https://mythicpl.us/news/posts/changelog/</link><pubDate>Fri, 10 Dec 2021 14:08:57 -0600</pubDate><guid>https://mythicpl.us/news/posts/changelog/</guid><description>What&amp;rsquo;s new? 2020-12-10 Did a LOT OF PROOFREADING. Hopefully things read better now. Added this little news section. Removed some information specific to 9.1 that isn&amp;rsquo;t really &amp;ldquo;new&amp;rdquo; anymore. Removed the Patron section and moved them to a new page. Thank you again to everyone who contributed!</description><content>&lt;h1 id="whats-new">What&amp;rsquo;s new?&lt;/h1>
-&lt;h2 id="2020-12-10">2020-12-10&lt;/h2>
-&lt;ul>
-&lt;li>Did a LOT OF PROOFREADING. Hopefully things read better now.&lt;/li>
-&lt;li>Added this little news section.&lt;/li>
-&lt;li>Removed some information specific to 9.1 that isn&amp;rsquo;t really &amp;ldquo;new&amp;rdquo; anymore.&lt;/li>
-&lt;li>Removed the Patron section and moved them to a &lt;a href="https://mythicpl.us/patrons.html">new page&lt;/a>. Thank you again to everyone who contributed!&lt;/li>
-&lt;/ul>
-&lt;img src="https://mythicpl.us/news/news/icon.png" alt="m&amp;#43; logo" class="center" /></content></item><item><title>A few changes around mythicpl.us</title><link>https://mythicpl.us/news/posts/future/</link><pubDate>Thu, 09 Dec 2021 09:58:37 -0600</pubDate><guid>https://mythicpl.us/news/posts/future/</guid><description>tl;dr:
-mythicpl.us isn&amp;rsquo;t going anywhere for the foreseeable future and I will continue to maintain it. I&amp;rsquo;m not running the Discord anymore. I&amp;rsquo;m not taking donations anymore. Why shut down the Discord? The Discord is dead and never served or fulfilled a purpose, thus it doesn&amp;rsquo;t need to exist.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on mythicpl.us news</title>
+    <link>https://mythicpl.us/news/posts/</link>
+    <description>Recent content in Posts on mythicpl.us news</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Dec 2021 14:08:57 -0600</lastBuildDate><atom:link href="https://mythicpl.us/news/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Changelog</title>
+      <link>https://mythicpl.us/news/posts/changelog/</link>
+      <pubDate>Fri, 10 Dec 2021 14:08:57 -0600</pubDate>
+      
+      <guid>https://mythicpl.us/news/posts/changelog/</guid>
+      <description>What&amp;rsquo;s new? 2022-02-20: 9.2 is coming!  Added Tazavesh timers Added early Encrypted info. Updated item levels all around In the near future I will be removing the jquery library and dictionary translation module in favor of static pages. If anyone wants to help translate mythicpl.us into Portuguese or Spanish, please get in touch with me or submit a pull request on GitHub.  2021-12-10  Did a LOT OF PROOFREADING.</description>
+      <content>&lt;h1 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s new?&lt;/h1&gt;
+&lt;h2 id=&#34;2022-02-20-92-is-coming&#34;&gt;2022-02-20: 9.2 is coming!&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Added Tazavesh timers&lt;/li&gt;
+&lt;li&gt;Added early Encrypted info.&lt;/li&gt;
+&lt;li&gt;Updated item levels all around&lt;/li&gt;
+&lt;li&gt;In the near future I will be removing the jquery library and dictionary translation module in favor of static pages. If anyone wants to help translate mythicpl.us into Portuguese or Spanish, please get in touch with me or submit a pull request on GitHub.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2021-12-10&#34;&gt;2021-12-10&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Did a LOT OF PROOFREADING. Hopefully things read better now.&lt;/li&gt;
+&lt;li&gt;Added this little news section.&lt;/li&gt;
+&lt;li&gt;Removed some information specific to 9.1 that isn&amp;rsquo;t really &amp;ldquo;new&amp;rdquo; anymore.&lt;/li&gt;
+&lt;li&gt;Removed the Patron section and moved them to a &lt;a href=&#34;https://mythicpl.us/patrons.html&#34;&gt;new page&lt;/a&gt;. Thank you again to everyone who contributed!&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;img src=&#34;https://mythicpl.us/news/news/icon.png&#34;  alt=&#34;m&amp;#43; logo&#34;  class=&#34;center&#34;  /&gt;
+
+
+</content>
+    </item>
+    
+    <item>
+      <title>A few changes around mythicpl.us</title>
+      <link>https://mythicpl.us/news/posts/future/</link>
+      <pubDate>Thu, 09 Dec 2021 09:58:37 -0600</pubDate>
+      
+      <guid>https://mythicpl.us/news/posts/future/</guid>
+      <description>tl;dr:
+ mythicpl.us isn&amp;rsquo;t going anywhere for the foreseeable future and I will continue to maintain it. I&amp;rsquo;m not running the Discord anymore. I&amp;rsquo;m not taking donations anymore.  Why shut down the Discord? The Discord is dead and never served or fulfilled a purpose, thus it doesn&amp;rsquo;t need to exist.
 I&amp;rsquo;ll be shutting down the Discord Friday, December 17th, 2021. Sincere thank yous to everyone who joined.
-Why shut down the Patreon?</description><content>&lt;p>tl;dr:&lt;/p>
-&lt;ul>
-&lt;li>mythicpl.us isn&amp;rsquo;t going anywhere for the foreseeable future and I will continue to maintain it.&lt;/li>
-&lt;li>I&amp;rsquo;m not running the &lt;a href="https://discord.com/invite/xBssNfC">Discord&lt;/a> anymore.&lt;/li>
-&lt;li>I&amp;rsquo;m not taking donations anymore.&lt;/li>
-&lt;/ul>
-&lt;h3 id="why-shut-down-the-discord">Why shut down the Discord?&lt;/h3>
-&lt;p>The &lt;a href="https://discord.com/invite/xBssNfC">Discord&lt;/a> is dead and never served or fulfilled a purpose, thus it doesn&amp;rsquo;t need to exist.&lt;/p>
-&lt;p>I&amp;rsquo;ll be shutting down the Discord Friday, December 17th, 2021. Sincere thank yous to everyone who joined.&lt;/p>
-&lt;h3 id="why-shut-down-the-patreon">Why shut down the Patreon?&lt;/h3>
-&lt;p>I moved mythicpl.us off my DigitalOcean VPS and to Netlify to make the update pipeline simpler.&lt;/p>
-&lt;p>I don&amp;rsquo;t need to pay for hosting anymore as a result.&lt;/p>
-&lt;p>The donations I have gathered so far are enough to renew the mythicpl.us domain name for 7+ years. I&amp;rsquo;ll continue to renew it for as long as World of Warcraft is a relevant game.&lt;br>
-I&amp;rsquo;ll continue to renew it for awhile after World of Warcraft has lost its relevancy to prevent malware/squatters.&lt;/p>
-&lt;p>I will be winding down the Patreon by the end of this month to avoid charges to folks for January. Thank you to everyone who donated during this time. Your support allowed mythicpl.us to stay up and ad, tracker, and surveillance free. (Note: it&amp;rsquo;s still all these things today)&lt;/p>
-&lt;p>Special thanks to those who have been giving since the beginning. Anyone who has given will be enshrined in a separate web page. Thank you again for sticking with me and my shitty writing for so long.&lt;/p>
-&lt;h3 id="wrapping-up-and-a-little-trivia">Wrapping up (and a little trivia)&lt;/h3>
-&lt;p>mythicpl.us really started as me trying to dispel misinformation and centralize information about the newly added keystone system way back in Legion. It was a single, monolithic web page that I typed up on my breaks at work. I wanted it to be lightweight and easy to read, especially for new players.&lt;/p>
-&lt;p>Part of the whole experiment was seeing if I could host the site on my own, secure it, and iterate on it. It&amp;rsquo;s been around 5 years since I started hosting this site. It wouldn&amp;rsquo;t have been possible without all the great contributers on Github and patrons. Thank you all again.&lt;/p>
-&lt;p>As always, you can contact me via Discord (domaiN#3732) or email (admin @ this website). Pull requests are always welcome on GitHub to maintain accuracy of the site.&lt;/p>
-&lt;img src="https://mythicpl.us/news/news/icon.png" alt="m&amp;#43; logo" class="center" /></content></item></channel></rss>
+Why shut down the Patreon?</description>
+      <content>&lt;p&gt;tl;dr:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;mythicpl.us isn&amp;rsquo;t going anywhere for the foreseeable future and I will continue to maintain it.&lt;/li&gt;
+&lt;li&gt;I&amp;rsquo;m not running the &lt;a href=&#34;https://discord.com/invite/xBssNfC&#34;&gt;Discord&lt;/a&gt; anymore.&lt;/li&gt;
+&lt;li&gt;I&amp;rsquo;m not taking donations anymore.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;why-shut-down-the-discord&#34;&gt;Why shut down the Discord?&lt;/h3&gt;
+&lt;p&gt;The &lt;a href=&#34;https://discord.com/invite/xBssNfC&#34;&gt;Discord&lt;/a&gt; is dead and never served or fulfilled a purpose, thus it doesn&amp;rsquo;t need to exist.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll be shutting down the Discord Friday, December 17th, 2021. Sincere thank yous to everyone who joined.&lt;/p&gt;
+&lt;h3 id=&#34;why-shut-down-the-patreon&#34;&gt;Why shut down the Patreon?&lt;/h3&gt;
+&lt;p&gt;I moved mythicpl.us off my DigitalOcean VPS and to Netlify to make the update pipeline simpler.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t need to pay for hosting anymore as a result.&lt;/p&gt;
+&lt;p&gt;The donations I have gathered so far are enough to renew the mythicpl.us domain name for 7+ years. I&amp;rsquo;ll continue to renew it for as long as World of Warcraft is a relevant game.&lt;br&gt;
+I&amp;rsquo;ll continue to renew it for awhile after World of Warcraft has lost its relevancy to prevent malware/squatters.&lt;/p&gt;
+&lt;p&gt;I will be winding down the Patreon by the end of this month to avoid charges to folks for January. Thank you to everyone who donated during this time. Your support allowed mythicpl.us to stay up and ad, tracker, and surveillance free. (Note: it&amp;rsquo;s still all these things today)&lt;/p&gt;
+&lt;p&gt;Special thanks to those who have been giving since the beginning. Anyone who has given will be enshrined in a separate web page. Thank you again for sticking with me and my shitty writing for so long.&lt;/p&gt;
+&lt;h3 id=&#34;wrapping-up-and-a-little-trivia&#34;&gt;Wrapping up (and a little trivia)&lt;/h3&gt;
+&lt;p&gt;mythicpl.us really started as me trying to dispel misinformation and centralize information about the newly added keystone system way back in Legion. It was a single, monolithic web page that I typed up on my breaks at work. I wanted it to be lightweight and easy to read, especially for new players.&lt;/p&gt;
+&lt;p&gt;Part of the whole experiment was seeing if I could host the site on my own, secure it, and iterate on it. It&amp;rsquo;s been around 5 years since I started hosting this site. It wouldn&amp;rsquo;t have been possible without all the great contributers on Github and patrons. Thank you all again.&lt;/p&gt;
+&lt;p&gt;As always, you can contact me via Discord (domaiN#3732) or email (admin @ this website). Pull requests are always welcome on GitHub to maintain accuracy of the site.&lt;/p&gt;
+
+  &lt;img src=&#34;https://mythicpl.us/news/news/icon.png&#34;  alt=&#34;m&amp;#43; logo&#34;  class=&#34;center&#34;  /&gt;
+
+
+</content>
+    </item>
+    
+  </channel>
+</rss>
