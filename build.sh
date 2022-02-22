@@ -9,5 +9,5 @@ curl -fk 'https://raider.io/api/v1/mythic-plus/affixes?region=us' -o public/affi
 cp -r assets error.html favicon.ico patrons.html news/ public/
 
 # Concatenate all sections into main page
-cd sections/
-cat $(ls | sort -n) > ../public/index.html
+cd sections/en/
+cat $(ls | sort -n) > ../../public/index.html
