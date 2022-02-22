@@ -384,7 +384,7 @@ $(function () {
         },
 
         bolstering_info: {
-            en: "Non-boss enemies will buff nearby allies' maximum health by 15% and damage by 20% when defeated with a 30yd effective range.",
+            en: "Non-boss enemies buff nearby allies on death, increasing maximum health by 15% and damage by 20%. This effect stacks.",
             es: "Cuando un enemigo que no es un jefe muere, su grito al morir potencia a los aliados cercanos, lo que aumenta su salud máximos un 15% y su daño un 20%. Radio del grito 30 metros.",
             pt: "Quando um inimigo que não é chefe morre, os aliados a 30 metros dele recebem um bônus que aumenta sua vida máxima em 15% e seu dano em 20%, e o efeito acumula."
         },
@@ -401,7 +401,7 @@ $(function () {
         },
 
         bursting_info: {
-            en: "When slain, non-boss enemies explode, causing all players to suffer flat damage that scales with keystone level. This effect stacks.",
+            en: "Non-boss enemies explode on death, causing all players to suffer flat damage that scales with keystone level. This effect stacks.",
             es: "Al morir, los enemigos que no son jefes explotan, por lo que todos los jugadores reciben un 14% de su salud máxima como daño durante 4 s. Este efecto se acumula.",
             pt: "Quando mortos, inimigos que não são chefes explodem, fazendo com que todos os jogadores recebam dano equivalente a 14% do máximo de pontos de vida ao longo de 4 s. Este efeito acumula."
         },
@@ -435,7 +435,7 @@ $(function () {
         },
 
         raging_info: {
-            en: "Non-boss enemies will enrage at 30% health, dealing 75% increased damage until killed.",
+            en: "Non-boss enemies at 30% health, dealing 75% increased damage until killed.",
             es: "Los enemigos que no son jefes se enfuceren cuando alcanzan un 30% de salud, por lo que infligen un 75% más de daño hasta que sean derrotados.",
             pt: "Os Inimigos que não são chefes ficam enfurecidos ao alcançar 30% de vida, causando 75% mais de dano até serem derrotados."
         },
@@ -545,7 +545,7 @@ $(function () {
         },
 
         quaking_note: {
-            en: "Note: spread out.",
+            en: "Note: spread out when you get a circle on you.",
             es: "Nota: Separaos. Cuanto más separados estén, mejor. Interrumpe los lanzamientos de hechizos y también el intento de adquirir el buffo de comida.",
             pt: "Nota: Separarem-se!"
         },
