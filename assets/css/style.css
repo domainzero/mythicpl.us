@@ -1004,27 +1004,6 @@ canvas {
     }
 }
 
-#patreon{
-    overflow: hidden;
-    display: block
-}
-
-#patreon>* {
-    z-index: 1;
-    top: 0
-}
-
-#patreon>canvas {
-    z-index: -1;
-    position: absolute;
-    left: 0
-}
-
-#patreon,
-#patreon>* {
-    position: relative
-}
-
 ul.affixes-list li {
     padding: 14px;
 }
