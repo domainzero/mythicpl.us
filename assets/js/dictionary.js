@@ -522,7 +522,7 @@ $(function () {
         },
 
         necrotic_info: {
-            en: "Enemy melee attacks apply a stacking debuff that deals damage and reduces healing received. Debuff lasts 9 seconds and is dispelled when exiting combat.",
+            en: "Enemy melee attacks apply a stacking debuff that deals damage and reduces healing received. Debuff lasts 6 seconds and is dispelled when exiting combat.",
             es: "Todos los ataques cuerpo a cuerpo de los enemigos aplican un añublo que se acumula, inflige daño en el tiempo y reduce la sanación recibida.",
             pt: "Todos os ataques corpo a corpo dos inimigos aplicam uma praga cumulativa que causa dano ao longo do tempo e reduz a cura recebida."
         },
