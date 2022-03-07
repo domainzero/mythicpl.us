@@ -73,15 +73,20 @@ function getAffixes(region) {
                 var affix_list = [
                     {
                         "name": "Bursting",
-                        "difficulty": "med"
+                        "difficulty": "med",
                     },
                     {
                         "name": "Bolstering",
                         "difficulty": "med"
                     },
                     {
+                        "name": "Encrypted",
+                        "difficulty": "med",
+                        "link": "/encrypted"
+                    },
+                    {
                         "name": "Explosive",
-                        "difficulty": "med"
+                        "difficulty": "med",
                     },
                     {
                         "name": "Fortified",
@@ -146,14 +151,19 @@ function getAffixes(region) {
                     //get the difficulty
                     affix_list.forEach(function(list_affix) {
                         if (affix.name == list_affix.name) {
-                            affix.difficulty = list_affix.difficulty; //id
+                            affix.difficulty = list_affix.difficulty;
+                            affix.link = list_affix.link; //id
                         }
                     });
 
                     //get current week affixes key: 2 first chars and lowercase
                     currentAffixes = affix.name.toLowerCase().substr(0, 2) + currentAffixes;
                     //print it
-                    document.getElementById("thisweek" + region).innerHTML += "<span class='" + affix.difficulty + " trn'>" + affix.name + "</span>" + " ";
+                    if (affix.link != null){
+                        document.getElementById("thisweek" + region).innerHTML += "<span class='" + affix.difficulty + " trn'>" + "<a href='" + affix.link + "'>" + affix.name + "</a></span>" + " ";
+                    } else {
+                        document.getElementById("thisweek" + region).innerHTML += "<span class='" + affix.difficulty + " trn'>" + affix.name + "</span>" + " ";
+                    }
                 });
 
                 if (region == "us") currentAffixesUS = currentAffixes;
