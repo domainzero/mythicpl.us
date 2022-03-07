@@ -74,7 +74,6 @@ function getAffixes(region) {
                     {
                         "name": "Bursting",
                         "difficulty": "med",
-                        "link": null
                     },
                     {
                         "name": "Bolstering",
@@ -88,7 +87,6 @@ function getAffixes(region) {
                     {
                         "name": "Explosive",
                         "difficulty": "med",
-                        "link": null
                     },
                     {
                         "name": "Fortified",
