@@ -1124,3 +1124,7 @@ ul.affixes-list li {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+figure {
+    text-align: center;
+}
