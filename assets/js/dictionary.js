@@ -384,13 +384,13 @@ $(function () {
         },
 
         bolstering_info: {
-            en: "Non-boss enemies buff nearby allies on death, increasing maximum health by 15% and damage by 20%. This effect stacks.",
+            en: "Non-boss enemies buff nearby allies on death, increasing maximum health by 15% and damage by 20%. This effect lasts 20 seconds and stacks.",
             es: "Cuando un enemigo que no es un jefe muere, su grito al morir potencia a los aliados cercanos, lo que aumenta su salud máximos un 15% y su daño un 20%. Radio del grito 30 metros.",
             pt: "Quando um inimigo que não é chefe morre, os aliados a 30 metros dele recebem um bônus que aumenta sua vida máxima em 15% e seu dano em 20%, e o efeito acumula."
         },
 
         bolstering_note: {
-            en: "Note: it's important to kill all the trash in a pull as closely together as possible with this affix as mobs effectively heal as they gain max health (percent translation). Adds spawned from a trash mob or boss ability do not trigger bolster. It's possible to reset bolster on mobs by resetting them via wiping or exiting combat.",
+            en: "Note: it's important to kill all the trash in a pull as closely together as possible with this affix so one mob doesn't become an absolute unit. Adds spawned from a trash mob or boss ability do not trigger bolster.",
             es: "Nota: Es importante intentar matar todo el pull a la vez para no potenciar a los enemigos cercanos. Los enemigos adicionales que aparecen en un combate contra un jefe de mazmorra no son afectados por la Potenciante.",
             pt: "Nota: É necessário tentar balancear o dano de forma que todos os inimigos morram juntos evitando potenciar os que estao ao redor. Os inimigos que aparecem junto com o chefe da masmorra não são afetados pela Encorajadora."
         },
@@ -435,7 +435,7 @@ $(function () {
         },
 
         raging_info: {
-            en: "Non-boss enemies at 30% health, dealing 75% increased damage until killed.",
+            en: "Non-boss enemies enrage at 30% health, dealing 75% increased damage until killed.",
             es: "Los enemigos que no son jefes se enfuceren cuando alcanzan un 30% de salud, por lo que infligen un 75% más de daño hasta que sean derrotados.",
             pt: "Os Inimigos que não são chefes ficam enfurecidos ao alcançar 30% de vida, causando 75% mais de dano até serem derrotados."
         },
