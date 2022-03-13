@@ -5,7 +5,7 @@ A simple flat file site designed to load quickly and give M+ information at a gl
 1. Clone this repo.
 2. Make changes to the appropriate file in `sections`, etc
 3. Run the included bash script to build the site.
-4. Serve the site with a local web server, e.g. `pythom -m http.server -d public/`
+4. Serve the site with a local web server, e.g. `python -m http.server -d public/`
 
 ## Contributing
 Fork the repo and make any changes to the appropriate section, submit a pull request.
