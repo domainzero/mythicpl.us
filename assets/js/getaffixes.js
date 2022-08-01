@@ -125,6 +125,10 @@ function getAffixes(region) {
                         "difficulty": "easy"
                     },
                     {
+                        "name": "Shrouded",
+                        "difficulty": "med"
+                    },
+                    {
                         "name": "Spiteful",
                         "difficulty": "med"
                     },
