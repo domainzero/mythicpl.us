@@ -19,3 +19,13 @@ body {
     right: 10px;
     width: 100%;
 }
+
+.post-title {
+    border-bottom: none;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.post-title::after {
+  border-bottom: none;
+}
