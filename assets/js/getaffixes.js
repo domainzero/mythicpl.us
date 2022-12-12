@@ -97,22 +97,6 @@ function getAffixes(region) {
                         "difficulty": "med"
                     },
                     {
-                        "name": "Inspiring",
-                        "difficulty": "easy"
-                    },
-                    {
-                        "name": "Necrotic",
-                        "difficulty": "hard"
-                    },
-                    {
-                        "name": "Prideful",
-                        "difficulty": "med"
-                    },
-                    {
-                        "name": "Tormented",
-                        "difficulty": "med"
-                    },
-                    {
                         "name": "Quaking",
                         "difficulty": "easy"
                     },
@@ -123,10 +107,6 @@ function getAffixes(region) {
                     {
                         "name": "Sanguine",
                         "difficulty": "easy"
-                    },
-                    {
-                        "name": "Shrouded",
-                        "difficulty": "med"
                     },
                     {
                         "name": "Spiteful",
@@ -143,6 +123,10 @@ function getAffixes(region) {
                     {
                         "name": "Volcanic",
                         "difficulty": "easy"
+                    },
+                    {
+                        "name": "Thundering",
+                        "difficulty": "med"
                     }
                 ];
 
