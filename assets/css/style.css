@@ -123,7 +123,6 @@ li::before {
 }
 
 body {
-    margin: 0;
     background: #282a36;
     font-family:'Roboto Condensed','Roboto','Segoe UI', Arial, sans-serif;
     color: #f8f8f2;
@@ -539,6 +538,7 @@ ul+.title--medium {
 .footer {
     max-width: 960px;
     margin: 15px auto;
+    margin-bottom: 15px;
     display: inline-block;
     position: absolute;
     align-items: center
