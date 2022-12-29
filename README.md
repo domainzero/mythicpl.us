@@ -1,21 +1,11 @@
 # mythicpl.us
-m+ lame-o site
+A simple flat file site designed to load quickly and give M+ information at a glance (and in multiple languages thanks to some great contributors, but mostly [@amarques](https://github.com/amarques)!) 
 
-check the issues page for a to-do list of sorts.
+## Building / testing locally
+1. Clone this repo.
+2. Make changes to the appropriate file in `sections`, etc
+3. Run the included bash script to build the site.
+4. Serve the site with a local web server, e.g. `python -m http.server -d public/`
 
-Shoutouts to these folks for providing initial feedback:
-
-```
-/u/octnoir
-/u/ilikeraisinsama
-/u/shakeandbake13
-/u/opticsoldier
-/u/acidrift
-/u/technicality
-/u/sykoh963
-/u/zurishmi
-/u/bob4ever
-/u/icantsurvive
-```
-
-Shoutouts to everyone else still posting in that thread.
+## Contributing
+Fork the repo and make any changes to the appropriate section, submit a pull request.
