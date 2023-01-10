@@ -498,7 +498,7 @@ ul+.title--medium {
 }
 
 .table-wrapper {
-    width: 100%;
+/*    width: 100%; */
     overflow-x: auto;
 }
 
