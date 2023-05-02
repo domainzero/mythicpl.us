@@ -72,6 +72,18 @@ function getAffixes(region) {
 
                 var affix_list = [
                     {
+                        "name": "Afflicted",
+                        "difficulty": "",
+                    },
+                    {
+                        "name": "Incorporeal",
+                        "difficulty": "",
+                    },
+                    {
+                        "name": "Entangling",
+                        "difficulty": "",
+                    },
+                    {
                         "name": "Bursting",
                         "difficulty": "med",
                     },
@@ -80,25 +92,8 @@ function getAffixes(region) {
                         "difficulty": "med"
                     },
                     {
-                        "name": "Encrypted",
-                        "difficulty": "med",
-                        "link": "/encrypted"
-                    },
-                    {
-                        "name": "Explosive",
-                        "difficulty": "med",
-                    },
-                    {
                         "name": "Fortified",
                         "difficulty": "hard"
-                    },
-                    {
-                        "name": "Grievous",
-                        "difficulty": "med"
-                    },
-                    {
-                        "name": "Quaking",
-                        "difficulty": "easy"
                     },
                     {
                         "name": "Raging",
@@ -124,10 +119,6 @@ function getAffixes(region) {
                         "name": "Volcanic",
                         "difficulty": "easy"
                     },
-                    {
-                        "name": "Thundering",
-                        "difficulty": "med"
-                    }
                 ];
 
                 //start the output by putting the title in place
