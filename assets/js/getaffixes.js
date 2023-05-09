@@ -15,47 +15,45 @@ function highlightCurrentAffixes(currentAffixesUS, currentAffixesEU) {
          document.getElementById(currentAffixesUS).classList.add("table__row-both");
          document.getElementById(currentAffixesUS).classList.remove("table__row");
      };
- 
+
      // if any of them is blank, don't do highlight
 };
 
-function fillNextWeeksAffixes(currentAffixesEU) {
-    // As the servers reset from EU are later than the US, it takes the EU as a reference.
-
-    if (currentAffixesEU != "") {
-
-        var row = document.getElementById(currentAffixesEU)
-        var idx = row.rowIndex;
-
-        if (idx == 9) {
-            var nextweek = 10;
-            var weekafternext = 1;
-        //} else if (idx > 9) {
-        //    var nextweek = 1;
-        //    var weekafternext = 2;
-        } else {
-            var nextweek = idx + 1;
-            var weekafternext = idx + 2;
-        };
-
-        var schedtbl = document.getElementById("sched");
-
-        var nw1 = schedtbl.rows[nextweek].cells[0].innerHTML;
-        var nw2 = schedtbl.rows[nextweek].cells[1].innerHTML;
-        var nw3 = schedtbl.rows[nextweek].cells[2].innerHTML;
-        var nw4 = schedtbl.rows[nextweek].cells[3].innerHTML;
-
-        var wan1 = schedtbl.rows[weekafternext].cells[0].innerHTML;
-        var wan2 = schedtbl.rows[weekafternext].cells[1].innerHTML;
-        var wan3 = schedtbl.rows[weekafternext].cells[2].innerHTML;
-        var wan4 = schedtbl.rows[weekafternext].cells[3].innerHTML;
-
-        document.getElementById("nextweek").innerHTML = "" + nw1 + ", " + nw2 + ", " + nw3 + ", " + nw4;
-        document.getElementById("weekafternext").innerHTML = "" + wan1 + ", " + wan2 + ", " + wan3 + ", " + wan4;
-
-    };
-
-};
+//function fillNextWeeksAffixes(currentAffixesEU) {
+//    // As the servers reset from EU are later than the US, it takes the EU as a reference.
+//
+//    if (currentAffixesEU != "") {
+//
+//        var row = document.getElementById(currentAffixesEU)
+//        var idx = row.rowIndex;
+//
+//        if (idx == 9) {
+//            var nextweek = 10;
+//            var weekafternext = 1;
+//        //} else if (idx > 9) {
+//        //    var nextweek = 1;
+//        //    var weekafternext = 2;
+//        } else {
+//            var nextweek = idx + 1;
+//            var weekafternext = idx + 2;
+//        };
+//
+//        var schedtbl = document.getElementById("sched");
+//
+//        var nw1 = schedtbl.rows[nextweek].cells[0].innerHTML;
+//        var nw2 = schedtbl.rows[nextweek].cells[1].innerHTML;
+//        var nw3 = schedtbl.rows[nextweek].cells[2].innerHTML;
+//
+//        var wan1 = schedtbl.rows[weekafternext].cells[0].innerHTML;
+//        var wan2 = schedtbl.rows[weekafternext].cells[1].innerHTML;
+//        var wan3 = schedtbl.rows[weekafternext].cells[2].innerHTML;
+//
+//        document.getElementById("nextweek").innerHTML = "" + nw1 + ", " + nw2 + ", " + nw3;
+//        document.getElementById("weekafternext").innerHTML = "" + wan1 + ", " + wan2 + ", " + wan3;
+//
+//    };
+//
+//};
 
 function getAffixes(region) {
 
@@ -73,15 +71,15 @@ function getAffixes(region) {
                 var affix_list = [
                     {
                         "name": "Afflicted",
-                        "difficulty": "",
+                        "difficulty": "med",
                     },
                     {
                         "name": "Incorporeal",
-                        "difficulty": "",
+                        "difficulty": "med",
                     },
                     {
                         "name": "Entangling",
-                        "difficulty": "",
+                        "difficulty": "med",
                     },
                     {
                         "name": "Bursting",
@@ -156,7 +154,7 @@ function getAffixes(region) {
 
                 highlightCurrentAffixes(currentAffixesUS, currentAffixesEU);
                 highlightCurrentAffixDescriptions(affixes, region);
-                fillNextWeeksAffixes(currentAffixesEU);
+                //fillNextWeeksAffixes(currentAffixesEU);
 
                 resolve();
             } else if (xhr.readyState == 4 && xhr.status !== 200){
