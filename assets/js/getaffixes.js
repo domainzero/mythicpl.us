@@ -79,7 +79,7 @@ function getAffixes(region) {
                     },
                     {
                         "name": "Entangling",
-                        "difficulty": "med",
+                        "difficulty": "easy",
                     },
                     {
                         "name": "Bursting",
