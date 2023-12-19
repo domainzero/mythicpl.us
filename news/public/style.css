@@ -1,0 +1,31 @@
+/*  --background: color-mod(var(--accent) blend(#282a36 98%)); */
+:root {
+  --accent: #FF5555;
+  --background: #282a36;
+  --color: white;
+  --border-color: rgba(255, 255, 255, .1);
+}
+
+body {
+  background-color: #282a36;
+  background: #282a36;
+}
+
+.header__logo::after {
+    background: repeating-linear-gradient(90deg,#ff6266,#ff6266 2px,transparent 0,transparent 10px);
+    background: repeating-linear-gradient(90deg,var(--accent),var(--accent) 2px,transparent 0,transparent 10px);
+    content: "";
+    display: none;
+    right: 10px;
+    width: 100%;
+}
+
+.post-title {
+    border-bottom: none;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.post-title::after {
+  border-bottom: none;
+}
