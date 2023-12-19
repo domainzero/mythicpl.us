@@ -52,18 +52,15 @@ function fillNextWeeksAffixes(currentAffixesEU) {
        document.getElementById("weekafternext").innerHTML = "" + wan1 + ", " + wan2 + ", " + wan3;
 
    };
-
 };
 
 function getAffixes(region) {
-
     return new Promise(function(resolve, reject){
         var xhr = new XMLHttpRequest();
         var affixName = "";
         var currentAffixes = "";
 
         xhr.onreadystatechange = function() {
-
             if (xhr.readyState == 4 && xhr.status == 200) {
                 var parsed_json_respone = JSON.parse(this.responseText);
                 var affixes = parsed_json_respone.affix_details;
@@ -162,13 +159,11 @@ function getAffixes(region) {
                 reject();
             }
         };
-//        xhr.open('GET', 'https://raider.io/api/v1/mythic-plus/affixes?region=' + region, true);
         xhr.open('GET', './affix-' + region, true);
         xhr.send();
     });
 
 };
-
 function highlightCurrentAffixDescriptions(affixes, region) {
         affixes.forEach(function(affix) {
             var name = affix.name;
@@ -209,13 +204,41 @@ function highlightCurrentAffixDescriptions(affixes, region) {
         });
 }
 
+function getCutoffs(region) {
+    var cutoff;
+    fetch('./cutoff-' + region)
+    .then(res => {
+        if (!res.ok) {
+          throw new Error('Network error');
+      }
+      return res.text()
+    })
+    .then(data => {
+    cutoff = data;
+    })
+    .then(() => {
+        document.getElementById("cutoff-" + region).innerHTML += cutoff;
+    })
+    .catch(error => {
+        console.error('There was a problem with the Fetch operation:', error);
+        document.getElementById('cutoffcontainer').style.display = 'none';
+      })
+};
+
 function getRegionalAffixes() {
     var promises = [
         getAffixes('us'),
-        getAffixes('eu')
+        getAffixes('eu'),
     ];
-
     window.getAffixesReady = Promise.all(promises);
 };
 
+function getRegionalCutoffs() {
+    var cutoffs = [
+        getCutoffs('us'),
+        getCutoffs('eu'),
+    ];
+    window.getCutoffsReady = Promise.all(cutoffs);
+};
 getRegionalAffixes();
+getRegionalCutoffs();
