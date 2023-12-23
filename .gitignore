@@ -2,3 +2,4 @@ affix-*
 public/*
 temp-build.sh
 encrypted/
+cutoff-*
