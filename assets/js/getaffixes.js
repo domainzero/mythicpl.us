@@ -204,6 +204,7 @@ function highlightCurrentAffixDescriptions(affixes, region) {
         });
 }
 
+/*
 function getCutoffs(region) {
     var cutoff;
     fetch('./cutoff-' + region)
@@ -224,6 +225,7 @@ function getCutoffs(region) {
         document.getElementById('cutoffcontainer').style.display = 'none';
       })
 };
+*/
 
 function getRegionalAffixes() {
     var promises = [
@@ -233,6 +235,7 @@ function getRegionalAffixes() {
     window.getAffixesReady = Promise.all(promises);
 };
 
+/*
 function getRegionalCutoffs() {
     var cutoffs = [
         getCutoffs('us'),
@@ -240,5 +243,6 @@ function getRegionalCutoffs() {
     ];
     window.getCutoffsReady = Promise.all(cutoffs);
 };
+*/
 getRegionalAffixes();
-getRegionalCutoffs();
+//getRegionalCutoffs();
