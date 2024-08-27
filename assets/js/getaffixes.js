@@ -67,52 +67,36 @@ function getAffixes(region) {
 
                 var affix_list = [
                     {
-                        "name": "Afflicted",
+                        "name": "Challenger's Peril",
                         "difficulty": "med",
                     },
                     {
-                        "name": "Incorporeal",
+                        "name": "Xal'atath's Bargain: Devour",
                         "difficulty": "med",
                     },
                     {
-                        "name": "Entangling",
-                        "difficulty": "easy",
-                    },
-                    {
-                        "name": "Bursting",
+                        "name": "Xal'atath's Bargain: Voidbound",
                         "difficulty": "med",
                     },
                     {
-                        "name": "Bolstering",
-                        "difficulty": "med"
+                        "name": "Xal'atath's Bargain: Ascendant",
+                        "difficulty": "med",
+                    },
+                    {
+                        "name": "Xal'atath's Bargain: Oblivion",
+                        "difficulty": "med",
+                    },
+                    {
+                        "name": "Xal'atath's Guile",
+                        "difficulty": "hard",
                     },
                     {
                         "name": "Fortified",
                         "difficulty": "hard"
                     },
                     {
-                        "name": "Raging",
-                        "difficulty": "med"
-                    },
-                    {
-                        "name": "Sanguine",
-                        "difficulty": "easy"
-                    },
-                    {
-                        "name": "Spiteful",
-                        "difficulty": "med"
-                    },
-                    {
-                        "name": "Storming",
-                        "difficulty": "med"
-                    },
-                    {
                         "name": "Tyrannical",
                         "difficulty": "hard"
-                    },
-                    {
-                        "name": "Volcanic",
-                        "difficulty": "easy"
                     },
                 ];
 
