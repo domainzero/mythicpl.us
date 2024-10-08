@@ -63,7 +63,7 @@ function getAffixes(region) {
         xhr.onreadystatechange = function() {
             if (xhr.readyState == 4 && xhr.status == 200) {
                 var parsed_json_respone = JSON.parse(this.responseText);
-                var affixes = parsed_json_respone.affix_details; // slice this to only get the first two affixes
+                var affixes = parsed_json_respone.affix_details.slice(0,2); // slice this to only get the first two affixes
 
                 var affix_list = [
                     {
