@@ -94,60 +94,58 @@ function getAffixes(region) {
         xhr.open('GET', './affix-' + region, true);
         xhr.send();
     });
-
-    function highlightCurrentAffixes(currentAffixesUS, currentAffixesEU) {
-
-         // if regions are different, change both
-         if ((currentAffixesUS != currentAffixesEU) && (currentAffixesUS != "" && currentAffixesEU != "")) {
-             document.getElementById(currentAffixesUS).classList.add("table__row-us");
-             document.getElementById(currentAffixesUS).classList.remove("table__row");
-
-             document.getElementById(currentAffixesEU).classList.add("table__row-eu");
-             document.getElementById(currentAffixesEU).classList.remove("table__row");
-             // if are the same affixes to the regions, highlight just one
-         } else if (currentAffixesUS == currentAffixesEU) {
-             document.getElementById(currentAffixesUS).classList.add("table__row-both");
-             document.getElementById(currentAffixesUS).classList.remove("table__row");
-         };
-
-         // if any of them is blank, don't do highlight
-    };
-
-    function fillNextWeeksAffixes(currentAffixesEU) {
-       // As the servers reset from EU are later than the US, it takes the EU as a reference.
-
-       if (currentAffixesEU != "") {
-
-           var row = document.getElementById(currentAffixesEU)
-           var idx = row.rowIndex;
-
-           if (idx == 7) {
-               var nextweek = 8;
-               var weekafternext = 1;
-           } else if (idx > 7) {
-               var nextweek = 1;
-               var weekafternext = 2;
-           } else {
-               var nextweek = idx + 1;
-               var weekafternext = idx + 2;
-           };
-
-           var schedtbl = document.getElementById("sched");
-
-           var nw1 = schedtbl.rows[nextweek].cells[0].innerHTML;
-           var nw2 = schedtbl.rows[nextweek].cells[1].innerHTML;
-
-           var wan1 = schedtbl.rows[weekafternext].cells[0].innerHTML;
-           var wan2 = schedtbl.rows[weekafternext].cells[1].innerHTML;
-
-           document.getElementById("nextweek").innerHTML = "" + trimFirstTwoWords(nw1) + ", " + nw2;
-           document.getElementById("weekafternext").innerHTML = "" + trimFirstTwoWords(wan1) + ", " + wan2;
-
-       };
-    };
-
 };
 
+function highlightCurrentAffixes(currentAffixesUS, currentAffixesEU) {
+
+     // if regions are different, change both
+     if ((currentAffixesUS != currentAffixesEU) && (currentAffixesUS != "" && currentAffixesEU != "")) {
+         document.getElementById(currentAffixesUS).classList.add("table__row-us");
+         document.getElementById(currentAffixesUS).classList.remove("table__row");
+
+         document.getElementById(currentAffixesEU).classList.add("table__row-eu");
+         document.getElementById(currentAffixesEU).classList.remove("table__row");
+         // if are the same affixes to the regions, highlight just one
+     } else if (currentAffixesUS == currentAffixesEU) {
+         document.getElementById(currentAffixesUS).classList.add("table__row-both");
+         document.getElementById(currentAffixesUS).classList.remove("table__row");
+     };
+
+     // if any of them is blank, don't do highlight
+};
+
+function fillNextWeeksAffixes(currentAffixesEU) {
+   // As the servers reset from EU are later than the US, it takes the EU as a reference.
+
+   if (currentAffixesUS != "") {
+
+       var row = document.getElementById(currentAffixesUS)
+       var idx = row.rowIndex;
+
+       if (idx == 7) {
+           var nextweek = 8;
+           var weekafternext = 1;
+       } else if (idx > 7) {
+           var nextweek = 1;
+           var weekafternext = 2;
+       } else {
+           var nextweek = idx + 1;
+           var weekafternext = idx + 2;
+       };
+
+       var schedtbl = document.getElementById("sched");
+
+       var nw1 = schedtbl.rows[nextweek].cells[0].innerHTML;
+       var nw2 = schedtbl.rows[nextweek].cells[1].innerHTML;
+
+       var wan1 = schedtbl.rows[weekafternext].cells[0].innerHTML;
+       var wan2 = schedtbl.rows[weekafternext].cells[1].innerHTML;
+
+       document.getElementById("nextweek").innerHTML = "" + trimFirstTwoWords(nw1) + ", " + nw2;
+       document.getElementById("weekafternext").innerHTML = "" + trimFirstTwoWords(wan1) + ", " + wan2;
+
+   };
+};
 
 function highlightCurrentAffixDescriptions(affixes, region) {
         affixes.forEach(function(affix) {
