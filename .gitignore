@@ -3,3 +3,6 @@ public/*
 temp-build.sh
 encrypted/
 cutoff-*
+*.py
+pyproject.toml
+uv.lock
