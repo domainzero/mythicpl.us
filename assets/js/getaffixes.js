@@ -82,7 +82,12 @@ function getAffixes(region) {
                 };
 
                 highlightCurrentAffixes(currentAffixesUS, currentAffixesEU);
-                highlightCurrentAffixDescriptions(affixes, region);
+                var affixesToHighlight = affixes.filter(function(affix) {
+                    return affix_list.some(function(list_affix) {
+                        return trimFirstTwoWords(affix.name) === list_affix.name;
+                    });
+                });
+                highlightCurrentAffixDescriptions(affixesToHighlight, region);
                 fillNextWeeksAffixes(currentAffixesEU);
 
                 resolve();
@@ -203,7 +208,7 @@ function getCutoffs(region) {
         document.getElementById("cutoff-" + region).innerHTML += cutoff;
     })
     .catch(error => {
-        console.error('There was a problem with the Fetch operation:', error);
+        console.error('oopies! ', error);
         document.getElementById('cutoffcontainer').style.display = 'none';
       })
 };
