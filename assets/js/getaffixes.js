@@ -82,7 +82,21 @@ function getAffixes(region) {
                 };
 
                 highlightCurrentAffixes(currentAffixesUS, currentAffixesEU);
-                highlightCurrentAffixDescriptions(affixes, region);
+                var affixesToHighlight = affixes.filter(function(affix) {
+                    return affix_list.some(function(list_affix) {
+                        return trimFirstTwoWords(affix.name) === list_affix.name;
+                    });
+                });
+                // Level 10 is always the opposite of level 7
+                if (affixes.length >= 2) {
+                    var level7Name = trimFirstTwoWords(affixes[1].name);
+                    if (level7Name === "Fortified") {
+                        affixesToHighlight.push({ name: "Tyrannical2" });
+                    } else if (level7Name === "Tyrannical") {
+                        affixesToHighlight.push({ name: "Fortified2" });
+                    }
+                }
+                highlightCurrentAffixDescriptions(affixesToHighlight, region);
                 fillNextWeeksAffixes(currentAffixesEU);
 
                 resolve();
@@ -203,7 +217,7 @@ function getCutoffs(region) {
         document.getElementById("cutoff-" + region).innerHTML += cutoff;
     })
     .catch(error => {
-        console.error('There was a problem with the Fetch operation:', error);
+        console.error('oopies! ', error);
         document.getElementById('cutoffcontainer').style.display = 'none';
       })
 };
