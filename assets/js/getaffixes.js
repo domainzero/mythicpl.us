@@ -87,6 +87,15 @@ function getAffixes(region) {
                         return trimFirstTwoWords(affix.name) === list_affix.name;
                     });
                 });
+                // Level 10 is always the opposite of level 7
+                if (affixes.length >= 2) {
+                    var level7Name = trimFirstTwoWords(affixes[1].name);
+                    if (level7Name === "Fortified") {
+                        affixesToHighlight.push({ name: "Tyrannical2" });
+                    } else if (level7Name === "Tyrannical") {
+                        affixesToHighlight.push({ name: "Fortified2" });
+                    }
+                }
                 highlightCurrentAffixDescriptions(affixesToHighlight, region);
                 fillNextWeeksAffixes(currentAffixesEU);
 
