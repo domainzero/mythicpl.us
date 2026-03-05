@@ -13,3 +13,10 @@ cp -r assets ads/ads.txt privacy/privacy.html error.html favicon.ico patrons.htm
 # Concatenate all sections into main page
 cd sections/en/
 cat $(ls | sort -n) > ../../public/index.html
+cd ../..
+
+# Pre-populate affix names for no-JS fallback
+US_AFFIXES=$(jq -r '.affix_details[:2] | map(.name | split(" ") | if length > 2 then .[2:] | join(" ") else .[0] end) | join(" / ")' public/affix-us)
+EU_AFFIXES=$(jq -r '.affix_details[:2] | map(.name | split(" ") | if length > 2 then .[2:] | join(" ") else .[0] end) | join(" / ")' public/affix-eu)
+sed -i "s|__US_AFFIXES__|${US_AFFIXES}|" public/index.html
+sed -i "s|__EU_AFFIXES__|${EU_AFFIXES}|" public/index.html
