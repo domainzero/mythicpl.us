@@ -287,7 +287,8 @@ ul+.title--medium {
     font-family: "Roboto Condensed";
     color: rgba(154, 157, 161, 1);
     display: block;
-    margin-top: 10px
+    margin-top: 10px;
+    text-transform: uppercase
 }
 
 .tagline,
