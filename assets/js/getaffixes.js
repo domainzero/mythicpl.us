@@ -167,26 +167,26 @@ function highlightCurrentAffixDescriptions(affixes, region) {
             var elms = document.querySelectorAll('ul.affixes-list li');
 
             elms.forEach(function(el) {
-                if (classie.has(el, 'affix-' + trimFirstTwoWords(name).toLowerCase()))
+                if (el.classList.contains('affix-' + trimFirstTwoWords(name).toLowerCase()))
                 {
                     var ribbon;
                     var ribbonColor = (region === 'us') ? 'red' : 'blue';
 
-                    if (classie.has(el, 'thisweek'))
+                    if (el.classList.contains('thisweek'))
                     {
                         // There must already be a ribbon
                         ribbon = el.querySelector('div.ribbon');
                         var regionLabel = ribbon.querySelector("span");
                         regionLabel.innerText = "US & EU";
-                        classie.removeClass(ribbon, 'blue');
-                        classie.removeClass(ribbon, 'red');
-                        classie.addClass(ribbon, 'green');
+                        ribbon.classList.remove('blue');
+                        ribbon.classList.remove('red');
+                        ribbon.classList.add('green');
                     } else {
-                        classie.addClass(el, 'thisweek');
+                        el.classList.add('thisweek');
                         // Let's add a ribbon
                         ribbon = document.createElement('div');
-                        classie.addClass(ribbon, 'ribbon');
-                        classie.addClass(ribbon, ribbonColor);
+                        ribbon.classList.add('ribbon');
+                        ribbon.classList.add(ribbonColor);
 
                         // Label the region
                         var span = document.createElement('span');
