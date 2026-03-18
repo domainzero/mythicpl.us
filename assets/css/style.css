@@ -464,6 +464,21 @@ ul+.title--medium {
     padding: .01vw
 }
 
+.addon-list {
+    margin: 10px 0
+}
+
+.addon-list dt {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 16px
+}
+
+.addon-list dd {
+    margin: 4px 0 0 0;
+    color: rgba(255, 255, 255, .7)
+}
+
 .footer {
     max-width: 960px;
     margin: 15px auto;
