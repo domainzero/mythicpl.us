@@ -158,6 +158,20 @@ function fillNextWeeksAffixes(currentAffixesEU) {
        document.getElementById("nextweek").innerHTML = "" + trimFirstTwoWords(nw1) + ", " + nw2;
        document.getElementById("weekafternext").innerHTML = "" + trimFirstTwoWords(wan1) + ", " + wan2;
 
+       // add labels to the schedule table (only once)
+       if (!schedtbl.querySelector('.table__cell--label')) {
+           var nwRow = schedtbl.rows[nextweek];
+           var wanRow = schedtbl.rows[weekafternext];
+           var nwLabel = document.createElement('td');
+           nwLabel.className = 'table__cell table__cell--label';
+           nwLabel.innerHTML = '&larr; Next week';
+           nwRow.appendChild(nwLabel);
+           var wanLabel = document.createElement('td');
+           wanLabel.className = 'table__cell table__cell--label';
+           wanLabel.innerHTML = '&larr; Week after';
+           wanRow.appendChild(wanLabel);
+       }
+
    };
 };
 
