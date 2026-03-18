@@ -133,35 +133,28 @@ function fillNextWeeksAffixes(currentAffixesEU) {
 
    if (currentAffixesUS != "") {
 
-       var row = document.getElementById(currentAffixesUS)
-       var idx = row.rowIndex;
+       var rotation = ['tyas', 'fopu', 'tyvo', 'fode', 'typu', 'foas', 'tyde', 'fovo'];
+       var currentIdx = rotation.indexOf(currentAffixesUS);
+       if (currentIdx === -1) return;
 
-       if (idx == 7) {
-           var nextweek = 8;
-           var weekafternext = 1;
-       } else if (idx > 7) {
-           var nextweek = 1;
-           var weekafternext = 2;
-       } else {
-           var nextweek = idx + 1;
-           var weekafternext = idx + 2;
-       };
+       var nextweekId = rotation[(currentIdx + 1) % rotation.length];
+       var weekafternextId = rotation[(currentIdx + 2) % rotation.length];
 
-       var schedtbl = document.getElementById("sched");
+       var nwRow = document.getElementById(nextweekId);
+       var wanRow = document.getElementById(weekafternextId);
 
-       var nw1 = schedtbl.rows[nextweek].cells[0].innerHTML;
-       var nw2 = schedtbl.rows[nextweek].cells[1].innerHTML;
+       var nw1 = nwRow.cells[0].innerHTML;
+       var nw2 = nwRow.cells[1].innerHTML;
 
-       var wan1 = schedtbl.rows[weekafternext].cells[0].innerHTML;
-       var wan2 = schedtbl.rows[weekafternext].cells[1].innerHTML;
+       var wan1 = wanRow.cells[0].innerHTML;
+       var wan2 = wanRow.cells[1].innerHTML;
 
        document.getElementById("nextweek").innerHTML = "" + trimFirstTwoWords(nw1) + ", " + nw2;
        document.getElementById("weekafternext").innerHTML = "" + trimFirstTwoWords(wan1) + ", " + wan2;
 
        // add labels to the schedule table (only once)
+       var schedtbl = document.getElementById("sched");
        if (!schedtbl.querySelector('.table__cell--label')) {
-           var nwRow = schedtbl.rows[nextweek];
-           var wanRow = schedtbl.rows[weekafternext];
            var nwLabel = document.createElement('td');
            nwLabel.className = 'table__cell table__cell--label';
            nwLabel.innerHTML = '&larr; Next week';
@@ -170,6 +163,18 @@ function fillNextWeeksAffixes(currentAffixesEU) {
            wanLabel.className = 'table__cell table__cell--label';
            wanLabel.innerHTML = '&larr; Week after';
            wanRow.appendChild(wanLabel);
+
+           // mobile-friendly label rows (shown on small screens, hidden on desktop)
+           var colCount = nwRow.cells.length - 1; // exclude the label td
+           var nwLabelRow = document.createElement('tr');
+           nwLabelRow.className = 'table__label-row';
+           nwLabelRow.innerHTML = '<td colspan="' + colCount + '">&uarr; Next week</td>';
+           nwRow.parentNode.insertBefore(nwLabelRow, nwRow.nextSibling);
+
+           var wanLabelRow = document.createElement('tr');
+           wanLabelRow.className = 'table__label-row';
+           wanLabelRow.innerHTML = '<td colspan="' + colCount + '">&uarr; Week after</td>';
+           wanRow.parentNode.insertBefore(wanLabelRow, wanRow.nextSibling);
        }
 
    };
