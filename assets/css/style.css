@@ -112,7 +112,13 @@ body {
 }
 
 .atf {
-    min-height: 100vh
+    min-height: 100vh;
+    justify-content: flex-start;
+    padding: 4vw 0 0 0 !important
+}
+
+.atf > .tagline:first-child {
+    margin-top: auto
 }
 
 .title {
@@ -238,16 +244,23 @@ ul+.title--medium {
 }
 
 .jump-nav {
-    position: sticky;
-    top: 0;
     z-index: 10;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 6px 16px;
     padding: 12px 0;
+    margin-top: auto;
+    width: 100%;
     background: var(--background);
     box-shadow: 0 1px rgba(255, 255, 255, .15)
+}
+
+.jump-nav--stuck {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0
 }
 
 .jump-nav a {
@@ -277,6 +290,35 @@ ul+.title--medium {
     justify-content: center;
     flex-direction: column;
     box-shadow: 0 1px rgba(255, 255, 255, .15)
+}
+
+.section-header {
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%
+}
+
+.section-header > .title--large {
+    margin-left: auto
+}
+
+.section-chevron {
+    font-size: 14px;
+    color: rgba(255, 255, 255, .4);
+    margin-left: auto;
+    padding-right: 20px
+}
+
+.section-body {
+    display: contents
+}
+
+.section-body.collapsed {
+    display: none
 }
 
 .text-block {
