@@ -10,6 +10,10 @@ curl -fk "https://raider.io/api/v1/mythic-plus/season-cutoffs?season=season-df-4
 # Copy assets and other files into public
 cp -r assets ads/ads.txt privacy/privacy.html error.html favicon.ico patrons.html news/ public/
 
+# Bundle JS files (order matters: nav first, then affixes, then collapse)
+# semicolons between files prevent concatenation bugs
+{ cat assets/js/nav.js; echo ';'; cat assets/js/getaffixes.js; echo ';'; cat assets/js/collapse.js; } > public/assets/js/bundle.js
+
 # Concatenate all sections into main page
 cd sections/en/
 cat $(ls | sort -n) > ../../public/index.html
