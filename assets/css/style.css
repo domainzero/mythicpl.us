@@ -112,13 +112,9 @@ body {
 }
 
 .atf {
-    min-height: 100vh;
-    justify-content: flex-start;
-    padding: 4vw 0 0 0 !important
-}
-
-.atf > .tagline:first-child {
-    margin-top: auto
+    min-height: calc(100vh - 44px);
+    justify-content: center;
+    padding: 4vw 0 !important
 }
 
 .title {
@@ -250,17 +246,17 @@ ul+.title--medium {
     flex-wrap: wrap;
     gap: 6px 16px;
     padding: 12px 0;
-    margin-top: auto;
     width: 100%;
     background: var(--background);
-    box-shadow: 0 1px rgba(255, 255, 255, .15)
+    box-shadow: 0 1px rgba(255, 255, 255, .15);
+    position: sticky;
+    top: 0;
+    transition: width .2s ease, margin-left .2s ease
 }
 
 .jump-nav--stuck {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0
+    width: 100vw;
+    margin-left: calc(-50vw + 50%)
 }
 
 .jump-nav a {
