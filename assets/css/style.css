@@ -526,8 +526,12 @@ ul+.title--medium {
     padding: .01vw
 }
 
+.addon-section {
+    padding: 2em 0;
+}
+
 .addon-list {
-    margin: 10px 0
+    margin: 10px 0;
 }
 
 .addon-list dt {
@@ -568,15 +572,64 @@ ul+.title--medium {
     z-index: 1;
 }
 
-.footer {
-    max-width: 960px;
-    margin: 15px auto;
-    margin-bottom: 15px;
-    display: inline-block;
+.site-footer {
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: none;
+    gap: 12px
 }
 
-footer {
-    font-size: 12px
+.site-footer__tagline {
+    color: rgba(255, 255, 255, .5);
+    font-size: 14px;
+    margin: 0
+}
+
+.site-footer__contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px 0;
+    font-size: 14px
+}
+
+.site-footer__contact a,
+.site-footer__contact .hard {
+    padding: 0 12px
+}
+
+.site-footer__sep {
+    width: 1px;
+    height: 12px;
+    background: rgba(255, 255, 255, .2)
+}
+
+.site-footer__note {
+    color: rgba(255, 255, 255, .35);
+    font-size: 12px;
+    font-style: italic;
+    margin: 0
+}
+
+.site-footer__legal {
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(255, 255, 255, .08)
+}
+
+.site-footer__legal p {
+    color: rgba(255, 255, 255, .25);
+    font-size: 11px;
+    margin: 4px 0
+}
+
+.site-footer__legal a {
+    color: rgba(255, 255, 255, .35)
+}
+
+.site-footer__legal a:hover {
+    color: var(--green)
 }
 
 .affixes-list__item-10:hover {
