@@ -541,6 +541,32 @@ ul+.title--medium {
     color: rgba(255, 255, 255, .7)
 }
 
+.ad-container {
+    max-width: 748px;
+    margin: 30px auto;
+    border: 5px solid var(--red);
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ad-container:has(ins.adsbygoogle[data-ad-status="unfilled"]),
+.ad-container:not(:has(ins.adsbygoogle[data-ad-status])) {
+    display: none;
+}
+
+.ad-container::before {
+    content: "ADVERTISEMENT";
+    position: absolute;
+    top: 4px;
+    left: 6px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: var(--red);
+}
+
 .footer {
     max-width: 960px;
     margin: 15px auto;
