@@ -8,7 +8,7 @@ curl -fk "https://raider.io/api/v1/mythic-plus/season-cutoffs?season=season-df-4
 curl -fk "https://raider.io/api/v1/mythic-plus/season-cutoffs?season=season-df-4&region=eu" | jq .cutoffs.p999.all.quantileMinValue > public/cutoff-eu
 
 # Copy assets and other files into public
-cp -r assets ads/ads.txt privacy/privacy.html error.html favicon.ico patrons.html news/ public/
+cp -r assets ads/ads.txt privacy/privacy.html error.html favicon.ico patrons.html news/ static/* public/
 
 # jank bundle js
 { cat assets/js/nav.js; echo ';'; cat assets/js/getaffixes.js; echo ';'; cat assets/js/collapse.js; } > public/assets/js/bundle.js
