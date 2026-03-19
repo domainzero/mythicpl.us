@@ -542,13 +542,18 @@ ul+.title--medium {
 }
 
 .ad-container {
-    max-width: 480px;
-    max-height: 250px;
-    overflow: hidden;
+    max-width: 748px;
     margin: 30px auto;
     border: 5px solid var(--red);
     padding: 10px;
     position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ad-container:has(ins.adsbygoogle[data-ad-status="unfilled"]),
+.ad-container:not(:has(ins.adsbygoogle[data-ad-status])) {
+    display: none;
 }
 
 .ad-container::before {
