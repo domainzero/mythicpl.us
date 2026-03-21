@@ -11,7 +11,7 @@ curl -fk "https://raider.io/api/v1/mythic-plus/season-cutoffs?season=season-df-4
 cp -r assets ads/ads.txt privacy/privacy.html error.html favicon.ico patrons.html news/ static/* public/
 
 # jank bundle js
-{ cat assets/js/nav.js; echo ';'; cat assets/js/getaffixes.js; echo ';'; cat assets/js/collapse.js; echo ';'; cat assets/js/ads.js; } > public/assets/js/bundle.js
+{ cat assets/js/nav.js; echo ';'; cat assets/js/getaffixes.js; echo ';'; cat assets/js/collapse.js; } > public/assets/js/bundle.js
 
 # optionally minify css and js
 if npx -v &> /dev/null; then

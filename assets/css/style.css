@@ -549,18 +549,14 @@ ul+.title--medium {
     max-width: 748px;
     margin: 30px auto;
     border: 5px solid var(--red);
-    padding: 24px 10px 10px;
+    padding: 10px;
     position: relative;
     text-align: center;
     overflow: hidden;
 }
 
-.ad-container ins.adsbygoogle {
-    min-height: 90px;
-    width: 100%;
-}
-
-.ad-container:has(ins.adsbygoogle[data-ad-status="unfilled"]) {
+.ad-container:has(ins.adsbygoogle[data-ad-status="unfilled"]),
+.ad-container:not(:has(ins.adsbygoogle[data-ad-status])) {
     display: none;
 }
 
