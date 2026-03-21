@@ -555,8 +555,7 @@ ul+.title--medium {
     overflow: visible;
 }
 
-.ad-container:has(ins.adsbygoogle[data-ad-status="unfilled"]),
-.ad-container:not(:has(ins.adsbygoogle[data-ad-status])) {
+.ad-container:has(ins.adsbygoogle[data-ad-status="unfilled"]) {
     display: none;
 }
 
