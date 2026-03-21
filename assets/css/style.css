@@ -549,7 +549,7 @@ ul+.title--medium {
     max-width: 748px;
     margin: 30px auto;
     border: 5px solid var(--red);
-    padding: 10px;
+    padding: 24px 10px 10px;
     position: relative;
     text-align: center;
     overflow: hidden;
