@@ -552,7 +552,7 @@ ul+.title--medium {
     padding: 24px 10px 10px;
     position: relative;
     text-align: center;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .ad-container:has(ins.adsbygoogle[data-ad-status="unfilled"]),
