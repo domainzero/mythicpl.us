@@ -555,6 +555,18 @@ ul+.title--medium {
     overflow: hidden;
 }
 
+.ad-container ins.adsbygoogle {
+    width: 728px;
+    height: 90px;
+}
+
+@media (max-width: 799px) {
+    .ad-container ins.adsbygoogle {
+        width: 320px;
+        height: 50px;
+    }
+}
+
 .ad-container:has(ins.adsbygoogle[data-ad-status="unfilled"]),
 .ad-container:not(:has(ins.adsbygoogle[data-ad-status])) {
     display: none;
