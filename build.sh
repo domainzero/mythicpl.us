@@ -16,7 +16,9 @@ cp -r assets ads/ads.txt privacy/privacy.html error.html favicon.ico patrons.htm
 # optionally minify css and js
 if npx -v &> /dev/null; then
     npx --yes terser public/assets/js/bundle.js --compress --mangle -o public/assets/js/bundle.js 2>/dev/null
+    npx --yes terser public/assets/js/error.js --compress --mangle -o public/assets/js/error.js 2>/dev/null
     npx --yes cleancss -o public/assets/css/style.css public/assets/css/style.css 2>/dev/null
+    npx --yes cleancss -o public/assets/css/error.css public/assets/css/error.css 2>/dev/null
 fi
 
 # Concatenate all sections into main page

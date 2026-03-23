@@ -1,0 +1,102 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    background: #282a36;
+    color: #f8f8f2;
+    font-family: 'Roboto Condensed', 'Segoe UI', Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 20px;
+    text-align: center;
+}
+
+.code {
+    font-size: 72px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    line-height: 1;
+}
+
+.code-sub {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: rgba(248, 248, 242, 0.35);
+    margin-top: 6px;
+}
+
+@media (min-width: 640px) {
+    .code { font-size: 96px; }
+    .code-sub { font-size: 14px; }
+}
+
+.quote {
+    max-width: 440px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgba(248, 248, 242, 0.55);
+}
+
+.quote em { color: #ffb86c; font-style: normal; }
+
+.hearth { display: block; cursor: pointer; }
+.hearth:hover { opacity: 0.7; }
+
+.green { color: #50fa7b; }
+.yellow { color: #ffb86c; }
+.red { color: #ff5555; }
+
+/* Cast bar */
+.castbar {
+    display: none;
+    width: 260px;
+    height: 24px;
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    position: relative;
+    overflow: hidden;
+    padding-left: 24px;
+}
+
+.castbar-icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 24px;
+    height: 24px;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.castbar-fill {
+    height: 100%;
+    width: 0;
+    background: linear-gradient(to right, #c79c6e, #e8c252);
+}
+
+.castbar-text {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    text-shadow: 1px 1px 2px #000;
+    letter-spacing: 0.05em;
+}
+
+.castbar--active { display: block; }
+
+.castbar--active .castbar-fill {
+    animation: cast 1s linear forwards;
+}
+
+@keyframes cast { to { width: 100%; } }
