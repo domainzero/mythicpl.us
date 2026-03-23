@@ -549,7 +549,6 @@ ul+.title--medium {
     max-width: 748px;
     margin: 30px auto;
     border: 5px solid var(--red);
-    padding: 10px;
     position: relative;
     text-align: center;
     overflow: hidden;
@@ -567,8 +566,7 @@ ul+.title--medium {
     }
 }
 
-.ad-container:has(ins.adsbygoogle[data-ad-status="unfilled"]),
-.ad-container:not(:has(ins.adsbygoogle[data-ad-status])) {
+.ad-container--hidden {
     display: none;
 }
 
@@ -582,6 +580,7 @@ ul+.title--medium {
     letter-spacing: .05em;
     color: var(--red);
     z-index: 1;
+    background: #000000;
 }
 
 .site-footer {
