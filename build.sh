@@ -21,7 +21,7 @@ BLUEPOSTS=$(curl -fsk "https://us.forums.blizzard.com/en/wow/groups/blizzard-tra
     + "<span class=\"blueposts-list__date\">\(.created_at | split("T")[0])</span>"
     + "<a class=\"title\" href=\"https://us.forums.blizzard.com/en/wow\(.url)\">\(.topic_title)</a>"
     + if $i == 0 then
-        "<p>Here\u0027s an excerpt from the most recent blue post:</p>"
+        "<p>Here'\''s an excerpt from the most recent blue post:</p>"
         + "<div class=\"blueposts-list__excerpt\">\(.excerpt | gsub("\n+"; " ") | gsub("  +"; " "))</div>"
       else "" end
     + "</li>"
