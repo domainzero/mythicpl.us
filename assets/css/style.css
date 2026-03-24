@@ -786,12 +786,6 @@ ul.affixes-list li {
     font-size: 0.85em;
 }
 
-.blueposts-list__excerpt-label {
-    color: var(--note);
-    font-size: 0.85em;
-    margin: 8px 0 2px;
-}
-
 .blueposts-list__excerpt {
     color: var(--note);
     font-size: 0.85em;

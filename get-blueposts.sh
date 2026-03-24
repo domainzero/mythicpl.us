@@ -11,6 +11,7 @@ POSTS=$(curl -fsk "https://us.forums.blizzard.com/en/wow/groups/blizzard-tracker
    | select(.topic_title | test($m; "i"))
    | select(.topic_title | test($x; "i") | not)]
   | unique_by(.topic_id)
+  | sort_by(.created_at) | reverse
   | .[0:5]')
 
 COUNT=$(echo "$POSTS" | jq 'length')
@@ -36,16 +37,26 @@ else
         DATE=$(echo "$POST" | jq -r '.created_at | split("T")[0]')
         TITLE=$(echo "$POST" | jq -r '.topic_title')
         URL=$(echo "$POST" | jq -r '.url')
-        EXCERPT=$(echo "$POST" | jq -r '.excerpt | gsub("\n+"; " ") | gsub("  +"; " ")')
 
-        cat <<ITEM
-					<li>
+        if [ "$i" -eq 0 ]; then
+            # Featured post: show with excerpt
+            EXCERPT=$(echo "$POST" | jq -r '.excerpt | gsub("\n+"; " ") | gsub("  +"; " ")')
+            cat <<ITEM
+					<li class="blueposts-list__featured">
 						<span class="blueposts-list__date">$DATE</span>
 						<a href="https://us.forums.blizzard.com/en/wow$URL">$TITLE</a>
-						<p class="blueposts-list__excerpt-label">Here's an excerpt from this blue post:</p>
 						<div class="blueposts-list__excerpt">$EXCERPT</div>
 					</li>
 ITEM
+        else
+            # Other posts: title only
+            cat <<ITEM
+					<li>
+						<span class="blueposts-list__date">$DATE</span>
+						<a href="https://us.forums.blizzard.com/en/wow$URL">$TITLE</a>
+					</li>
+ITEM
+        fi
     done
     echo '				</ul>'
 fi
