@@ -7,6 +7,9 @@ curl -fk 'https://raider.io/api/v1/mythic-plus/affixes?region=us' -o public/affi
 curl -fk "https://raider.io/api/v1/mythic-plus/season-cutoffs?season=season-df-4&region=us" | jq .cutoffs.p999.all.quantileMinValue > public/cutoff-us
 curl -fk "https://raider.io/api/v1/mythic-plus/season-cutoffs?season=season-df-4&region=eu" | jq .cutoffs.p999.all.quantileMinValue > public/cutoff-eu
 
+# Grab latest blue posts about dungeons/M+
+bash get-blueposts.sh
+
 # Copy assets and other files into public
 cp -r assets ads/ads.txt privacy/privacy.html error.html favicon.ico patrons.html static/* public/
 
