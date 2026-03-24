@@ -767,13 +767,13 @@ ul.affixes-list li {
 
 .blueposts-list li:last-child {
     border-bottom: none;
+    padding-bottom: 0;
 }
 
 .blueposts-list a {
     color: var(--blizz-blue);
     font-size: 1.15em;
     display: inline-block;
-    margin: 4px 0;
 }
 
 .blueposts-list a:hover {
@@ -786,10 +786,12 @@ ul.affixes-list li {
     font-size: 0.85em;
 }
 
+.blueposts-list p {
+    margin: 0;
+}
+
 .blueposts-list__excerpt {
     color: var(--note);
     font-size: 0.85em;
     margin: 4px 0 0;
-    padding: 4px 0 4px 10px;
-    border-left: 2px solid var(--blizz-blue);
 }

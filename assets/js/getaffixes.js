@@ -35,6 +35,10 @@ function getAffixes(region) {
                         "difficulty": "med",
                     },
                     {
+                        "name": "Pulsar",
+                        "difficulty": "med",
+                    },
+                    {
                         "name": "Xal'atath's Guile",
                         "difficulty": "hard",
                     },
