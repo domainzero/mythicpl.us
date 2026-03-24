@@ -2,6 +2,8 @@
   --green: #50fa7b;
   --yellow: #ffb86c;
   --red: #ff5555;
+  --blizz-blue: #00aeff;
+  --note: rgba(255, 255, 255, .5);
   --background: #282a36;
 }
 
@@ -71,7 +73,7 @@ li::before {
     position: absolute;
     left: -15px;
     top: 0;
-    color: rgba(255, 255, 255, .5)
+    color: var(--note)
 }
 
 body {
@@ -186,7 +188,7 @@ ul+.title--medium {
 
 .tagline,
 .title__subtitle {
-    color: rgba(255, 255, 255, .5);
+    color: var(--note);
     font-weight: 300
 }
 
@@ -283,7 +285,7 @@ ul+.title--medium {
     background: none;
     border: 1px solid rgba(255, 255, 255, .2);
     border-radius: 4px;
-    color: rgba(255, 255, 255, .5);
+    color: var(--note);
     font-size: 20px;
     padding: 4px 10px;
     cursor: pointer;
@@ -380,7 +382,7 @@ ul+.title--medium {
 .affixes-list__note,
 .table__head,
 .table__note {
-    color: rgba(255, 255, 255, .5)
+    color: var(--note)
 }
 
 .legend {
@@ -494,7 +496,7 @@ ul+.title--medium {
 
 .table__cell--label {
     font-size: 12px;
-    color: rgba(255, 255, 255, .5);
+    color: var(--note);
     white-space: nowrap;
     border: none;
     background: var(--background)
@@ -515,7 +517,7 @@ ul+.title--medium {
 
     .table__label-row td {
         font-size: 12px;
-        color: rgba(255, 255, 255, .5);
+        color: var(--note);
         text-align: center;
         padding: 2px 0;
         border: none
@@ -591,7 +593,7 @@ ul+.title--medium {
 }
 
 .site-footer__tagline {
-    color: rgba(255, 255, 255, .5);
+    color: var(--note);
     font-size: 14px;
     margin: 0
 }
@@ -752,4 +754,44 @@ ul.affixes-list li {
 .green span::after {
     border-right-color: #359945;
     border-top-color: #359945;
+}
+
+.blueposts-list li::before {
+    content: none;
+}
+
+.blueposts-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .05);
+}
+
+.blueposts-list li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.blueposts-list a {
+    color: var(--blizz-blue);
+    font-size: 1.15em;
+    display: inline-block;
+}
+
+.blueposts-list a:hover {
+    border-bottom-color: var(--blizz-blue);
+}
+
+.blueposts-list__date {
+    display: block;
+    color: var(--note);
+    font-size: 0.85em;
+}
+
+.blueposts-list p {
+    margin: 0;
+}
+
+.blueposts-list__excerpt {
+    color: var(--note);
+    font-size: 0.85em;
+    margin: 4px 0 0;
 }

@@ -7,6 +7,47 @@ curl -fk 'https://raider.io/api/v1/mythic-plus/affixes?region=us' -o public/affi
 curl -fk "https://raider.io/api/v1/mythic-plus/season-cutoffs?season=season-df-4&region=us" | jq .cutoffs.p999.all.quantileMinValue > public/cutoff-us
 curl -fk "https://raider.io/api/v1/mythic-plus/season-cutoffs?season=season-df-4&region=eu" | jq .cutoffs.p999.all.quantileMinValue > public/cutoff-eu
 
+# Grab latest blue posts about dungeons/M+
+BLUEPOSTS=$(curl -fsk "https://us.forums.blizzard.com/en/wow/groups/blizzard-tracker/posts.json" \
+| jq -r '
+  [.posts[]
+   | select(.topic_title | test("dungeon|hotfix|mythic|keystone|magisters|maisara|nexus.point|windrunner|algeth|pit of saron|seat of the triumvirate|skyreach"; "i"))
+   | select(.topic_title | test("classic|remix|mop|pvp|arena|battleground"; "i") | not)]
+  | unique_by(.topic_id)
+  | sort_by(.created_at) | reverse
+  | .[0:5]
+  | to_entries[] | .key as $i | .value
+  | "<li>"
+    + "<span class=\"blueposts-list__date\">\(.created_at | split("T")[0])</span>"
+    + "<a class=\"title\" href=\"https://us.forums.blizzard.com/en/wow\(.url)\">\(.topic_title)</a>"
+    + if $i == 0 then
+        "<p>Here\u0027s an excerpt from the most recent blue post:</p>"
+        + "<div class=\"blueposts-list__excerpt\">\(.excerpt | gsub("\n+"; " ") | gsub("  +"; " "))</div>"
+      else "" end
+    + "</li>"
+')
+
+# Write the blue posts section
+cat > sections/en/3-blueposts.html <<'SECTION'
+		<section id="blue-posts" class="content-block">
+			<h2 class="title title--large">Recent Blue Posts</h2>
+			<div class="text-block">
+				<p>Recent blue posts about changes to mythic+ or dungeons.</p>
+			</div>
+			<div class="text-block">
+				<div style="border: 2px solid var(--blizz-blue); padding: 15px">
+SECTION
+if [ -n "$BLUEPOSTS" ]; then
+    echo "<ul class=\"blueposts-list\">$BLUEPOSTS</ul>" >> sections/en/3-blueposts.html
+else
+    echo '<p>No recent blue posts found.</p>' >> sections/en/3-blueposts.html
+fi
+cat >> sections/en/3-blueposts.html <<'SECTION'
+				</div>
+			</div>
+		</section>
+SECTION
+
 # Copy assets and other files into public
 cp -r assets ads/ads.txt privacy/privacy.html error.html favicon.ico patrons.html static/* public/
 
