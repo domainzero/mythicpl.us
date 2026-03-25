@@ -3,7 +3,7 @@ on:
   schedule:
     - cron: '*/30 15-19 * * TUE'
     - cron: '*/30 7-10 * * WED'
-#    - cron: '0 * * * *'
+    - cron: '0 * * * *'
 jobs:
   build:
     name: Request Netlify Webhook
