@@ -608,7 +608,7 @@ ul+.title--medium {
 }
 
 .site-footer__contact a,
-.site-footer__contact .hard {
+.site-footer__contact .hard, .site-footer__contact #discord {
     padding: 0 12px
 }
 
