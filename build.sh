@@ -27,26 +27,12 @@ BLUEPOSTS=$(curl -fsk "https://us.forums.blizzard.com/en/wow/groups/blizzard-tra
     + "</li>"
 ')
 
-# Write the blue posts section
-cat > sections/en/3-blueposts.html <<'SECTION'
-		<section id="blue-posts" class="content-block">
-			<h2 class="title title--large">Recent Blue Posts</h2>
-			<div class="text-block">
-				<p>Recent blue posts about changes to mythic+ or dungeons.</p>
-			</div>
-			<div class="text-block">
-				<div style="border: 2px solid var(--blizz-blue); padding: 15px">
-SECTION
+# Format blue posts for injection
 if [ -n "$BLUEPOSTS" ]; then
-    echo "<ul class=\"blueposts-list\">$BLUEPOSTS</ul>" >> sections/en/3-blueposts.html
+    BLUEPOSTS_HTML="<ul class=\"blueposts-list\">$BLUEPOSTS</ul>"
 else
-    echo '<p>No recent blue posts found.</p>' >> sections/en/3-blueposts.html
+    BLUEPOSTS_HTML='<p>No recent blue posts found.</p>'
 fi
-cat >> sections/en/3-blueposts.html <<'SECTION'
-				</div>
-			</div>
-		</section>
-SECTION
 
 # Copy assets and other files into public
 cp -r assets ads/ads.txt privacy/privacy.html error.html favicon.ico patrons.html static/* public/
@@ -72,3 +58,4 @@ US_AFFIXES=$(jq -r '.affix_details[:2] | map(.name | split(" ") | if length > 2 
 EU_AFFIXES=$(jq -r '.affix_details[:2] | map(.name | split(" ") | if length > 2 then .[2:] | join(" ") else .[0] end) | join(" ")' public/affix-eu)
 sed -i "s|__US_AFFIXES__|${US_AFFIXES}|" public/index.html
 sed -i "s|__EU_AFFIXES__|${EU_AFFIXES}|" public/index.html
+BLUEPOSTS_HTML="$BLUEPOSTS_HTML" perl -i -0777 -pe 's/__BLUEPOSTS__/$ENV{BLUEPOSTS_HTML}/' public/index.html
