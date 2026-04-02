@@ -12,7 +12,7 @@ BLUEPOSTS=$(curl -fsk "https://us.forums.blizzard.com/en/wow/groups/blizzard-tra
 | jq -r '
   [.posts[]
    | select(.topic_title | test("dungeon|hotfix|mythic|keystone|magisters|maisara|nexus.point|windrunner|algeth|pit of saron|seat of the triumvirate|skyreach"; "i"))
-   | select(.topic_title | test("classic|remix|mop|pvp|arena|battleground"; "i") | not)]
+   | select(.topic_title | test("classic|remix|pvp|arena|battleground|burning crusade|wrath|cataclysm|mists of pandaria|warlords of draenor|legion|battle for azeroth|shadowlands|dragonflight"; "i") | not)]
   | unique_by(.topic_id)
   | sort_by(.created_at) | reverse
   | .[0:5]
