@@ -27,7 +27,7 @@ BLUEPOSTS=$(curl -fsk "https://us.forums.blizzard.com/en/wow/groups/blizzard-tra
     + "</li>"
 ')
 
-# Format blue posts for injection
+# Format blue posts
 if [ -n "$BLUEPOSTS" ]; then
     BLUEPOSTS_HTML="<ul class=\"blueposts-list\">$BLUEPOSTS</ul>"
 else
@@ -42,10 +42,10 @@ cp -r assets ads/ads.txt privacy/privacy.html error.html favicon.ico patrons.htm
 
 # optionally minify css and js
 if npx -v &> /dev/null; then
-    npx --yes terser public/assets/js/bundle.js --compress --mangle -o public/assets/js/bundle.js 2>/dev/null
-    npx --yes terser public/assets/js/error.js --compress --mangle -o public/assets/js/error.js 2>/dev/null
-    npx --yes cleancss -o public/assets/css/style.css public/assets/css/style.css 2>/dev/null
-    npx --yes cleancss -o public/assets/css/error.css public/assets/css/error.css 2>/dev/null
+    npx --yes terser public/assets/js/bundle.js --compress --mangle -o public/assets/js/bundle.js
+    npx --yes terser public/assets/js/error.js --compress --mangle -o public/assets/js/error.js
+    npx --yes cleancss -o public/assets/css/style.css public/assets/css/style.css
+    npx --yes cleancss -o public/assets/css/error.css public/assets/css/error.css
 fi
 
 # Concatenate all sections into main page
@@ -53,7 +53,7 @@ cd sections/en/
 cat $(ls | sort -n) > ../../public/index.html
 cd ../..
 
-# Pre-populate affix names for no-JS fallback
+# Pre-populate affix names if no js
 US_AFFIXES=$(jq -r '.affix_details[:2] | map(.name | split(" ") | if length > 2 then .[2:] | join(" ") else .[0] end) | join(" ")' public/affix-us)
 EU_AFFIXES=$(jq -r '.affix_details[:2] | map(.name | split(" ") | if length > 2 then .[2:] | join(" ") else .[0] end) | join(" ")' public/affix-eu)
 sed -i "s|__US_AFFIXES__|${US_AFFIXES}|" public/index.html
