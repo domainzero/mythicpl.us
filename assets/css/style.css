@@ -484,6 +484,12 @@ ul+.title--medium {
     border-spacing: 0
 }
 
+.table caption {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 10px
+}
+
 @media (min-width:640px) {
     .table {
         min-width: 560px
