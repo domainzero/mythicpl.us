@@ -35,7 +35,8 @@ else
 fi
 
 # Copy assets and other files into public
-cp -r assets ads/ads.txt privacy/privacy.html error.html favicon.ico patrons.html static/* public/
+cp -r assets ads/ads.txt privacy/privacy.html favicon.ico patrons.html static/* public/
+cp error.html public/404.html
 
 # jank bundle js
 { cat assets/js/nav.js; echo ';'; cat assets/js/getaffixes.js; echo ';'; cat assets/js/collapse.js; echo ';'; cat assets/js/ads.js; } > public/assets/js/bundle.js
@@ -48,6 +49,17 @@ if npx -v &> /dev/null; then
     npx --yes cleancss -o public/assets/css/error.css public/assets/css/error.css
 fi
 
+# Generate sitemap (lol)
+NOW=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+{
+  echo '<?xml version="1.0" encoding="UTF-8"?>'
+  echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+  for p in "" patrons privacy; do
+    echo "  <url><loc>https://mythicpl.us/${p}</loc><lastmod>${NOW}</lastmod></url>"
+  done
+  echo '</urlset>'
+} > public/sitemap.xml
+
 # Concatenate all sections into main page
 cd sections/en/
 cat $(ls | sort -n) > ../../public/index.html
@@ -59,3 +71,4 @@ EU_AFFIXES=$(jq -r '.affix_details[:2] | map(.name | split(" ") | if length > 2 
 sed -i "s|__US_AFFIXES__|${US_AFFIXES}|" public/index.html
 sed -i "s|__EU_AFFIXES__|${EU_AFFIXES}|" public/index.html
 BLUEPOSTS_HTML="$BLUEPOSTS_HTML" perl -i -0777 -pe 's/__BLUEPOSTS__/$ENV{BLUEPOSTS_HTML}/' public/index.html
+
