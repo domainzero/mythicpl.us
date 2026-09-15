@@ -3,9 +3,9 @@ on:
   push:
     branches: [pages]
   schedule:
-    - cron: '*/30 15-19 * * TUE'
-    - cron: '*/30 7-10 * * WED'
-    - cron: '0 */8 * * *'
+    - cron: '7,37 15-18 * * 2'
+    - cron: '7,37 8-11 * * 3'
+    - cron: '17 */8 * * *'
   workflow_dispatch:
 concurrency:
   group: deploy
